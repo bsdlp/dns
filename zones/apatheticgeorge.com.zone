@@ -1,0 +1,12 @@
+apatheticgeorge.com.			      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2012122622 14400 14400 864000 86400
+apatheticgeorge.com.			      86400 IN NS	ns1.sjchen.net.
+apatheticgeorge.com.			      86400 IN NS	ns2.sjchen.net.
+apatheticgeorge.com.			      86400 IN NS	ns3.sjchen.net.
+apatheticgeorge.com.			      86400 IN NS	ns4.sjchen.net.
+apatheticgeorge.com.			      86400 IN NS	ns5.sjchen.net.
+apatheticgeorge.com.			      300 IN A		192.95.25.41
+apatheticgeorge.com.			      300 IN MX		1 mail.apatheticgeorge.com.
+apatheticgeorge.com.			      300 IN AAAA	2605:4500:2:2532::1:f
+mail.apatheticgeorge.com.		      300 IN A		205.185.123.28
+mail.apatheticgeorge.com.		      300 IN AAAA	2607:f358:1:fed5:22:0:b156:6ea2
+www.apatheticgeorge.com.		      300 IN A		69.85.93.176

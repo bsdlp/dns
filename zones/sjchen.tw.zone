@@ -1,0 +1,11 @@
+sjchen.tw.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013021224 900 14400 864000 86400
+sjchen.tw.				      86400 IN NS	ns1.sjchen.net.
+sjchen.tw.				      86400 IN NS	ns2.sjchen.net.
+sjchen.tw.				      86400 IN NS	ns3.sjchen.net.
+sjchen.tw.				      86400 IN NS	ns4.sjchen.net.
+sjchen.tw.				      86400 IN NS	ns5.sjchen.net.
+sjchen.tw.				      300 IN A		192.95.25.41
+sjchen.tw.				      300 IN DNSKEY	256 3 5 AwEAAas0ySiPDNedXp03H+JGiI1HsjpawX5s/wGM3k85T/EaTN25oQaX LtzNRSC1xbNQid6/6IWveEn39wWb+306jUwiUPASsyfhe0Apmb0gyUjU LkWrDoL3AZyN4AWPXpjec3c0fEOogqHjraWJgPvpTV1UO0zNj3IsXU+s DNotGDUp  ; key id = 11955
+sjchen.tw.				      300 IN DNSKEY	257 3 5 AwEAAb5iNnQT92U8iMbAT1AshdZnMAiMmVv0UqzdwoU7qTUrL+ozBJQy lS20vlii0nXBHWVF8I8oHT7WRyLLAUqN/NDNyxYfJYPt/OKJKxuVsRRH /zCXwN9lUgSO1ypoBF01f3h2SB2IQ3fj+IGyrf1xG1RIuZe/3rZm/vjS T1mbP2AC07Kjt6q1ToJv3eTIJpPFi3IbPaWRGAzD6GaOyf21SSc=  ; key id = 52027
+mail.sjchen.tw.				      300 IN A		192.249.57.155
+www.sjchen.tw.				      300 IN A		192.95.25.41

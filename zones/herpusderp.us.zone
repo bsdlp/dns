@@ -1,0 +1,9 @@
+herpusderp.us.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013011110 14400 14400 864000 86400
+herpusderp.us.				      86400 IN NS	ns1.sjchen.net.
+herpusderp.us.				      86400 IN NS	ns2.sjchen.net.
+herpusderp.us.				      86400 IN NS	ns3.sjchen.net.
+herpusderp.us.				      86400 IN NS	ns4.sjchen.net.
+herpusderp.us.				      86400 IN NS	ns5.sjchen.net.
+herpusderp.us.				      300 IN A		50.116.60.56
+herpusderp.us.				      300 IN MX		1 home.sjchen.net.
+pbmtl1.herpusderp.us.			      300 IN A		142.4.212.175

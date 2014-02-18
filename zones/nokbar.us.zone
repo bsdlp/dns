@@ -1,0 +1,7 @@
+nokbar.us.				      86400 IN SOA	ns1.tonkat.su. noc.tonkat.su. 2012122718 900 14400 864000 86400
+nokbar.us.				      86400 IN NS	ns1.tonkat.su.
+nokbar.us.				      86400 IN NS	ns2.tonkat.su.
+nokbar.us.				      86400 IN NS	ns3.tonkat.su.
+nokbar.us.				      86400 IN NS	ns4.tonkat.su.
+nokbar.us.				      86400 IN NS	ns5.tonkat.su.
+nokbar.us.				      300 IN A		66.228.43.47

@@ -1,0 +1,115 @@
+; File written on Sun Apr 28 00:50:41 2013
+; dnssec_signzone version 9.7.3
+minecraftarea.com.	86400	IN SOA	ns1.sjchen.net. noc.sjchen.net. (
+					2013030616 ; serial
+					14400      ; refresh (4 hours)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					edokTfQDz0uEqc5Mff+5dxBRJYBUYqB9wdgT
+					KOsFgzPkNJ2ZXnaQWs4Ufl7Y53OKjFFWw92h
+					YncIeb7lv6Hdp1388oWCSj+l5GPb2bd5GULn
+					bXIl4jdrFTgWEhFEs8LN9dlMAC9Ns88EBQVH
+					FDgYM22t/z1OzU87dgjfUZYYm9w= )
+			86400	NS	ns1.sjchen.net.
+			86400	NS	ns2.sjchen.net.
+			86400	NS	ns3.sjchen.net.
+			86400	NS	ns4.sjchen.net.
+			86400	NS	ns5.sjchen.net.
+			86400	RRSIG	NS 5 2 86400 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					cURS68lWukCweCZbBC+oi8i+WCNMMJT4DeVd
+					ZGOQvIfNV3FCAvJ7zWA7JC/IfBo9yIzj/SUj
+					ZEIs0NuVnQQQAHq2DrSpuxvkbCFlevzL8re0
+					poK0+Yq3wyd+58YmNRrpRsSl1TGcFykzic1x
+					QrKDCvXB3P2Nnix+r2Apzml243w= )
+			300	A	38.109.218.232
+			300	RRSIG	A 5 2 300 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					PP98fil1mRj8Xay91x5CrgzmSdOAOIJSgncF
+					R9mWKZd0q+PQgTBV77NKlBAKfpFuIybMYVW8
+					GPzmWdFm17wapbgk2Ko7at07MTyK+B3hZnAb
+					Dg/EDL848arrNijz7dGTm9N9D/oX+qzw3DdW
+					2ZknyJu5Ij5b8RH4XlVdt6o/JiA= )
+			300	AAAA	2605:4500:2:2532::1:f
+			300	RRSIG	AAAA 5 2 300 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					rijXXr0E9sTjVERicntMGjQ5lgZvbIwP/u9M
+					yzfOSnnC2hRBcD/np54pn/jTnJ1ojFy6jkEw
+					knji4dtAT0Rq0V+oeeYA+FLLGoiGfaVf88x7
+					mFIi+2o45lM2g5kWsvSRBjBCRSEc1f6V3yQf
+					zo6RzH4o1w/60bgYW9EsWDwaEcc= )
+			86400	NSEC	cr.minecraftarea.com. A NS SOA AAAA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					Wx4cLPmfJnq3h/aNgL8lr/hIhkgKSAiKD8k7
+					GpG+EhNL8pmWp481HhYEPDJrhGp1SJLhdm5F
+					V462w2wthmzD0vOVBobBohMaUHFkmnFn6y3R
+					4B5LjQRX+GRXdjq/aPK31mbo35BwU5OY4jGm
+					al7JziwEZL17HucFhbj1f8nVWvs= )
+			300	DNSKEY	256 3 5 (
+					AwEAAcKhkgBtq7ENtj13qVpMyP5+G7lOAaz8
+					RTjYaykChkCRnQxFI58tgK2AGdqjpxAsXDR+
+					EBR+WW4K2zwBslDVIBX5yi2jmA0OygEnXOiJ
+					xzZ6L/vG7TbhrQV4hqYCPs1laxu/Oj3pRYX1
+					bARZ9jn/XRaNWpr27gFP5T0gZ7HSqRlH
+					) ; key id = 14970
+			300	DNSKEY	257 3 5 (
+					AwEAAf6zSxmIMlRFARGLLzq+dqB7OZGFadzE
+					Z4MZwxOuSkRNZNBKcnYQH9kI6uey5tXye2Mq
+					D90cniGZauzEX2wZtm1Z4LMwErJurR7Hj6Ci
+					+i80apAnYZtNP63vr9j0WCYgEYUJJBKvipBZ
+					XAoDToEOHTnqJfwsDlpuDlIznFOH0YLfVSWw
+					8/YHKvNPjLSozPh91gmRJP3nZLGQUIK0qHCB
+					ByM=
+					) ; key id = 43696
+			300	RRSIG	DNSKEY 5 2 300 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					E9PfLFEXN1spl8gxGXLiAp9D2IdkdH0pOxwz
+					TdLh0128deCyYljfJpSL7hrBkYCDWTLADboe
+					5nheKZu8OrpgjFFB+WDEv2zqm1nlLWmQ08IS
+					N6nw3lF/vTKPmb7QBui09h1cP5GBMrkrjNIW
+					Ovq8hswI2eAznhPbtc7HC/180QM= )
+			300	RRSIG	DNSKEY 5 2 300 20130528035041 (
+					20130428035041 43696 minecraftarea.com.
+					6DIH8fWBQha5ARsln5uG/XvpP/m0LwpCmIK+
+					6yb0lvr343MXJvIhViaVSAFbTIn7fIBwcDzz
+					JIMBEGw39RLGo7yUqeEzQzj6WsQ4/I1r5s6n
+					FPnWu0O+RTQdrWXbxp09nd92E4RP6zNJC8XB
+					w6gWd4ESDghvt9OZ9uruVynZJ1GQbSzkwMBp
+					LgBO/Qiul1PLaAMZ+bIkmZEZflgeV4vLQg== )
+cr.minecraftarea.com.	300	IN AAAA	2605:4500:2:2532::1:d
+			300	RRSIG	AAAA 5 3 300 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					pd3UUidTHvGQ0SJq8JxY02WrQu8zT/DnaLp7
+					X4sTZNpb6pEQpwxj4Hc1yC0ws3NutuiUoSim
+					nfWCjJJ5baEcN/gjAWOzqpOe6TjOM/y4KHxV
+					pYtQ0FROP0sh4E01zgqnJ3uaBQi1nQ5SrCeC
+					5nD/iBV3+RuyoGWLPqrZdvM+fUc= )
+			86400	NSEC	www.minecraftarea.com. AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					ZKBxOsZ4W+UhDL45YG4vSvZUBrX92Xyeo0Ew
+					TzeKZ31t+MAaBNYNSwOPuhCMDIvre2wNlaZW
+					SnWUKEm695SU0Aols3EnMg+ahc1XEjbbTEHS
+					ScG+NdlVLTrkmT8hMi3CuDIpYacWiLs756fI
+					OoPLK9acUWNIjOuR0hqjtiwnR7I= )
+www.minecraftarea.com.	300	IN A	38.109.218.232
+			300	RRSIG	A 5 3 300 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					iw/tpa6Nzr1sHLczV+p1SwIYwRkGx9uRs5jz
+					sHpRIs3uwV6VpoAFDL91fHmLygY5N9kd++k1
+					zk/cw+P7K3P9PrIrqHBDFd46Rhl3UAVdqJe9
+					hnzQUQstLCi8rEP9QrgdYRtjB2FZKrH0+Sbi
+					7SGLidb1jPm2LujinqpeIFIaVHg= )
+			86400	NSEC	minecraftarea.com. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20130528035041 (
+					20130428035041 14970 minecraftarea.com.
+					IUXXSMnVAzVZZSc7Fn7R8o3lQGWly7b8x8y+
+					HufipHzdflqRDdgvjWUk48+9FPLgD2Iz5RZI
+					dpd4fcQxWTzWEI+eveTbtmPKOx5W2F3ex+Xq
+					zXzqY92r3HGowyEI4rD/N3a2IfvEClxYjKER
+					r8C2+1T+RmnUPW47d6VjJ9yDkFc= )

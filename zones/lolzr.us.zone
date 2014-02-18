@@ -1,0 +1,16 @@
+lolzr.us.				      86400 IN SOA	ns1.tonkat.su. noc.tonkat.su. 2013030303 900 14400 864000 300
+lolzr.us.				      86400 IN NS	ns1.tonkat.su.
+lolzr.us.				      86400 IN NS	ns2.tonkat.su.
+lolzr.us.				      86400 IN NS	ns3.tonkat.su.
+lolzr.us.				      86400 IN NS	ns4.tonkat.su.
+lolzr.us.				      86400 IN NS	ns5.tonkat.su.
+lolzr.us.				      300 IN A		66.175.210.114
+lolzr.us.				      300 IN MX		1 mail.lolzr.us.
+lolzr.us.				      300 IN AAAA	2600:3c03:e000:78::1
+ctf-east.lolzr.us.			      300 IN A		66.175.215.221
+git.lolzr.us.				      300 IN A		198.245.63.22
+kf.lolzr.us.				      300 IN A		142.54.162.42
+mail.lolzr.us.				      300 IN A		198.199.64.209
+mc.lolzr.us.				      300 IN A		198.245.63.22
+music.lolzr.us.				      300 IN A		208.53.158.253
+zombies.lolzr.us.			      300 IN A		142.54.162.42

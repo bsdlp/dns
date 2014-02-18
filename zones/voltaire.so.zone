@@ -1,0 +1,15 @@
+voltaire.so.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2012122629 14400 14400 864000 86400
+voltaire.so.				      86400 IN NS	ns1.sjchen.net.
+voltaire.so.				      86400 IN NS	ns2.sjchen.net.
+voltaire.so.				      86400 IN NS	ns3.sjchen.net.
+voltaire.so.				      86400 IN NS	ns4.sjchen.net.
+voltaire.so.				      86400 IN NS	ns5.sjchen.net.
+voltaire.so.				      300 IN A		38.109.218.232
+voltaire.so.				      300 IN AAAA	2605:4500:2:2532::1:1
+deluge.voltaire.so.			      300 IN A		192.95.25.41
+*.dev.voltaire.so.			      300 IN A		198.211.103.81
+git.voltaire.so.			      300 IN A		64.250.115.24
+*.hobbes.voltaire.so.			      300 IN A		199.233.234.106
+kf.voltaire.so.				      300 IN A		66.175.215.221
+*.paine.voltaire.so.			      300 IN A		69.164.220.179
+urt.voltaire.so.			      300 IN A		208.79.218.126

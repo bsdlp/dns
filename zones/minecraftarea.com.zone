@@ -1,0 +1,12 @@
+minecraftarea.com.			      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013030616 14400 14400 864000 86400
+minecraftarea.com.			      86400 IN NS	ns1.sjchen.net.
+minecraftarea.com.			      86400 IN NS	ns2.sjchen.net.
+minecraftarea.com.			      86400 IN NS	ns3.sjchen.net.
+minecraftarea.com.			      86400 IN NS	ns4.sjchen.net.
+minecraftarea.com.			      86400 IN NS	ns5.sjchen.net.
+minecraftarea.com.			      300 IN A		38.109.218.232
+minecraftarea.com.			      300 IN AAAA	2605:4500:2:2532::1:f
+minecraftarea.com.			      300 IN DNSKEY	256 3 5 AwEAAcKhkgBtq7ENtj13qVpMyP5+G7lOAaz8RTjYaykChkCRnQxFI58t gK2AGdqjpxAsXDR+EBR+WW4K2zwBslDVIBX5yi2jmA0OygEnXOiJxzZ6 L/vG7TbhrQV4hqYCPs1laxu/Oj3pRYX1bARZ9jn/XRaNWpr27gFP5T0g Z7HSqRlH  ; key id = 14970
+minecraftarea.com.			      300 IN DNSKEY	257 3 5 AwEAAf6zSxmIMlRFARGLLzq+dqB7OZGFadzEZ4MZwxOuSkRNZNBKcnYQ H9kI6uey5tXye2MqD90cniGZauzEX2wZtm1Z4LMwErJurR7Hj6Ci+i80 apAnYZtNP63vr9j0WCYgEYUJJBKvipBZXAoDToEOHTnqJfwsDlpuDlIz nFOH0YLfVSWw8/YHKvNPjLSozPh91gmRJP3nZLGQUIK0qHCBByM=  ; key id = 43696
+cr.minecraftarea.com.			      300 IN AAAA	2605:4500:2:2532::1:d
+www.minecraftarea.com.			      300 IN A		38.109.218.232

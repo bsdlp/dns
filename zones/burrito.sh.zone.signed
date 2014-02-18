@@ -1,0 +1,208 @@
+; File written on Sun Jan 26 16:43:29 2014
+; dnssec_signzone version 9.8.4-rpz2+rl005.12-P1
+burrito.sh.		86400	IN SOA	ns1.tonkat.su. noc.tonkat.su. (
+					2013030760 ; serial
+					14400      ; refresh (4 hours)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					rdyUcE6hb3TCVSGpTpv3cLRA7+QeAUVPNbHL
+					k5C6o9FAyRcBNfV8ytPzBsFU6+eXcjxbthn3
+					CTL7hkK4SU1b/RKvNuYc7ICigZW9VjZcqUv3
+					UQw/7XlgCAAhGQBeZNAlzdBQNUfHpbip+oW+
+					RgTtc6AMQ3xcqjMDZeUkq0L2tgM= )
+			86400	NS	ns1.tonkat.su.
+			86400	NS	ns2.tonkat.su.
+			86400	NS	ns3.tonkat.su.
+			86400	NS	ns4.tonkat.su.
+			86400	NS	ns5.tonkat.su.
+			86400	RRSIG	NS 5 2 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					bIgJNFCtxHdr5Ngs+So4i27QKPv9V7qxhyWd
+					D8tVIFr3/CbklSbU0iv5Mx4ranMjKXje/6rL
+					Hhm0ii6FjVzx2KBMDHUghAT40wWrgq43OJHy
+					QlA7jCjfEbuRWjIwFepTkud3Lmgm4YefpXV8
+					nzFTJ5aqRvxWHlSdlxPKbWFmtao= )
+			300	A	54.221.228.144
+			300	RRSIG	A 5 2 300 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					AoWeTHrCUXKWeCbrBnv5mLVvVgaJT0NgKIoU
+					SBGPtEXDWdzo50AAz/UKIoqmpgBCm5yFkA2V
+					FR0g15zKN9VacPcmhf+KbM1CK/3n+0FE2QfP
+					K882p2KV1mbT6pRq81jYRToKlLsdpq9OkZIE
+					XZLFQ9CCyKqFQ64kGclUZRVhlTY= )
+			3600	MX	10 ASPMX.L.GOOGLE.COM.
+			3600	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
+			3600	MX	20 ALT2.ASPMX.L.GOOGLE.COM.
+			3600	MX	30 ASPMX2.GOOGLEMAIL.COM.
+			3600	MX	30 ASPMX3.GOOGLEMAIL.COM.
+			3600	RRSIG	MX 5 2 3600 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					MCWcEWJ7pVodqvb6DKVmt4rY5hUYFLEpvtmB
+					0B5YPv+0x3AVJAP8yrsLsb+ZGUxnyAv2gwtL
+					bZNZfQTpK5W96/ttLqQYcOIF272GcZu9CCsP
+					RX2P0H2ZwL/PWzuFu5EdBMpic5sek8HDKHS+
+					YL1jAX5k5gR9AENWagJIK/ORxkg= )
+			3600	TXT	"v=spf1 include:_spf.google.com -all"
+			3600	TXT	"google-site-verification=5wBD2aAtZdBeiNFVJbuE_8I2vUR0yR8GAYfvaJdGdHo"
+			3600	RRSIG	TXT 5 2 3600 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					mtjWM11YXt5r4wRiI9hAPWKYXQerL4ZTYkbM
+					YIG7sO20zTD0mpubefkZmqD+kAbrAwcLQWcM
+					Hg807ejI6vfG6EHWOmCML2mtx/0e+z8iGMiZ
+					g2YE8qonTPaYDyJYA/cKruATG7M4B12JCtCn
+					4Z8od/rBprcPXjNui2Kty6YluVA= )
+			86400	NSEC	blog.burrito.sh. A NS SOA MX TXT RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					WnhV+TgJq4X1HhXQNmt7mYMMW5msP2la18lj
+					MKPXL+AUBvgz+TfwmP8tdZB867J2Sw6vo3I9
+					HrIVlZyQuGmt6m71UY0uHuztm+gl2o4ACEJI
+					Q4AtxuyZ4PneklVmmg8d5rEdzFdNe9ZQPwIA
+					ZQLBf5sET+Sxxq5Dip+Le3vC6E0= )
+			300	DNSKEY	256 3 5 (
+					AwEAAbf8+GjDGDA4lv/CW/LGNEhjlQBC088F
+					125WJRG4Qw91sa2SdDVaYsNJLPUlWkaor5dn
+					CM+gXm2RUYbjw/jxeyMiPGmRXESFGctqTz0t
+					pdZQvkrLwXnwGUK0Ib7fBMbEE7fU1/WmGvYO
+					cH5Pupjv3Y8ORqJ26FueuGyq9QK6SDsh
+					) ; key id = 3918
+			300	DNSKEY	257 3 5 (
+					AwEAAccJC54vZAVmqAyIqvAnTGK5W7AHBXQb
+					eE0WqmiLoaqKCbjYGmJN3eRBzxY1nLjjKX1N
+					NiUPNb4LBLEN7PW+VukluKmk04DfKoXdSjUP
+					DQNbX0CrqSo7MXhVAIV+ZJbs2qQLJZ+eDdkG
+					0RaZIkjFJWva5LFZ9eUUsRdWLLxIRas5uGLp
+					PlCkk2eYyiHGkVXJZMF0zc435sNnKCWcml4f
+					/KU=
+					) ; key id = 12619
+			300	RRSIG	DNSKEY 5 2 300 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					nVLb4tzkuh1G7E/ih7fE0v96Bpi/qzMHOmBe
+					w+gpAeZAFBlcE1RdAWhEzDFuAqBE9AAsg+6q
+					Iz9oMhh0AIUXj3HNPTR2carpIk62E1ruzuCZ
+					XWcBFMAz/6WJ3lmZhreBacMh7/sywqoI7nsp
+					MhpOE7VxL4vc1b5uzOxTs/E3OzI= )
+			300	RRSIG	DNSKEY 5 2 300 20140225204329 (
+					20140126204329 12619 burrito.sh.
+					TnzZSSrL1kNZLUu5MquGCMqlpQSw8K439WMO
+					v6XcI+QXvMlQVb81TGZo8SVOQNPn1qzF2rjS
+					i5u2yrhvFs8f48HK3shKHeopXICFADOoXl9W
+					zM5NuPAw5hu6yXRIhQCqd8tSfqf9zpKsfgz8
+					btKMh/pypJtyc63/o315y3CT8mTBXH+etgvj
+					uMP7KTkj5+pnpW4c3ymSXOcIfXx3bTEruw== )
+kf.burrito.sh.		300	IN A	67.207.159.98
+			300	RRSIG	A 5 3 300 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					svAqGQx7XyBISwqkrCaPgg/vwrUodFJBoirx
+					M1c42U0YgNvqbovgOpi6TB0/BEv3GawqAVi/
+					DJnqTcqA/ygDYhQdaQpe4fztMfbWduSjaq7X
+					LVDR9nJe+vrrD4ay9S0VSoBvTmsVFFPk50ek
+					zUgF3s8uPaA/2SqfADcWIOu+g18= )
+			86400	NSEC	www.burrito.sh. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					HjjzgkY7u/GxSw7yqBW153B1goj1RY00H+g4
+					YmOCKf+AYcMTR4pAN/TyToXF3IdDCA+DSfk2
+					HOZ5UFnWSN0rOv6JAUYiZw24YFSnxUbv3wNc
+					2VRUnG2NGVuIWQ/y/VnB2CWiIoyBA2K1lqzM
+					4R6v2bdlQahBClN/I+WFvW0reRQ= )
+F7E64F8D81039E3CCB92BD08534E82D1.burrito.sh. 600 IN CNAME CB2E4FCA14C655B31A970519E0DEA53693FB0C59.comodoca.com.
+			600	RRSIG	CNAME 5 3 600 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					buevdixn2jtJCxxDAiQqIkqE5ndL/gODWi7E
+					ewmBB7G4qPwzbmzsmtAF0GYn6Ee3C/Z527/5
+					ImCrMuXnioZBEBi87jKrXysrAZKMlpumS5Sx
+					mfvxYEO0B6W/N+lJN+n5+k7kB4PuU7CmTUL/
+					fd6pn+In7zl39yaBrIrbZbzaOag= )
+			86400	NSEC	git.burrito.sh. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					mTeQ8fExegmz1fSahx3Q0qmhiw5/NLRqA1lw
+					pq8708bMZXKNrsyI5qh6aLeO13N33KGpRYtc
+					1NZDldkJsOiuo7w/9o//OZHXTK+AML/ZRFtf
+					69kgq4MDd+5u4bjTrPPLXoikDaJdWPTxCfGU
+					UBNurpkrV/LNvAjXxvi8BUeM+Mw= )
+git.burrito.sh.		300	IN A	192.249.57.155
+			300	RRSIG	A 5 3 300 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					mYX0LwUP+bky6f9aY0SYvUXfLtgxnGaXbmfo
+					SMNzG43Ir7AoUUjMUbKEAOuXWz9HSCsZsZsl
+					jxh/64e5XoiBqRrmApFUuN9OChMjTmTMijkL
+					dLvWnpLImIdltjESfHhX4v6wO7jHWfwLZvBC
+					wtxvOFD9pU3vcO2HOn17wshFQAE= )
+			86400	NSEC	irc.burrito.sh. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					k3sHeGITz7ZhFHCaaaqGifGyHTzen6MnO48M
+					KuwYa3QK2sSmErG5qwCaGx8+tDZUYDiPTOMv
+					Lh0ex//Iu/X44EhKLQRnizyuu93vkEBX70eA
+					qfoknsxxs1bxz8kwxHAEzkIEKUQcAAVHLuJT
+					KWZ8O7g62/Mip4tF7v26ncp/1Es= )
+www.burrito.sh.		300	IN CNAME burrito.sh.
+			300	RRSIG	CNAME 5 3 300 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					WpcDSVuiZABeDQqexhbZXYTPtJhPDKu3rH7J
+					AMZl7b3WjIN7veMxtPljvX7Vjfyj4MzJ+tlF
+					uK4iP96pLVhruwO9UcHtmlXG92B8BlveOt47
+					x+Sdoo/SHslK8D/C894Hfw60sSPMsN+IWrpF
+					MRJlU1golEiQFqYZgheh9RS9hsU= )
+			86400	NSEC	burrito.sh. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					PM2twElpjTyIv33iPY3DpnOXF7qbD4q0x/3M
+					52oJ92qHHEfB2Z8m2KXw2XqvM/n2byH/w5TG
+					QulNBlxcMWueTFjpCAhSqwXBvgTW0wcFT+ln
+					RquIaA8Uo7wGZdOQbe86d/x0YGTBeNyDTW7h
+					GOt56hte5Ym/LmQA7LVdhT+vDls= )
+blog.burrito.sh.	300	IN A	66.228.43.47
+			300	RRSIG	A 5 3 300 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					q2Qgnfew/h/u7HMeT2DX2elAjA02G0x9ayzK
+					m0fBp5WodSQ4sMSdewIa6KHMj/bwbCVbvpzS
+					Ue6zA3+CgJKJ+GjpXDW647Yla/O17O/vm/zx
+					wnitTVSjDazSsuub561MtwSJvZ9AM+jEBiLh
+					ILZlVPjpNN9Up2NE6QaQQKXO3uM= )
+			300	AAAA	2600:3c03::f03c:91ff:feae:e071
+			300	RRSIG	AAAA 5 3 300 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					J6wLzz/L9Rw6qSmIY3AUZmNbc7qqxz3FA9AI
+					7P+bu2Srat+laVbrAJXw1egKWwxA4hFm+dEY
+					CsYJcl2U2VLJt0RfE6xv4Nj29sGywaFRExNJ
+					4ksPW/M6IbMKZIO19pHNCcXnbrPdqorcRcNP
+					FumeHu0VNfZQf1shRiqlfIwiMpc= )
+			86400	NSEC	F7E64F8D81039E3CCB92BD08534E82D1.burrito.sh. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					nd81LoPAN9ygW9e/639nDRD8IqCWo9RAe8Pc
+					HpSqLXIB9hU2y2HuS/RXsACZzpAo16wNmB2r
+					A1C0CfvMLg8JsgTMtfnHT4Cv2HVni5irKzOa
+					PihF5IrOS7WtGr0RmVbwxshHDYD6ZOnZvsPx
+					Vif2w7V4WvF8ldtry56HR+ibIWE= )
+irc.burrito.sh.		600	IN A	71.19.154.184
+			600	RRSIG	A 5 3 600 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					PQOUWKnzoqnGwwVqvYABZlyMUh0aHNDLsbX2
+					QiDk6+DIF7C1FpOy5LeUuz19VgPD7Eaz4MZj
+					2o3I9vhnaJfocWScDWmPFU/7ZIkUsF9H8/Dn
+					0NLgb/cDq4kYSA7H5bJ1S8K1CI+bHYj3b7Td
+					U5jKQqUki65CUzVNhqy0T1ztXdY= )
+			600	AAAA	2605:2700:0:3::4713:9ab8
+			600	RRSIG	AAAA 5 3 600 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					WevnTBc2JJHP5QZo5I59P7fTwAIjlR/jQqOj
+					n1C2A7cinxhExwXvDj4N0B4k8cBZqTH3fSGL
+					ICiauZioCf84A8V649FvORDvJT5qa/vBmP9Q
+					6R3Y7Cv31gDze0QxjfysWMUsW2ntfQn9MD+b
+					q8RuCkz3qm5X9jS+GU0WaJjI4aM= )
+			86400	NSEC	kf.burrito.sh. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20140225204329 (
+					20140126204329 3918 burrito.sh.
+					DrhWrS/TckdlWiaHrr53juXXUh3pT8PD+OQi
+					zFAARndVDeTR6eZaS4CBBlN9RNnIUUFUb/r9
+					x+z+8f+uyCqJhlAL20IP9bAj7X5AZ8SCxnj7
+					D54kdFQumae8tovp5afZaFVFYDhc0X2UCbZk
+					RnOQkUXvRHef0ip0gDll7KYMPNY= )

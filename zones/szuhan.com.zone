@@ -1,0 +1,28 @@
+szuhan.com.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013013022 14400 14400 864000 86400
+szuhan.com.				      86400 IN NS	ns1.sjchen.net.
+szuhan.com.				      86400 IN NS	ns2.sjchen.net.
+szuhan.com.				      86400 IN NS	ns3.sjchen.net.
+szuhan.com.				      86400 IN NS	ns4.sjchen.net.
+szuhan.com.				      86400 IN NS	ns5.sjchen.net.
+szuhan.com.				      900 IN A		173.208.234.93
+szuhan.com.				      1800 IN MX	1 aspmx.l.google.com.
+szuhan.com.				      1800 IN MX	5 alt1.aspmx.l.google.com.
+szuhan.com.				      1800 IN MX	5 alt2.aspmx.l.google.com.
+szuhan.com.				      1800 IN MX	10 aspmx2.googlemail.com.
+szuhan.com.				      1800 IN MX	10 aspmx3.googlemail.com.
+szuhan.com.				      900 IN AAAA	2604:4300:a:44::1
+szuhan.com.				      300 IN DNSKEY	256 3 5 AwEAAcJIJphV47msYFQByoRX+XNRV1NlX9Tc9wasMjBJvDvfcA3wlA0S e1pJ9IkfZdsTcDz5GUZ+iY9TbHwYAQfck6y9Z61DH8ZB8ALgWum4ejt1 D1sxwyFoBdqUbEHRMGdwUTm16ZHR7H2dk0ht9Xjq9Hw7mO69wbfe5xhj KU6zkoap  ; key id = 24255
+szuhan.com.				      300 IN DNSKEY	257 3 5 AwEAAc7Pd3QtmnUwuMRQdFzNhhwaaF64bGS68XY1x/G43n+A3s8NG8TW xfZydsctxjTaPX1W6itF4P1pyekjUh3AxrTB/WKZI64DHUUHmmR4kNWx ZYYDUtJlfmCxLbLaxuEggGY0cWvonnYnoLjS9x4niCrBUxco1/4LYAbc /XnkqOuqeNtCoV8FeZ9Y6/izKMO8Nva1qABGDTdWQao20P5E+5M=  ; key id = 30898
+google._domainkey.szuhan.com.		      86400 IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDm3bvjDN++Y+cU4BiDirPFpS0myb4y9yZWGgZTgp/qYhGwu4kThN13XM5KnmKHu4EMHE0QatLfV0qZ9Z1IEzcYOUEbPm1sEx7/WpLz98ThL3FQIClpMw7LvW0pm7RWkjZx5wCnL2r9ZZ75wCSnpKn+EFIc1NNjLx3A+OdI1iwRwIDAQAB "
+blog.szuhan.com.			      300 IN A		173.208.234.92
+blog.szuhan.com.			      300 IN AAAA	2604:4300:a:44::2
+calendar.szuhan.com.			      300 IN CNAME	ghs.google.com.
+docs.szuhan.com.			      300 IN CNAME	ghs.google.com.
+chatting.from.szuhan.com.		      1800 IN AAAA	2605:6f00:877::2563:9fe2
+git.szuhan.com.				      300 IN A		208.53.158.253
+html5.szuhan.com.			      300 IN A		64.250.116.80
+keyserver.szuhan.com.			      300 IN AAAA	2607:f358:1:fed5:22:0:d179:301e
+mail.szuhan.com.			      900 IN CNAME	ghs.google.com.
+spawn.szuhan.com.			      300 IN A		50.116.11.86
+up.szuhan.com.				      300 IN A		50.116.11.86
+www.szuhan.com.				      900 IN CNAME	szuhan.com.

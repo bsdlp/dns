@@ -1,0 +1,13 @@
+wtfork.org.				      86400 IN SOA	ns1.tonkat.su. noc.tonkat.su. 2013010728 900 14400 864000 86400
+wtfork.org.				      86400 IN NS	ns1.tonkat.su.
+wtfork.org.				      86400 IN NS	ns2.tonkat.su.
+wtfork.org.				      86400 IN NS	ns3.tonkat.su.
+wtfork.org.				      86400 IN NS	ns4.tonkat.su.
+wtfork.org.				      86400 IN NS	ns5.tonkat.su.
+wtfork.org.				      600 IN A		66.228.43.47
+wtfork.org.				      600 IN MX		0 mail.wtfork.org.
+wtfork.org.				      600 IN TXT	"v=spf1 mx -all"
+wtfork.org.				      600 IN DNSKEY	256 3 5 AwEAAbcq3ZjJuRfDHFTGKjwbEoKoAkq3w127rOlmsXWmy4Tvu7J7ycVJ f0BMiiWZvwHxSDdbNpjF+MZAebUj3iml91ZC8QaIGE0vJsBpfq87SqJM YK4/yQpHh91mapqGvXn26N7mvts7dJvGy+kl5bvFwgowatoaeNCwODLZ U4dNcEs/  ; key id = 2745
+wtfork.org.				      600 IN DNSKEY	257 3 5 AwEAAbnXciNVcp7T12kxr1bjC64ElTq6IC+r9YmaIbprKVGNZVaPA563 ayQYCM1DBvxJMrlmuPO32LP0z09orZw9QEthp97vB97Do/3i5wST2NVS CnOW0Tk7E1ji1Vfy9w31ZGUd44xLQ4AWMwNK3OvaB9ivQmFftkWmjSwV N0TGTERUh5hlwpsOaTkqk65XGrJBG64nKn7fMK/NabUWfw5Ow2k=  ; key id = 56578
+mail._domainkey.wtfork.org.		      600 IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dqBKzCx12LAkN7Q5Y8yNdGPxtO428fLAM4b1JuOS0lNrypUJUZi2qCAmV46lzqB2RDMZWoPESH7CQxcobLkhJdGTMoRjm/KI+PxwRbH8PTKtP1hDxCGvcJThmwZhyZ6M/z7rFhMj8SjDcl6EndeyN0LgKvNj9OwufPi3tK4powIDAQAB"
+mail.wtfork.org.			      600 IN A		106.186.112.27

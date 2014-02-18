@@ -1,0 +1,37 @@
+tonkat.su.				      86400 IN SOA	ns1.tonkat.su. webmaster.tonkat.su. 2013030310 10800 1800 604800 86400
+tonkat.su.				      86400 IN NS	ns1.tonkat.su.
+tonkat.su.				      86400 IN NS	ns2.tonkat.su.
+tonkat.su.				      86400 IN NS	ns3.tonkat.su.
+tonkat.su.				      86400 IN NS	ns4.tonkat.su.
+tonkat.su.				      86400 IN NS	ns5.tonkat.su.
+tonkat.su.				      300 IN A		192.95.18.8
+tonkat.su.				      3600 IN MX	1 ASPMX.L.GOOGLE.COM.
+tonkat.su.				      3600 IN MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+tonkat.su.				      3600 IN MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+tonkat.su.				      3600 IN MX	10 ASPMX2.GOOGLEMAIL.COM.
+tonkat.su.				      3600 IN MX	10 ASPMX3.GOOGLEMAIL.COM.
+tonkat.su.				      300 IN TXT	"v=spf1 include:_spf.google.com ~all"
+tonkat.su.				      300 IN TXT	"google-site-verification=vlqMfiRdpt5tM9d__-NYts2qndrnDBKrMqmfiUs4Uww"
+tonkat.su.				      300 IN AAAA	2607:5300:60:2929::2
+tonkat.su.				      300 IN DNSKEY	256 3 5 AwEAAbqZSWikzjHxGGKN5bl8/hTLQvPlGRX0UyHvVOXyg8rQNPkagCmw bHnr4XshJZOpfxffbzYp6j5Q1+fmv3Z/9EZGkJKGia9RDyhHv9t74hlJ ZQ8pNouO9gzjGfK5Xq54ALBN5JQSKMiyHJ8XiMS5TxRYmwxFqC10mjMS exyzBiaz  ; key id = 9120
+tonkat.su.				      300 IN DNSKEY	257 3 5 AwEAAasAoJOifKdjCbh5kXuGbA/2TrA5ZzpDn6SvOuHHDwRNWQbUkebv DndRayRclIZWT49CaHwF2e8OYgtgPXnu+kZYmaw+cYWZMdWkx49aMiMd JbYsQIKvuKDFNHbP5k/uGP1rNbbULcFzDCHM1qsq9c/UF5OL3dEAqThk jwPWT3x+ErUdjmAOHvx7lwdqEl11b0E3SLLVZ8H6LK9VOs2KJVM=  ; key id = 25966
+google._domainkey.tonkat.su.		      3600 IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "
+calendar.tonkat.su.			      3600 IN CNAME	ghs.googlehosted.COM.
+deluge.tonkat.su.			      300 IN A		192.95.25.41
+*.dev.tonkat.su.			      300 IN A		192.95.25.41
+docs.tonkat.su.				      3600 IN CNAME	ghs.googlehosted.COM.
+gmail.tonkat.su.			      3600 IN CNAME	ghs.googlehosted.COM.
+ns1.tonkat.su.				      300 IN A		69.93.127.10
+ns1.tonkat.su.				      300 IN AAAA	2600:3c00::a
+ns2.tonkat.su.				      300 IN A		65.19.178.10
+ns2.tonkat.su.				      300 IN AAAA	2600:3c01::a
+ns3.tonkat.su.				      300 IN A		75.127.96.10
+ns3.tonkat.su.				      300 IN AAAA	2600:3c02::a
+ns4.tonkat.su.				      300 IN A		207.192.70.10
+ns4.tonkat.su.				      300 IN AAAA	2600:3c03::a
+ns5.tonkat.su.				      300 IN A		109.74.194.10
+ns5.tonkat.su.				      300 IN AAAA	2a01:7e00::a
+p.tonkat.su.				      300 IN A		75.127.3.103
+penn.tonkat.su.				      300 IN A		71.19.154.184
+penn.tonkat.su.				      300 IN AAAA	2605:2700:0:3::4713:9ab8
+www.tonkat.su.				      300 IN CNAME	tonkat.su.

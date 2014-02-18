@@ -1,0 +1,376 @@
+; File written on Thu Oct  3 04:09:47 2013
+; dnssec_signzone version 9.8.4-rpz2+rl005.12-P1
+tonkat.su.		86400	IN SOA	ns1.tonkat.su. webmaster.tonkat.su. (
+					2013030310 ; serial
+					10800      ; refresh (3 hours)
+					1800       ; retry (30 minutes)
+					604800     ; expire (1 week)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					SocNkMfi/4Jr0t9fiK37kQO0WDIy9ZjG7IvV
+					XluhpSmpiAr9CV0dlZ8pte4dRd+VtGaP0q2A
+					cK5qyp+cF0c3AEy1iRqRqjzW3VbfSv42qU/z
+					umJnx2m4obJ/piIo89+Fm7BtwLQCCfXh0mZH
+					ZjMjrpfNonfJ5fZJUSh3UPEvBhs= )
+			86400	NS	ns1.tonkat.su.
+			86400	NS	ns2.tonkat.su.
+			86400	NS	ns3.tonkat.su.
+			86400	NS	ns4.tonkat.su.
+			86400	NS	ns5.tonkat.su.
+			86400	RRSIG	NS 5 2 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					FUc63RoABZ+FDkH79Jf1pkfX3fru5IPujRdY
+					MxRbpQWfVMS1YJ9LDIr+ZGYHxf2Xgy1KLCX0
+					UWShfyneIu+Ij0II94p4I1QO2C1Z/5WApb8l
+					bdyz5ZVnAWZGU1bxmHH0uoMWwSl01/rUzHBS
+					KXaGUa8qyC2pxNitR9Q8hets0Z0= )
+			300	A	192.95.18.8
+			300	RRSIG	A 5 2 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					IWbTguhHKvUkovuBtZO5R7Mwpa8RSJmdMRRM
+					lyvTE2yMgm0xplynmYptM6nr3vHzJJedq0C/
+					MJ3yVMnkVtFcJi5WVA2SpMUWJTIsMAjL7CRx
+					iEkVKnRvsRNNL9SAHeWqkrTaYwZH+2V5XFMA
+					/HFnCNR0wjm56M6GrmzEDrWyKW0= )
+			3600	MX	1 ASPMX.L.GOOGLE.COM.
+			3600	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+			3600	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+			3600	MX	10 ASPMX2.GOOGLEMAIL.COM.
+			3600	MX	10 ASPMX3.GOOGLEMAIL.COM.
+			3600	RRSIG	MX 5 2 3600 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					L27W2Gh1Ikj6urMjGTSXmDQBLIrreh5+pKwn
+					Jaxq25w3jingnsh1jMGk5cCo0hRJcVcKairQ
+					yK57+ZSAniHK9q62lApStBXd+oGrF7DrCGi5
+					01z5r3GKS312du28psixht0AKxTOVUKlr+eM
+					Jwtk1VXF1JcUD4w8d0M222yEzew= )
+			300	TXT	"v=spf1 include:_spf.google.com ~all"
+			300	TXT	"google-site-verification=vlqMfiRdpt5tM9d__-NYts2qndrnDBKrMqmfiUs4Uww"
+			300	RRSIG	TXT 5 2 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					GZUur9bge5neh5g0MNpKxrxwqOStsSdg+v/Z
+					KLe/ehJaPw25DHC7tEhqbFm2/ZFHAeE7un8P
+					oVlH2p+od/Tg/dqDQFmZTNFcShQ2wMUYoSHV
+					fD+TYeijXedCsHTDzt9IClTUnSPy9Wpb27C0
+					KU5yktEACH3u33luQFzn3abmcGo= )
+			300	AAAA	2607:5300:60:2929::2
+			300	RRSIG	AAAA 5 2 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					rLVuILoyoPdh4xNSD7nQVQ6iCSpD2iG0D/Zr
+					brJ32NXjjJbm2PEG1KF/IPQJb4c9jGZ0pU2A
+					zlce48zYHudyL6xpnjDUN0q3fw3GT0GxAfim
+					jPbJzWrj+OwjZMqWkQC61No8i32ajX89SJ/p
+					uKUtGnqPP555rAixlLisaSROA6w= )
+			86400	NSEC	google._domainkey.tonkat.su. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					n3jDBwrntU1tgUEih9z3FaXHTXQi2PBvgOxY
+					hoWW1clfv9sU6B11a9BZxZINGO1dASX5nQEa
+					Dl6b7p2XlRXLevhb98EkkN0ZME1at27Owo0G
+					BioE1ylPJ2f+IKrgbeh2x8xBO6dxsp5wa8D2
+					pAlbD7qCMgLtluqOZAJ3t1lacvI= )
+			300	DNSKEY	256 3 5 (
+					AwEAAbqZSWikzjHxGGKN5bl8/hTLQvPlGRX0
+					UyHvVOXyg8rQNPkagCmwbHnr4XshJZOpfxff
+					bzYp6j5Q1+fmv3Z/9EZGkJKGia9RDyhHv9t7
+					4hlJZQ8pNouO9gzjGfK5Xq54ALBN5JQSKMiy
+					HJ8XiMS5TxRYmwxFqC10mjMSexyzBiaz
+					) ; key id = 9120
+			300	DNSKEY	257 3 5 (
+					AwEAAasAoJOifKdjCbh5kXuGbA/2TrA5ZzpD
+					n6SvOuHHDwRNWQbUkebvDndRayRclIZWT49C
+					aHwF2e8OYgtgPXnu+kZYmaw+cYWZMdWkx49a
+					MiMdJbYsQIKvuKDFNHbP5k/uGP1rNbbULcFz
+					DCHM1qsq9c/UF5OL3dEAqThkjwPWT3x+ErUd
+					jmAOHvx7lwdqEl11b0E3SLLVZ8H6LK9VOs2K
+					JVM=
+					) ; key id = 25966
+			300	RRSIG	DNSKEY 5 2 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					IGmm9Wu2Jd9ftPwP5gDgHlG7nI+2VEtyOExI
+					RN7LYQn1zIRrJ3lAcX8V5YtX2F5Hm8fKpUih
+					6w0GlrxXk6KuO2J5W/nACojZKBMGslax3p9S
+					bwduzFMOcqwhnDTrQMzCFkapcRHZPDI8GC3F
+					HMupZ35fZlaU8UUztbK16S/AmDE= )
+			300	RRSIG	DNSKEY 5 2 300 20131102070947 (
+					20131003070947 25966 tonkat.su.
+					RM43yONi8stpSdVMjSRxrmwyjUgo44YtTjdL
+					fQs4mnBCbKH456hmYRC5IL8F8/BhBdBB/eVQ
+					UM9tVipsHW4OInQDD6EVH05fcPsYz3OdGtV1
+					yWJP+izaHRn6bFmZG4fo4YuQ8lqdea+rha5N
+					XfFdvn8ZfcRi6ztVa6F1jo6UxWfiJ83Wy4K2
+					WwlYp6xWNpGP7ICQn+toKHudKgGFuFwh2Q== )
+gmail.tonkat.su.	3600	IN CNAME ghs.googlehosted.COM.
+			3600	RRSIG	CNAME 5 3 3600 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					FmeLiiwzt3qZ0i31y4nWIIYFak11Yzvbyt7V
+					6/PTx/cHao/wuTpyydZYcgvYreOIvo3BkWo+
+					K80EvIp/L1SG93wUM54hX7Ro1A4d0SoL796y
+					FADHR4eN5NMy7/MAHnT1GvG4n04o0Ta7OUpW
+					rbpaomC1Sp51ZcO5wreOZMC9TJU= )
+			86400	NSEC	ns1.tonkat.su. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					VkComOWUKDtqu3s1UaLAhqzCXYSdxHT7em/w
+					kj00JvHEp0+XU57xN7sJhk5iKruOBfFV7emb
+					/EAFwHSBgHJPsgZGJYaQfyOmaFcSgWVmZ05G
+					ytakioK2GpF6TxIX3FlyYKxoy8FFozdgrx/g
+					uIs4hfqLWZN5wAjen/ypp9DsI0Q= )
+docs.tonkat.su.		3600	IN CNAME ghs.googlehosted.COM.
+			3600	RRSIG	CNAME 5 3 3600 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					gTvNbq4UQMqBx1wFeyiLem6PwrQRHptCvMq7
+					3WH7nICb1SWBb28lxKM6n2bk/FN3946uJi1o
+					kgOc6pvoiLVKriW+938DtzabDQRocyITGaWe
+					P/lu0Xmnn5xF8NA5igAGRzina7DVVJb/ZAKt
+					asJ1++821WhX/DrjRBWaqrPe1wI= )
+			86400	NSEC	gmail.tonkat.su. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					gZCjFEw1geNSfvVpmgo/ynxLJu2Bi0muq6tK
+					YykmZVjpDZr/n/Cw5CoKiHSzz/VTx09cUHd0
+					77P0nHYO9WO+hrAl8tM8iKNnxLKfqa9l8f5k
+					WfbZ6xH3Tn6dMpmb6ZR+nXw7oInusak+Ra/Y
+					2JdweoRfKdYR5tC9piBDcKEbIvs= )
+deluge.tonkat.su.	300	IN A	192.95.25.41
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					DAPfEeU5twwFUHVM96vMyux+mRfvFuJD7m14
+					O90RQWxcy4DOmT43cI03crzLaUUrrp7oLNxb
+					+sxw/FGgn3E5Fjyo/K2e9aCpoT5Q7LUo72fE
+					N3voQRIaWjixWVxhXAgk2+ncgfsP9RA9bWoT
+					ztVSgOW6z1tfRcYXw4SGBA/ZB1s= )
+			86400	NSEC	*.dev.tonkat.su. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					M5sDh/Paf/wf3/k0Z3iDwci9d87LD6Sd0eRG
+					tpKvr1YXSG8Y+/AGVBLaD2OiGV3WsXgbntGd
+					a6EcY1bZXozyw3ZOEbYUwRt5rb4Ctpa+u0LT
+					dF+VV7bA3y/IjTk50n4l9N1hjVNL9KLt3i5u
+					M6FP+kYmSETbdAcq4ofgmAZ+zFY= )
+www.tonkat.su.		300	IN CNAME tonkat.su.
+			300	RRSIG	CNAME 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					s/EQY3k6tnzLKt0tpFjK47goG/YE+1pFP5p9
+					5R+BLhNdn3BO2IvWsv+yP/u/nSDHY6Xt7cmj
+					wsP4O/gWQBrs+UcQKuoUrsXgIqsKpqIwPFG7
+					DB7MnJvQhIEV9dk9Km8Feqhk4YdiBkzoAyi9
+					UTUZl8KkTG91mbD+T3Z8CCxqAIs= )
+			86400	NSEC	tonkat.su. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					mjh7Ce4IeuNa1uq5/SaKrIE9DTpHD19lgLle
+					s7/+boU7IWsgcmcJIhSAcFVf7sByK1GRMbLG
+					xTlLgnt0dhqvgxHsu91By75lzQ92NxPpNzw/
+					wJZyDPLHGYgYGpeGy5gJTnJ8VoVUKi0nbTQj
+					FPJvbSwk+fYmpLAILM27xJIf+Iw= )
+ns2.tonkat.su.		300	IN A	65.19.178.10
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					go2xRAn4fLJnF5J+1GFNEXOQofxWN4LueBed
+					oY+UCDtPlM15MjIXOzsm+flXJ6W23kR7UT/v
+					6w5j1OWEiQr2MW2bLdfKz26/6GJJ+rYWtF16
+					J6WbMuabZqsOC+Qas536XwcKGFOxckMWj4ml
+					Z0GP55knot8JnJsYZnlQIYkFqTo= )
+			300	AAAA	2600:3c01::a
+			300	RRSIG	AAAA 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					qhJG2ynzLfOP0W+B8gK7RLZjQ15khdcsd3Xp
+					pOz9xs6PFx5/ZJitfVRKXPF4y6WRqvPO50eL
+					vPl5BX8kjm7go++VKy/ll7NTDQqPKXQVpyWA
+					CgtHAaeMWq9BkaDFalqKeY/+KtWHpzEo5/g0
+					7cAL+DsZs1Z4dSE7yUIiFr5j2n4= )
+			86400	NSEC	ns3.tonkat.su. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					rCRfa5m29XqKlWUcMnBc8Vev9u7w4Bp/sVJJ
+					ZjYcgrDYtI3sbjesnTL44qFUcaugEo9AeuIP
+					YDQhpmNYYwG2hV1HNU5sG+V+keJGFvUq+ouW
+					G4c7VEs1AQC/b56rIBEfOgrdRZEKvKz8RWpU
+					Aw/yxmkhyyyE4/+l562l647PaCo= )
+calendar.tonkat.su.	3600	IN CNAME ghs.googlehosted.COM.
+			3600	RRSIG	CNAME 5 3 3600 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					jWxFpCBgYFMgon4PLlKhghStHgsRGFOC15dW
+					EaSj3QXGbi+imNQ5h+KjZqW4NrQa4+YAobFS
+					4l0WOz/0vnUEJYr5ZpMDoDmOgCFxwyECMc69
+					N/wN6MELQ3gCM/B9qylZeJeXqwc+FgzVy+X8
+					pnJp5Q18+GjzNNAV+iO4wLk9rkc= )
+			86400	NSEC	deluge.tonkat.su. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					UUeun8ep4Oyou+hZg7npHOvz8YUQTWGcF84u
+					YOpkpj4orEO4EvY6RfQOSwP9fuFzVv1+Vxg6
+					nWuO8bOfTkbBEnOjXiWnJvSoIOK8eFlmSTtU
+					skSPZoNPSi03dZF5KAjvE5v1D0m5m7qW6rVJ
+					m4jk7vTqZNCM0TrB28iHNzre7rw= )
+ns3.tonkat.su.		300	IN A	75.127.96.10
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					Ar7NG2vvLKW4jBLL5k3sSaGZEqPc6e5pDKEB
+					zHmxc3VD8UFKERgGh43Gx6VeQPmGc6Ns+Jin
+					4Op9D6SOZNLKuzp0icl6oETEX4yGXElq9kVj
+					4IGyRLjr+yvu0Lk5sGoSdjggLbbX5dGRDTPg
+					WosrFKM5sbv7P6qqC7mbolfv5zk= )
+			300	AAAA	2600:3c02::a
+			300	RRSIG	AAAA 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					hU2367I/TbqBJbDw0ZGBsPIcgJeZDqHDtUzw
+					kmhjkDENRQmoE1wJZD1stBhSHMiOBkuvEC0A
+					R44AZEP4PipnQnlTezTQnQPLtXZYIHJ46p0U
+					VvAw42Pjo1BiiqIsEY4Ybvv1HDTgU3kTpJUz
+					vavnAQHExeTZ1D4oRe2T+l86O3Q= )
+			86400	NSEC	ns4.tonkat.su. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					dFrXL5FDG6hMXQq6KAovXaT1pVvXQsCpG9hP
+					3tDRLEEFjh9X/lm3xOxYByY2sIUO9cXGJelb
+					57+gQXGC7+t+LNmEOC0x4chgC0FllCWhpXDO
+					bmFQn+JmtXH+1LwP/54WBmAkmOZqYZGmwmzG
+					qrI2v45DJjQc3PCZMfPg8cmviFc= )
+p.tonkat.su.		300	IN A	75.127.3.103
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					KcCTrksC6JLDzs1oGY0SUad61NcMVT+1T1mS
+					WkixTSudrn11N6os0yeC8Xz6RlIGxNUNUlk1
+					iIXrjA2yqRpm9mR47ZhUcLHDy7RnAfnimEPF
+					trAix3DVIdC3pxEUHe1LEL6foy5fcBC8NUPG
+					ThLRzw/NAfKE/yfljWJqrsscpW8= )
+			86400	NSEC	penn.tonkat.su. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					AKhHLKM0NS8dgfyPSSs4f0Umobe60D+glwLh
+					hZeQjssM9jDrI8BABZfdzp+9KYcBdwC0Iy1/
+					9UFjICISIfjv0TBXLVgECtlj2GF026t9yfpa
+					r5XzrhSa5PhqgMgLk6K6JJ5wAeIjgotKf4os
+					CBG9WMakpYOPC/2zTWzl9KTxHag= )
+google._domainkey.tonkat.su. 3600 IN TXT "v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "
+			3600	RRSIG	TXT 5 4 3600 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					tpy8qUdbUCoqkLX8TxgdVkDPgGS2c/mxL7Je
+					aXZNcvUVTsX5Bo9sTJL8s6j6/O7Bf1EIRtV/
+					jfO3QERDNwbimtbOI0rziWVXi1ci/oBadXGR
+					hpvwKnMQxU/xgMlumec+wfjJiv9neeke5iFC
+					Fk1KjdBAMx1q1CCPNBxc4CjTRxQ= )
+			86400	NSEC	calendar.tonkat.su. TXT RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					qTTMfzHRvjtosBjmZoWXg5nl84Sj5Afb2Kt3
+					gkQzUj69kxsa+y53gr6PMBBluGfzBlg+0n87
+					hniCFrufHhPrdG9D11iLtg1w1Bay+6m335C0
+					6wn6mNYMjv2rsHiUcFIzhkZNGGM1Kclw+TOX
+					V4/2Q5UpAxLoorEPvo99jJq2Zx8= )
+*.dev.tonkat.su.	300	IN A	192.95.25.41
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					MOFqIFccf7hh930TT40RIerYdwmBT27IlX7i
+					71d4XMfAncVedYclcgZHPS9/+8eRbLPilUol
+					RuTOetp/DttNvmDSG04EiPwsHogTWibmWsLd
+					2140gHTe31cfqmvR2s3BxLG5PIyoT62FXPuG
+					miPU8rqFFcuk6iqCP9NFngBb5Yg= )
+			86400	NSEC	docs.tonkat.su. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					tke8XM90449FHIKWh70saBPu85b2Hnk8G8XU
+					moJQmPZHtpGrqEyCCk2HvL87+P4CJnztbZZF
+					MB5k0B7so3CNfaHglvfdlRhbMVCuq3SR8XAH
+					o9+/PT7IEh0Gvvp1al+SKJC1upnPpCi5XuTq
+					4oTQsVEY0NTIT9YvneXaoMjltIU= )
+penn.tonkat.su.		300	IN A	71.19.154.184
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					dXpTB3pOSQqS2RPgEgrF6f7xmUv+Xt5gP867
+					RbP543Nso8TZiNTpWLSUMTXCQxpOSkmlzWZ8
+					ia5guVQjtNa9fIKZI3xS78wi1CofBzFLBL+Y
+					P8PxY1TFiHmAsiUwziiS4MOl7hKmFUImClTR
+					80sF4NrT31pIHp7EugKm1PIRh4o= )
+			300	AAAA	2605:2700:0:3::4713:9ab8
+			300	RRSIG	AAAA 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					sAtzXSUF3bq7xFd9OTooq3RwabBdJmPnyf8d
+					hCWEKYIl1IW7FumyIJb7b0GvS692Tq/BO+t3
+					yGup+vJU2/FHyC1eCrZ4ycZzvJHqAARi5YK3
+					GQoDvLZ7w2QmswqbxEdtNdIx6A2/EpKGx3Zf
+					V+dGe2/6ePHI27Eofd6CeAhYOMU= )
+			86400	NSEC	www.tonkat.su. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					jDw9e6MULFIX0PrmYMXyIqoVO305RkiJm+Di
+					Dsifcm2qmlZ2NeV9GmFpZNSrOzUWAKIJZaZx
+					RaQ8R9N1s3ZvVebQPahbIu6ZhK8ecLYsRnF6
+					agvN0eAgt1hLr0z77nJ200VMOsYpFoD/kkpi
+					4lmiAyk67XU7XXJ5tZFGx7KoEW4= )
+ns5.tonkat.su.		300	IN A	109.74.194.10
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					cNw/mxHdBSxCAfIBaClN7LeOcymd3lwO1c//
+					dofMHPPphpUkW0m0IaG7h9C5HH6b1q6+FwZl
+					wPVOjJAyjSlpsI2sucwaC5QbwtnnRI/kQZe8
+					iNABr1j6eW5HjTpS0XmulA4qjXig9JblJYiO
+					B/3OH1z9Mx0fwHOs5hLr7RRMg8Y= )
+			300	AAAA	2a01:7e00::a
+			300	RRSIG	AAAA 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					rRvkj8CqMIsQI8MHhD6qa59LW+vAVIpvwRay
+					lI4Sw/Geo/8lqBhEhWECxoONtCjw1FpXjeik
+					C5AcCaCiY5BbSSjw9Wt5HheBzDbHJlrGifax
+					j8LmgDkPMnNdILbKVwGanROnn95lksE/GfjG
+					tggO+AvDaV0dkG+rbePh6Cnzabw= )
+			86400	NSEC	p.tonkat.su. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					CAVuNRTOpfGEdp2gMKP2dksUQmuV6J31fXUT
+					XX598crRZPghoLNvvi/dwUEoTBPUua0xXBN4
+					wJkmlV4rK0iJQAQSdAjk+ZH3576Enyh1CP1l
+					RyBtPOQ392aCQ1KdeHWvV5vcyxQW107VNeyS
+					l1KibTSymTUwqWohHRQJSiBVL8M= )
+ns1.tonkat.su.		300	IN A	69.93.127.10
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					iPpO9m9R1/OSqvztOvkNrPJCr2vICPFNSTRb
+					qTv79QfA8ijH2hN770OtTpvXWdyOZsRq4s9o
+					8Fd1bACoIbtLrD3+ZPk2Rd1R4pEv1DtCGUBI
+					lNYvohhRpheoW9VIW4sIMDIHaHQzXCveGGDT
+					OdF1nuqTzAR4qQb3nQagJRK5ZTE= )
+			300	AAAA	2600:3c00::a
+			300	RRSIG	AAAA 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					mIQ+ANix7HqUyACeJNaj2cPRaoMONgBHhcfZ
+					mcPdOveMssr//AjGXsUH4R0m43kti/3RY3S+
+					Tgy6R3bpBkenyeKFKD7iYrhxI6jsOB9blWbz
+					T7zY4sVQN5Fj8nhX1OgXdY3h2j85lerHpemL
+					K+PyN0PLP5guD2bl67GA1VEa7fg= )
+			86400	NSEC	ns2.tonkat.su. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					hxTuO8Wi2SaUMmD+/atObjdhvRyI4ZOUafC6
+					ltqKtDKB/CI6I5III1o3asFb07HXKsyIcj46
+					TGjtVCzXoRjILjIAFxgv5cM29rufeGbsaWm9
+					wYQdOF1WFOXG8GS7fbDi2wbkjz2MMc9iuXH7
+					V+XIe6nnmWgq7b5bMzME2ACOffU= )
+ns4.tonkat.su.		300	IN A	207.192.70.10
+			300	RRSIG	A 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					M0Lz5VLPV4qtafg+YKN2vdwmIwKMgt9gCWZa
+					2DEkTrG2gc1/CW2PcuKh/qQA/0A38P5bI3+R
+					/n4eopIPdv5y3FpRHSK4MGO34Eb9Lrl/nAHB
+					a7cGzBZvkgOfCS5t1mTdSPw0HMppWiGujCXI
+					YULR32TFry7nS0l0aTNNbo2dnVg= )
+			300	AAAA	2600:3c03::a
+			300	RRSIG	AAAA 5 3 300 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					b/Rx4rLGSJ3uv2fybnmTZayCC7rzWgAtm+yU
+					rBfm1qtxLBLLHJ6cQaWFo3dDD0G2jUT8s0Vo
+					KwzK2A1zDpuWpXTcpatnMiapoCqCcG8PmBNK
+					KIOcT/25/TGmtzcvkpI7pUAUtJ3Bmbdc6OCZ
+					uGfGldS67A2jmpK3pWaDCHW/Rb0= )
+			86400	NSEC	ns5.tonkat.su. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131102070947 (
+					20131003070947 9120 tonkat.su.
+					ZEwjOU9bJdHIYZu3744lRl58GvwC/ZIvUzVD
+					u1CzTt1tvfb8SwuOIwhR3+XqMp08vklUAefY
+					AUQRM3O7DdhJWWBSIpC49wPSo2vGY0Y8OwlO
+					UXI1Am/oVpdEF4rdGrL0ucBA6y5XRuq4RV14
+					yU2FdWSjZNHn/cwp/VF5vNqpO/M= )

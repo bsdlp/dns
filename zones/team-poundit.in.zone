@@ -1,0 +1,19 @@
+team-poundit.in.			      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2012122622 900 14400 864000 300
+team-poundit.in.			      86400 IN NS	ns1.sjchen.net.
+team-poundit.in.			      86400 IN NS	ns2.sjchen.net.
+team-poundit.in.			      86400 IN NS	ns3.sjchen.net.
+team-poundit.in.			      86400 IN NS	ns4.sjchen.net.
+team-poundit.in.			      86400 IN NS	ns5.sjchen.net.
+team-poundit.in.			      300 IN A		50.116.59.102
+team-poundit.in.			      1800 IN MX	10 aspmx.l.google.com.
+team-poundit.in.			      1800 IN MX	20 alt1.aspmx.l.google.com.
+team-poundit.in.			      1800 IN MX	20 alt2.aspmx.l.google.com.
+team-poundit.in.			      1800 IN MX	30 aspmx2.googlemail.com.
+team-poundit.in.			      1800 IN MX	30 aspmx3.googlemail.com.
+team-poundit.in.			      1800 IN MX	30 aspmx4.googlemail.com.
+team-poundit.in.			      1800 IN MX	30 aspmx5.googlemail.com.
+team-poundit.in.			      1800 IN TXT	"google-site-verification=hSmg4LfE9yxsyUVqiCkZejb1TnqEQIZrBPLAuEwunyY"
+calendar.team-poundit.in.		      1800 IN CNAME	ghs.google.com.
+docs.team-poundit.in.			      1800 IN CNAME	ghs.google.com.
+mail.team-poundit.in.			      1800 IN CNAME	ghs.google.com.
+www.team-poundit.in.			      300 IN A		50.116.59.102

@@ -1,0 +1,9 @@
+sjchen.us.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2012122622 14400 14400 864000 86400
+sjchen.us.				      86400 IN NS	ns1.sjchen.net.
+sjchen.us.				      86400 IN NS	ns2.sjchen.net.
+sjchen.us.				      86400 IN NS	ns3.sjchen.net.
+sjchen.us.				      86400 IN NS	ns4.sjchen.net.
+sjchen.us.				      86400 IN NS	ns5.sjchen.net.
+sjchen.us.				      300 IN A		64.250.115.24
+phs.sjchen.us.				      300 IN A		142.4.208.139
+www.sjchen.us.				      300 IN A		64.250.115.24

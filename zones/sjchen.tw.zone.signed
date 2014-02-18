@@ -1,0 +1,107 @@
+; File written on Sun May 12 16:42:42 2013
+; dnssec_signzone version 9.8.4-rpz2+rl005.12-P1
+sjchen.tw.		86400	IN SOA	ns1.sjchen.net. noc.sjchen.net. (
+					2013021224 ; serial
+					900        ; refresh (15 minutes)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					TxisLlppfmuJPvf8K3eOHdO9KNmLca6SGg9O
+					soTt+jxZW+zrzZBvq2RAFYot6KbFPfUeh5h3
+					+xxUyAGH5EYhfbAknR8WC7QMFTsZqhAUkLTa
+					7hBIFcK3ZQLMTr/C2f9Xkrl074kCfLLKTFOa
+					c50wVlRJnf4jX325HOkbLK8EV0U= )
+			86400	NS	ns1.sjchen.net.
+			86400	NS	ns2.sjchen.net.
+			86400	NS	ns3.sjchen.net.
+			86400	NS	ns4.sjchen.net.
+			86400	NS	ns5.sjchen.net.
+			86400	RRSIG	NS 5 2 86400 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					l9kDAHJtU151Bl1t8WqquwljrzGiNxSqH5fv
+					dM9AsDBZHFnY3CBU/oW3NCMbFRWBfatCBYcz
+					+mQS0FBnfiT/q2MRcaEZHNxaKoO/DN8+QHTG
+					Hf5nlborG+4nrbuxSg9Rtw5it61W93KHH7kb
+					zNKLLPctjZZnDb2GHXRG1IE+NCg= )
+			300	A	192.95.25.41
+			300	RRSIG	A 5 2 300 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					fAWALiyFIbz5mVrNtNjOGKF0OyLfzCG2bjIA
+					uKKZt+pKRAbcxAp+POmNrv5R/G0Dd+dLnjPZ
+					gkTn+3lIlKi4Pf3TkXcKrUtm6LjwtaDjMYdH
+					Duxx+27UXsxAfnEXiAxkZe8HNnV+CPrnvuhh
+					g9NyvvnhjirEn+EBehKUZC22B/g= )
+			86400	NSEC	mail.sjchen.tw. A NS SOA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					a6xUySQLK6l2e3pFr4RsSFmmRFd72mvVZmcF
+					OBiBCKhJ3pxIkV6mSxVpWOAyuGZxfv9jahgQ
+					X8FpzuY3TiyDOrD5evjSo4JrXA2l9OkobF8x
+					ZevZgFIJ5rOPd1mZgORWtQ+LvImC9PBlLf9I
+					/NS0iu4fUbeu9ea2BWJHQq56izw= )
+			300	DNSKEY	256 3 5 (
+					AwEAAas0ySiPDNedXp03H+JGiI1HsjpawX5s
+					/wGM3k85T/EaTN25oQaXLtzNRSC1xbNQid6/
+					6IWveEn39wWb+306jUwiUPASsyfhe0Apmb0g
+					yUjULkWrDoL3AZyN4AWPXpjec3c0fEOogqHj
+					raWJgPvpTV1UO0zNj3IsXU+sDNotGDUp
+					) ; key id = 11955
+			300	DNSKEY	257 3 5 (
+					AwEAAb5iNnQT92U8iMbAT1AshdZnMAiMmVv0
+					UqzdwoU7qTUrL+ozBJQylS20vlii0nXBHWVF
+					8I8oHT7WRyLLAUqN/NDNyxYfJYPt/OKJKxuV
+					sRRH/zCXwN9lUgSO1ypoBF01f3h2SB2IQ3fj
+					+IGyrf1xG1RIuZe/3rZm/vjST1mbP2AC07Kj
+					t6q1ToJv3eTIJpPFi3IbPaWRGAzD6GaOyf21
+					SSc=
+					) ; key id = 52027
+			300	RRSIG	DNSKEY 5 2 300 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					idJeuDuVIGnn1t3igmdr8AIu8dWa4BctEDU1
+					ppgksRj2ioeXoNCMeKPUsf/PH0HXx6ERp5xl
+					l4kYE+vgdn2ntT3q4sB7eVy46ctT9QWqubEk
+					EUBCMwhXVYdwduUh5YAYMFjL4K8J8rA7OOyz
+					U6QKkEiu/PvoAlWBtKlJW/8ZhsM= )
+			300	RRSIG	DNSKEY 5 2 300 20130611194242 (
+					20130512194242 52027 sjchen.tw.
+					KIutmPU8hprGqMcMXf6TDiKoLum9ktCW5023
+					rAIXYRaJIO1SnHiVue+RalY1prq7jZwkhxXw
+					w1TVjuEeBMYJ+KJJloBuooJaNRDkwL1L6Ipi
+					AVTPVpScjzeShWqvc8xcHH4NsHi2gKm6bOIR
+					rzRVqJa9YWEgIh26+jIos97VaDur/yRTzW1P
+					qAdQVDNZ8UwdnZvLyLuOHo0s4Yz+qkD8qA== )
+www.sjchen.tw.		300	IN A	192.95.25.41
+			300	RRSIG	A 5 3 300 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					B8/SIK3vhZKiGBEs5XbTyCmh0+5O5Kqgzou5
+					1e723rkLOjJCC80EcOlJrLjA+S8Y/UkiAE3s
+					KTkIkrk/CwJ7gVzIkrn1paysxQzGqBo5AiBe
+					5quIN/oH9k3OXoYr59VII1z/zLjkyv/xe4zU
+					eH2lJhuyuohlHyo09EpFRqOLF+k= )
+			86400	NSEC	sjchen.tw. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					mFA2iZnzWb5JRZJBseV1paEFuzreyjgU4c2J
+					54E4RBnJ7IijtdckhTEu+bWxwgnyrh64KJiP
+					a7llVHewwQJDXL4HIcW9OZH8EoQYzW33zYuT
+					qFBdn/ejhJtfpquBC9i0NxTbeVpNIulQD1Ej
+					1crm8OK+zVVpHPA4gyO+Fj64uu8= )
+mail.sjchen.tw.		300	IN A	192.249.57.155
+			300	RRSIG	A 5 3 300 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					K38kix5RQHbOt8+xjPV4s6h1PydfDF4cnLty
+					cYUk+W47SxcXIFrd+jAf/3ujiSIFvknlyC+s
+					ql7NE/FpH2I9hWxpmR+XanRPSsB+YfpeMBh4
+					/8+VPmjGpZ5bzj6OEpfFQcTgMYp/H90EYPjg
+					xnm0K8kE0ulYRFUkJ2HgJ5A6XNA= )
+			86400	NSEC	www.sjchen.tw. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20130611194242 (
+					20130512194242 11955 sjchen.tw.
+					kDA2LwnYI0XHOZwzx87kVntkQmoYGRv2+em2
+					ruT84nvOcrdzocGdQ5Q/rRxghuFnBX2GIYv0
+					FRkRq3ZsbWv0h6vL87D8rMxLD9QaLHIoGyik
+					ux+3ohz0wWY5USuSXgpR9LlURuaKx/VLwYn3
+					nGgBSTRv8k8xd91c7riULsAAmvA= )

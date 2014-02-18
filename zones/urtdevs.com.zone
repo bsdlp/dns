@@ -1,0 +1,8 @@
+urtdevs.com.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013022918 900 14400 864000 86400
+urtdevs.com.				      86400 IN NS	ns1.sjchen.net.
+urtdevs.com.				      86400 IN NS	ns2.sjchen.net.
+urtdevs.com.				      86400 IN NS	ns3.sjchen.net.
+urtdevs.com.				      86400 IN NS	ns4.sjchen.net.
+urtdevs.com.				      86400 IN NS	ns5.sjchen.net.
+urtdevs.com.				      300 IN A		66.228.43.47
+www.urtdevs.com.			      300 IN CNAME	urtdevs.com.

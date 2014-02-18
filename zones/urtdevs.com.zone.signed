@@ -1,0 +1,91 @@
+; File written on Fri Oct 25 18:29:32 2013
+; dnssec_signzone version 9.8.4-rpz2+rl005.12-P1
+urtdevs.com.		86400	IN SOA	ns1.sjchen.net. noc.sjchen.net. (
+					2013022916 ; serial
+					900        ; refresh (15 minutes)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 20131124212932 (
+					20131025212932 19248 urtdevs.com.
+					wEqOxsR2LsPUoPKFegsJR5TvKED3NwYZQww2
+					yfSCfXT/Q+uA33m82iy8VgorXMe1IDL5ONzr
+					xPbWXgsdudj+fn+SM+517MeQuU9YSTE8mMJy
+					iDS/pbbPGdSagX4n41ln7ZXwqtrFE/ekB6lO
+					/eFaOAkPSEOjesdVq3JwG7yQB+w= )
+			86400	NS	ns1.sjchen.net.
+			86400	NS	ns2.sjchen.net.
+			86400	NS	ns3.sjchen.net.
+			86400	NS	ns4.sjchen.net.
+			86400	NS	ns5.sjchen.net.
+			86400	RRSIG	NS 5 2 86400 20131124212932 (
+					20131025212932 19248 urtdevs.com.
+					oLPLL0UaOEjum5xvIBBg1byOfw1O1XxPhPOO
+					1g/mngxKZ0G06aVhUSygJZe1QVErMsf4upQy
+					ypkrquNl9gTwhQzEapFZ9NXAXqM2UEojaFsu
+					Ax6bl3GyMUABZ3qUxig6b/o3ZVwn5RaIYoMn
+					Zr8LFNo+HYlQ02MHN2CasDtcLJY= )
+			300	A	66.228.43.47
+			300	RRSIG	A 5 2 300 20131124212932 (
+					20131025212932 19248 urtdevs.com.
+					ivHXOHGexW1jBCrKl/vikpn40cAV9DcqIWhR
+					+fOBrLrJoPBM2OY/2MxIu8Vmm+2+MNGkmM4P
+					siU9g9SMyWFC4UsqjD010tith/Tzqo1qjjaX
+					9XLzFlLe5l3wuEjLHrznver2J3du4wxvU7+k
+					Ruajy9U3Y7NQJSVChs2Dhj0rmdM= )
+			86400	NSEC	www.urtdevs.com. A NS SOA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 20131124212932 (
+					20131025212932 19248 urtdevs.com.
+					Y3l45d5SFrsiMqOxt6xxkrhJYkGzDpXKUWAw
+					/50RIZBaLp/HVa3LbmGkdwD+1tNCkEt43zG0
+					7X0yh11aBUYH3rklvLKgMgvr1MfhXue+IIV3
+					IYZvwoU5EgdOh1XIgR0oHo5CBLwvDs1yKhFV
+					tCqF8e0078pFqzfgcVmpjSq067A= )
+			300	DNSKEY	256 3 5 (
+					AwEAAc7/MtVTXn8ui8Bz97UfI+W/+gX8nIPI
+					ZdHhVlaM6Eyda9Yj/HZW4DoPIftRmCGyKB2t
+					eU+a/PrUYjpqi8l7mW4hEhYp6+o751MY/27V
+					+FfgAynMeEUmIQ5XkkFg0TqfPtU84MfkUbcz
+					ZZX/NqjXfZfdmavjISxKK113Eb7MQqcJ
+					) ; key id = 19248
+			300	DNSKEY	257 3 5 (
+					AwEAAcnhlVwSvrKL5OtYC/dwXYtJu25UCgKP
+					QG1cu0Bs92d5YrPFNNahVw/eILWOs4YmZ+tJ
+					lF7izB46RLNgDChU9PQd1njq+x45/SdobE90
+					/EIF2WT2k0cmkYb6qEAIk24+fBcu1HO7GGMy
+					PYAbKV+G3vXXBKrfnIkNUxaAnol60DxzbfDg
+					yaXUjMCF/IuntRcyKTzam/bbFVZb/hJ6WUbo
+					YDk=
+					) ; key id = 47824
+			300	RRSIG	DNSKEY 5 2 300 20131124212932 (
+					20131025212932 19248 urtdevs.com.
+					hajbk9t//DiQo39Tk1PNwQJzeKueZlNEpb0u
+					QacvJl5FNHt3WMnY4Tk80Ill07s1TPUPrhX+
+					Hwm1YR1A8sQAYDe+hO/m4rb9vHH50bsXTYEN
+					zicw5nY/+or8MxpSfIyttC+Ov+DV2etVdWb/
+					3YdwDLsnUiMT2nHrATL1lL4ah1U= )
+			300	RRSIG	DNSKEY 5 2 300 20131124212932 (
+					20131025212932 47824 urtdevs.com.
+					s+73px3PjWuf6IaR5amn0k979+5Z9JJ/oS2A
+					GhXFcz8sfXIyiLf4YyA2Rn0QDb0pjIJuytdk
+					zk5eo3wEuIp6PV2s8dPmSTf8XTOZXuYpkZas
+					3zuoqQCfpZumO5UPyGqJMTfLsqDVh81/ncFF
+					xNV65/dFTJR4jD6VTPysb8A0ZEyLKUL58t8/
+					26vrYoD4VM0ZYpnxMvQA4CkchkK8+gJaVw== )
+www.urtdevs.com.	300	IN CNAME urtdevs.com.
+			300	RRSIG	CNAME 5 3 300 20131124212932 (
+					20131025212932 19248 urtdevs.com.
+					ai6fOhw86woNbjhxjtYZZYOPTMlnGwLruWSQ
+					b4IPw+pzPmQSnFRr6ztP9Js25AWfD0x3DNy+
+					fkZO3JGjZoLJ1ncIcJe+h7oEmBfQxjvygoXn
+					kVzF0bjwMoqbOuXSRY9UIjOxGfZOB1einlJg
+					U8hFKRDylCwrwoHBeDoufgHPWJg= )
+			86400	NSEC	urtdevs.com. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 20131124212932 (
+					20131025212932 19248 urtdevs.com.
+					uLvTHdG5PgZd4J2GPVaMZF3+QgKJyPpYtDhZ
+					OItQGXqNxGt+EJHwPkzvDakI73evwn98wR2m
+					EcS+v7+OkXxM4j91ueTN4qmewiazdrpLGOKf
+					ufJWVKqthkmgGyD06axiYKoFp2z9Wl6uy/3h
+					RaK97NPhBvnNorO7Ns7MNTK7jjs= )

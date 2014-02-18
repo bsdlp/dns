@@ -1,0 +1,12 @@
+igotcreameverywhe.re.			      86400 IN SOA	ns1.hook.re. noc.sjchen.net. 2013010811 900 14400 864000 300
+igotcreameverywhe.re.			      86400 IN NS	ns1.hook.re.
+igotcreameverywhe.re.			      86400 IN NS	ns2.hook.re.
+igotcreameverywhe.re.			      86400 IN NS	ns3.hook.re.
+igotcreameverywhe.re.			      86400 IN NS	ns4.hook.re.
+igotcreameverywhe.re.			      86400 IN NS	ns5.hook.re.
+igotcreameverywhe.re.			      86400 IN NS	ns6.hook.re.
+igotcreameverywhe.re.			      86400 IN NS	ns7.hook.re.
+igotcreameverywhe.re.			      86400 IN NS	ns8.hook.re.
+igotcreameverywhe.re.			      300 IN A		192.95.17.18
+igotcreameverywhe.re.			      300 IN AAAA	2600:3c03::f03c:91ff:feae:e071
+www.igotcreameverywhe.re.		      300 IN CNAME	igotcreameverywhe.re.

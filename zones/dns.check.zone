@@ -1,0 +1,7 @@
+dns.check.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013010720 900 14400 864000 86400
+dns.check.				      86400 IN NS	ns1.sjchen.net.
+dns.check.				      86400 IN NS	ns2.sjchen.net.
+dns.check.				      86400 IN NS	ns3.sjchen.net.
+dns.check.				      86400 IN NS	ns4.sjchen.net.
+dns.check.				      86400 IN NS	ns5.sjchen.net.
+ur.mom.dns.check.			      300 IN A		127.0.0.1
