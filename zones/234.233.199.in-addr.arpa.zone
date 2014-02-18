@@ -1,9 +1,0 @@
-234.233.199.in-addr.arpa.		      172800 IN	SOA	ns1.sjchen.net. webmaster.sjchen.net. 2013052214 43200 900 1814400 10800
-234.233.199.in-addr.arpa.		      172800 IN	NS	ns1.sjchen.net.
-234.233.199.in-addr.arpa.		      172800 IN	NS	ns2.sjchen.net.
-234.233.199.in-addr.arpa.		      172800 IN	NS	ns3.sjchen.net.
-234.233.199.in-addr.arpa.		      172800 IN	NS	ns4.sjchen.net.
-234.233.199.in-addr.arpa.		      172800 IN	NS	ns5.sjchen.net.
-107.234.233.199.in-addr.arpa.		      172800 IN	PTR	mc.voltaire.sh.
-108.234.233.199.in-addr.arpa.		      172800 IN	PTR	create.voltaire.sh.
-109.234.233.199.in-addr.arpa.		      172800 IN	PTR	ftb.voltaire.sh.
