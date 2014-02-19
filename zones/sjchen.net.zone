@@ -1,4 +1,4 @@
-sjchen.net.				      647100 IN	SOA	ns1.sjchen.net. webmaster.sjchen.net. 2013110218 10800 1800 604800 86400
+sjchen.net.				      647100 IN	SOA	ns1.sjchen.net. webmaster.sjchen.net. 2014021911 10800 1800 604800 86400
 sjchen.net.				      86400 IN NS	ns1.sjchen.net.
 sjchen.net.				      86400 IN NS	ns2.sjchen.net.
 sjchen.net.				      86400 IN NS	ns3.sjchen.net.
@@ -12,8 +12,8 @@ sjchen.net.				      3600 IN MX	10 ASPMX2.GOOGLEMAIL.COM.
 sjchen.net.				      3600 IN MX	10 ASPMX3.GOOGLEMAIL.COM.
 sjchen.net.				      600 IN TXT	"google-site-verification=INxS71rt3ZToLk_23fpY6dlKBGK4dLTRMdPZ5sVB3Oo"
 sjchen.net.				      600 IN AAAA	2600:3c03::f03c:91ff:feae:e071
-sjchen.net.				      600 IN DNSKEY	256 3 5 AwEAAdbdxdzm5fYamIFSIY31gWPF1F2B1u+7/OdCVVra1zlzJiCq0MMI 6CAXa8SdqCtCOXOi489Y7sZ9KqrxZiSLfuK1iFlxxdh3p9XRFosVn/8o v62uGL51A1WFUiAw3fYgoqHeSLMdZGPGXp1PASAMC1gxV0hVNhbMo/9G CXBu2TLR  ; key id = 34722
-sjchen.net.				      600 IN DNSKEY	257 3 5 AwEAAbu0LOClGmqB1POXtqgH859RXQAIgihpjw5DHFVew3MeVot8cmOo UgkKEqHkdKM6InSNmmiWJaQ1RWUomDcKjLlzT2KFYIxRF5gPZMeSStpX VspZYCgI6FGyQRclFTSPL+/ngdGliodYFpaKyZ5/5jISkOjqqGd9Vk8b X18Mrkw3Q/K0oqfCdQFwguJmdNpDVsXHh+5huR/G0Fph+HFhaaM=  ; key id = 43306
+sjchen.net.				      600 IN DNSKEY	256 3 5 AwEAAdbdxdzm5fYamIFSIY31gWPF1F2B1u+7/OdCVVra1zlzJiCq0MMI 6CAXa8SdqCtCOXOi489Y7sZ9KqrxZiSLfuK1iFlxxdh3p9XRFosVn/8o v62uGL51A1WFUiAw3fYgoqHeSLMdZGPGXp1PASAMC1gxV0hVNhbMo/9G CXBu2TLR
+sjchen.net.				      600 IN DNSKEY	257 3 5 AwEAAbu0LOClGmqB1POXtqgH859RXQAIgihpjw5DHFVew3MeVot8cmOo UgkKEqHkdKM6InSNmmiWJaQ1RWUomDcKjLlzT2KFYIxRF5gPZMeSStpX VspZYCgI6FGyQRclFTSPL+/ngdGliodYFpaKyZ5/5jISkOjqqGd9Vk8b X18Mrkw3Q/K0oqfCdQFwguJmdNpDVsXHh+5huR/G0Fph+HFhaaM=
 google._domainkey.sjchen.net.		      3600 IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "
 bhs2.sjchen.net.			      600 IN A		192.95.25.41
 *.bhs2.sjchen.net.			      600 IN A		192.95.18.8
@@ -22,10 +22,7 @@ descartes.sjchen.net.			      600 IN A		66.175.210.114
 descartes.sjchen.net.			      600 IN AAAA	2600:3c03::f03c:91ff:fe6e:3c0a
 diderot.sjchen.net.			      600 IN A		66.228.43.47
 docs.sjchen.net.			      3600 IN CNAME	ghs.googlehosted.COM.
-git.sjchen.net.				      600 IN A		66.228.43.47
-git.sjchen.net.				      600 IN AAAA	2600:3c03::f03c:91ff:feae:e071
 gmail.sjchen.net.			      3600 IN CNAME	ghs.googlehosted.COM.
-linmail.sjchen.net.			      600 IN A		66.228.43.47
 *.locke.sjchen.net.			      600 IN A		142.4.213.80
 ns1.sjchen.net.				      600 IN A		69.93.127.10
 ns1.sjchen.net.				      600 IN AAAA	2600:3c00::a
@@ -37,5 +34,5 @@ ns4.sjchen.net.				      600 IN A		207.192.70.10
 ns4.sjchen.net.				      600 IN AAAA	2600:3c03::a
 ns5.sjchen.net.				      600 IN A		109.74.194.10
 ns5.sjchen.net.				      600 IN AAAA	2a01:7e00::a
-p.sjchen.net.				      600 IN A		75.127.3.103
+paine.sjchen.net.			      600 IN A		198.245.62.165
 www.sjchen.net.				      600 IN CNAME	sjchen.net.
