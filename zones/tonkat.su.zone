@@ -1,4 +1,4 @@
-tonkat.su.				      86400 IN SOA	ns1.tonkat.su. webmaster.tonkat.su. 2013030310 10800 1800 604800 86400
+tonkat.su.				      86400 IN SOA	ns1.tonkat.su. webmaster.tonkat.su. 2014022800 10800 1800 604800 86400
 tonkat.su.				      86400 IN NS	ns1.tonkat.su.
 tonkat.su.				      86400 IN NS	ns2.tonkat.su.
 tonkat.su.				      86400 IN NS	ns3.tonkat.su.
