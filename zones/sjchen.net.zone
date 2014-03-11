@@ -1,4 +1,4 @@
-sjchen.net.				      647100 IN	SOA	ns1.sjchen.net. webmaster.sjchen.net. 2014030817 10800 1800 604800 86400
+sjchen.net.				      647100 IN	SOA	ns1.sjchen.net. noc.sjchen.net. 2014031102 10800 1800 604800 86400
 sjchen.net.				      86400 IN NS	ns1.sjchen.net.
 sjchen.net.				      86400 IN NS	ns2.sjchen.net.
 sjchen.net.				      86400 IN NS	ns3.sjchen.net.
@@ -23,7 +23,6 @@ descartes.sjchen.net.			      600 IN AAAA	2600:3c03::f03c:91ff:fe6e:3c0a
 diderot.sjchen.net.			      600 IN A		66.228.43.47
 docs.sjchen.net.			      3600 IN CNAME	ghs.googlehosted.COM.
 gmail.sjchen.net.			      3600 IN CNAME	ghs.googlehosted.COM.
-*.locke.sjchen.net.			      600 IN A		142.4.213.80
 ns1.sjchen.net.				      600 IN A		69.93.127.10
 ns1.sjchen.net.				      600 IN AAAA	2600:3c00::a
 ns2.sjchen.net.				      600 IN A		65.19.178.10
