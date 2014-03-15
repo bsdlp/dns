@@ -1,9 +1,9 @@
-sjchen.net.				      647100 IN	SOA	ns1.sjchen.net. noc.sjchen.net. 2014031102 10800 1800 604800 86400
-sjchen.net.				      86400 IN NS	ns1.sjchen.net.
-sjchen.net.				      86400 IN NS	ns2.sjchen.net.
-sjchen.net.				      86400 IN NS	ns3.sjchen.net.
-sjchen.net.				      86400 IN NS	ns4.sjchen.net.
-sjchen.net.				      86400 IN NS	ns5.sjchen.net.
+sjchen.net.				      647100 IN	SOA	ns1.linode.com. noc.sjchen.net. 2014031103 10800 1800 604800 86400
+sjchen.net.				      86400 IN NS	ns1.linode.com.
+sjchen.net.				      86400 IN NS	ns2.linode.com.
+sjchen.net.				      86400 IN NS	ns3.linode.com.
+sjchen.net.				      86400 IN NS	ns4.linode.com.
+sjchen.net.				      86400 IN NS	ns5.linode.com.
 sjchen.net.				      600 IN A		66.228.43.47
 sjchen.net.				      3600 IN MX	1 ASPMX.L.GOOGLE.COM.
 sjchen.net.				      3600 IN MX	5 ALT1.ASPMX.L.GOOGLE.COM.
