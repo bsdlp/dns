@@ -1,0 +1,95 @@
+; File written on Sat Mar 15 00:55:58 2014
+; dnssec_signzone version 9.9.5
+docku.org.		647100	IN SOA	ns1.linode.com. noc.docku.org. (
+					2014031501 ; serial
+					10800      ; refresh (3 hours)
+					1800       ; retry (30 minutes)
+					604800     ; expire (1 week)
+					86400      ; minimum (1 day)
+					)
+			647100	RRSIG	SOA 5 2 647100 (
+					20140414035558 20140315035558 21816 docku.org.
+					Q9eEXgdKmXMjG+/8iuODbpj7YDjD8Y7chLPq
+					1KwvyTjT5zLMOEtKksM0USLORFEI6anHP9Wm
+					s2KBqp7+QKZwxCLE3jHTkPEAxztaz2T3w2kc
+					NxRgE20c3hudKPTY2La1xDjWfUGE1en7I0hk
+					L6OQScw/Hmak9l2SenbAPzRMwlI= )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 5 2 86400 (
+					20140414035558 20140315035558 21816 docku.org.
+					Ljbxi6/zs3CgNLetCpDdCKPKNSX60aIGp6kj
+					cDe3W/nN+Oa5rib+95hGAfNs/SZTm6zF/hrr
+					+NCihFsznzY8+qBgY3KOVIu1Rqh/CvRrxVck
+					BbUi6Jxfey6B/j2s3FljmlVLbF2tG55wgc4p
+					RJkdnG0wrl2Y0MJUYOcgEadmPtk= )
+			3600	MX	1 ASPMX.L.GOOGLE.COM.
+			3600	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+			3600	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+			3600	MX	10 ASPMX2.GOOGLEMAIL.COM.
+			3600	MX	10 ASPMX3.GOOGLEMAIL.COM.
+			3600	RRSIG	MX 5 2 3600 (
+					20140414035558 20140315035558 21816 docku.org.
+					UwjhwKWe0/DhMnmAxoDEy5socdXuvHrDKNv9
+					ChWEj9ol8gUPIqjh8qs/XLKsaoCHoqwr0wCw
+					oGvv7a7LrTJNJNrxUcShVH+8cF3n3YgjypwR
+					Z05R7oheszYOQGKGpmYHA1LBRkJLH3xcWe5h
+					mfP9zhLmk3/t77KVYCZeNpoy+H8= )
+			86400	NSEC	core0.docku.org. NS SOA MX RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 (
+					20140414035558 20140315035558 21816 docku.org.
+					TadRpPRRD2NrqSpE93BfbloyqGp3UHVHcnc5
+					AlfToSgOLioR8izx+UGQK82043i49smVFTxO
+					LwedmpvUzJwrr5l7S+Vi8EOZElhZHbqwqErK
+					XClv0mKdJPgsIUoIHIrLymF6ST8qTsDPr+0i
+					ZlrlIOW/cn7/j7637t3NWjW8e10= )
+			800	DNSKEY	256 3 5 (
+					AwEAAbnZ9KwVQAFBY7EdqmzGSBBrm2acPRVh
+					E8bnk9iClYOs6PFOBgc76Jub+5mngHrZBs0J
+					BgLW5BcxR2mVSEQH1M1LS6wnAPsQXz9GNmYE
+					ZQ40iTpMPF8+iXNFAkexcD5UQFwVJxyNgtjw
+					v3rXuwHYM7rJ8OOI1I+Rhhl1YaTfu0+3
+					) ; ZSK; alg = RSASHA1; key id = 21816
+			800	DNSKEY	257 3 5 (
+					AwEAAcBCD44ngynG6CsGlkRy6Vst68Mc5930
+					lXQw7cpuXkV1QaB1byl5V+iAzrw/dlwwQQO5
+					1JKXofmo3qeHcZsb+dXC9AZ1eb3dyTXUtnvD
+					8IXriiMh5WWWvynm+5+Nvcai9DDgOZ566PSx
+					HnU4IgmG5YBa1nbTQ3y/wcn3nTb2R1VJhV3u
+					g2kSeW6+hKvUGq3VBlm+0y5luHlmauz5bVHf
+					GSc=
+					) ; KSK; alg = RSASHA1; key id = 60193
+			800	RRSIG	DNSKEY 5 2 800 (
+					20140414035558 20140315035558 21816 docku.org.
+					AilLNuIR8Ho9cdfQpkxaAEkCObCPYlD50glM
+					jq8WwZjX4NU3W3aIon69hNzbe5OhJOn/mqix
+					vmCkb9OI6PWf98JXDHUuyo68jmVLi6fw6wDa
+					nLKXnmDXBEY9uPto97RAIwbROWHay6MGc3m6
+					NHI6CFcq4hbI6LTF43088SF5XL0= )
+			800	RRSIG	DNSKEY 5 2 800 (
+					20140414035558 20140315035558 60193 docku.org.
+					sXxxh2ROtb266TBFybDxkSdLUjHKxP89j4Lc
+					bc+KpFZnj5cDBfyuWGwQ+sIRGKriAkI4e+i4
+					WIcA6o5tVVmGudc0/geT7Tq/Kg9MsjxR3zEv
+					1fXMXrvsOI5zw7buZ8gj8kQMd40f7A2QPzUV
+					GuTu0TOAjDbKXs46QDiEdwwU3f3PDKo+ZxH6
+					gqcWkOS9FUB+TBjQ1h5YCsK2EkvyVfXKOA== )
+core0.docku.org.	800	IN A	198.245.62.165
+			800	RRSIG	A 5 3 800 (
+					20140414035558 20140315035558 21816 docku.org.
+					aMc0tWBnkAcws7mmf7HX0vocgp2E8Yh5MW00
+					fsPfLGUeGszusQXlkWrtrG9dedgfgLJG0sr1
+					NUjtyOtI9y5ZTOuaLyONbR1NcguZ9uDYxxbk
+					Lz6QhrhOJns168cXw9JPc7He00Ee01ttYyDj
+					6lHxK3X9spOa06it7V3P0HaOd0w= )
+			86400	NSEC	docku.org. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20140414035558 20140315035558 21816 docku.org.
+					qo99w/W8R1Egdl7vM8NUr896x0wVBlFWAc0e
+					xfiKOdznwf2p3pRl8hdUGBMMuzpGtXFIRIMG
+					FrD69HZmxA1m2SE4NOwdg2sKqGdFsRBWKAmD
+					Q0eSSJYIAFTWWLlZeIrZwZJQsG7/zbdZgTRI
+					yzt0drILo9lYDaKVhhA58sPiamM= )
