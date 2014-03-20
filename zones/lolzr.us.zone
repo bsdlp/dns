@@ -1,16 +1,11 @@
-lolzr.us.				      86400 IN SOA	ns1.tonkat.su. noc.tonkat.su. 2013030303 900 14400 864000 300
-lolzr.us.				      86400 IN NS	ns1.tonkat.su.
-lolzr.us.				      86400 IN NS	ns2.tonkat.su.
-lolzr.us.				      86400 IN NS	ns3.tonkat.su.
-lolzr.us.				      86400 IN NS	ns4.tonkat.su.
-lolzr.us.				      86400 IN NS	ns5.tonkat.su.
+lolzr.us.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032015 900 14400 864000 300
+lolzr.us.				      86400 IN NS	ns1.linode.com.
+lolzr.us.				      86400 IN NS	ns2.linode.com.
+lolzr.us.				      86400 IN NS	ns3.linode.com.
+lolzr.us.				      86400 IN NS	ns4.linode.com.
+lolzr.us.				      86400 IN NS	ns5.linode.com.
+lolzr.us.				      300 IN DNSKEY	256 3 5 AwEAAbenN35SZbldtfNMsy/9V2c+DzsT1nchcycNVkpJuDDZDlHaNK4z ym7xPdoLb00PlERqxbVU0mV21ffey6tnN1beHKN7Yzx4MJmiqrPpFedR +LUbL2fcvyx5GoZ4NQWff4eJbbptcNeNwEdJOtFuRQtQtLxSz/yA+ib6 QH2VyVkP
+lolzr.us.				      300 IN DNSKEY	257 3 5 AwEAAcC8AZtn0bPoGLaR244YxJh8zdQEMoxZZsd6TZnFkGkxNzKPTr+M VoPBxDGIx9oCewNbyE6OLk2dsTybP8W+C2loeEwGQAREP0hjGpn1BtMJ BljbBhoWGKD4edPx/stDq+KYMYOHpaYY0laPlsEiwHF9e3ovNOBC9h5R wQZf3FP5EvZob6iHVMaQfk/1wBGthK+PviZM4Jwun1GsvSPMMtc=
 lolzr.us.				      300 IN A		66.175.210.114
-lolzr.us.				      300 IN MX		1 mail.lolzr.us.
 lolzr.us.				      300 IN AAAA	2600:3c03:e000:78::1
-ctf-east.lolzr.us.			      300 IN A		66.175.215.221
-git.lolzr.us.				      300 IN A		198.245.63.22
-kf.lolzr.us.				      300 IN A		142.54.162.42
-mail.lolzr.us.				      300 IN A		198.199.64.209
-mc.lolzr.us.				      300 IN A		198.245.63.22
-music.lolzr.us.				      300 IN A		208.53.158.253
-zombies.lolzr.us.			      300 IN A		142.54.162.42
+
