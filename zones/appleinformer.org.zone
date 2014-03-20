@@ -1,9 +1,9 @@
-appleinformer.org.			      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2012122623 14400 14400 864000 86400
-appleinformer.org.			      86400 IN NS	ns1.sjchen.net.
-appleinformer.org.			      86400 IN NS	ns2.sjchen.net.
-appleinformer.org.			      86400 IN NS	ns3.sjchen.net.
-appleinformer.org.			      86400 IN NS	ns4.sjchen.net.
-appleinformer.org.			      86400 IN NS	ns5.sjchen.net.
+appleinformer.org.			      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032015 14400 14400 864000 86400
+appleinformer.org.			      86400 IN NS	ns1.linode.com.
+appleinformer.org.			      86400 IN NS	ns2.linode.com.
+appleinformer.org.			      86400 IN NS	ns3.linode.com.
+appleinformer.org.			      86400 IN NS	ns4.linode.com.
+appleinformer.org.			      86400 IN NS	ns5.linode.com.
 appleinformer.org.			      300 IN A		38.109.218.232
 appleinformer.org.			      300 IN MX		10 4cc18a5850c54641966da0fef7a1e0.pamx1.hotmail.com.
 appleinformer.org.			      300 IN TXT	"v=spf1 include:hotmail.com ~all"

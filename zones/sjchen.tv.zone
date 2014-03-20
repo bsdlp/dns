@@ -1,8 +1,8 @@
-sjchen.tv.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2012123116 900 14400 864000 86400
-sjchen.tv.				      86400 IN NS	ns1.sjchen.net.
-sjchen.tv.				      86400 IN NS	ns2.sjchen.net.
-sjchen.tv.				      86400 IN NS	ns3.sjchen.net.
-sjchen.tv.				      86400 IN NS	ns4.sjchen.net.
-sjchen.tv.				      86400 IN NS	ns5.sjchen.net.
+sjchen.tv.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032015 900 14400 864000 86400
+sjchen.tv.				      86400 IN NS	ns1.linode.com.
+sjchen.tv.				      86400 IN NS	ns2.linode.com.
+sjchen.tv.				      86400 IN NS	ns3.linode.com.
+sjchen.tv.				      86400 IN NS	ns4.linode.com.
+sjchen.tv.				      86400 IN NS	ns5.linode.com.
 sjchen.tv.				      300 IN A		192.95.25.41
 www.sjchen.tv.				      300 IN A		192.95.25.41

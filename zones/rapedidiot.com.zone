@@ -1,4 +1,4 @@
-rapedidiot.com.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013020210 14400 14400 864000 86400
+rapedidiot.com.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032016 14400 14400 864000 86400
 rapedidiot.com.				      86400 IN NS	ns1.tonkat.su.
 rapedidiot.com.				      86400 IN NS	ns2.tonkat.su.
 rapedidiot.com.				      86400 IN NS	ns3.tonkat.su.

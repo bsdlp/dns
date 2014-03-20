@@ -1,54 +1,62 @@
-; File written on Tue Mar  5 23:07:30 2013
-; dnssec_signzone version 9.8.3-P4
-jchen.pl.		86400	IN SOA	ns1.sjchen.net. noc.sjchen.net. (
-					2013030515 ; serial
+; File written on Thu Mar 20 15:58:50 2014
+; dnssec_signzone version 9.9.5
+jchen.pl.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
+					2014032015 ; serial
 					900        ; refresh (15 minutes)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
-			86400	RRSIG	SOA 5 2 86400 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					mr8hIgPJQzSBhxWtdpUmQ03whfCnAwwRmaWj
-					vTSLS6lDY1d9OioMWfQt0/vjmblCbkOZzzVa
-					WoyZ89ST/Ed39/IqC8P/N2e0wLiDQ/G5UfVZ
-					UPbwiaa3KtkrTD+XHNLJ5935eVK5cHIUTsAM
-					5YKvj0rHtOv5+pch6VK9X9BIxOg= )
-			86400	NS	ns1.sjchen.net.
-			86400	NS	ns2.sjchen.net.
-			86400	NS	ns3.sjchen.net.
-			86400	NS	ns4.sjchen.net.
-			86400	NS	ns5.sjchen.net.
-			86400	RRSIG	NS 5 2 86400 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					oU3HPCQkbYRte5rIb6eTGCN/M3KvzvXcYVeX
-					qNFTDuWJli4DWxnYUv8ydQLwjjn2e1r4M3YU
-					xiCjf1kzwRVWqNMTmSHAcTnpGlhYdVKbX4x7
-					LQZTrTORuJuzNGAHkA7AY/dJDzpi9Ww1K2MA
-					sQEs/4sz8ZCDYqFJJ5i1Pj5nIFc= )
+			86400	RRSIG	SOA 5 2 86400 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					ajYT1xY//S8KHHMrx1YmS6N+zczZHegDaMWJ
+					FzGzba8OKi2FKjaUK6FmPtjn9/hUWqrRptj6
+					2IGIFHeFoYrocQ1qJcNm2BM+Ej3IOb1VNpkV
+					qriIa5JjyCJr3Y9R3K2eMkhEI2e/mDl9FTiL
+					K2+tD/CNmTs15w6J7LlI2ovZxP4= )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 5 2 86400 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					OhgfYGg3ckwn1IN1iBQjiDwUtK3rbzUH0yMG
+					pcTT0Qiu+BnCqhhu31Kd4xjrQea84Ot/FTMp
+					34ZtVmf9+v35h3HVXpIrh7jAE2XCiNwATqHd
+					3NmNq+uwsgVrD56gl/zdjecVwYyJ13VGrAYM
+					gfjWdcp9sjBWiJ/2w78X4Bdu8KI= )
 			300	A	192.95.25.41
-			300	RRSIG	A 5 2 300 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					a0WBPv/lU92r0YZZBFE+Ieka9JH0uUSRhmFL
-					eGcnNj9/9iWixPRlSql+dxwkQ8yUCslalE0I
-					kf1BGsvRxD8+zcIgHOrf0/1In8+Z3DPZeH2E
-					GVrxTm0+YcEV74dB2jURc5QQOo9kaU5f3dWK
-					2pU1Gj0y+VZSqzv9FP6Uw/CCcnU= )
-			86400	NSEC	*.dev.jchen.pl. A NS SOA RRSIG NSEC DNSKEY
-			86400	RRSIG	NSEC 5 2 86400 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					jKO28W6a9mZvIWwdAeizq9iO9s90U7WHet7s
-					AezD+6gFzz1oUc7U0wOvnCcpUDv8n2xBdrXg
-					uJSaKnpV4hLsZuTP0He3RE+i0he+ea1H11H2
-					Q/S0hEmwM0HdxSqyXdRRVOONkTZ/jA6XogLw
-					zypJZlFLjUgflxtiKDu33++gAHo= )
+			300	RRSIG	A 5 2 300 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					BDXcsjTLxmgNhx77veBD4lfgMzyDnLO7fyZN
+					TZ8u3b3+82WVGuocM9L+27NnOAlBxnDC6SuO
+					ItrCTzt014Ke81JIplwESDbSMKPbFZHKElxJ
+					8SPUZAXsEGa7FnUCVB+tmnYgbqv9rHCc2jyP
+					Bg6Y/PI7ubFUIu7sOKzeU1YYcmc= )
+			300	MX	10 urmom.bsdlp.net.
+			300	RRSIG	MX 5 2 300 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					h+fR1jyIkKCa2k30DhXm5zuuzDjh8QKDY4Q3
+					nrlkNWUBdpb5nLgt0e+/DEKkhr4WQOO9Tk9f
+					dHaJHzRESKzieowNubjxBNKezP7TfXZ5jqXu
+					vRYtcAbHkjm2ZwgIGN25MmeEYyzybydlhTYM
+					NRluxSrlY87/pjDiL71cleICW8Q= )
+			86400	NSEC	*.dev.jchen.pl. A NS SOA MX RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					F5Sl9U2a5rdZzwDvDUfCN1yJ/kftSTN68CMK
+					648i/1DEyR6tNGEgD7Eyfq3J3EmvTix6Qo/O
+					8zMJsG+oLOEenC8qZ7XiPuSfwHx7Bu7A7vXb
+					+kViGsggJk3lamvgTZZ7dbj02Cx79ldkhQjb
+					bDfl/0+v8m+fbYCNYUX1Havv+YQ= )
 			300	DNSKEY	256 3 5 (
 					AwEAAcLCG/Xl2d08+FnbIT9YMn73K/GX5y78
 					LFx75SogbfaqqUHomsThg47L/CffMmn4PVEl
 					8WYjn++dPyzqBx1vz+MFEr48Rih2GPTdtEMZ
 					8JWK+CrsG7mrNj264M/sXCNDc4KmKjrJciFY
 					NuFue0cyAFpZN4cmmHh0pUFMkYa2iHZ3
-					) ; key id = 49353
+					) ; ZSK; alg = RSASHA1; key id = 49353
 			300	DNSKEY	257 3 5 (
 					AwEAAcLuBZ2yhR380htKCHs2oqjagaqft4Ng
 					PGbxjBE78izwK8KQPg6KR3qLKYk6vMifrfDv
@@ -57,51 +65,51 @@ jchen.pl.		86400	IN SOA	ns1.sjchen.net. noc.sjchen.net. (
 					RmspQHVX/tvY317j8/3uYqrBazJH8gA5nQ8P
 					AWIE+8rm3avbO/kFHhHYcuC0EXL31X736UFC
 					DN0=
-					) ; key id = 36652
-			300	RRSIG	DNSKEY 5 2 300 20130404220730 (
-					20130305220730 36652 jchen.pl.
-					p0nIN3QkInvEr0Y7rYyhuEsnItGH3H3nASOJ
-					36Oz/Vwue/xFuvmZUYqjaW9US5U488Sk38xj
-					ZaMzGIvOYPzqb6nFre38ipwgrhNre2hYIyv0
-					iU/KBwIV3NGFWeqbGBqOarOW81ewL269rTtY
-					e+gje+kspHC92XPlqNglwsQ/xG5M213xVRf9
-					MSc2YHMbzV3VxXhtoCbsAW3MzY0nVQYmfg== )
-			300	RRSIG	DNSKEY 5 2 300 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					S5+0fL8vYdTG1KJBIjZ2wNjR8DbYBehdtw/Z
-					plU8PuF/ZeT9TJRHME9LBsjiD/wPp5BRDVpD
-					m3TB9uq1ZMOjXR+MzKnA8MA16cmY8cd1b1O4
-					XPI2Dk78A3y8tiyUJ6qOQC8YX/vM2ncfj/c2
-					txCkwosELJzqnjiU919Rm3/GRBA= )
-*.dev.jchen.pl.		300	IN A	74.222.3.223
-			300	RRSIG	A 5 3 300 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					LchWUxwU7/kRhbLj7JC3dheoopKYYDBogal/
-					TK7mOYchTuusmgXYhqi3x2e0yhLjmUlW6FTH
-					cKW3Usi9BhNAbzJnfNDL4f4Sw2TbfIJYpEaD
-					wKqCJ5RbQ4MOdKF8GbCwuZiUQcnLM4rMVv46
-					O9hfyV3K618U973JR0RA58wIcCg= )
-			86400	NSEC	www.jchen.pl. A RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					WJGBEU0YGZcnfOAXfUlasRwGbvyJeoQ6ubcn
-					v8fbKMt6DQeaWrSv+Dl+wDy0JO3wwk+sBcBJ
-					kiB5P0pWznji9rYOnC8pHfvtfiuO2OuEmK8c
-					gmgNGQxTNMuQ4vJRY36oBA85Di3D0LjKkXtq
-					9TJNHu8IqwLrq1E1Lacv+9DB43w= )
+					) ; KSK; alg = RSASHA1; key id = 36652
+			300	RRSIG	DNSKEY 5 2 300 (
+					20140419185850 20140320185850 36652 jchen.pl.
+					Wq93sBNvCuzRGgAodxeL2AW9EfR34kbnVxnu
+					gxwSklOGHpaxQqNxGN5bik0mHRXNJ7FW08sP
+					Z01kB62ZBOQR1uK0k7W/O61L+hpg3L8oZoaX
+					5yh5IixhXXCuSE3yIlOQqRZgyG+42VMVe1cv
+					btK1fBesZWOXGvqHfikJ0SHUGUxaiuSkIfMP
+					8c6lsVM5AGysamK6faL7B+gJYHDoAthnhQ== )
+			300	RRSIG	DNSKEY 5 2 300 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					n6Mjy2OAB+3AsBMVbI1J2O+GLDjPs/AQLSTW
+					itdROgrmJ0HAiHL0YeHw0MZywKiWciD7ayb/
+					zvWO6QBxBhMOmtB2IWFqTDr43n8K1KxD6A4W
+					GBp0mx+jR8E2ws35nBZjuAFhZmreA3fDm+hi
+					jP/csyxpkEl4yhxzRDI3JdBbhT4= )
 www.jchen.pl.		300	IN A	192.95.25.41
-			300	RRSIG	A 5 3 300 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					hlLqhkyvWR+8Cf8IzOAzJZQ1jsqgAF4XHsz9
-					WGFo+QFcCfzKCAclDx1KR/cYuROy8UMQgmYW
-					qtDQHeD2y+kYWfuca5N11e7mgU5xW7rjh8Rs
-					Qx7MF8lMBhUMCFelmep+xALZOgBOBirOSsSX
-					2/GvjUdwzKk2xGI7BA4FxbvSKCk= )
+			300	RRSIG	A 5 3 300 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					in3ElT1uHrt6i1sMEwpH41jk+Y+DL1IvfqsG
+					IIt4pLZFg51GhAc9/zo2MTweXJphzB0L8KG1
+					a+x9ms4VB2jFpjpPf6EL5IOMDkE3bkGZUs6K
+					WN6/rLQO4H/siOw2XN4nfsF4FoFy6VTxXzGW
+					H3E/vVOMzIPOsPrm01B04uxaAoo= )
 			86400	NSEC	jchen.pl. A RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 20130404220730 (
-					20130305220730 49353 jchen.pl.
-					Ls8mLsdRdd01ZCgp8Pv/P6Sc4zkiCwhAvbjZ
-					Xo9wVbuLgJY5whJRjgqzam+Y+ioLDQzTC2mN
-					XaLSpjK3dc2yQkCkitqNqTLlFp+9KQYTyjec
-					g5pner9F33EHiSNLuYtzms4MSwNdOUmDfI60
-					EruKwEBrjnuKeuFLeRSp+Ca1ygc= )
+			86400	RRSIG	NSEC 5 3 86400 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					qeEqeV1wN+5EktoXnBPNx5VY8BXmZ0+FEheq
+					CLosr8OayQXzzBNQE/QQmmsrnkn6aePNaoCJ
+					ZCCxXSvCN+aBMJDOx1K6VeNAsHbvCHwx/Wq6
+					gZLAsuQV41ubty6UVQja2QhLwBJUtnDSTj48
+					eikQIZHxLJczt/hC8SQ9ZrhNgiI= )
+*.dev.jchen.pl.		300	IN A	74.222.3.223
+			300	RRSIG	A 5 3 300 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					qrROdOgzktj2/TnDPLjyhHFJZJKLhl6uia0e
+					NeJ08LyQEEXX6mH2WPDuvMrOF0aEUYGWe/8I
+					67veb1K6eoukrSuiwNMLXIsjEzafcXewrQAl
+					OJcgDdAlBRTZ+Hb4W7bvf5WeeaI7xLXW5/XF
+					EhWjGdZnl8/svrqSkLTdhztpPOs= )
+			86400	NSEC	www.jchen.pl. A RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20140419185850 20140320185850 49353 jchen.pl.
+					CAFMD4mxWqsy2lh6b+HsL9n0n0mOHBdBEEAh
+					IR4ReS91sqIDyCrIQHs/yXq58LEomfr2F4bz
+					Bi6mapxLJkiLVqcVE3cHWHNfpAzPisUICuGo
+					cItOReJLIG5D4mY4fCIbCX36nqOY5THvg2Cb
+					lh1Z+1+KYrPEeiZAurMuFLC5WIg= )

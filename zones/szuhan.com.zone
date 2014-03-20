@@ -1,9 +1,9 @@
-szuhan.com.				      86400 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013013022 14400 14400 864000 86400
-szuhan.com.				      86400 IN NS	ns1.sjchen.net.
-szuhan.com.				      86400 IN NS	ns2.sjchen.net.
-szuhan.com.				      86400 IN NS	ns3.sjchen.net.
-szuhan.com.				      86400 IN NS	ns4.sjchen.net.
-szuhan.com.				      86400 IN NS	ns5.sjchen.net.
+szuhan.com.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032016 14400 14400 864000 86400
+szuhan.com.				      86400 IN NS	ns1.linode.com.
+szuhan.com.				      86400 IN NS	ns2.linode.com.
+szuhan.com.				      86400 IN NS	ns3.linode.com.
+szuhan.com.				      86400 IN NS	ns4.linode.com.
+szuhan.com.				      86400 IN NS	ns5.linode.com.
 szuhan.com.				      900 IN A		173.208.234.93
 szuhan.com.				      1800 IN MX	1 aspmx.l.google.com.
 szuhan.com.				      1800 IN MX	5 alt1.aspmx.l.google.com.
