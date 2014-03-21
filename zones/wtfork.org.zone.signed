@@ -1,70 +1,70 @@
-; File written on Mon Sep  2 02:20:14 2013
-; dnssec_signzone version 9.8.4-rpz2+rl005.12-P1
-wtfork.org.		86400	IN SOA	ns1.tonkat.su. noc.tonkat.su. (
-					2013010728 ; serial
+; File written on Thu Mar 20 21:24:51 2014
+; dnssec_signzone version 9.9.5
+wtfork.org.		86400	IN SOA	ns1.linode.com. noc.tonkat.su. (
+					2014032021 ; serial
 					900        ; refresh (15 minutes)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
-			86400	RRSIG	SOA 5 2 86400 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					DHoKiameyHYr9skQWDSLNjE5+nh/SXns/XtN
-					qf2NrxI6FKMBNzE4VS039vL4QqqErJBoSQja
-					XTIZpdu58ApjzKe9ZCDBbjx4IVt++34j2OYw
-					kHbgUPPGGTC4ibN9EnEWKRi8Xzog052E3HQZ
-					IiWvOPLLoenlELWc7FnPUrO/poI= )
-			86400	NS	ns1.tonkat.su.
-			86400	NS	ns2.tonkat.su.
-			86400	NS	ns3.tonkat.su.
-			86400	NS	ns4.tonkat.su.
-			86400	NS	ns5.tonkat.su.
-			86400	RRSIG	NS 5 2 86400 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					ZK8rSNnPsGpxlEx4TCsu4xavSb4iyF8xwFb3
-					FNfnTBeta8J3A/mBcaXJ9hb9qhQXGtvsUcvN
-					ASNz4NhhRkqs8T2XeZeEwx9ezyEVBvy+Qe4O
-					D44EN7FtoQiPvgTleA4tdyeMNnE6w0aB8UaV
-					6liMvlcOM4C1tZOIcd5eqOpPPWQ= )
+			86400	RRSIG	SOA 5 2 86400 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					F4kkrLbGo3f7Sn7+RTwQyisiXaG/qFDWQ9jQ
+					JzF10aetADSJOQWO7TxPsuH0b8sqfgE2me9a
+					pW+TIAqd/BKbr95QFzlo5fP4oVboUbBsV+Je
+					CAPh0rezhyz1aO+C3EGvy5fF23xtyj6JtUfc
+					Y5krwzqT5WdrToTfCPP5hEY2HMw= )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 5 2 86400 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					VSn7smWIqKU2zc+u998GqOeh8E7aJw01QtXe
+					dQskWZNVw7w500RE6h0zBzYTGK9Zlk52jDpQ
+					fBc9ZSIokJZPo8hbWDXZi7/1JPoB23p9Z+yE
+					GkPmt4wR45RZkm/kiYnU51H4iAMYSwprtNNI
+					RjCochrliLtWNU+vcMBKt9Wkn6E= )
 			600	A	66.228.43.47
-			600	RRSIG	A 5 2 600 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					qnfBPKAX1+jKi1RvjBkdJ1DTTFRwl1JmXZ6l
-					uJODZrP9Vzj3Dn2Nk6yM+hkPxVIUb5ylJhqI
-					GS/PmuHBWO6+k8Z5wtBppBVy3s0qO+3hGY6l
-					a92f1+3bdeNXIvnt0EuRl/jQWTB2chOIZgWP
-					Jl8YWXjz1JnCzVqdAvnTuczxPFc= )
+			600	RRSIG	A 5 2 600 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					Of3Wti1JxvkFcw9BOfeeVldaLWq4x9bsuRQ1
+					6JxmjA3QA67Wp7OEwTEwzByHuagYfWBSPDCI
+					eQe5awc4LeFw4x2J4c/CudDJhf6XepxBPtMB
+					0OXY0NRn1KfFrgKWsMqEomq3xWlcOkQOdTiy
+					HR/kdjBDGMb5iqfvaI31A/pnZZY= )
 			600	MX	0 mail.wtfork.org.
-			600	RRSIG	MX 5 2 600 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					n9f97PT+bef8CAhELKX5oPhbALocyuv7MALm
-					bXhs1k9XdZfUgMgP0ZkmDhkkmpYtcTh2FTFu
-					eLRb9Fa41gMdiDFREGu5XvjUMhX19GVYSqa6
-					17WSvvcI4hkn2KHjDc+XUbz5KmXI/N2NTPZA
-					0QhrV6VgHIRHUxvfudKQRiVOviA= )
+			600	RRSIG	MX 5 2 600 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					hpKkACoTWepnIMjuQiAWNo8C6yJfWfphmA5t
+					DQcQ741UvXOFXsBOSxgws7U1xyZTmKEx8xtu
+					u1hZIET6fk6wlxztwc8i8L8SolH3mWtjbzVD
+					Fnt/AhakV2lLtM90/KMVsMZPv8+qJhqZafju
+					3LcMW3DMTsGxZbh3zLz1U8VgdMU= )
 			600	TXT	"v=spf1 mx -all"
-			600	RRSIG	TXT 5 2 600 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					oQLVKHvZdhUCKrMO0qAkbwEGO94Fb3piPA/C
-					2jWhJOj9Ikj3XxQcVbs964KtDGJ2a9MlSB4V
-					03ZI8X0caLd+kUqUkbFp1qXutD4bnGUTi4hC
-					/otwOYDfGK6dZFi6q/UQirnhvIxPxQWLc/2h
-					CAr+11ld7h4KROrRcA7kEsN7Xuo= )
+			600	RRSIG	TXT 5 2 600 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					aDNxTt9zgbxQY7KAu+IDzxL3IeG2JIDKkdS4
+					rQ4j1A6/MALrLwH+l2aAXjkMRqJwCb/Cx30X
+					kwFT92T+MlSznU8O4yXZlI7hJBM0dwaJLeKZ
+					jcULgoDeuU0NgEYydYr4fxBt0/3Y8KUQwqut
+					H61AQ4+bPgR0K6AhCiIZT+i6Djo= )
 			86400	NSEC	mail._domainkey.wtfork.org. A NS SOA MX TXT RRSIG NSEC DNSKEY
-			86400	RRSIG	NSEC 5 2 86400 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					lA0ZSuu9C8COaL/qUfnNl6rTnO9XO9Poq2W6
-					w3dqAGncDxUv2OkfrjGCD8VEXCLByPiYLPbA
-					xTyf6KcO6neLUw6a+DJ70u5FwiiuIqdRgzYG
-					X3kXnqUgEBq7AxSd8U35WamOElmJFYK9EQt5
-					fhjhzm3PZ5grpfF2633rzjimS1k= )
+			86400	RRSIG	NSEC 5 2 86400 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					Qj24Ogkzh9bdVNxWtMVJXjr+2p2he8zgyD8w
+					ziOc5u11lHkV3sGTqd3hEeDrp95Vc34IY2/W
+					mqSAvvv7PGW27fRZ4SQV0RhkIq4c/EGGGL1u
+					+vpSTHFPuXcC8Q520vK8ZYirnkXUHFksZ4+d
+					2HP1pvHaZ1reihiyTiHZzgfNnIo= )
 			600	DNSKEY	256 3 5 (
 					AwEAAbcq3ZjJuRfDHFTGKjwbEoKoAkq3w127
 					rOlmsXWmy4Tvu7J7ycVJf0BMiiWZvwHxSDdb
 					NpjF+MZAebUj3iml91ZC8QaIGE0vJsBpfq87
 					SqJMYK4/yQpHh91mapqGvXn26N7mvts7dJvG
 					y+kl5bvFwgowatoaeNCwODLZU4dNcEs/
-					) ; key id = 2745
+					) ; ZSK; alg = RSASHA1; key id = 2745
 			600	DNSKEY	257 3 5 (
 					AwEAAbnXciNVcp7T12kxr1bjC64ElTq6IC+r
 					9YmaIbprKVGNZVaPA563ayQYCM1DBvxJMrlm
@@ -73,51 +73,51 @@ wtfork.org.		86400	IN SOA	ns1.tonkat.su. noc.tonkat.su. (
 					MwNK3OvaB9ivQmFftkWmjSwVN0TGTERUh5hl
 					wpsOaTkqk65XGrJBG64nKn7fMK/NabUWfw5O
 					w2k=
-					) ; key id = 56578
-			600	RRSIG	DNSKEY 5 2 600 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					K63do8S5W1yrShAjYATTSTMVx+1VGsyDRknz
-					JBOyiveaQJYqtAu+PicTzGrNWa9nlIkupdhU
-					JwDIesXZblVeUbwuCqQrEQZwu1n2FLFdWHyp
-					5o2YTwJuimFWKg3Q0ylAZiBD4rsVDjoveDhz
-					X5qtJm+17pf9XyTeMqajFVrV3yQ= )
-			600	RRSIG	DNSKEY 5 2 600 20131002052014 (
-					20130902052014 56578 wtfork.org.
-					s1SKfooYA78Lzuy2NDNvZjkhHtCACgoLt5+u
-					ySeEiyk2wjJreiHMziFd/ofQRACParBe9S2g
-					6u/2LohEoFP0EpacxPQubLiNOvnnufrB4xel
-					K/vfGp1D9qQbkNSyNRGaLdlwWwmMrD0/1dsF
-					Dn39kEObaagzdEQ0/mN9PQ5weifEqIRxx3ig
-					4IIFl4vz1clLgwFO5m9mWmg+M/DSZZ5N7A== )
-mail._domainkey.wtfork.org. 600	IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dqBKzCx12LAkN7Q5Y8yNdGPxtO428fLAM4b1JuOS0lNrypUJUZi2qCAmV46lzqB2RDMZWoPESH7CQxcobLkhJdGTMoRjm/KI+PxwRbH8PTKtP1hDxCGvcJThmwZhyZ6M/z7rFhMj8SjDcl6EndeyN0LgKvNj9OwufPi3tK4powIDAQAB"
-			600	RRSIG	TXT 5 4 600 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					jgJNkmZcpWmSV2Umb44Aoz0w1az7BqDyAsZx
-					aIfNRC8wL4bpA2t/xuzyJrNBr7/2i03Mr1m+
-					OrWQAOyfETNT0jt+KHvymp4RvMOaxSASDB1I
-					QAr0jFuKoixWUDjDlfhGz6b1vbRRgWM/k6p9
-					zwDYO4t8n+JXw0H8RQ4R3+QQyGw= )
-			86400	NSEC	mail.wtfork.org. TXT RRSIG NSEC
-			86400	RRSIG	NSEC 5 4 86400 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					MIkCncoe0JKd8Xer2w0G8t4F6KAsqrRVCPjX
-					2dB5nPDXsm0R4Jlqgmk6E3XiDVIIrDHGqNkt
-					UoCx9q0E86sOzdrk3A+JY2SM/JfnZ/ezVtU2
-					TH2Uy4GVtgVR8ecWzDwHSGCOUEksPpsXjln3
-					9NjbCAVEwN8D3X0cjxA+LgXPXIc= )
+					) ; KSK; alg = RSASHA1; key id = 56578
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					X8vL0AN/Ze+5qKn46eNFXz2F+lVKfZAIDsli
+					eVERe4op2J1vkUaXaniOXHuMI3AX5I/KhCZv
+					IQhUw7syVkzNPakW4xFp/tdQ9tIosHsq76dA
+					tnh7hgkqnSsHCJO22rZklkivdml963IHccDI
+					bc+IscErcHecu0NlseKhtkEID4w= )
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140420002451 20140321002451 56578 wtfork.org.
+					aw878kA/cVbqLQqPhw4MTd5fiI0MRQkkBOxz
+					Fo5OaUZnEVQm31bdYBBpCVpiPzOcqEYAMXuc
+					A+2h0q5BvYJ3ayAta9fxccvvL4rdQscvYEQA
+					LWW5ugxXV1Z7pW4VbUsBM2B498+RFXz8Xa9I
+					Bg7+qTbemRtYAsE3/VbX2LgQVN6/OhmWZ1X/
+					koQgpHgu7F2X11Ptv2zFBrqrY4O5XWQ9jA== )
 mail.wtfork.org.	600	IN A	106.186.112.27
-			600	RRSIG	A 5 3 600 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					GIZDcfCahz0+NNNtjyI+B2LJp68yJo/6debA
-					r4oI3taujQJ5pPPW83/cebMV9Bx7kqDBHzoy
-					P2ZdFhHt46EkdWDxDEPAx9g3SPng1WsDrfAk
-					PTE6SRYq0/06Qb8433s3YRJDMYUrXOTLUAz+
-					9/ski6RRIvJedayTlvLdsmjk8Ik= )
+			600	RRSIG	A 5 3 600 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					WAznKS8C3FTmxTVUI8iG3v/AnXI20UH5AJ2g
+					RiW78AOWjR6irIwtMi3BXW2TIzAOw5e2Qq7W
+					nEyjtubTmVjUKV5RYGp1wkI7h0sUX6yhHCIL
+					oRWCqp//UUQidIuUCloJihNvx8aUgak1qafn
+					2XHwPY0DIFzGaVymWOmTCo9W9cc= )
 			86400	NSEC	wtfork.org. A RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 20131002052014 (
-					20130902052014 2745 wtfork.org.
-					ntLi5aU9lk9vq8RM7iQ5ZngBlKkmbyz/s0vG
-					HmXtKsSbc2f4nGdMyAL0upimXr50FLDFbzAG
-					I9r3ZgBcwa8q6W0Kae72+ElYrjhl92qhq8RU
-					dNCygefC5yGZu8Lhj/TI3lMiRgWExKS/8VnK
-					xq3A2tm8km2a+ByP8KV5dUWRJpo= )
+			86400	RRSIG	NSEC 5 3 86400 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					NQZ2mPe1Rs2ytdPHW8zrY/Yd88emtdNKdFTc
+					li2kIsS8It3pZPC0U+NlzzF4bqw6c0w8w6Ib
+					25XVzbMQGP9lrtaV/hBLX4wfZdqD7rCUmksc
+					v9FvoovA9emqpH6jSt/LjgmR88AGIo3FkaXP
+					vEuGd9H7OYwlQ+245xfVWuGamGo= )
+mail._domainkey.wtfork.org. 600	IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dqBKzCx12LAkN7Q5Y8yNdGPxtO428fLAM4b1JuOS0lNrypUJUZi2qCAmV46lzqB2RDMZWoPESH7CQxcobLkhJdGTMoRjm/KI+PxwRbH8PTKtP1hDxCGvcJThmwZhyZ6M/z7rFhMj8SjDcl6EndeyN0LgKvNj9OwufPi3tK4powIDAQAB"
+			600	RRSIG	TXT 5 4 600 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					sZtXPDX+R7VZwZ4DQFXg+/ucDKOCStErTyJN
+					Eleh5Kio4rl2hU7BBk8C2C8eSvvnka1kEPG3
+					qsgQstCLZ7McSfFxxR3OLQl6P3DOfRZCZgiC
+					KWtVcwYJxFps3RvhBP2K5U8S3W6Sur/auI3s
+					+Gwy80wM1vH2RxVrO2gyAfQihqc= )
+			86400	NSEC	mail.wtfork.org. TXT RRSIG NSEC
+			86400	RRSIG	NSEC 5 4 86400 (
+					20140420002451 20140321002451 2745 wtfork.org.
+					Z4g6ZwWk/qXadbU+4WCRaoqLzoq+aBTnJuD/
+					h/h/ODzi79zLO+5upzj5gn3q4ZAgXRiiqXXo
+					qerjk87qzq8oBPCnM/Kc6CToshl4NgvIv9J1
+					KWl6Gd0TmlfpIQaUNgKIwVTx7sOTaMm7j+VV
+					k7lVWJKqyCvq00CHJYBydSqv3TI= )

@@ -1,9 +1,9 @@
-wtfork.org.				      86400 IN SOA	ns1.tonkat.su. noc.tonkat.su. 2013010728 900 14400 864000 86400
-wtfork.org.				      86400 IN NS	ns1.tonkat.su.
-wtfork.org.				      86400 IN NS	ns2.tonkat.su.
-wtfork.org.				      86400 IN NS	ns3.tonkat.su.
-wtfork.org.				      86400 IN NS	ns4.tonkat.su.
-wtfork.org.				      86400 IN NS	ns5.tonkat.su.
+wtfork.org.				      86400 IN SOA	ns1.linode.com. noc.tonkat.su. 2014032021 900 14400 864000 86400
+wtfork.org.				      86400 IN NS	ns1.linode.com.
+wtfork.org.				      86400 IN NS	ns2.linode.com.
+wtfork.org.				      86400 IN NS	ns3.linode.com.
+wtfork.org.				      86400 IN NS	ns4.linode.com.
+wtfork.org.				      86400 IN NS	ns5.linode.com.
 wtfork.org.				      600 IN A		66.228.43.47
 wtfork.org.				      600 IN MX		0 mail.wtfork.org.
 wtfork.org.				      600 IN TXT	"v=spf1 mx -all"

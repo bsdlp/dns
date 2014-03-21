@@ -1,9 +1,9 @@
-tonkat.su.				      86400 IN SOA	ns1.tonkat.su. webmaster.tonkat.su. 2014022800 10800 1800 604800 86400
-tonkat.su.				      86400 IN NS	ns1.tonkat.su.
-tonkat.su.				      86400 IN NS	ns2.tonkat.su.
-tonkat.su.				      86400 IN NS	ns3.tonkat.su.
-tonkat.su.				      86400 IN NS	ns4.tonkat.su.
-tonkat.su.				      86400 IN NS	ns5.tonkat.su.
+tonkat.su.				      86400 IN SOA	ns1.linode.com. noc.tonkat.su. 2014032021 10800 1800 604800 86400
+tonkat.su.				      86400 IN NS	ns1.linode.com.
+tonkat.su.				      86400 IN NS	ns2.linode.com.
+tonkat.su.				      86400 IN NS	ns3.linode.com.
+tonkat.su.				      86400 IN NS	ns4.linode.com.
+tonkat.su.				      86400 IN NS	ns5.linode.com.
 tonkat.su.				      300 IN A		192.95.18.8
 tonkat.su.				      3600 IN MX	1 ASPMX.L.GOOGLE.COM.
 tonkat.su.				      3600 IN MX	5 ALT1.ASPMX.L.GOOGLE.COM.
