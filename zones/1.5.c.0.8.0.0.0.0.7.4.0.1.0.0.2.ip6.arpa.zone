@@ -1,9 +1,9 @@
-1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2013041415 900 14400 864000 86400
-1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns1.sjchen.net.
-1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns2.sjchen.net.
-1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns3.sjchen.net.
-1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns4.sjchen.net.
-1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns5.sjchen.net.
+1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032021 900 14400 864000 86400
+1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns1.linode.com.
+1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns2.linode.com.
+1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns3.linode.com.
+1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns4.linode.com.
+1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.     600 IN NS		ns5.linode.com.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa.	600 IN PTR bsd.pw.
 *.2.0.0.0.0.0.0.0.0.0.0.1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa. 600 IN PTR home.bsd.pw.
 9.1.c.b.c.a.e.f.f.f.0.3.0.a.a.c.1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa. 600 IN PTR le.nerdrage.biz.
