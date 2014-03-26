@@ -1,0 +1,8 @@
+sjchen.us.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032015 14400 14400 864000 86400
+sjchen.us.				      86400 IN NS	ns1.linode.com.
+sjchen.us.				      86400 IN NS	ns2.linode.com.
+sjchen.us.				      86400 IN NS	ns3.linode.com.
+sjchen.us.				      86400 IN NS	ns4.linode.com.
+sjchen.us.				      86400 IN NS	ns5.linode.com.
+sjchen.us.				      300 IN A		64.250.115.24
+www.sjchen.us.				      300 IN A		64.250.115.24

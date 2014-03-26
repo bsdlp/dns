@@ -1,0 +1,27 @@
+derpify.me.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032016 14400 14400 864000 86400
+derpify.me.				      86400 IN NS	ns1.linode.com.
+derpify.me.				      86400 IN NS	ns2.linode.com.
+derpify.me.				      86400 IN NS	ns3.linode.com.
+derpify.me.				      86400 IN NS	ns4.linode.com.
+derpify.me.				      86400 IN NS	ns5.linode.com.
+derpify.me.				      300 IN A		66.228.43.47
+derpify.me.				      300 IN MX		1 ASPMX.L.GOOGLE.COM.
+derpify.me.				      300 IN MX		5 ALT1.ASPMX.L.GOOGLE.COM.
+derpify.me.				      300 IN MX		5 ALT2.ASPMX.L.GOOGLE.COM.
+derpify.me.				      300 IN MX		10 ASPMX2.GOOGLEMAIL.COM.
+derpify.me.				      300 IN MX		10 ASPMX3.GOOGLEMAIL.COM.
+calendar.derpify.me.			      1800 IN CNAME	ghs.google.com.
+chi5.derpify.me.			      300 IN A		192.95.18.8
+docs.derpify.me.			      1800 IN CNAME	ghs.google.com.
+forum.derpify.me.			      300 IN A		50.116.59.102
+gtv.derpify.me.				      300 IN A		184.173.171.250
+mail.derpify.me.			      300 IN CNAME	ghs.google.com.
+music.derpify.me.			      300 IN A		173.208.234.91
+nc1.derpify.me.				      300 IN A		69.85.89.101
+nc2.derpify.me.				      300 IN A		69.85.88.224
+nc2.derpify.me.				      300 IN AAAA	2606:df00:2::290c:6232
+nvm.derpify.me.				      300 IN A		108.174.51.114
+pastebin.derpify.me.			      300 IN A		173.208.234.91
+ts3.derpify.me.				      300 IN A		108.174.51.114
+wiki.derpify.me.			      300 IN A		37.247.49.106
+www.derpify.me.				      300 IN CNAME	derpify.me.

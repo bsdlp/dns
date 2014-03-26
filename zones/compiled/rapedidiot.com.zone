@@ -1,0 +1,30 @@
+rapedidiot.com.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032021 14400 14400 864000 86400
+rapedidiot.com.				      86400 IN NS	ns1.linode.com.
+rapedidiot.com.				      86400 IN NS	ns2.linode.com.
+rapedidiot.com.				      86400 IN NS	ns3.linode.com.
+rapedidiot.com.				      86400 IN NS	ns4.linode.com.
+rapedidiot.com.				      86400 IN NS	ns5.linode.com.
+rapedidiot.com.				      300 IN A		66.228.43.47
+rapedidiot.com.				      1800 IN MX	1 aspmx.l.google.com.
+rapedidiot.com.				      1800 IN MX	5 alt1.aspmx.l.google.com.
+rapedidiot.com.				      1800 IN MX	5 alt2.aspmx.l.google.com.
+rapedidiot.com.				      1800 IN MX	10 aspmx2.googlemail.com.
+rapedidiot.com.				      1800 IN MX	10 aspmx3.googlemail.com.
+calendar.rapedidiot.com.		      300 IN CNAME	ghs.google.com.
+docs.rapedidiot.com.			      300 IN CNAME	ghs.google.com.
+fucking.rapedidiot.com.			      300 IN A		208.64.36.125
+gtv.rapedidiot.com.			      300 IN A		72.9.154.226
+haha.rapedidiot.com.			      300 IN A		69.85.88.224
+haha.rapedidiot.com.			      300 IN AAAA	2606:df00:2::290c:6232
+mail.rapedidiot.com.			      300 IN CNAME	ghs.google.com.
+maps.rapedidiot.com.			      300 IN A		66.228.43.47
+nvm.rapedidiot.com.			      300 IN A		37.247.49.174
+pz.rapedidiot.com.			      300 IN A		173.208.234.91
+ts.rapedidiot.com.			      300 IN A		5.45.182.4
+ts.rapedidiot.com.			      300 IN AAAA	2a02:e00:ffff:4::30d9:3ac0
+ts3.rapedidiot.com.			      300 IN A		66.228.43.47
+ts3.rapedidiot.com.			      300 IN AAAA	2600:3c03::f03c:91ff:feae:e071
+utterly.rapedidiot.com.			      300 IN A		208.79.218.241
+utterly.rapedidiot.com.			      300 IN AAAA	2605:6f00:9000::5153:e79f
+voip.rapedidiot.com.			      300 IN A		37.247.49.106
+www.rapedidiot.com.			      300 IN CNAME	rapedidiot.com.
