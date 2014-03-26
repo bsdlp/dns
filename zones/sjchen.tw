@@ -1,11 +1,32 @@
-sjchen.tw.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032016 900 14400 864000 86400
-sjchen.tw.				      86400 IN NS	ns1.linode.com.
-sjchen.tw.				      86400 IN NS	ns2.linode.com.
-sjchen.tw.				      86400 IN NS	ns3.linode.com.
-sjchen.tw.				      86400 IN NS	ns4.linode.com.
-sjchen.tw.				      86400 IN NS	ns5.linode.com.
-sjchen.tw.				      300 IN A		192.95.25.41
-sjchen.tw.				      300 IN DNSKEY	256 3 5 AwEAAas0ySiPDNedXp03H+JGiI1HsjpawX5s/wGM3k85T/EaTN25oQaX LtzNRSC1xbNQid6/6IWveEn39wWb+306jUwiUPASsyfhe0Apmb0gyUjU LkWrDoL3AZyN4AWPXpjec3c0fEOogqHjraWJgPvpTV1UO0zNj3IsXU+s DNotGDUp  ; key id = 11955
-sjchen.tw.				      300 IN DNSKEY	257 3 5 AwEAAb5iNnQT92U8iMbAT1AshdZnMAiMmVv0UqzdwoU7qTUrL+ozBJQy lS20vlii0nXBHWVF8I8oHT7WRyLLAUqN/NDNyxYfJYPt/OKJKxuVsRRH /zCXwN9lUgSO1ypoBF01f3h2SB2IQ3fj+IGyrf1xG1RIuZe/3rZm/vjS T1mbP2AC07Kjt6q1ToJv3eTIJpPFi3IbPaWRGAzD6GaOyf21SSc=  ; key id = 52027
-mail.sjchen.tw.				      300 IN A		192.249.57.155
-www.sjchen.tw.				      300 IN A		192.95.25.41
+$ORIGIN .
+$TTL 86400	; 1 day
+sjchen.tw		IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014032016 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 300	; 5 minutes
+			A	192.95.25.41
+			DNSKEY	256 3 5 (
+				AwEAAas0ySiPDNedXp03H+JGiI1HsjpawX5s/wGM3k85
+				T/EaTN25oQaXLtzNRSC1xbNQid6/6IWveEn39wWb+306
+				jUwiUPASsyfhe0Apmb0gyUjULkWrDoL3AZyN4AWPXpje
+				c3c0fEOogqHjraWJgPvpTV1UO0zNj3IsXU+sDNotGDUp
+				) ; ZSK; alg = RSASHA1; key id = 11955
+			DNSKEY	257 3 5 (
+				AwEAAb5iNnQT92U8iMbAT1AshdZnMAiMmVv0UqzdwoU7
+				qTUrL+ozBJQylS20vlii0nXBHWVF8I8oHT7WRyLLAUqN
+				/NDNyxYfJYPt/OKJKxuVsRRH/zCXwN9lUgSO1ypoBF01
+				f3h2SB2IQ3fj+IGyrf1xG1RIuZe/3rZm/vjST1mbP2AC
+				07Kjt6q1ToJv3eTIJpPFi3IbPaWRGAzD6GaOyf21SSc=
+				) ; KSK; alg = RSASHA1; key id = 52027
+$ORIGIN sjchen.tw.
+mail			A	192.249.57.155
+www			A	192.95.25.41

@@ -1,8 +1,18 @@
-0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.   600 IN SOA	ns1.sjchen.net. noc.sjchen.net. 2014032021 900 14400 864000 86400
-0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.   600 IN NS		ns1.sjchen.net.
-0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.   600 IN NS		ns2.sjchen.net.
-0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.   600 IN NS		ns3.sjchen.net.
-0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.   600 IN NS		ns4.sjchen.net.
-0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.   600 IN NS		ns5.sjchen.net.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa. 600 IN PTR bsd.pw.
-*.2.0.0.0.0.0.0.0.0.0.0.0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa. 600	IN PTR home.bsd.pw.
+$ORIGIN .
+$TTL 600	; 10 minutes
+0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa IN SOA ns1.sjchen.net. noc.sjchen.net. (
+				2014032021 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.sjchen.net.
+			NS	ns2.sjchen.net.
+			NS	ns3.sjchen.net.
+			NS	ns4.sjchen.net.
+			NS	ns5.sjchen.net.
+$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.
+1.0.0.0.0		PTR	bsd.pw.
+$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa.
+*			PTR	home.bsd.pw.

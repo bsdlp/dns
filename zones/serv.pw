@@ -1,19 +1,50 @@
-serv.pw.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032013 900 14400 864000 86400
-serv.pw.				      86400 IN NS	ns1.linode.com.
-serv.pw.				      86400 IN NS	ns2.linode.com.
-serv.pw.				      86400 IN NS	ns3.linode.com.
-serv.pw.				      86400 IN NS	ns4.linode.com.
-serv.pw.				      86400 IN NS	ns5.linode.com.
-serv.pw.				      300 IN DNSKEY	256 3 5 AwEAAeq6HAGLIloyBldffhwcwuQSFPli0prZ4QskAS2bW/QvhrobfW64 oBKohF99VKcorUGoJJDqJSvaLeGWzyHUCKrtaSoj5Hitu8VCb9Q+E/k0 y7WFOnT7ta8W3te2O1101bg3wK1GNxoC/pykTWW6Oeko0mcU/k90+TvD 3iiwE0ojLvkZf0dCUKrxLv6uGOWaWoIB/wyD/qexVLS2D0Q1xIHKBYyY 0JqNY0sGW8mX7XGGTRvnxCvClV9LZyGcV4hL9nb+mWgK2kV8IfgAjP/0 a6g5pncACQ6q/BCh0+PSqcubSZXAsakNMxWzAuVGX8yUTHk+SJIzw5nW E7RsTUYJWv2QnsbkSMezktaJOcHfSO8V7iexd01yNGIac34UXqbqwXla oSX7Z2u5fd+q8M4xwklVKrPZVozAJqcWq56G7/6ySQ8Omv62ICja2Lbx L8oK5peki2RiJx9UveqUfDDjwgZnyBhahhlFUY+WSmFeOH8TRR8rja6h bRnv5SWs2OD5D+N/khmi1WNTaqBjzR+SQbmwkAb+RboF2Dcd9VAK58Yc kYzezoXBxNLvFVmvaIClKI15G4NllAbzdp5nhjHAXCoycskaJ/T0iOC4 B7ylmJjjbDl6N6mXfBqj2IoOJoJp7rvdT7ucsrxMLR+2owGwvbAUxbwX d/YOKbP0XvCWCOID  ; key id = 30810
-serv.pw.				      300 IN DNSKEY	257 3 5 AwEAAcFUj7vvb39/2o7C9u2DXURfMdxswpuGt4xL8lHYP9L99PpRtewv Sg9duHUXMOWWxF4xx8PzQhKX4Zx2VAi407ndzMmZq3DpPBJ1JR+d+img QjxHaCh1NaBNphoARPvMN0fftFKPH7365FfbR2ToWpYvPDMuwejZWjMs m/2LzvkT/pGGkcXtd7aDeulUg851/MuYNrDHhPENwVNtU5e7Zhk=  ; key id = 40051
-serv.pw.				          300 IN A		66.228.43.47
-serv.pw.				          300 IN MX		10 mail.serv.pw.
-mail.serv.pw.				      300 IN A		205.185.123.170
-www.serv.pw.				      300 IN CNAME	serv.pw.
-
-core0.serv.pw.                    300 IN A      198.245.62.165
-descartes.serv.pw.                300 IN A      66.175.210.114
-diderot.serv.pw.                  300 IN A      66.228.43.47
-hobbes.serv.pw.                   300 IN A      66.175.208.138
-l2tp.serv.pw.                     300 IN A      198.245.62.165
-
+$ORIGIN .
+$TTL 86400	; 1 day
+serv.pw			IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014032013 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 300	; 5 minutes
+			A	66.228.43.47
+			MX	10 mail.serv.pw.
+			DNSKEY	256 3 5 (
+				AwEAAeq6HAGLIloyBldffhwcwuQSFPli0prZ4QskAS2b
+				W/QvhrobfW64oBKohF99VKcorUGoJJDqJSvaLeGWzyHU
+				CKrtaSoj5Hitu8VCb9Q+E/k0y7WFOnT7ta8W3te2O110
+				1bg3wK1GNxoC/pykTWW6Oeko0mcU/k90+TvD3iiwE0oj
+				LvkZf0dCUKrxLv6uGOWaWoIB/wyD/qexVLS2D0Q1xIHK
+				BYyY0JqNY0sGW8mX7XGGTRvnxCvClV9LZyGcV4hL9nb+
+				mWgK2kV8IfgAjP/0a6g5pncACQ6q/BCh0+PSqcubSZXA
+				sakNMxWzAuVGX8yUTHk+SJIzw5nWE7RsTUYJWv2Qnsbk
+				SMezktaJOcHfSO8V7iexd01yNGIac34UXqbqwXlaoSX7
+				Z2u5fd+q8M4xwklVKrPZVozAJqcWq56G7/6ySQ8Omv62
+				ICja2LbxL8oK5peki2RiJx9UveqUfDDjwgZnyBhahhlF
+				UY+WSmFeOH8TRR8rja6hbRnv5SWs2OD5D+N/khmi1WNT
+				aqBjzR+SQbmwkAb+RboF2Dcd9VAK58YckYzezoXBxNLv
+				FVmvaIClKI15G4NllAbzdp5nhjHAXCoycskaJ/T0iOC4
+				B7ylmJjjbDl6N6mXfBqj2IoOJoJp7rvdT7ucsrxMLR+2
+				owGwvbAUxbwXd/YOKbP0XvCWCOID
+				) ; ZSK; alg = RSASHA1; key id = 30810
+			DNSKEY	257 3 5 (
+				AwEAAcFUj7vvb39/2o7C9u2DXURfMdxswpuGt4xL8lHY
+				P9L99PpRtewvSg9duHUXMOWWxF4xx8PzQhKX4Zx2VAi4
+				07ndzMmZq3DpPBJ1JR+d+imgQjxHaCh1NaBNphoARPvM
+				N0fftFKPH7365FfbR2ToWpYvPDMuwejZWjMsm/2LzvkT
+				/pGGkcXtd7aDeulUg851/MuYNrDHhPENwVNtU5e7Zhk=
+				) ; KSK; alg = RSASHA1; key id = 40051
+$ORIGIN serv.pw.
+core0			A	198.245.62.165
+descartes		A	66.175.210.114
+diderot			A	66.228.43.47
+hobbes			A	66.175.208.138
+l2tp			A	198.245.62.165
+mail			A	205.185.123.170
+www			CNAME	serv.pw.

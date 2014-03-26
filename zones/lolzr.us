@@ -1,11 +1,30 @@
-lolzr.us.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032015 900 14400 864000 300
-lolzr.us.				      86400 IN NS	ns1.linode.com.
-lolzr.us.				      86400 IN NS	ns2.linode.com.
-lolzr.us.				      86400 IN NS	ns3.linode.com.
-lolzr.us.				      86400 IN NS	ns4.linode.com.
-lolzr.us.				      86400 IN NS	ns5.linode.com.
-lolzr.us.				      300 IN DNSKEY	256 3 5 AwEAAbenN35SZbldtfNMsy/9V2c+DzsT1nchcycNVkpJuDDZDlHaNK4z ym7xPdoLb00PlERqxbVU0mV21ffey6tnN1beHKN7Yzx4MJmiqrPpFedR +LUbL2fcvyx5GoZ4NQWff4eJbbptcNeNwEdJOtFuRQtQtLxSz/yA+ib6 QH2VyVkP
-lolzr.us.				      300 IN DNSKEY	257 3 5 AwEAAcC8AZtn0bPoGLaR244YxJh8zdQEMoxZZsd6TZnFkGkxNzKPTr+M VoPBxDGIx9oCewNbyE6OLk2dsTybP8W+C2loeEwGQAREP0hjGpn1BtMJ BljbBhoWGKD4edPx/stDq+KYMYOHpaYY0laPlsEiwHF9e3ovNOBC9h5R wQZf3FP5EvZob6iHVMaQfk/1wBGthK+PviZM4Jwun1GsvSPMMtc=
-lolzr.us.				      300 IN A		66.175.210.114
-lolzr.us.				      300 IN AAAA	2600:3c03:e000:78::1
-
+$ORIGIN .
+$TTL 86400	; 1 day
+lolzr.us		IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014032015 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				300        ; minimum (5 minutes)
+				)
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 300	; 5 minutes
+			A	66.175.210.114
+			AAAA	2600:3c03:e000:78::1
+			DNSKEY	256 3 5 (
+				AwEAAbenN35SZbldtfNMsy/9V2c+DzsT1nchcycNVkpJ
+				uDDZDlHaNK4zym7xPdoLb00PlERqxbVU0mV21ffey6tn
+				N1beHKN7Yzx4MJmiqrPpFedR+LUbL2fcvyx5GoZ4NQWf
+				f4eJbbptcNeNwEdJOtFuRQtQtLxSz/yA+ib6QH2VyVkP
+				) ; ZSK; alg = RSASHA1; key id = 35718
+			DNSKEY	257 3 5 (
+				AwEAAcC8AZtn0bPoGLaR244YxJh8zdQEMoxZZsd6TZnF
+				kGkxNzKPTr+MVoPBxDGIx9oCewNbyE6OLk2dsTybP8W+
+				C2loeEwGQAREP0hjGpn1BtMJBljbBhoWGKD4edPx/stD
+				q+KYMYOHpaYY0laPlsEiwHF9e3ovNOBC9h5RwQZf3FP5
+				EvZob6iHVMaQfk/1wBGthK+PviZM4Jwun1GsvSPMMtc=
+				) ; KSK; alg = RSASHA1; key id = 53581

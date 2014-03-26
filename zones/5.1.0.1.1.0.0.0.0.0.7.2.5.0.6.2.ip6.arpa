@@ -1,8 +1,17 @@
-5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa.     600 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032021 900 14400 864000 86400
-5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa.     600 IN NS		ns1.linode.com.
-5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa.     600 IN NS		ns2.linode.com.
-5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa.     600 IN NS		ns3.linode.com.
-5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa.     600 IN NS		ns4.linode.com.
-5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa.     600 IN NS		ns5.linode.com.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa. 600 IN PTR bsd.pw.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa. 600 IN PTR burrito.sh.
+$ORIGIN .
+$TTL 600	; 10 minutes
+5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014032021 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa.
+1			PTR	bsd.pw.
+2			PTR	burrito.sh.

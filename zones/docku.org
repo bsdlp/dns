@@ -1,14 +1,37 @@
-docku.org.				      647100 IN	SOA	ns1.linode.com. noc.docku.org. 2014031501 10800 1800 604800 86400
-docku.org.				      86400 IN NS	ns1.linode.com.
-docku.org.				      86400 IN NS	ns2.linode.com.
-docku.org.				      86400 IN NS	ns3.linode.com.
-docku.org.				      86400 IN NS	ns4.linode.com.
-docku.org.				      86400 IN NS	ns5.linode.com.
-docku.org.				      3600 IN MX	1 ASPMX.L.GOOGLE.COM.
-docku.org.				      3600 IN MX	5 ALT1.ASPMX.L.GOOGLE.COM.
-docku.org.				      3600 IN MX	5 ALT2.ASPMX.L.GOOGLE.COM.
-docku.org.				      3600 IN MX	10 ASPMX2.GOOGLEMAIL.COM.
-docku.org.				      3600 IN MX	10 ASPMX3.GOOGLEMAIL.COM.
-docku.org.				      800 IN DNSKEY	256 3 5 AwEAAbnZ9KwVQAFBY7EdqmzGSBBrm2acPRVhE8bnk9iClYOs6PFOBgc7 6Jub+5mngHrZBs0JBgLW5BcxR2mVSEQH1M1LS6wnAPsQXz9GNmYEZQ40 iTpMPF8+iXNFAkexcD5UQFwVJxyNgtjwv3rXuwHYM7rJ8OOI1I+Rhhl1 YaTfu0+3
-docku.org.				      800 IN DNSKEY	257 3 5 AwEAAcBCD44ngynG6CsGlkRy6Vst68Mc5930lXQw7cpuXkV1QaB1byl5 V+iAzrw/dlwwQQO51JKXofmo3qeHcZsb+dXC9AZ1eb3dyTXUtnvD8IXr iiMh5WWWvynm+5+Nvcai9DDgOZ566PSxHnU4IgmG5YBa1nbTQ3y/wcn3 nTb2R1VJhV3ug2kSeW6+hKvUGq3VBlm+0y5luHlmauz5bVHfGSc=
-core0.docku.org.			      800 IN A		198.245.62.165
+$ORIGIN .
+$TTL 647100	; 1 week 11 hours 45 minutes
+docku.org		IN SOA	ns1.linode.com. noc.docku.org. (
+				2014031501 ; serial
+				10800      ; refresh (3 hours)
+				1800       ; retry (30 minutes)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+$TTL 86400	; 1 day
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 3600	; 1 hour
+			MX	1 ASPMX.L.GOOGLE.COM.
+			MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+			MX	10 ASPMX2.GOOGLEMAIL.COM.
+			MX	10 ASPMX3.GOOGLEMAIL.COM.
+$TTL 800	; 13 minutes 20 seconds
+			DNSKEY	256 3 5 (
+				AwEAAbnZ9KwVQAFBY7EdqmzGSBBrm2acPRVhE8bnk9iC
+				lYOs6PFOBgc76Jub+5mngHrZBs0JBgLW5BcxR2mVSEQH
+				1M1LS6wnAPsQXz9GNmYEZQ40iTpMPF8+iXNFAkexcD5U
+				QFwVJxyNgtjwv3rXuwHYM7rJ8OOI1I+Rhhl1YaTfu0+3
+				) ; ZSK; alg = RSASHA1; key id = 21816
+			DNSKEY	257 3 5 (
+				AwEAAcBCD44ngynG6CsGlkRy6Vst68Mc5930lXQw7cpu
+				XkV1QaB1byl5V+iAzrw/dlwwQQO51JKXofmo3qeHcZsb
+				+dXC9AZ1eb3dyTXUtnvD8IXriiMh5WWWvynm+5+Nvcai
+				9DDgOZ566PSxHnU4IgmG5YBa1nbTQ3y/wcn3nTb2R1VJ
+				hV3ug2kSeW6+hKvUGq3VBlm+0y5luHlmauz5bVHfGSc=
+				) ; KSK; alg = RSASHA1; key id = 60193
+$ORIGIN docku.org.
+core0			A	198.245.62.165

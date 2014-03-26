@@ -1,26 +1,54 @@
-bsdlp.net.				      86400 IN SOA	ns1.bsdlp.net. noc.bsdlp.net. 2014022800 900 14400 864000 86400
-bsdlp.net.				      86400 IN NS	ns1.bsdlp.net.
-bsdlp.net.				      86400 IN NS	ns2.bsdlp.net.
-bsdlp.net.				      86400 IN NS	ns3.bsdlp.net.
-bsdlp.net.				      86400 IN NS	ns4.bsdlp.net.
-bsdlp.net.				      86400 IN NS	ns5.bsdlp.net.
-bsdlp.net.				      600 IN A		66.228.43.47
-bsdlp.net.				      600 IN MX		10 ASPMX.L.GOOGLE.COM.
-bsdlp.net.				      600 IN MX		20 ALT1.ASPMX.L.GOOGLE.COM.
-bsdlp.net.				      600 IN MX		30 ASPMX2.GOOGLEMAIL.COM.
-bsdlp.net.				      600 IN MX		30 ASPMX3.GOOGLEMAIL.COM.
-bsdlp.net.				      600 IN TXT	"v=spf1 include:_spf.google.com mx -all"
-bsdlp.net.				      600 IN TXT	"google-site-verification=r3r5zosjUCbz79UaGm3f2uzuDT-cMz12QalwdgDzjSo"
-bsdlp.net.				      600 IN DNSKEY	256 3 5 AwEAAdl6RjZaA9Lredx9b+6cp8SJN9ujr6lpE/CzfTkX60B/hhNlwdhO Omcl9qFwKCiN/j0ewABH4gVkwtA8yKfbyEeuzLTX+30Fdwq2ueyiiKOH uVAudVBkl0OYPDiit/N7/+sHj4ejlHsVk0PfnO6GN/ix3JefqDRGjad+ e8ei7v6wNxUxaIGql811PvSIxUMok2BC6RlqKeQzd9WCOlPvM/i/9yVJ rUSE5Vtpru4hbUBG01iwzUHxJNfgpz9ng5urRz2sCQ6w6SHYm+Do+U6X UbwaHuxzWkR+/KjcJrBP8DJA66SKzefPR+G5+7MXwRyd1gggcb4VO/bN ZOKOevsqob0=  ; key id = 30711
-bsdlp.net.				      600 IN DNSKEY	257 3 5 AwEAAeD2IKURY/xqFKHXa53Xav+m7EZfA7VOYXIz2aFPYGBxv0ddw0UK b+CJT38OYnusJ3ZNJIVL1wsmOnV7PWaG2wN3FyelVZOWjW2P5nUmO0Zn lRgN70AjDtZeDPUYa7L3QgMuswI70+JNa1Rm4YLn/O67O72tVvAuLQ6a t1QSJrnSAmfkWloQYmc/9y3UDePBbCFxxyKg+V2QqgIh1A/8cBf5wbWK 590hDcYHus6YcOgpHR/0B6lk3ILPWDu79Uikt07kRJlqlnpCojBMLC8Y NDKkbpMSW89lpoyavNmXXvc+se1JvyROdXxGgMxYcevza4gPBDzj96xC WsPoUyWsCPM=  ; key id = 613
-ns1.bsdlp.net.				      600 IN A		69.93.127.10
-ns1.bsdlp.net.				      600 IN AAAA	2600:3c00::a
-ns2.bsdlp.net.				      600 IN A		65.19.178.10
-ns2.bsdlp.net.				      600 IN AAAA	2600:3c01::a
-ns3.bsdlp.net.				      600 IN A		75.127.96.10
-ns3.bsdlp.net.				      600 IN AAAA	2600:3c02::a
-ns4.bsdlp.net.				      600 IN A		207.192.70.10
-ns4.bsdlp.net.				      600 IN AAAA	2600:3c03::a
-ns5.bsdlp.net.				      600 IN A		109.74.194.10
-ns5.bsdlp.net.				      600 IN AAAA	2a01:7e00::a
-urmom.bsdlp.net.			      600 IN A		198.58.118.243
+$ORIGIN .
+$TTL 86400	; 1 day
+bsdlp.net		IN SOA	ns1.bsdlp.net. noc.bsdlp.net. (
+				2014022800 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.bsdlp.net.
+			NS	ns2.bsdlp.net.
+			NS	ns3.bsdlp.net.
+			NS	ns4.bsdlp.net.
+			NS	ns5.bsdlp.net.
+$TTL 600	; 10 minutes
+			A	66.228.43.47
+			MX	10 ASPMX.L.GOOGLE.COM.
+			MX	20 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	30 ASPMX2.GOOGLEMAIL.COM.
+			MX	30 ASPMX3.GOOGLEMAIL.COM.
+			TXT	"v=spf1 include:_spf.google.com mx -all"
+			TXT	"google-site-verification=r3r5zosjUCbz79UaGm3f2uzuDT-cMz12QalwdgDzjSo"
+			DNSKEY	256 3 5 (
+				AwEAAdl6RjZaA9Lredx9b+6cp8SJN9ujr6lpE/CzfTkX
+				60B/hhNlwdhOOmcl9qFwKCiN/j0ewABH4gVkwtA8yKfb
+				yEeuzLTX+30Fdwq2ueyiiKOHuVAudVBkl0OYPDiit/N7
+				/+sHj4ejlHsVk0PfnO6GN/ix3JefqDRGjad+e8ei7v6w
+				NxUxaIGql811PvSIxUMok2BC6RlqKeQzd9WCOlPvM/i/
+				9yVJrUSE5Vtpru4hbUBG01iwzUHxJNfgpz9ng5urRz2s
+				CQ6w6SHYm+Do+U6XUbwaHuxzWkR+/KjcJrBP8DJA66SK
+				zefPR+G5+7MXwRyd1gggcb4VO/bNZOKOevsqob0=
+				) ; ZSK; alg = RSASHA1; key id = 30711
+			DNSKEY	257 3 5 (
+				AwEAAeD2IKURY/xqFKHXa53Xav+m7EZfA7VOYXIz2aFP
+				YGBxv0ddw0UKb+CJT38OYnusJ3ZNJIVL1wsmOnV7PWaG
+				2wN3FyelVZOWjW2P5nUmO0ZnlRgN70AjDtZeDPUYa7L3
+				QgMuswI70+JNa1Rm4YLn/O67O72tVvAuLQ6at1QSJrnS
+				AmfkWloQYmc/9y3UDePBbCFxxyKg+V2QqgIh1A/8cBf5
+				wbWK590hDcYHus6YcOgpHR/0B6lk3ILPWDu79Uikt07k
+				RJlqlnpCojBMLC8YNDKkbpMSW89lpoyavNmXXvc+se1J
+				vyROdXxGgMxYcevza4gPBDzj96xCWsPoUyWsCPM=
+				) ; KSK; alg = RSASHA1; key id = 613
+$ORIGIN bsdlp.net.
+ns1			A	69.93.127.10
+			AAAA	2600:3c00::a
+ns2			A	65.19.178.10
+			AAAA	2600:3c01::a
+ns3			A	75.127.96.10
+			AAAA	2600:3c02::a
+ns4			A	207.192.70.10
+			AAAA	2600:3c03::a
+ns5			A	109.74.194.10
+			AAAA	2a01:7e00::a
+urmom			A	198.58.118.243

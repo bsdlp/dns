@@ -1,15 +1,27 @@
-bitcoinic.us.				      86400 IN SOA	ns1.linode.com. bsd.voltaire.sh. 2013121716 900 14400 864000 86400
-bitcoinic.us.				      86400 IN NS	ns1.linode.com.
-bitcoinic.us.				      86400 IN NS	ns2.linode.com.
-bitcoinic.us.				      86400 IN NS	ns3.linode.com.
-bitcoinic.us.				      86400 IN NS	ns4.linode.com.
-bitcoinic.us.				      86400 IN NS	ns5.linode.com.
-bitcoinic.us.				      300 IN A		204.232.175.78
-bitcoinic.us.				      3600 IN MX	10 ASPMX.L.GOOGLE.COM.
-bitcoinic.us.				      3600 IN MX	20 ALT1.ASPMX.L.GOOGLE.COM.
-bitcoinic.us.				      3600 IN MX	30 ASPMX2.GOOGLEMAIL.COM.
-bitcoinic.us.				      3600 IN MX	30 ASPMX3.GOOGLEMAIL.COM.
-bitcoinic.us.				      3600 IN TXT	"v=spf1 mx -all"
-bitcoinic.us.				      3600 IN TXT	"v=msv1 t=e83ac3905729794989fc2cf9148907"
-bitcoinic.us.				      3600 IN TXT	"google-site-verification=7QFoH8xfsPU96Gr9YFuXIB9vUmQIXUMGg-2DJQX8rzo"
-www.bitcoinic.us.			      300 IN CNAME	bitcoinicus.github.io.
+$ORIGIN .
+$TTL 86400	; 1 day
+bitcoinic.us		IN SOA	ns1.linode.com. bsd.voltaire.sh. (
+				2013121716 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 300	; 5 minutes
+			A	204.232.175.78
+$TTL 3600	; 1 hour
+			MX	10 ASPMX.L.GOOGLE.COM.
+			MX	20 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	30 ASPMX2.GOOGLEMAIL.COM.
+			MX	30 ASPMX3.GOOGLEMAIL.COM.
+			TXT	"v=spf1 mx -all"
+			TXT	"v=msv1 t=e83ac3905729794989fc2cf9148907"
+			TXT	"google-site-verification=7QFoH8xfsPU96Gr9YFuXIB9vUmQIXUMGg-2DJQX8rzo"
+$ORIGIN bitcoinic.us.
+$TTL 300	; 5 minutes
+www			CNAME	bitcoinicus.github.io.

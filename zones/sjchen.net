@@ -1,37 +1,69 @@
-sjchen.net.				      647100 IN	SOA	ns1.linode.com. noc.sjchen.net. 2014031103 10800 1800 604800 86400
-sjchen.net.				      86400 IN NS	ns1.linode.com.
-sjchen.net.				      86400 IN NS	ns2.linode.com.
-sjchen.net.				      86400 IN NS	ns3.linode.com.
-sjchen.net.				      86400 IN NS	ns4.linode.com.
-sjchen.net.				      86400 IN NS	ns5.linode.com.
-sjchen.net.				      600 IN A		66.228.43.47
-sjchen.net.				      3600 IN MX	1 ASPMX.L.GOOGLE.COM.
-sjchen.net.				      3600 IN MX	5 ALT1.ASPMX.L.GOOGLE.COM.
-sjchen.net.				      3600 IN MX	5 ALT2.ASPMX.L.GOOGLE.COM.
-sjchen.net.				      3600 IN MX	10 ASPMX2.GOOGLEMAIL.COM.
-sjchen.net.				      3600 IN MX	10 ASPMX3.GOOGLEMAIL.COM.
-sjchen.net.				      600 IN TXT	"google-site-verification=INxS71rt3ZToLk_23fpY6dlKBGK4dLTRMdPZ5sVB3Oo"
-sjchen.net.				      600 IN AAAA	2600:3c03::f03c:91ff:feae:e071
-sjchen.net.				      600 IN DNSKEY	256 3 5 AwEAAdbdxdzm5fYamIFSIY31gWPF1F2B1u+7/OdCVVra1zlzJiCq0MMI 6CAXa8SdqCtCOXOi489Y7sZ9KqrxZiSLfuK1iFlxxdh3p9XRFosVn/8o v62uGL51A1WFUiAw3fYgoqHeSLMdZGPGXp1PASAMC1gxV0hVNhbMo/9G CXBu2TLR
-sjchen.net.				      600 IN DNSKEY	257 3 5 AwEAAbu0LOClGmqB1POXtqgH859RXQAIgihpjw5DHFVew3MeVot8cmOo UgkKEqHkdKM6InSNmmiWJaQ1RWUomDcKjLlzT2KFYIxRF5gPZMeSStpX VspZYCgI6FGyQRclFTSPL+/ngdGliodYFpaKyZ5/5jISkOjqqGd9Vk8b X18Mrkw3Q/K0oqfCdQFwguJmdNpDVsXHh+5huR/G0Fph+HFhaaM=
-google._domainkey.sjchen.net.		      3600 IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "
-bhs2.sjchen.net.			      600 IN A		192.95.25.41
-*.bhs2.sjchen.net.			      600 IN A		192.95.18.8
-calendar.sjchen.net.			      3600 IN CNAME	ghs.googlehosted.COM.
-descartes.sjchen.net.			      600 IN A		66.175.210.114
-descartes.sjchen.net.			      600 IN AAAA	2600:3c03::f03c:91ff:fe6e:3c0a
-diderot.sjchen.net.			      600 IN A		66.228.43.47
-docs.sjchen.net.			      3600 IN CNAME	ghs.googlehosted.COM.
-gmail.sjchen.net.			      3600 IN CNAME	ghs.googlehosted.COM.
-ns1.sjchen.net.				      600 IN A		69.93.127.10
-ns1.sjchen.net.				      600 IN AAAA	2600:3c00::a
-ns2.sjchen.net.				      600 IN A		65.19.178.10
-ns2.sjchen.net.				      600 IN AAAA	2600:3c01::a
-ns3.sjchen.net.				      600 IN A		75.127.96.10
-ns3.sjchen.net.				      600 IN AAAA	2600:3c02::a
-ns4.sjchen.net.				      600 IN A		207.192.70.10
-ns4.sjchen.net.				      600 IN AAAA	2600:3c03::a
-ns5.sjchen.net.				      600 IN A		109.74.194.10
-ns5.sjchen.net.				      600 IN AAAA	2a01:7e00::a
-paine.sjchen.net.			      600 IN A		198.245.62.165
-www.sjchen.net.				      600 IN CNAME	sjchen.net.
+$ORIGIN .
+$TTL 647100	; 1 week 11 hours 45 minutes
+sjchen.net		IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014031103 ; serial
+				10800      ; refresh (3 hours)
+				1800       ; retry (30 minutes)
+				604800     ; expire (1 week)
+				86400      ; minimum (1 day)
+				)
+$TTL 86400	; 1 day
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 600	; 10 minutes
+			A	66.228.43.47
+$TTL 3600	; 1 hour
+			MX	1 ASPMX.L.GOOGLE.COM.
+			MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+			MX	10 ASPMX2.GOOGLEMAIL.COM.
+			MX	10 ASPMX3.GOOGLEMAIL.COM.
+$TTL 600	; 10 minutes
+			TXT	"google-site-verification=INxS71rt3ZToLk_23fpY6dlKBGK4dLTRMdPZ5sVB3Oo"
+			AAAA	2600:3c03::f03c:91ff:feae:e071
+			DNSKEY	256 3 5 (
+				AwEAAdbdxdzm5fYamIFSIY31gWPF1F2B1u+7/OdCVVra
+				1zlzJiCq0MMI6CAXa8SdqCtCOXOi489Y7sZ9KqrxZiSL
+				fuK1iFlxxdh3p9XRFosVn/8ov62uGL51A1WFUiAw3fYg
+				oqHeSLMdZGPGXp1PASAMC1gxV0hVNhbMo/9GCXBu2TLR
+				) ; ZSK; alg = RSASHA1; key id = 34722
+			DNSKEY	257 3 5 (
+				AwEAAbu0LOClGmqB1POXtqgH859RXQAIgihpjw5DHFVe
+				w3MeVot8cmOoUgkKEqHkdKM6InSNmmiWJaQ1RWUomDcK
+				jLlzT2KFYIxRF5gPZMeSStpXVspZYCgI6FGyQRclFTSP
+				L+/ngdGliodYFpaKyZ5/5jISkOjqqGd9Vk8bX18Mrkw3
+				Q/K0oqfCdQFwguJmdNpDVsXHh+5huR/G0Fph+HFhaaM=
+				) ; KSK; alg = RSASHA1; key id = 43306
+$ORIGIN sjchen.net.
+$TTL 3600	; 1 hour
+google._domainkey	TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "
+$TTL 600	; 10 minutes
+bhs2			A	192.95.25.41
+$ORIGIN bhs2.sjchen.net.
+*			A	192.95.18.8
+$ORIGIN sjchen.net.
+$TTL 3600	; 1 hour
+calendar		CNAME	ghs.googlehosted.COM.
+$TTL 600	; 10 minutes
+descartes		A	66.175.210.114
+			AAAA	2600:3c03::f03c:91ff:fe6e:3c0a
+diderot			A	66.228.43.47
+$TTL 3600	; 1 hour
+docs			CNAME	ghs.googlehosted.COM.
+gmail			CNAME	ghs.googlehosted.COM.
+$TTL 600	; 10 minutes
+ns1			A	69.93.127.10
+			AAAA	2600:3c00::a
+ns2			A	65.19.178.10
+			AAAA	2600:3c01::a
+ns3			A	75.127.96.10
+			AAAA	2600:3c02::a
+ns4			A	207.192.70.10
+			AAAA	2600:3c03::a
+ns5			A	109.74.194.10
+			AAAA	2a01:7e00::a
+paine			A	198.245.62.165
+www			CNAME	sjchen.net.

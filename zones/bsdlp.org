@@ -1,7 +1,16 @@
-bsdlp.org.				      86400 IN SOA	ns1.bsdlp.net. noc.bsdlp.net. 2013010725 900 14400 864000 86400
-bsdlp.org.				      86400 IN NS	ns1.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns2.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns3.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns4.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns5.bsdlp.net.
-bsdlp.org.				      300 IN A		66.228.43.47
+$ORIGIN .
+$TTL 86400	; 1 day
+bsdlp.org		IN SOA	ns1.bsdlp.net. noc.bsdlp.net. (
+				2013010725 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.bsdlp.net.
+			NS	ns2.bsdlp.net.
+			NS	ns3.bsdlp.net.
+			NS	ns4.bsdlp.net.
+			NS	ns5.bsdlp.net.
+$TTL 300	; 5 minutes
+			A	66.228.43.47
