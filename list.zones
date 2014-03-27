@@ -1,3 +1,5 @@
+# NSD zone list
+# name pattern
 add 0.c.d.7.0.6.0.f.1.0.7.4.0.1.0.0.2.ip6.arpa all
 add 1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa all
 add 2.7.4.0.6.6.0.0.0.7.4.0.1.0.0.2.ip6.arpa all
