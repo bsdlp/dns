@@ -11,7 +11,7 @@ add bsdlp.com all
 add bsdlp.net all
 add bsdlp.org all
 add derpify.me all
-add dns.check all
+add dns.check localonly
 add docku.org all
 add fgtvirg.in all
 add handgrep.com all
