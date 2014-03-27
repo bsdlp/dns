@@ -1,97 +1,97 @@
-; File written on Fri Feb 28 00:25:05 2014
+; File written on Thu Mar 27 01:36:19 2014
 ; dnssec_signzone version 9.9.5
-bsdlp.net.		86400	IN SOA	ns1.bsdlp.net. noc.bsdlp.net. (
-					2014022800 ; serial
+bsdlp.net.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
+					2014032701 ; serial
 					900        ; refresh (15 minutes)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
 			86400	RRSIG	SOA 5 2 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					Gs8ufJwBfNREBNe3E5w19kgyPVe1vJbhZoy6
-					LIjrKboKNVzL+2ORWeHmMCI/ST1vOTs+Wq9R
-					a106yDArjAOGIJAuvdMPwy0OxOGK21KtobgB
-					aI/153SVObKs0jmGh+i/SoYgCblopd0RIvPy
-					fr0C/ptHVmyWuvkydIvj+zwsEwYKMaHC9xjL
-					/KSrDIMsc6fNcFIZmM2nZaRlE37ydNAKgACy
-					Yne4rIEbmaGAv0fhb8FL/sn2YukAOOE/SX3m
-					vmMsEvX5AAM7zTw/JdowLPdcpU+nbOaWDGmX
-					S8i1/S1I2G/8Z1xQ1KLc859qxTCjQYFUKQyi
-					J7Wwyz8/VNpb/1pVcw== )
-			86400	NS	ns1.bsdlp.net.
-			86400	NS	ns2.bsdlp.net.
-			86400	NS	ns3.bsdlp.net.
-			86400	NS	ns4.bsdlp.net.
-			86400	NS	ns5.bsdlp.net.
+					20140426043619 20140327043619 30711 bsdlp.net.
+					Od3t+9ETVbN5vMmVJfg/9QZ9h3yKg3a9UqEq
+					s7SzZOv9fHPmNs9L+jBf7M0zKCdJcWAXM8W8
+					43drVsa1OagqHwdSUNasJLJPlYR+i/1KQYN6
+					Ss+oHimcyja2pzk44L9oD961kfjYIXwH8M29
+					m17WPpNrgVzAH0KAQ/j+Ob1yhaoK318Ivvwv
+					2V4MJNtQyLBx/ZMb6V07KkfYvPoldzxPWFET
+					a5a13Ee5umwkQHiSh5FuMN0YXH5KWnXrSBEo
+					mIWy8gYeT7kuXCy8q1D8X3XCN0fVGbND14Lf
+					Xd0K0qbXMgOMr/jKg7+rdPDuGBmEn6eouCRU
+					OTWrIuqNZo490tY0PQ== )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 5 2 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					xwkQBnZv3LG2qS2I/qQvSjzrX5zCzAbPlyuK
-					hKtPquzel4op3bv8oIcJdeDGiXnUAaEpgJzP
-					zcRhoozUFQFYj5XpXlWNhb1kWE+hK0TtQXsq
-					jD4Wp1aoHdyu4EHGCgrrAhE6aN5E7vQRkApC
-					uxft99dPOyY30X+0jUcp47eIhEEzTj+9SZXq
-					OqTwy7S+ISw0Y5QKbet3CA2OcQ+HL++CEtWO
-					EYolp6ppHTLJChMbmsooBPr6ogBBmqpHSF5h
-					rJKeRsppmlWuvgbvkpP5sR7yPALQlQXe3/pv
-					0pB2SJvtE2kf0M/VBXYxdR3wzajbjtGw3/+p
-					TsPwGZlVX0yRXnQmQA== )
+					20140426043619 20140327043619 30711 bsdlp.net.
+					QqpTdu2lk/S/gJko/zNDIQ+HSOmgiYuFr4ZV
+					WFHnT3UvbvFZLQnYkjTEVUd77uo5cr9+29v9
+					wDL7L//IMWnAnBQa8ba3r6iJV30YVQ0cGxSF
+					JV4FyEPFuDXKJxr++5Eo32ztwJ8zF+brLZ8i
+					TpZ7uoXDE8N3pEhQUxG8YR2yHv87Dx6Oi1lt
+					uG9ZahUAwXLnStB11/e6insDx9ETJu5xxMzh
+					r1gU1FdOoQvLQ6zuYIs92ZwIO2seOiyx9yI8
+					nvwMM01ntCNwvUvKfAvE07V1eZRU15NFGgbQ
+					d+MwpZ0rvFFVyo6bzzwamwqb9mbUta9pOH42
+					kMQ3xP43knYdvx2y+w== )
 			600	A	66.228.43.47
 			600	RRSIG	A 5 2 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					XImhukvJXtvMJdiE4vrSQ2PeOY33P1Z/Xb8Y
-					eyBNCtY/lgUm0Rr2GtUfu54CKE37OcI9l3H+
-					bwCB5C2hpg3wC1l1lf8VukfzsMMJFU6BUXY6
-					aryrIn88TfPvEq29Qa59DWK4ubv0mePv85hE
-					2MGZDTzUR4TXUsjmD2vEtAHZbZiRymOGMCN5
-					Kx+hnJoRnC8/CxQ5qO9gLrBWXB9SpCQmyfuA
-					nfxW0XbflenmlHCXfTLYJS9M2VPMsEPBoN5g
-					Jm8ybDaPs24QcicNaASULoFQ0/EBShULkO0R
-					HtM5lOZfBa+CqKlF70mzL4PRd4MkdlG7mBMc
-					y8e5Vdjeu36Mi5Vfjw== )
+					20140426043619 20140327043619 30711 bsdlp.net.
+					JzusfnW1/m06NQrVQr1wPFWh2a27/FMlXTOk
+					eUCktKprzFXuw9orS4XCfCVo9NQyCkwxETWr
+					XNHIAityiVqiNpv6yAUMIELQJ4hhjtqJFdVu
+					VKemFeNwnLqdwWPM1RWoq80uIE53GuVSsxtZ
+					D98fCcYw01bpg5mphxB+FFJPtLXqSJ6BLYph
+					99YW43jYipPSyJrBC1PHltPxInGZV5fEBy+q
+					eX5JMNMbmkDVfIfKFAinQmJTPl7dkLNxFV42
+					s0UCIkpI9J6l6kcmLWskEOXECgKKdp531yPy
+					4ILISrCs4Rwr6ZSl1QQ6BcKX5zWgbTAWl75P
+					wDnJY/5rQZoR/jjIkg== )
 			600	MX	10 ASPMX.L.GOOGLE.COM.
 			600	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
 			600	MX	30 ASPMX2.GOOGLEMAIL.COM.
 			600	MX	30 ASPMX3.GOOGLEMAIL.COM.
 			600	RRSIG	MX 5 2 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					uwojO0S1UQgnkRVQEggkjn6347LXPDKIiWJh
-					Spas+MgYhXzB6IIV29PyNs7lN4iQ+crzA8zG
-					amb8kDgjSe0IuZDN+CX6ngNUGAXqjbKOWGKp
-					Q8BcqCtMBESai7/EH2ji9i1829jzUdyFYGY0
-					/OxNhYiiwSlT/B0086e8LcUReIvWcuTdUA9P
-					1KoIyMaP0+YiIwgmWNWn58qXz/CTvNLG/q7I
-					TgAdb7RY3LfXNyyRdSOZ8EpTiym8TKDH3+6C
-					AdqJ/FYK7LsHerqgtZaoWOi/htUCyM6o6mPI
-					1rMzULyLrrdL1m9fMFmeonUd6ljadnvnnTGB
-					bg3WbjdFMsJc+uhZoQ== )
+					20140426043619 20140327043619 30711 bsdlp.net.
+					LYZL7PsOLMs7z6oAMo3y7m03QmraedbjYlz2
+					F1HvXdjyXcKpKA1HKniK0/JXmv4lts+DO5hi
+					oLT3jbkGWhiFu+qI5PrpqNYMRItha0/1Vh9D
+					/f2MLlAbA7xBRIsuIxke90ap8v/mcuqptJ1w
+					AniOpFH/UjowxTSUt9yEp+v9e0QFpAr0UiST
+					pBvtQBnwk09We34aVFNMwYSLwucHP1ENdq6X
+					JDT8I+8OVNgnLR5I1ve+WsYFZJAxUZTAxjkq
+					9xHxCGGD2Y5iWs0yiKRFOwwPFPbfonE6RRGY
+					8YglmgwbMqmCHFgmozDbGuMiNtCOlBD1IoDC
+					GLshyxlqpj8noaa5Kg== )
 			600	TXT	"v=spf1 include:_spf.google.com mx -all"
 			600	TXT	"google-site-verification=r3r5zosjUCbz79UaGm3f2uzuDT-cMz12QalwdgDzjSo"
 			600	RRSIG	TXT 5 2 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					LuQJaWIbK9xuqPbxjy73L2NkHrjmU64DZhma
-					4Zn/0clBGlBxVi9J/gUl4c2PfATT8ATpDOEN
-					XWwVIY/WJcyTrVMPto6UXn8azAA29/KjIdQd
-					9B2XQaXAfDFMcBo+FlT2Tbt6VSuh6kzvP8uO
-					BMScaj/uhtkTUCT4Y7/xYyhWXHLu2jAFSb2w
-					dolNLCzRpeLaYAFMsuJlxT3VEhU7NHhxXF6N
-					tv5s8fymd6zsrqO2CoFJhScg3ahXbVIJfxd0
-					HkAgrroAx6NkT8sfBl7gCMmzQWCHnoiZbRW2
-					6JQY/YjIm1Sm7PtlKVCDRAPjRCjal03bb/cT
-					ZxRz4juYrCwDKnCj1g== )
-			86400	NSEC	ns1.bsdlp.net. A NS SOA MX TXT RRSIG NSEC DNSKEY
+					20140426043619 20140327043619 30711 bsdlp.net.
+					o3yIys+8uNr0ZuqBWf8yH83ti+6McwVsuKYd
+					dZ+mQAOWn7dvftzBd37YsZViHFDqrOkEvWXq
+					i4PliyiQDfRdmGziD7WyAcAmLSbpxuS18A4k
+					ozdVqO3AKoiKnbQu4ENlgEqBXi5RnEvqEaQf
+					WYiiw3W7ws5vqxU/yV2Tavke15q9wOLoX15R
+					3faKYCUxtstmza/3dnKoFOjt4pcNdnDyOz0D
+					83zVw8A4vEFDD734DOQSiHVO6oSp7XcSIBUR
+					ds5OlcTBM/MEF/eQcyM6tIgl/FEPP4TIJ5z9
+					+IzLsE3zIBQWg1lOGZHi/xbnK45MHXBfwlxX
+					CDH3dx9+DKAPB8jhWg== )
+			86400	NSEC	urmom.bsdlp.net. A NS SOA MX TXT RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 5 2 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					GjZ0rOo3iJT3sevo+Ybgc/5QntCQHXHCt5B8
-					DdfaQlyq6Tel6RM9M66EqzJ+TZxGLXT7NBw2
-					x8DWsQqab83FYP9SimqLRU2DouQpuK5sJtQi
-					kb/LmrV+TS6xdMUXrOvMArl81cdhxEC7++lE
-					vOhMN2R1ymrevxZGw/x0zh03EjUouhYMDmA5
-					TnUrTa9hvzRFlFXReIDsAZonaDARzm3D0NK/
-					IgyuCFMAhCn0FFZ0gvyV9CFHU9XrAVkFSOY9
-					L1zg8BE/UoPBf2P0ZhjpQn6hy6s71ujA6NJU
-					FzEIRCWQ6OofVu119vTSLp2NGcG0XdYtAdzp
-					PkGe12e43e76Ul4wJg== )
+					20140426043619 20140327043619 30711 bsdlp.net.
+					2MgVZbA838e/Q9lZ6ffedC6bUWA4n3kcAO3G
+					R4qZGuFpxtHwK4Ur700vQLRmfH0kGOc0ogeL
+					EXJy5la+XzvzVSbRq7PrWjo3sAF6M2nK+qg0
+					b1xcHju9WXgfC/RdfjT5SLPHCbBsTP3JGGJr
+					2vvz1OcKMfBDMUnydTGZbzn7Szu3lf6L3SQ7
+					79tEKqF11W8xOqHKT5PW5p06Ywrcg6NTltv9
+					wAsb1SvMYGJZo5vI++7VM404kcaEYcLt4V09
+					0o+Dh0r0UPATM+zhNWyAVZjF9XqeaaUJbbwc
+					MxLrwKI3scY6E5h923G3YsYNT4gPbrZEVLXp
+					rIeaH4BGkAy0XjQhSQ== )
 			600	DNSKEY	256 3 5 (
 					AwEAAdl6RjZaA9Lredx9b+6cp8SJN9ujr6lp
 					E/CzfTkX60B/hhNlwdhOOmcl9qFwKCiN/j0e
@@ -117,247 +117,52 @@ bsdlp.net.		86400	IN SOA	ns1.bsdlp.net. noc.bsdlp.net. (
 					a4gPBDzj96xCWsPoUyWsCPM=
 					) ; KSK; alg = RSASHA1; key id = 613
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140330042505 20140228042505 613 bsdlp.net.
-					IqdjrZ5oGxVy+Nk2wjcuW2Z2ThraEIw67pD3
-					QF03IScH2+9MMtOpVe/S4VJjchFUaw3WWppV
-					qV4R8WIglAl2EAM0XWMxmH+t/ytYzGmkrE3k
-					A7s2DVJNNBgeeHlFx3liSTVv6uTGhHXe7nox
-					3CbjnSgBRa1MEu2q2T0fa1DQnbUwJW0n8Eg6
-					Dg9QLZMu/Jz/vsZIRj2x8lJFh3IDSJ/arFOj
-					faQ4pg0oabgnhn4tJQGZboVBK1DEPRVJ85Rv
-					zqxbR74scd+/y+qjKWUbUj9PPXptc6bjuHll
-					L+G8SN2NiXPEuXsmVBjNNag4ZF4rM2CpIgc4
-					FufbXsotYjNPlL+Vbw== )
+					20140426043619 20140327043619 613 bsdlp.net.
+					1ERd+twC7oCTmOXMfT6FbkBDifXfjDjuR8Cm
+					qSstvQRA/ivTTtbZqz+UOgWSe1gOD1jMCWvr
+					5/OwLgU2dSjitXV5NvZC/s7EjX2Ixh1I7QPq
+					nqYsD3KZC2z4ajFJMRpXFkYTpuEvzL622aFX
+					BT10CNO5DRq2Gmd+z98H1FRSoGnYqgR8MH1y
+					mVeMKL9IcLYD+kXrO1MFRuyeeCp/4AIh2bTw
+					uUR7oXHfmWVtK6ofx+e4hkd5hGYxx8ALclYE
+					uqwxVpye//Oq+86NzyoGCxBcr0D4jWhtpGsx
+					N8KK5WdaglVv4BEQXvFJezgoA4bmYJBwRZdk
+					DyiVcFga1k1vFTWCjg== )
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					rSxnh0TuksO8mL1jNQ4EzeMi4W5FE5dADoyX
-					XZam2P37aMXhcQZFSdph6A0UIAQa+1sL/nbY
-					q7Ghs7wWDdr8O55k7HFAwtCdwn5E46B6Bphg
-					qaTuYl1EFyOyeTuN4YYcJuGL1P3iFogPx/eA
-					HMDJXbihn6IGnmOolYVmUWi2mabLq1OEPi7q
-					QQrVKJAx8LHmTG3kkd3nG8LAxOxRhqlYt4Jj
-					ZcEBMVcQRLgsfXu4aaO+UzVXpU1kkuwadbnv
-					ksGYXoFwvorr7lPkgj6UVOk481I2RStvmb1w
-					IYNFCFcqKrOZUE4qCL+h6dNlYflAXjgrI4Li
-					mQkIVaqi7JlSoDhHmQ== )
+					20140426043619 20140327043619 30711 bsdlp.net.
+					HMDkTgEc8dYCe3mp9pHKK4qFgSPKGFLLycaO
+					Rg4fGL2hfNBaLXH3QGwPwUfzWxYjKiCkY0sg
+					Goi97XzeI/9Dk0KK4FvqPaGJnFY9A7hBcGCX
+					74jaxMLMj4utHWA9thrY8EdiU5CvmG1OfK+1
+					xUIHsq/NCgqNCYkG7qCx259+D+7BAh+Zom1f
+					GmnVt6uhfZR+2y1pWxk/Ru6xcZyyHdfa7ihy
+					jeLI1a4G9SOJGIAcwcsuTso1b/h1WZzO9N3n
+					H7YPBmtDUZ4U1Pil9IU+7BtDPiUJNb7V09FD
+					Ylj0y80bk7xEusYrWVTpa3Dv8ZkWdGzvXmTR
+					bvOP8aImT7syjMiSYQ== )
 urmom.bsdlp.net.	600	IN A	198.58.118.243
 			600	RRSIG	A 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					yQeVn/a4/lWp7bAAuX2RBMudMUknpqAhbSa0
-					9bPPDjWMWFOFqRzuht5j26Ovd57erNX/UxNq
-					zKNRHvD3h25G7X6TgaHH+xcHXOikHtX5nvB+
-					YSzG9WzeO1GbI4jSnUvuZSKShxlpWp4bYdMd
-					x8kXWaQGvqB0PHNnk1KJtqNcXX/tUWjiHMfh
-					1QNma+plUq81Q34OXZ9bipy2cseigJTV2okS
-					epNjhCq+rP5ebvIIi1efTMvtOPHgVrSXrvhk
-					CKUuTBPwgYoT1ItpZjz6M7LWHxwhq6unAlGy
-					AmWMvVp0cpDqxqI4qgRFxgjpsfk3jiL8yk8E
-					OLi992yg2kbf9zAtJg== )
+					20140426043619 20140327043619 30711 bsdlp.net.
+					b8F+gj0Yb4RRXpiPtVV21QOlC60e4zXcqTeK
+					4UzK7BMRsLSlIKgMMGkef8JlDvnETvxwZyE5
+					TsvUz3NSijYaoIdJBe9SvgCoP3b7bRiBhmF7
+					FSAEoQ3Wskv9biuggEyTVufu7YQuhvuxEIPl
+					M0QKh4RJc/vnOY9p30GUiUcNg18EDRf8cyaS
+					fH2YyfVhCyIbcjZShgwsiWxWv/4Njsc4C+y6
+					K/csRSCy8SyYY1Af5oVAe49q/dcjdm53M8C8
+					nIJHS5Q4Fo5KoTgr9Vf7o8IEAew9gUcwCiVG
+					yNMVYHa897YhzpPtCeBTTVTYKlcHM8yz4+Rt
+					HmgGLhCjCP1uO3KYmQ== )
 			86400	NSEC	bsdlp.net. A RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					Jh/iZkKT4jEWF3385gSEeMj6a8KCDPQ7YZ1b
-					okRwlMx+dpxHFJbJJJmmjJKoGPk8bUFN3ZZH
-					lU9PYG7whrjamxBsB+etTJUkUuzXynvqa9ma
-					BGK4naenw4bsRSwC0R0SOSLhC4s/FgEt1aBs
-					sGnNvq+uI5NjYPRMkPxtw5EXXW/Kirmmq4nz
-					T6eSS6cXeW4Jxo9blFdP4TNVtc9FJkFmwcWn
-					Y52GbRGyhzqGK2sMh+xuRrwiitHGDytji9HK
-					/tu3HQXML39YOiIq6114ZI7wTJb2okYZNaDE
-					p0zTdKV/KIu1frRLVqf9MbszUbndAQkx4cMu
-					Ouo624/oXdE0+cPAIw== )
-ns1.bsdlp.net.		600	IN A	69.93.127.10
-			600	RRSIG	A 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					PWeWRW92J6BnQagwRPjhR5JQPS81C5Zeu81l
-					zQ8qgpX3i3ghzglx1mAH+lwQ4ChWIwl8tP27
-					ESqMxwAia9oyUHwi0zgdh6hskROf9a84bbXN
-					+ZW8BIHwgwd514+5r8ORfMqPRaifNWwpniQe
-					eNAxcwY/F19AvLPHjQkCuKod9LRHssN5SR+t
-					GhhKhdHTt/nQZ4yz7+D9Vao2dNj76yzXTZKK
-					v6uFpFwBZK2nHDWy2fUEEJ1WUyrgYnuIxh5z
-					bjyck54jT6acmk9ahEYOZ2MBzz/AqtmNQGSZ
-					hk6VWgyFxY2fSWps+3Sjo/P/Gh4EdgSYOgiy
-					HMu9TC7sWD/zNSPBdQ== )
-			600	AAAA	2600:3c00::a
-			600	RRSIG	AAAA 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					sdldO6rY27rGSOthhbSGrj+VET2cmL0Zxg+A
-					hJ85zQWe3HY8MMFDDlERCV+afQLrDoVFAG0C
-					OsnSVNH01WQX2QNNl9hM+vXjlawdzQgn8zXi
-					8AXGlXoAVveHtfoNrZA6mL6rRebtPrEW/l1+
-					X1BZwrEil99a/AEjaC+55g/GVvGCWHqBiEsl
-					/H7qjrhnHpGgcUcwiZWiXvoi7U6zEPpwmxrg
-					f40oITibC4tvIWPKMaMGPsCjxbTJ1ioKV9gp
-					Qm931uV7wkXnZqQ/qK1Y0RqUqndphlD7VkpM
-					oTgVNnneffSk4Y6u+KNhNqdiLrKePoaCGZex
-					NQkFsrQecZZEeMRQ0A== )
-			86400	NSEC	ns2.bsdlp.net. A AAAA RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					Inhp3d6OstHbVDLeUznDSJBQ+FXbiELyYGEU
-					6gCg/1h9I+/TTAOurcjvciblYBq42L0C48e+
-					WJ3uUO9xfIbwWnBhb7v6uVGqephw2oBPkqzD
-					KMkDeBWyT6ft8MK7+or4Smp96QNmOUUzRweJ
-					9oWZQqXNZGLt9uLA/uvXdPQ5TUeCsiWgbaQQ
-					WCNsIf8FaOSP971YMqyc9nHcgKN3Bj3PjITc
-					RrnIwhGJ3Qfjkw4Y40kRC3Vg7ldr4rlJxMcb
-					y5GftlywALaPE3GKXgT1eEAkoFrp21Zav1GK
-					4Nz/+J2hWMmJdkU5F5xmaNhxP/JxIE5IZkOO
-					ChmskFdTRo8R0bWLmA== )
-ns2.bsdlp.net.		600	IN A	65.19.178.10
-			600	RRSIG	A 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					nn9YkjrcPx+Js9gjZaI0BrPFgxSWpl1ctJ1a
-					jexEdeYjfgb9pjwVxx2Chg5O8yZZt2R/mdaZ
-					k/h3+sCtJ/+eKS9nlKn6LlHJTEPACSCY8rf4
-					Zbwb2HXJJHhIaNsEBMYb8N/4+ywniiyLSiJB
-					tdZDiaH8l8Bj//C9wds0eR6/5ScblHgsa5Vg
-					MjVivUtYJqD+Ou8FZhL+5dMOpGRRaxDHCBSS
-					Yf0zclfE4Ar9ibGUBMWZ+AbVzEQTi1lsXsUO
-					XPDl2B0oemtlZhH3CKEZ9ZE3etNYTSIJCizf
-					eZtaN0FZTDcVpGdy9Zj9yCn0rBMCYXzEsHUx
-					1pFih73AVBusRDsAiQ== )
-			600	AAAA	2600:3c01::a
-			600	RRSIG	AAAA 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					ws3vweUS0I8u4yE7/yp5l+rBchqKavkUg3SK
-					ZqOwS2JG1EZ6PUdG5RsKcIyPwZQoiXe8Qzm0
-					u34LjOLP4AKCoyBBP1HdR4O2C3tphHzrfZGy
-					Whbjvv0y6Sh69y1nt6mrRJFYyrMnkfvFr5nO
-					r+2GW2D1twVfbxWGDCpwiWAz6xfFQiSIdpC0
-					bxDOjxHrPRGieu0t7kScx3ee0Py43CDBRl9R
-					ndY33r26+fnXeVnKPmMNPBddSL8BKTsXhuP5
-					cMD/MT+mOF+90Wg8Jsh6v1ZOFsigdnSJippg
-					2q0PhwmM1YRVc6pFqWBlbstU561C+GW/uQ2g
-					F26/CAiyfTc4f5hGWQ== )
-			86400	NSEC	ns3.bsdlp.net. A AAAA RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					SuvruOHTV1aLRphN3PJYM5BCu4YwFAVa9aNy
-					gIYKZvGG9cQ3OxBm2Ow8AbP/Ud/4J2T4Id/X
-					5fonFLCF8CDPG7kUZsr/xdGWTHo7IK3qd2ix
-					zPvsuOYMiaAHQP7g7IaDOEcrCRxByNqlM9vA
-					FYrE5H1ULlhTegwjm8jN1ZL1ZA8RXj7/bSnd
-					fWn7gY1RzxluwUf8K7D+Ii7nxYpxiZI3yFM6
-					+j0K5uvLYc+1HDCdqm/TISClz0UT9trBtO8o
-					uF6ZINxsm5SIweX6MpxKDBjHIr89h53qLZEq
-					TW/fT8dQk0PAfFlgetqgHVamJBw9kRc9eC0g
-					8rNPYDZlYZknRkaUJA== )
-ns3.bsdlp.net.		600	IN A	75.127.96.10
-			600	RRSIG	A 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					CN7mvHinIo3UPByFHJyMZWPIClR5tkfhhMLM
-					oCm2hffoumLYnLD4bv72EKtsyAkj+wK465z8
-					PWECJF17gcNxiPdEZuvsPcvU5M5f5W11fLlo
-					I5nQSci0afkDgjfmzPQ/ojX93f12oU6KNYDN
-					QhSWd6pvmWRaybXpUD44clO05ZI6ZRBHkJFu
-					Uz3lxyxCYxFPaFBvk+BVF4vAJt5vEyu5OhHZ
-					ds3OPAG+Rsr7go2+vClUVQMG3846pQZcWuNH
-					wQxeW02kCpKF9nkkk630p6LFsotUlYkVO4Ah
-					bMWBCtR/yJT2chKWxxNnfcHMMQglH5LpbN2c
-					p1TTn0V4kp2gQxEdWQ== )
-			600	AAAA	2600:3c02::a
-			600	RRSIG	AAAA 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					qjL0CZmv3S35ukhKf+iwMlG5snWWbOUI8A5g
-					p8jJf6cmZofrJvo9JVApVoLHHifGvXYunsAV
-					J2+wZW3t0HcO6ndFuWGFt3ixnJm0Sfe18h9V
-					KplcMXkck3JTPrlRuWPW8nx+9T3Jcu9Z1G5l
-					UEJd1SFjPzg8ZevP+lg4rBAVUQDlvxQEOEAn
-					YuLD1hNlVZcYQkhw+E168YOgsCbld64tScL+
-					iOld+UbwiFDQezW/+Q9bQ7itWXpDgtEAaiMJ
-					uitG+wteP0bVxo+peBFQx6Lny+CYxFBC8+6u
-					2mTAMHYgSugd+FsmAeCXKIglhERqBul6UADQ
-					meNjkCE0WCy1u5vuig== )
-			86400	NSEC	ns4.bsdlp.net. A AAAA RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					W1wB/qsp7qi2qbCq+TxjiGzquerNMda2Lcfi
-					x73EOkrffhUYuOMYHT6edvLiU1qea2Ef0ss+
-					Fk1VmOFb4pY2XTI6cN9gQqmRPR8Y20675UdJ
-					lIZQklwXPoWg0xnjIZjTa1nm4amIxQGMh4lg
-					CiZtrUMGVCllq6S3smrO9NSQeXfPMejd+Tmg
-					f8MPjYKYN77+TkdsIkQv6JFj3YQQM8NP8E3T
-					gTL9ViskjG+IFLZ43ljELGksFVIoV4J3Kj0b
-					eNkLSuApH0s3n/xtKv6593Knqpy9jBRKuMmd
-					0eoESE1fjbeMn2TIt2InOx3FbFLqc2x2bjR+
-					eFssjMOUchUmCbU//w== )
-ns4.bsdlp.net.		600	IN A	207.192.70.10
-			600	RRSIG	A 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					twtX8ZvKTMqUVcpNQM/nRE6GcyADAx6BkCNK
-					cpxZFy6yZfTfHHYFFR9knoymhVh6wlWXMYPG
-					2V4Zf0bZ8wdbj9BLLMNDQarnr16yoaNJzhk+
-					mPsQWgpslHU5OJIyB2dDkJs6TDn424ODi4+d
-					gvY6ZXu8dqLeUsbqRTY4usD+tBbYoxbse0Nl
-					8l4/pVw59IrhlWfJxwXH6nTu90hofJysAnK4
-					RS2xPt+pakGZbWszVT6TdjqEAcwNOly5vy5/
-					AhvKfRlvYtLx8Drnce6SX2KxW/LZqtS70kzZ
-					l/smCA4NVLF8sX417265McXuvTixKFWgNX4y
-					sv+P+dCLWAQfLF09rQ== )
-			600	AAAA	2600:3c03::a
-			600	RRSIG	AAAA 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					A7jgWumaX2321DRoqhv0xK9aVb8HfZk4bwyH
-					7dLHDdDWhFscuS9cHswZXRt+w3ZF1qqt+mGX
-					ymxriyCeevXGtyCCOnRcEsTcK+9xTo8uk4V3
-					2hcl1VSqAYKP1q3HeGjG8Khsf3hNU9/oWJyu
-					RAHKHkC2Hoog2Hd+F2Mcwc/Ko4RhEi7kzBGb
-					ieSSLjiTFR6ndJA8t/Yqjfjw25cy8dS+06Xx
-					fpsGAOt7M+rpXcFPem5f8jU8acNsR1n0C/+i
-					0rA/p/FItr4PcZpG7Ky672dhpnBsnvBpWTzb
-					G4HXuc/dE7XZ326bvmX4QPtiGhE3RJYq3/NL
-					Plx4l/ucFyxOrQBdAw== )
-			86400	NSEC	ns5.bsdlp.net. A AAAA RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					nh53KFeturPtfdLEJtwc7Pmki52jLLaJborQ
-					carAr71xAl2EyEYFDVSPPfeBEvEhOucZP2sk
-					SeD3d5BXqQ8z2rGkT8WCvXYHKcTDhtEcbmjN
-					HTy1T3tgzpzx0OPWMTuVU9vN/Dr+DYvz/j8o
-					4Sfjh8xnOMRh5ORy9d/5ilC1trG6TgikJstG
-					7FLNoNrntUp4F2jYjL94DM4aWPy2f4td6cLc
-					t9jHBTfyWIJoepOPjES0DpRiz/FYTszR7X44
-					pYV2XdgTC2jCqhBUDwCdqaloPfwcrCrHWYFY
-					1Vkatd/+zaFlZvciP8EfNLfvYOHvHbrbg3Sw
-					dB583B5hhe0a6PGeYA== )
-ns5.bsdlp.net.		600	IN A	109.74.194.10
-			600	RRSIG	A 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					xsPJY7TKfDCkN3Wd7hcFxpCH8ahaYh9zIBqL
-					FNjcbnDKrAqoUpAS1TPcvnRTLdKi1MJuRLFn
-					e9MOmpbF7BYXJoYadohGNsBiokzagZfMLdbo
-					uz/xgHcbcD66Agz61iIm7lkaVHcZQ6nZ8RCQ
-					ybg+lLBJrR1Ijp5360eDZDZ7Sgg8hwlxzKr0
-					5Ug6bVhxiekG1YYKdz0fw7ORRBtLIQO/SPLS
-					JkKh9aPoKJCj5NH/5fnOuv2BI/6rzVRaoKZI
-					6VlgvCf9MWZOMFfe1v9mQLA2y/RQK/RZUeyp
-					5JFJhbKAOi4aGgMum5/W4c/j7EAEBVi4i/0y
-					8LNECcUOqTKvSEvarA== )
-			600	AAAA	2a01:7e00::a
-			600	RRSIG	AAAA 5 3 600 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					zmJnzT6ZkL6iJtT3wuHbSnuIQBZ6Ja7uUctT
-					ZR5y2oL+Cy29fxkuMMUML8OLJMnUY1Uoa/fL
-					Y2wwurIRYPPyEM5RGzOiE+9btFZETnWPmkEe
-					6oLxO8MwjDg3bVyRSSS4k3if9I28ebT6RDME
-					xfCRLPC0fsGCn/iuFaf1SCtSeE75YYGvrA2i
-					q9XLBvwxIeY2B4Uh12Vw+pydy7mcAu/2DpXz
-					1y/WS2HUlM+Ct3I2zGGfcONVo2/GyulFXr/m
-					PS++ucBVFMihafexZeAu3//CNlPq4rNM/YLH
-					SGPrwb4j4AM4aNXaWAGKpD/4KYdovZlUgF6+
-					VktPypWpCyjxjI74ug== )
-			86400	NSEC	urmom.bsdlp.net. A AAAA RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140330042505 20140228042505 30711 bsdlp.net.
-					bLY0u2qqqoL4WU6jZnNFM1FZZjafCo8UOuBI
-					0ru/gaWZMNKUhkWrazLMQep4ko2N6OIKj3oQ
-					Zt5ZPoVMNvV8So5NwnQ8qSGIWReLmpF2Rwvy
-					USE9xkdKvg+3pqTSKHG38PIx20qywOimAxVK
-					1SJbP9/UdIvnprJ77LeGwbviUOoW4He4dXD+
-					cYcjohjVV3DTePP5btJRRzbW5AVhJQ+5gjz8
-					z/Xk+EKP8iHROHG7Tbgy0rvXx/vxIg3TtM8D
-					PdN6qfETCyxFNsp44JF/V2lJg/Erqdp/jrHO
-					jWFUecXSTHCMfld0d2TQ/D3WsZwP+JfnP40o
-					a3aayBiCESVyvIjxZw== )
+					20140426043619 20140327043619 30711 bsdlp.net.
+					LeBG5/msuRckXHXiw72D3JsinykkYrM1vAsv
+					VaGrwLUSnfQFJ4nWRLEzAReJpNH0tF7W4JYK
+					WdYVpcEJIB9kzBiQfPfG+CP2s1hcr+7nmR98
+					1KTVQ9GEWYprBV0FEeM/IpqURXGH+lKcq2g+
+					OvpsDyjdoEXJSq+qnRE2pyvPYXR4EL+nLoo/
+					q35FzTRnz9KrP0YM3bFfmNtD6ByNJDiMo9bh
+					XFLjpPpVPqboOXQnayOhVO28/MTBAQ2newK5
+					dN8Mv/Dv0ckokrAjtJyf6ibhALJf56iKML1Y
+					bNP1m3zR8PlOIld/L8zVzSwpz022Kt+yiA7h
+					0I3bOO13tI6j0UMUng== )

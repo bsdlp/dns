@@ -1,17 +1,17 @@
 $ORIGIN .
 $TTL 86400	; 1 day
-bsdlp.net		IN SOA	ns1.bsdlp.net. noc.bsdlp.net. (
-				2014022800 ; serial
+bsdlp.net		IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014032701 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
 				86400      ; minimum (1 day)
 				)
-			NS	ns1.bsdlp.net.
-			NS	ns2.bsdlp.net.
-			NS	ns3.bsdlp.net.
-			NS	ns4.bsdlp.net.
-			NS	ns5.bsdlp.net.
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
 $TTL 600	; 10 minutes
 			A	66.228.43.47
 			MX	10 ASPMX.L.GOOGLE.COM.
@@ -41,14 +41,4 @@ $TTL 600	; 10 minutes
 				vyROdXxGgMxYcevza4gPBDzj96xCWsPoUyWsCPM=
 				) ; KSK; alg = RSASHA1; key id = 613
 $ORIGIN bsdlp.net.
-ns1			A	69.93.127.10
-			AAAA	2600:3c00::a
-ns2			A	65.19.178.10
-			AAAA	2600:3c01::a
-ns3			A	75.127.96.10
-			AAAA	2600:3c02::a
-ns4			A	207.192.70.10
-			AAAA	2600:3c03::a
-ns5			A	109.74.194.10
-			AAAA	2a01:7e00::a
 urmom			A	198.58.118.243
