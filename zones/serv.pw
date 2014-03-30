@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 serv.pw			IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014032013 ; serial
+				2014032923 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -15,6 +15,7 @@ serv.pw			IN SOA	ns1.linode.com. noc.sjchen.net. (
 $TTL 300	; 5 minutes
 			A	66.228.43.47
 			MX	10 mail.serv.pw.
+            TXT "v=spf1 +a +mx -all"
 			DNSKEY	256 3 5 (
 				AwEAAeq6HAGLIloyBldffhwcwuQSFPli0prZ4QskAS2b
 				W/QvhrobfW64oBKohF99VKcorUGoJJDqJSvaLeGWzyHU
