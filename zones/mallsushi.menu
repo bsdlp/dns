@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 647100	; 1 week 11 hours 45 minutes
 mallsushi.menu		IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014033117 ; serial
+				2014033118 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)
@@ -14,8 +14,8 @@ $TTL 86400	; 1 day
 			NS	ns4.linode.com.
 			NS	ns5.linode.com.
 $TTL 800	; 13 minutes 20 seconds
-$ORIGIN mallsushi.menu.
-www             CNAME mallsushi.menu.
                 A     192.30.252.153
                 A     192.30.252.154
+$ORIGIN mallsushi.menu.
+www             CNAME mallsushi.menu.
 
