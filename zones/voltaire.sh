@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 voltaire.sh		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014032603 ; serial
+				2014040214 ; serial
 				14400      ; refresh (4 hours)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -20,7 +20,7 @@ $TTL 3600	; 1 hour
 			MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 			MX	30 ASPMX2.GOOGLEMAIL.COM.
 			MX	30 ASPMX3.GOOGLEMAIL.COM.
-			TXT	"v=spf1 include:spf.mailjet.com include:_spf.google.com ~all"
+			TXT	"v=spf1 include:spf.mailjet.com include:_spf.google.com mx -all"
 $TTL 300	; 5 minutes
 			DNSKEY	256 3 5 (
 				AwEAAdDInc9q9Idnz7jnOg7wcQafsJNcwd/kTGxAXXLl
@@ -45,11 +45,7 @@ _minecraft._tcp.create	SRV	0 5 25567 mc
 $ORIGIN dev.voltaire.sh.
 *			A	66.228.43.47
 $ORIGIN voltaire.sh.
-forum			TXT	"v=spf1 mx mx:voltaire.sh -all"
 _minecraft._tcp.ftb	SRV	0 5 25566 mc
-mail			A	66.228.43.47
 mc			A	78.47.224.228
-p			A	66.228.43.47
-sync			A	66.228.43.47
 _minecraft._tcp.vanilla	SRV	0 5 25568 mc
 www			CNAME	voltaire.sh.
