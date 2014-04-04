@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
-lowendthinking.com	IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014032021 ; serial
+lowendthinking.com	IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014040416 ; serial
 				14400      ; refresh (4 hours)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -13,6 +13,7 @@ lowendthinking.com	IN SOA	ns1.linode.com. noc.tonkat.su. (
 			NS	ns4.linode.com.
 			NS	ns5.linode.com.
 $TTL 300	; 5 minutes
-			A	66.228.43.47
+            A   192.30.252.154
+            A   192.30.252.153
 $ORIGIN lowendthinking.com.
 www			CNAME	lowendthinking.com.
