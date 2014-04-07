@@ -1,67 +1,67 @@
-; File written on Sun Apr  6 12:17:25 2014
+; File written on Sun Apr  6 21:49:16 2014
 ; dnssec_signzone version 9.9.5
 voltaire.sh.		86400	IN SOA	ns1.linode.com. noc.tonkat.su. (
-					2014040612 ; serial
+					2014040621 ; serial
 					14400      ; refresh (4 hours)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
 			86400	RRSIG	SOA 5 2 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					H+MA8oJq7LvyJ9WXjy/VGhWjL3D+Hl0Rmo4m
-					YWHtq00oQamo9K4l86XbpaZKrBTtrM4ETuim
-					55kNnhDfCD+CCB/6Q3cFDcWYzU6AB/IUQMLk
-					oS4w+2OPkHL9zDRMv0NI2sChRL49o/XCtBPM
-					aY0uZ90TZzxlEaU1I1+6F041Eaw= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					dTDqVZD4KHNJmbbnazeCq2TNYJ43VzqWzqzG
+					81PUORVOyAHTm06vovUFtEuoRb2fEWd9j1/V
+					tAZITlt1Go5obC0kOc+2eCA5gA950g1MCLJw
+					117Z5EvfRSImqh6kmyU3NqUw0WN8RzaZniZL
+					9ukLQWTlovEdww90xHs5BdTsM5o= )
 			86400	NS	ns1.linode.com.
 			86400	NS	ns2.linode.com.
 			86400	NS	ns3.linode.com.
 			86400	NS	ns4.linode.com.
 			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 5 2 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					yszA7f60LV+FYAwGhGMNoMHjqaG2uAPzJEPy
-					LeaWNDNV8XZSdlCYpRYzEs8Gx9PGeRmruxL7
-					sBlaP1iXtSWzQRUKzAUbh0EwHEkEsN/ekvhs
-					Du0fofNRbiJ7gyUQQMGH9BqsyC3T7i6fChn8
-					SSNYGSQXTJL19lYxpS1lYQsWUL8= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					AN4BR+C/CoMOkIZT7ax2igTrAo29o7+TYPWw
+					5snXd1yCRX0x5l50Pr7idEd2BWUdQ1avswZk
+					INDMk5JaI4NgSjyFGHvWdxKbwR1ehXHCNFCd
+					keFnImZFeU5NNrg4tZbf2xVZnoCAfPN4bib9
+					ENGjGUQFBRFM43BQPXwxhHBPUlY= )
 			300	A	66.228.43.47
 			300	RRSIG	A 5 2 300 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					iEzdQKFP75dzAEiEz/k13rF2Vr6MRGC2BTlm
-					9+gRWO1WohkGok5zp7+S+w3uNdsBlLZT8CbR
-					vIg0wx0iKFsoxd2fBSqv41MRDAyiDl5BLR1c
-					tgRO9a4d3IrvYPViexyipzzfSJTzjmbOFW8g
-					sacGsmVp5Xt3heGeW1Q1PsqL3PU= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					ewXzrrh8EvnewTTxJcPZDqJcuonR/0n1S3kH
+					xbIXlhDPW1EbSgrEvvo2CrAZW5EXTszP4JdS
+					QcOnCNZOnedoh9mFmFLC0zZS1A/wa4DGvCh2
+					HjLqMM3HAD4kWQ16rSGDVmxY0rQ4Q+XjBI16
+					Kt4xf3cDvp/pKMulJ6blIncpaoA= )
 			3600	MX	10 ASPMX.L.GOOGLE.COM.
 			3600	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
 			3600	MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 			3600	MX	30 ASPMX2.GOOGLEMAIL.COM.
 			3600	MX	30 ASPMX3.GOOGLEMAIL.COM.
 			3600	RRSIG	MX 5 2 3600 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					ojxbSFK4naoZ/Pft4TG9lQNdLL+etvTMJ20W
-					2kurBytpb+gmAquRYtphhgFpeLSU5RgTJybv
-					FRZTq0KBDpKcJqivEWYZa1zFTF8s4Fm4lIT6
-					n+MayfgE8krKRu3ENW3X9q8qTN30jg7AOQqR
-					GU4BsEB/+2HYIJSR2OmS6D4q4ns= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					AQHxH4pRzW8KoZanaKXOtzIXRBlWbqmB2kY+
+					DfgrvVuarfrwTCT1WJ93D5hkTpNCpWhdjMie
+					WSKZXffKjjOnbmyeHgocw+CJNj+aizztH+uW
+					UlcVPDTz7TeSwY8wy6GRznlLmE0CRX2yL3/b
+					5E07pShjFaY532j6LqwBrGlsdB4= )
 			3600	TXT	"v=spf1 include:spf.mailjet.com include:_spf.google.com mx -all"
 			3600	RRSIG	TXT 5 2 3600 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					LtHhdMWF7pqQnub+jlzqCMa38aFBOfifqckV
-					EYTkqJdF/xnvqO1LR7nXs0vgRJD7AVl/iNDX
-					QhVdSW9bttP5ItKIL0NpoYC/TGPta9kRH2rf
-					91/cKPBYewS60A7cMFTC1VdyGbG8CaE3/R9v
-					iUIfGctLxRCPu1kOeFOXL5HIJjY= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					G4s5/KbPJ/zYOf7DR8B/0XHsuSkI4gYfT0rq
+					gvzlv6RBAK2YA6oAIO11hUic63ihuJcpIIkI
+					dmc+gQP8hGvc2DFkipNQZx3wMC4YqgT7MYv8
+					CKLIvwR4niEB3tK60ms6RxtRtpLyoXCkPu6+
+					5kiem3Kr/vfvQtxAxbEy1+Ni+nQ= )
 			86400	NSEC	google._domainkey.voltaire.sh. A NS SOA MX TXT RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 5 2 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					RbPoMYl9jEineNNBtxrNpygkf8ceYvZfU2pf
-					dXmHmdjn3vnfCwrFutmyzdSRSD++kItvbl8U
-					yRJNVAFLLN5FN82T8Dq9hvxjvpj81GrGOiR0
-					NTaV++5XdEjH7HA+qIDTevi/sFKCwanU7Bmf
-					K1449+v1g8yXQeQ0azQ9gEhSESE= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					ltSlOh+RJKbZmvqxRyVmYV3PPbPg2MDtWApT
+					EDDIdbYYDOQ2/lqQUUu9uA5bQ8Y78N29H40M
+					krfBnq5j2SlmzjzH2Uu3V7lnXRZp0KB9uKAT
+					fFo2IebgJz12N837JGLpVM/ZzCOQhzqYBs2l
+					DL10kJUeHZzx011+kI8cm8Al3u0= )
 			300	DNSKEY	256 3 5 (
 					AwEAAdDInc9q9Idnz7jnOg7wcQafsJNcwd/k
 					TGxAXXLlDH/L83pa4ne9WM79wIXrbUHVqF4A
@@ -79,105 +79,105 @@ voltaire.sh.		86400	IN SOA	ns1.linode.com. noc.tonkat.su. (
 					asc=
 					) ; KSK; alg = RSASHA1; key id = 51472
 			300	RRSIG	DNSKEY 5 2 300 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					W1OHumTNUuWiPIVp9Y3hBckr9zqWilgFBHBz
-					iLg+69nTwUu9jCcuSO8t2zZYBJMN6I/BlJ5u
-					P3yL6DmW6GdUtSJvLTrVo+zOj+ZOSC4P8xpH
-					ARaOBP11zeTSluGWS9+NAuYMsQftnxvmHdFe
-					OCgXQqlHbCfRDbwx3QWR6hyPj9w= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					L1VTclw81dR3HAR8+2PE4kPKRm3I93Psii36
+					Sj0AsDbVb2ffVCikpWmpcJxXfNY6RBZUKBaF
+					Xtk732Ssywkg92Vu2KtY6iTXUl0ZXs4PVpNg
+					0TLQAVq8/v2qa1YOahyJ61oReBPorTSS8qUF
+					zuOTIlhUp8gZ+E8sYk3JK4+MkJY= )
 			300	RRSIG	DNSKEY 5 2 300 (
-					20140506151725 20140406151725 51472 voltaire.sh.
-					QLMQR43zKjHkIJMlNJ/Uix95HwifWG9uJkxe
-					fo5MXH0d4KZZd5KXRfJ8/w0NtLnrcJpwclUs
-					MJD6X0ad1nTCVFv6k9K+YYWeJNwtdUFfw7Us
-					5iRHT46t6WP1FEX6jTNIYaSWR3QTia61lGEJ
-					XZW70vq4lrxmd3qxbovc6/JHR0jl8gXyO9A5
-					WBvP6UpVI7Jeyccx2gevglD1NC7o02iL1Q== )
+					20140507004916 20140407004916 51472 voltaire.sh.
+					svSkCfZDPqXrmXHe42NlYhYyU01KXNb7T7jd
+					kJZ3EdZDiSYet5VdcnZHfGyj/e0ZeL7HMPmf
+					cSJ5nBg4uNDfL8FF2h4hbtSzXF76oQMBCQja
+					ZAs/g62cVYne9ODehIkiS24lpOWKHdvN1AxD
+					JYEASlxX0SgSkjXtZXGQLBBJGzGFDCsKqw5U
+					1fjL5Fc3GXEsknU03j3WM5wmD67tBvED1g== )
 google._domainkey.voltaire.sh. 3600 IN TXT "v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVaFfqh00P/E80EsiNMqyY8A4vEMbJqI2tLCpO0/qJT3O5AvBQ0rI98KJKbUVngXvA3T86YkmNYLuiVA6CDTL8gIX9jqBkycSfVdIe+jAqODlhT27rZh1NweoDjfDKE3aih56aNql7D2nuNFiMGOPETFivpjd395mwqXASMmKFKwIDAQAB"
 			3600	RRSIG	TXT 5 4 3600 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					sZBg+Cb+PC8RTGYiciEIh92bbpPTjPi1AUwy
-					DlWqgDw2dZkW66BIfMGqGer6ODfmT4h44gLg
-					AvB2pJXugHILFkAUuIDHRF27YGNtoqJnQNKB
-					pRC668ffExriepE1/eGefGLevh2nJ60ouy6H
-					dtHQEl8t2qDzGI/dkxVlNGgpDAk= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					usNqxbpmjvaGKAmXm6v6q1glG5wubmVJVLsq
+					GPBD+E8noLhv4sRphTId812gLi86muwrilJG
+					5sVNKjCwqVhNW2covoItl5r4ljh8VSD2gBNp
+					KvY5mdUEUuwZbqTWP0KkaMhTNo34M1SP8ZA5
+					8Vdh2PQnism42R/jtDJy+EXOYmo= )
 			86400	NSEC	blog.voltaire.sh. TXT RRSIG NSEC
 			86400	RRSIG	NSEC 5 4 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					zY+gT0JF9eueuBGlIaCQf+UPO+GpJzvpqARz
-					ClGw3aO8TJCxC9iBPKIxCJ5qtn/uBD39NDPY
-					yYaQ87p74M8E8iSFrpEuQqB+5DTc3HgreniE
-					BXNoVGQowm47myhzvxUcAJ3GWBMi2iL88qMp
-					V3GTQAdQEFFYzN8mJ49e0rBNk00= )
-mc.voltaire.sh.		300	IN CNAME de0.serv.pw.
-			300	RRSIG	CNAME 5 3 300 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					C97DBcxphqOmSVzT2GnXR57kE3UQMU3P8Pgz
-					J312qNdsBZnNlHfWBzea5eU8fcxUhqAtzosW
-					T5ly2URbqpTZSiIJwo7ExaFZMgb/merFqccl
-					6JpYr3F5siYRShfC1pdfvE/8j+bWlkVRNpVp
-					mcbxMQex/zGp2RaM9v5LxyrhIsM= )
-			86400	NSEC	_minecraft._tcp.vanilla.voltaire.sh. CNAME RRSIG NSEC
+					20140507004916 20140407004916 43917 voltaire.sh.
+					ZTVg15gAVLKZkPKgyKyUO3gO3ks7gYiA2ezl
+					7Rx/md2r04n5qByRxoons8o59jrt5xyucByM
+					MrXp35w7ZBhdStB26ywKkf4S1ZmEpW1weSJ+
+					WI5au/9FEe6VckGwdrq6gB0MY27wuUpJCQrT
+					sqYgNxf+RzF4yqWuykU09kWH8mc= )
+mc.voltaire.sh.		300	IN A	198.245.62.165
+			300	RRSIG	A 5 3 300 (
+					20140507004916 20140407004916 43917 voltaire.sh.
+					AbhattLXlHR+Zk0uZg8n4GtXTSEPeA9m903G
+					SYVR4ikncluOdYsu1yZy4t3JhfwflFFE0/Yx
+					PqzAeLwlmhw+1p6bmPYKO+RXMcPE7V6IY5Fe
+					I49ebiQO60P3ZggLrmIodXViqJwmfPiEETDt
+					puT/icnYzO5utKkWdO2D142f9MU= )
+			86400	NSEC	_minecraft._tcp.vanilla.voltaire.sh. A RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					HFuKIVDkeLdJySOxrnD91tpsplUzoeGbWXOI
-					7gGSuELGwkaR4EgdNtHTAgwZJ3B0duzGRa7i
-					8bNgtnYq05rpOQKTd/tp2ARN3d6FYlq518Xh
-					8WvPjN3TSdNISRIz+raKMWOpWNZbg8WU4qDW
-					oA1J0damOKftqLJJA3yrysvPSso= )
-www.voltaire.sh.	300	IN CNAME voltaire.sh.
-			300	RRSIG	CNAME 5 3 300 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					sYC88VIWmBkp4Vx2buWTx5iEHIH//kdUFkbk
-					LzTCzVSk0UGehn/1JtGB+XXrrqmg/QbXjlha
-					tiaT57j4dTpskVsyQ7AeHpoSFIwReHXux7Oq
-					dZ3Ug6XJPExLW5auutJml/gUTnkYM0n6JKHH
-					XEZMa+D0qrPm/XjSj5UrxZx8tFo= )
-			86400	NSEC	voltaire.sh. CNAME RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					F80nB2a0KKqr1hJNC4+85myasaJOmUK4OTUT
-					oEBEIyjSsdOqIPBFQ8S4p5GpQtmi/ldgA1D3
-					Z0YWKWfPh7bNtJ8QdJax1CHQs1wiTU7BOWX9
-					1w3ZIvpKspLjnSiGmCamJ3WIEVM+jbm1ends
-					+tHv4WvRmRFoemPnQoeXBWFGmWw= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					ajKNlT2boCdMQ6rPpPHVsGpDeaOzGdBUNeAP
+					Xht3Tdi8vTmjpw21Ox6c/jOaTfGFiqCeELbu
+					ugEHSKOojYMrZVTR3YfVv03D72hjaMz3Ott8
+					KHe10jnRdIGEE3pItO8rcalyY02BAFGpRBL9
+					AXL1TSGSiuN+KZ51/Mx84SeaLl4= )
 _minecraft._tcp.vanilla.voltaire.sh. 300 IN SRV	0 5 25568 mc.voltaire.sh.
 			300	RRSIG	SRV 5 5 300 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					fJyjWLKl+9eSC0vk+WYt/LuOlKGfRQERbgtb
-					suUSRqDTAkivdSe5p2/p09IN8Ikh9Aat2wsk
-					yK3Yhb71ZZBmmeik9qdxvPCsICJ/v/e3lL0S
-					+zNuss0wY68LFKc/SsB8a/dPBY2eq0kP03Ba
-					3tcwDsJIzzSH7ioa0xKx1KoQgt8= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					oJEKgUMuHV/gSO2lM2MpYAnu9rnUhJUIxGy5
+					oFKvWBDNTJCAw9L9j7JInzvTrT4MWG+YQUry
+					P3AsA+JeOw9kkwn4+w5QpnXC64nBK6SOmhxe
+					J8KEjDYqk9IM3fW+4lQzJ1mMpMespTP6mV+o
+					RHx8Ntn0Xpp15XiU3wg9QvpKL+M= )
 			86400	NSEC	www.voltaire.sh. SRV RRSIG NSEC
 			86400	RRSIG	NSEC 5 5 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					ToQf9fuVNrGyFYJKb+vypjTKz1rGxIKeGAAZ
-					uw19nAcAieOVOTnI3IVdwZy+CdShtoYhUG8f
-					TBQNo7Aw+KBDWGCAJC6AW0jSq2Ev8R3u/TiA
-					C8q9WC9/vtotj20xlme8Mcok41REdMSojnad
-					P1+sGFd41GjoEpoK9Hn1HBEQ32c= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					arA/U9MFVSDmU5le+GtJ1Ep7+BUldFON44Fa
+					wE8GT0QAKBloNvbU7WeYtEElNVpQ5NNG9ik4
+					lZYB8j+L65n/QSpH3gQxDfqP0lsn00Pxb8+S
+					70aFxxMQNOLvpYIZVPKggyDYTKpEEQ/KYcwL
+					zp9/8aML/4gq6i1BsQCs9sfKkgU= )
+www.voltaire.sh.	300	IN CNAME voltaire.sh.
+			300	RRSIG	CNAME 5 3 300 (
+					20140507004916 20140407004916 43917 voltaire.sh.
+					F28oI3d6tTlOC7GIi/7yU7xXnlpAfcAOrwNz
+					jyfjqe4niy+o+BcnZ9A+o37kITKUhi85Cc79
+					PVOFv6VWYZWfFmmK9u2MyA0dwE1UkPhE+umi
+					e59gFyRPgPcjuZx5XswE0TcP4tStKTuCTR3I
+					8kPVRusksbrPaiKv53rC0mp3xQI= )
+			86400	NSEC	voltaire.sh. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20140507004916 20140407004916 43917 voltaire.sh.
+					aJRiUfYJjFx576tRc3cJNscnO7nHH1pmuFs7
+					LgJfJt0kLCBgBHrPUNtYchzYg1VjVzbhabNs
+					gNu7tyEDRXtwN7u2rC8M1GRW67dogtjVbfui
+					vDWrwsy/lheCUvHyggBITugY1iVaMUdlFr5U
+					Blq5dv/nRLHVsT3LspC0XbI6FHA= )
 blog.voltaire.sh.	300	IN A	66.228.43.47
 			300	RRSIG	A 5 3 300 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					oCbpMVps/nGx51h/DUT1V3JbR163HGU6f38W
-					AMiGVcEkvLHsJ9EcI9J4D/+C5Y958H1hwKfK
-					jDyMr24M9vVU91BgGNXE9tfFkhnPuQqrhXOF
-					doQxX4rTLtFuPZGtYUiDh73UeuOlzK0fFXT0
-					LigjMgtF7KMfCivn3ohR8IAkU1U= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					lAfL96bk54Mw6QGYVdjVHQjrmzXeRRgSVG7x
+					PtAdzNh6//t7hh9X0V51I4QrYLhk4vRHfIb+
+					dYzylLCsgnF7tb+nAfKBdoh9scenSaIbT5xa
+					PlGbn4EoxYkUx2VhyBEXDXgpDCPljVVrRccn
+					3iDF4REho6IMNOQGZpF9UyvB84o= )
 			300	AAAA	2600:3c03::f03c:91ff:feae:e071
 			300	RRSIG	AAAA 5 3 300 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					sf0CjC2LyJldMjR5T9Qo0fZNkpdApxhFy5YW
-					FHpCVNf+mTabP6470Q9ooEYvqm9kH3zS3PD3
-					AoDMDFHVJELNAybMa1SXogBUENqXKMK+KGLB
-					Zi277eAvbWNt6O35E+/1S6nhjx2GnHGtPTO5
-					Wu5MlN47KflS1uOFN+As2EdVCk0= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					v/NNCOu8OlOj0trpOqgFyUkDjBULFLH+dose
+					3YT0FMyw5WlpAwYsqJeQNV2FLm6gTBMybK/4
+					1eWysaZf9IvRpXeyJ4IkwcDp9QCntvhcw0nF
+					kKEpLfzCIrvnPULJp0IK+QWCwAvO/l59JYkI
+					FVU34R6JAI3pFRRAtoPNk82noAE= )
 			86400	NSEC	mc.voltaire.sh. A AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140506151725 20140406151725 43917 voltaire.sh.
-					G91opHmMIIdu8QOS8Ffj1sfRloJDDF4YFszo
-					r08dOlDNSgCEIUpLI5af/IfhQPZGOkJKzTIH
-					JCT3N9ckIAXQ9lhJtxPkhfFq035uR4ZDAgpV
-					KB2Cypnaje+NbTrrdzDzGMBmv7ftW0xf+PjF
-					ao9nwJbTlodEkiTj6I7tSvj6Vvk= )
+					20140507004916 20140407004916 43917 voltaire.sh.
+					cr1LuqFPQPDARkIYPfjCe0Jr/VSGYFbQjvZN
+					6wcx1SakgM3mSbVv3wOTdji79Gj5e1AVw4xh
+					v5pTAmnoIKq5OzZkEXLVHBRqIzLufFwVWn+0
+					9Q0+HsNqFxqr6wvuVuvejZm9s53FpSbCuJMt
+					AsKV467hLG+yuBS98xfCeP22qGc= )

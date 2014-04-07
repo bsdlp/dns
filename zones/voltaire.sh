@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 voltaire.sh		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014040612 ; serial
+				2014040621 ; serial
 				14400      ; refresh (4 hours)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -42,6 +42,6 @@ $TTL 300	; 5 minutes
 blog			A	66.228.43.47
 			AAAA	2600:3c03::f03c:91ff:feae:e071
 $ORIGIN voltaire.sh.
-mc			CNAME   de0.serv.pw.	
+mc			    A  	198.245.62.165
 _minecraft._tcp.vanilla	SRV	0 5 25568 mc
 www			CNAME	voltaire.sh.
