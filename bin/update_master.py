@@ -3,6 +3,7 @@
 
 import argparse
 import ConfigParser
+import urllib2
 from linode import api
 
 
@@ -29,8 +30,14 @@ if args.api_key:
 else:
     api_key = api_key_from_file
 
+if args.master_ip:
+    master_ip = args.master_ip
+else:
+    icanhazip = urllib2.urlopen('http://icanhazip.com')
+    master_ip = icanhazip.read()
+
 linode = api.Api(api_key)
 for domain in linode.domain.list():
     if domain['TYPE'] == 'slave':
         targetID=domain['DOMAINID']
-        linode.domain.update(DomainID=targetID, MASTER_IPS=args.master_ip)
+        linode.domain.update(DomainID=targetID, MASTER_IPS=master_ip)
