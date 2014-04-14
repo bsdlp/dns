@@ -1,0 +1,36 @@
+#!/usr/bin/env python2
+# -*- coding: utf-8 -*-
+
+import argparse
+import ConfigParser
+from linode import api
+
+
+config = ConfigParser.RawConfigParser()
+config.read('../config.ini')
+api_key_from_file = config.get('linode', 'API_KEY')
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--master_ip',
+                    '-i',
+                    type=str,
+                    nargs='+',
+                    help='dns master ip(s)')
+parser.add_argument('--api_key',
+                    '-k',
+                    type=str,
+                    nargs='?',
+                    default=api_key_from_file,
+                    help='linode api key')
+args = parser.parse_args()
+
+if args.api_key:
+    api_key = args.api_key
+else:
+    api_key = api_key_from_file
+
+linode = api.Api(api_key)
+for domain in linode.domain.list():
+    if domain['TYPE'] == 'slave':
+        targetID=domain['DOMAINID']
+        linode.domain.update(DomainID=targetID, MASTER_IPS=args.master_ip)
