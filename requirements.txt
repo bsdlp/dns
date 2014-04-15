@@ -1,3 +1,2 @@
 linode==0.3
-pycrypto==2.6.1
 requests==2.2.1
