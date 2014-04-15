@@ -12,7 +12,8 @@ _SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
 
 config = ConfigParser.RawConfigParser()
 config.read(_SCRIPT_PATH + '/../config.ini')
-api_key_from_file = config.get('linode', 'API_KEY')
+api_key_from_file = config.get('linode', 'API_KEY').lstrip('\'').rstrip('\'')
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--master_ip',
