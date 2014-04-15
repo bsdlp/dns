@@ -3,12 +3,15 @@
 
 import argparse
 import ConfigParser
+import os
 import urllib2
 from linode import api
 
 
+_SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
+
 config = ConfigParser.RawConfigParser()
-config.read('../config.ini')
+config.read(_SCRIPT_PATH + '/../config.ini')
 api_key_from_file = config.get('linode', 'API_KEY')
 
 parser = argparse.ArgumentParser()
