@@ -1,16 +1,16 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import argparse
-import ConfigParser
+import configparser
 import os
-import urllib2
+import urllib import request
 from linode import api
 
 
 _SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
 
-config = ConfigParser.RawConfigParser()
+config = configparser.RawConfigParser()
 config.read(_SCRIPT_PATH + '/../config.ini')
 api_key_from_file = config.get('linode', 'API_KEY').lstrip('\'').rstrip('\'')
 
@@ -35,10 +35,10 @@ else:
     api_key = api_key_from_file
 
 if args.master_ip:
-    master_ip = args.master_ip
+    master_ip = args.master_ip.encode(encoding='UTF-8')
 else:
-    icanhazip = urllib2.urlopen('http://icanhazip.com')
-    master_ip = icanhazip.read()
+    icanhazip = request.urlopen('http://icanhazip.com')
+    master_ip = icanhazip.read().encode(encoding='UTF-8')
 
 linode = api.Api(api_key)
 for domain in linode.domain.list():
