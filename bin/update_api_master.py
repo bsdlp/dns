@@ -4,7 +4,7 @@
 import argparse
 import configparser
 import os
-import urllib import request
+from urllib import request
 from linode import api
 
 
