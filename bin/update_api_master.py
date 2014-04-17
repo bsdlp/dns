@@ -43,5 +43,5 @@ else:
 linode = api.Api(api_key)
 for domain in linode.domain.list():
     if domain['TYPE'] == 'slave':
-        targetID=domain['DOMAINID']
+        targetID = domain['DOMAINID']
         linode.domain.update(DomainID=targetID, MASTER_IPS=master_ip)
