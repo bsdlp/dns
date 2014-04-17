@@ -1,6 +1,6 @@
 # dns
 
-My DNS zones. I use nsd3, and some of my zones are signed.
+My DNS zones. I use nsd4, and some of my zones are signed.
 
 If you would like a subdomain, please read SUBDOMAIN.md.
 
@@ -14,5 +14,5 @@ If you would like a subdomain, please read SUBDOMAIN.md.
 4. Edit zone to reflect desired resource records.
 5. Add entry to zones.conf.
 6. Push changes, pull changes on hidden master.
-7. Restart nsd3. nsd3 does not detect new zones unless you restart the process.
+7. `./bin/update_master.sh`
 
