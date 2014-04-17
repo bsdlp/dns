@@ -8,5 +8,8 @@ set -o errexit
 # https://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
 readonly _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-ssh root@198.58.105.50 'cd /etc/nsd/ && git pull'
+source $_DIR/../common.sh
+
+rsync -avz --progress $_DIR/../compiled/ $MASTER_USER@$MASTER_IP:$MASTER_PATH/zones/
+scp $_DIR/../nsd/zones.list $MASTER_USER@$MASTER_IP:$MASTER_PATH/zones.list
 /usr/local/sbin/nsd-control -c $_DIR/../local.conf reload

@@ -1,0 +1,3 @@
+MASTER_USER='root'
+MASTER_IP='198.58.105.50'
+MASTER_PATH='/etc/nsd'
