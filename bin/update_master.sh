@@ -12,4 +12,5 @@ source $_DIR/../common.sh
 
 rsync -avz --progress $_DIR/../nsd/compiled/ $MASTER_USER@$MASTER_IP:$MASTER_PATH/zones/
 scp $_DIR/../nsd/zones.list $MASTER_USER@$MASTER_IP:$MASTER_PATH/zones.list
+ssh $MASTER_USER@$MASTER_IP 'chown -R nsd:nsd /etc/nsd/'
 /usr/local/sbin/nsd-control -c $_DIR/../local.conf reload
