@@ -27,7 +27,7 @@ cd $DIR/../
 
 mkdir -p keys/$KEYDIRNAME/ && cd $_
 
-readonly KEYDIR=$_
+readonly KEYDIR=keys/$KEYDIRNAME/
 
 ZSK=$(dnssec-keygen -r/dev/random -a RSASHA1 -b 1024 -n ZONE $zone_name)
 KSK=$(dnssec-keygen -r/dev/random -f KSK -a RSASHA1 -b 1280 -n ZONE $zone_name)
