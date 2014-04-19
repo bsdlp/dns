@@ -1,0 +1,67 @@
+; File written on Fri Apr 18 22:15:44 2014
+; dnssec_signzone version 9.9.5
+keyporium.com.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
+					2014041822 ; serial
+					900        ; refresh (15 minutes)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 (
+					20140519011544 20140419011544 2256 keyporium.com.
+					ftoSFXo+4tRWKmRuekGa4pOqS+U4TiLPDnVp
+					cvnnavlzYqLw6090j7Kyj48xCtTODTUeECXR
+					MbSO68x4BJFNUsNGTIwmlbir7XeoaaDNdUWl
+					2v3ZcXQKA+N597UOw8i6NX4gMKaWDbGSf/4p
+					/m5YDy1lkdU+Hfd4JIWVj1MEb5s= )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 5 2 86400 (
+					20140519011544 20140419011544 2256 keyporium.com.
+					UNQmiaFuQunoT80v8nK57xxbOToN+NrQ5h2Q
+					OGWzd7Ls/tFVOy4n+RnKrJZ5WA/iUgWB6MCN
+					YRyr1tAqeOdA75LXsjMHThMLXU3//HbZt/Hk
+					fdxIy05AGfflBHCuJY4ZyTp4+TkTeiF0hzVF
+					01My1iaLRo9Qo7mQpPpgqkqSL28= )
+			86400	NSEC	keyporium.com. NS SOA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 (
+					20140519011544 20140419011544 2256 keyporium.com.
+					DQ3JbhfXk06/iD8JLdxbOm6FTpyRKha7dT/C
+					AnispsWA7mq5IErkOPaFwCIb373OHj1RQEkj
+					8IjLswkw0JWwNI2sTop3Y9vzUHA+j1qIqTqw
+					TgOWy8j9CZbygIXQsfKW+AdSeNjRZcchIvdR
+					eISGVl8lhT+sD812y02zjPSkSuo= )
+			600	DNSKEY	256 3 5 (
+					AwEAAbaes1fgw4ZcLPKdEUX5YCnC1TZl5iMW
+					EqhZQmkukgvvXgssGYrWRrIhp5JfsQ/34D+6
+					nrfE2Fng+7GDrJHz9ndf4vVoSgX99yTULH3v
+					Qn37w9/X7Jk0W6sMo3O08PXKPiv0LGiPP7Bs
+					r/mu3TXZE1ywDFqtX0kfxibUZhVFviOl
+					) ; ZSK; alg = RSASHA1; key id = 2256
+			600	DNSKEY	257 3 5 (
+					AwEAAdEHCMquuij7yHUYwsSStOdBpTIJO+V0
+					+5ZSeMv/9oRs5AjWlhPT+pwhkvSW9rsTmi3N
+					8UKdxA1fGQ1+z+5SabDiAhgTRcncPCcdMOYF
+					YoxEkbRPFZvgimf5mK+lfRE73nEdorajn4qG
+					QayuiM/hl/WmdBFx/OIhHlfGU6ag3qQ/0A+3
+					sPax0zbmOLIa8vXMlo0uU41ffkGFQa1Lj7QV
+					sy8=
+					) ; KSK; alg = RSASHA1; key id = 24127
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140519011544 20140419011544 2256 keyporium.com.
+					fge/0n/g7X7fEUrgSDzY40yLJMeKyukEXY/v
+					CdqcBiqSX6RpHtmL8vIU+YMKJGNLFmO8TBks
+					w5ExA5RkNandoYEBVMfq3uoa2fhOR7URhDa9
+					rPbJ77deGCdphf8mJ38+VPjVvYbBu6u2SR2m
+					RaOeIRcLxyVCEuh+DB0z1oGpcYM= )
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140519011544 20140419011544 24127 keyporium.com.
+					zcwCsoqQMTlW3AUrLCYW+id7dmXvWrhytObd
+					x5yIppa75hkCQ0VJc0sh8OjzJJwLTB0DxjLD
+					g6cxGbc9o4Xtf4hMBi8wYaCp8iPBxBKGaIU6
+					5UZ+6M0b15A4y73zJOGTejWWaQ08aruSHbdB
+					fljodHpCKwYFb9aBBvjHFOX594MA3U9XWrDm
+					8QodiifQIdx/+Lkl+OxcbGbz54uh/JlpSw== )
