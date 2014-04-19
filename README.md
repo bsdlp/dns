@@ -4,6 +4,11 @@ My DNS zones. I use nsd4, and some of my zones are signed.
 
 If you would like a subdomain, please read SUBDOMAIN.md.
 
+## Configuration Files:
+
+The example `*.dist` files are provided in the root of this repository. Once
+edited, move to the conf/ folder.
+
 ## Common Procedures:
 
 ### To create a new zone:
