@@ -11,7 +11,7 @@ from linode import api
 _SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
 
 config = configparser.RawConfigParser()
-config.read(_SCRIPT_PATH + '/../config.ini')
+config.read(_SCRIPT_PATH + '/../conf/config.ini')
 api_key_from_file = config.get('linode', 'API_KEY').lstrip('\'').rstrip('\'')
 
 
