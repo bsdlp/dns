@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 wtfork.org		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014042000 ; serial
+				2014042001 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -13,8 +13,6 @@ wtfork.org		IN SOA	ns1.linode.com. noc.tonkat.su. (
 			NS	ns4.linode.com.
 			NS	ns5.linode.com.
 $TTL 600	; 10 minutes
-			A	66.228.43.47
-			MX	0 mail.wtfork.org.
 			TXT	"v=spf1 mx -all"
 			DNSKEY	256 3 5 (
 				AwEAAbcq3ZjJuRfDHFTGKjwbEoKoAkq3w127rOlmsXWm
