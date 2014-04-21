@@ -1,0 +1,67 @@
+; File written on Mon Apr 21 18:48:38 2014
+; dnssec_signzone version 9.9.5
+gitfax.io.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
+					2014042118 ; serial
+					900        ; refresh (15 minutes)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 (
+					20140521214838 20140421214838 5940 gitfax.io.
+					CL+Xe/xX07twJrZcz6409Q0ivAGLZA9s/Ku+
+					Ipsp64gPy5W+YyuYGd3RP14CF3fAj5ltxk/n
+					II6u7UZVDA616wRwo8yySUUbesqNr1oAbbwR
+					kn7BB20ZzGa4kuBskfE6iKN+aNEhUy2mZ71+
+					98hmwITVt6tkzCr4NG25YpuT9QU= )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 5 2 86400 (
+					20140521214838 20140421214838 5940 gitfax.io.
+					AqvX0ITfdVrXiJgTGvdxtxbtLCvDkMPVdyY5
+					0rVjGPZzJFwiLb5F2jVc0NmTO7ddm/nIvqbn
+					PUXshCWOlLux0zte2HBHa8LLjkAdqbPTVFq5
+					YEe0tzJBvbHCaK9asSEtWl3SK87dwLNmuIcZ
+					jLm/QeVfiMbbc+3ikemrd3pYk24= )
+			86400	NSEC	gitfax.io. NS SOA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 (
+					20140521214838 20140421214838 5940 gitfax.io.
+					H7N6KgYjoFL3B4P3ZLwGxVdAvJF2BMvSP94I
+					/zrXFtY2Omna+5Cf7v3u7oy7UUCWpnsglMUV
+					1qlyr9Ucs5hnxszChvpRK1eMF6Bqcs1XL2QK
+					QrFyEOlVAmEsS5fvcSYBD8BdQD6i5TTy7osT
+					m04zuoQiUJoGTTXPtCh0FNDANeg= )
+			600	DNSKEY	256 3 5 (
+					AwEAAbSaL2DOXrOKUY2neoHuzwmLcWXPAHgj
+					xhiQ6bUbWOV2YX9MGa/DwsEjCW7gXNNSp+LO
+					m1Ptg4a2kmB84EbpiYhQyIBr2X223bVEpaL8
+					48Bk/GITeneDCZ5M90wphlbFpFYFTz6Cq8qN
+					LrSDV2GzmbX9TiM1jfyewexUM7+1AmH9
+					) ; ZSK; alg = RSASHA1; key id = 5940
+			600	DNSKEY	257 3 5 (
+					AwEAAchZHeLyyb6nEv5h+Wxho6EFBtI+1UhR
+					X0jhq1Q5IVaHzl37pjsopMHNRummvInlLupW
+					k3C0jYa129SKAguDtNhWwm7p/SGsMo86Ja8A
+					cqP4R0boYquM03S9iHarvN4duv+MF2FYJkLj
+					MYLyiT17+Qx9KLFXbwxt2H20/5oQwbamhnL+
+					GlSF7R86TydT2rEuJLMxXuZ9P6qve1ZwyGCr
+					mrk=
+					) ; KSK; alg = RSASHA1; key id = 48121
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140521214838 20140421214838 5940 gitfax.io.
+					YI0PUiXXYN+DyGDU7amPrKaeOLlnXNWWE+Mc
+					7shkFA3DX665maeiCgSg9oahxxgEbMM39X3F
+					Q5+UMdldNSZMNm97XA3TAbvbcBbGMI3bz3h4
+					cq2mXcrumay/nm5ZcdTO8sn6LZo/m77I9ZOI
+					S+nlLigXSOdyslficvdV/lu5e8s= )
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140521214838 20140421214838 48121 gitfax.io.
+					tIdLnRcqM3UUkk6o4LWrG1TjtxtiB7cE2s2J
+					64l8dns48IEYx8hshpT0PwUxG4phl37jsQwy
+					IMQDhkOcyWj6CDh4nS6FAQ7//guW4v6ahfxR
+					etPIBZN5NF+6Zb9PsIom/ChH2aU2xbPXdqlb
+					bOBLukWmYCquE/YG4J7CMWGl8PvEo4sSWMCn
+					ZhLCjeVrS2437ceX/4NJxPdettppCOIgNw== )
