@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 647100	; 1 week 11 hours 45 minutes
 sjchen.net		IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014042209 ; serial
+				2014042216 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)
@@ -14,7 +14,8 @@ $TTL 86400	; 1 day
 			NS	ns4.linode.com.
 			NS	ns5.linode.com.
 $TTL 600	; 10 minutes
-			A	66.228.43.47
+            A   192.30.252.153
+            A   192.30.252.153
 $TTL 3600	; 1 hour
 			MX	1 ASPMX.L.GOOGLE.COM.
 			MX	5 ALT1.ASPMX.L.GOOGLE.COM.
@@ -40,17 +41,9 @@ $TTL 600	; 10 minutes
 $ORIGIN sjchen.net.
 $TTL 3600	; 1 hour
 google._domainkey	TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "
-$TTL 600	; 10 minutes
-bhs2			A	192.95.25.41
-$ORIGIN bhs2.sjchen.net.
-*			A	192.95.18.8
 $ORIGIN sjchen.net.
 $TTL 3600	; 1 hour
 calendar		CNAME	ghs.googlehosted.COM.
-$TTL 600	; 10 minutes
-descartes		A	66.175.210.114
-			AAAA	2600:3c03::f03c:91ff:fe6e:3c0a
-diderot			A	66.228.43.47
 $TTL 3600	; 1 hour
 docs			CNAME	ghs.googlehosted.COM.
 gmail			CNAME	ghs.googlehosted.COM.
