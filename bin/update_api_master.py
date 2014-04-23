@@ -46,3 +46,4 @@ for domain in api.domain.list():
         targetID = domain['DOMAINID']
         api.domain.update(DomainID=targetID,
                           MASTER_IPS=master_ip)
+        print(targetID + ' -> ' + master_ip)
