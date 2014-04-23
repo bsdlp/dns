@@ -45,4 +45,4 @@ for domain in api.domain.list():
     if domain['TYPE'] == 'slave':
         targetID = domain['DOMAINID']
         api.domain.update(DomainID=targetID,
-                             MASTER_IPS=master_ip)
+                          MASTER_IPS=master_ip)
