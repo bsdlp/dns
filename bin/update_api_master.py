@@ -5,7 +5,7 @@ import argparse
 import configparser
 import os
 from urllib import request
-from linode import api
+from linode.api import Api
 
 
 _SCRIPT_PATH = os.path.dirname(os.path.realpath(__file__))
@@ -40,9 +40,9 @@ else:
     icanhazip = request.urlopen('http://icanhazip.com')
     master_ip = icanhazip.read()
 
-linode = api.Api(api_key)
-for domain in linode.domain.list():
+api = Api(api_key)
+for domain in api.domain.list():
     if domain['TYPE'] == 'slave':
         targetID = domain['DOMAINID']
-        linode.domain.update(DomainID=targetID,
+        api.domain.update(DomainID=targetID,
                              MASTER_IPS=master_ip)
