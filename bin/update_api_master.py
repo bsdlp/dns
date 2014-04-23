@@ -44,6 +44,9 @@ api = Api(api_key)
 for domain in api.domain.list():
     if domain['TYPE'] == 'slave':
         targetID = domain['DOMAINID']
-        api.domain.update(DomainID=targetID,
-                          MASTER_IPS=master_ip)
-        print(targetID + ' -> ' + master_ip)
+        try:
+            api.domain.update(DomainID=targetID,
+                              MASTER_IPS=master_ip)
+            print(targetID + ' -> ' + master_ip)
+        except:
+            raise
