@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 serv.pw			IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014041522 ; serial
+				2014042314 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -53,6 +53,11 @@ de0             A   78.47.224.228
 www			CNAME	serv.pw.
 irssi           A   23.251.151.9
 
+ewr0        CNAME   ewr0.lin
+ewr1        CNAME   ewr1.lin
+ewr2        CNAME   ewr2.lin
+ewr3        CNAME   ewr3.lin
+
 $ORIGIN lin.serv.pw.
 ewr0            A   66.228.43.47
              AAAA   2600:3c03::f03c:91ff:feae:e071
@@ -60,6 +65,8 @@ ewr1            A   173.255.225.205
              AAAA   2600:3c03::f03c:91ff:fe6e:78f
 ewr2            A   69.164.211.254
              AAAA   2600:3c03::f03c:91ff:fe6e:7bb
+ewr3            A   97.107.130.201
+             AAAA   2600:3c03::f03c:91ff:fe6e:4e14
 
 $ORIGIN salt.serv.pw.
 master      CNAME   ewr1.lin.serv.pw.
