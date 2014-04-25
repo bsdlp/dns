@@ -1,0 +1,30 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+mutagen.me		IN SOA	ns1.linode.com. noc.sjchen.net. (
+				2014042502 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 600	; 10 minutes
+			A	192.30.252.153
+			A	192.30.252.154
+			DNSKEY	256 3 5 (
+				AwEAAaVzvBgx8o1gM63eBZYGeo9vxdDh3/x4IFmFsCEO
+				KUfnn4aiQ7EgrRg9ObzxoxgM9CwjmaIvKXr3m5WbIJT9
+				egEe9un+ggrikHrAKyjUm1naQnkR/QaG2zbqhJxthwzN
+				msJrzfdJSm9AwA0jnEJwEM1ytvLJ/afLTIJEvurrDjLR
+				) ; ZSK; alg = RSASHA1; key id = 41880
+			DNSKEY	257 3 5 (
+				AwEAAb2j8WisxZeK5732ui/w1iBqVX1W9PUnC4eSwbP5
+				jvO9mLi8Rn0ufyvNMzyVEEjgcLCPfky24n/LAeoVK4VQ
+				9BuKugEMzl4IiIdikPr0rY1TaePD+w9nYt15lyrVdbme
+				sAkZEfFyeRDBt1mRVsV5xLMv6Zw45BYkxqfJjwomrKk6
+				2lK25qcU/AxrGWjKEupFFSX8qJAFkzOF1fkAhlxHgiE=
+				) ; KSK; alg = RSASHA1; key id = 6853

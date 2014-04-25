@@ -1,0 +1,76 @@
+; File written on Fri Apr 25 02:15:34 2014
+; dnssec_signzone version 9.9.5
+mutagen.me.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
+					2014042502 ; serial
+					900        ; refresh (15 minutes)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 5 2 86400 (
+					20140525051534 20140425051534 41880 mutagen.me.
+					pFmJFmiMiWNaHgkOcKn8jmNDt6gJrmqGdTZ1
+					gG/qZhNlHH1VSXZxJxjRcy2Jv2kLFWsD+bVC
+					yXMsXZDOHqCtRoID342hAJutHaDhPchEuydB
+					cnAvohAErgx6aBzeeQ/V3INiwXEf1H38693e
+					qwCgHEQX3Ro33HsRQU8iSgJPIhU= )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 5 2 86400 (
+					20140525051534 20140425051534 41880 mutagen.me.
+					gdJ6xZPJbCcjrQGVRqiQdFR/4M4XDaGC3MlB
+					Apv/o84CK+9sQ4W3l9a1EzTjZU/TR7Wh5K1f
+					ktTuRyPoZdktwJ39dl4a7Syu2XdLJ7tTQ6vD
+					C+BljZ87qUt5sxdVC3bftjGmP762gpntXbuo
+					YC4taYAES6Ty8afTZ4hixOHa3SY= )
+			600	A	192.30.252.153
+			600	A	192.30.252.154
+			600	RRSIG	A 5 2 600 (
+					20140525051534 20140425051534 41880 mutagen.me.
+					iozJ/D1HdyaIOukqELHICCcaspI+/dtwqurf
+					s/z6pW9oLKKwZwKUAjUYvN4jHacpQvLbu527
+					GyxDq0bYEaM3GAg4WT9hdA8RCvWxFaEdBw/a
+					DqbwE2t8PRKvVQhbUCOjcK38L/gZJVJNWmdP
+					BzsgDr3PNPhUgc0/+Ueo9hZi5ZY= )
+			86400	NSEC	mutagen.me. A NS SOA RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 5 2 86400 (
+					20140525051534 20140425051534 41880 mutagen.me.
+					XCNqxuNNx1FoIZl/5Z9+LX+EZpG04KD/Xw3Y
+					rFFN8un4Gy2A2f8Z9A3P8UwgT7fEGx1shdp0
+					VTxeFd6+f7LW0JqsNxA7uBREs4VdfMJLP5Jp
+					cWu7eQM3TBa3xJdZfK6BetsnmUZ9HeXeMMCp
+					AnU0nFfG6hJ/yOUsZvWqc8aM15A= )
+			600	DNSKEY	256 3 5 (
+					AwEAAaVzvBgx8o1gM63eBZYGeo9vxdDh3/x4
+					IFmFsCEOKUfnn4aiQ7EgrRg9ObzxoxgM9Cwj
+					maIvKXr3m5WbIJT9egEe9un+ggrikHrAKyjU
+					m1naQnkR/QaG2zbqhJxthwzNmsJrzfdJSm9A
+					wA0jnEJwEM1ytvLJ/afLTIJEvurrDjLR
+					) ; ZSK; alg = RSASHA1; key id = 41880
+			600	DNSKEY	257 3 5 (
+					AwEAAb2j8WisxZeK5732ui/w1iBqVX1W9PUn
+					C4eSwbP5jvO9mLi8Rn0ufyvNMzyVEEjgcLCP
+					fky24n/LAeoVK4VQ9BuKugEMzl4IiIdikPr0
+					rY1TaePD+w9nYt15lyrVdbmesAkZEfFyeRDB
+					t1mRVsV5xLMv6Zw45BYkxqfJjwomrKk62lK2
+					5qcU/AxrGWjKEupFFSX8qJAFkzOF1fkAhlxH
+					giE=
+					) ; KSK; alg = RSASHA1; key id = 6853
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140525051534 20140425051534 6853 mutagen.me.
+					G3RulFjI8sa4UrF5nkQLzKjYlssXH9NtyGMC
+					M1D3BvOKfamZGkcWbzIXaBqvljkYSTCfMsVM
+					OySAKlViKp/hKTvzrsINO3NtkduhUF+UQCel
+					CtwWSpa7UlYWFnQ/PRg/ty3YfwJYTSLmJC6D
+					EOv61BMsdFswvmiRJ+WfDU/Cxf8iQSPYKZcR
+					p0uygM+s0HMBzlZFvOvnk6VSOjve/DRNaA== )
+			600	RRSIG	DNSKEY 5 2 600 (
+					20140525051534 20140425051534 41880 mutagen.me.
+					WxwQ2A0Y1c4RHINAvyG7+8v3cindX1eazL8d
+					hX4pJk25x0b6pCkXZlPPOxalxYMzsXizeBzc
+					U7Mv4blLaVmyXmVMs1bpxXz2/3bOlX7vJbiZ
+					1coUXG47jd3JLBSN03sG1aefLBJHQUS1s9Xi
+					iEY96uveCIB098CJ9pnoB1z31+Y= )
