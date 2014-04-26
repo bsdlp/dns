@@ -1,14 +1,27 @@
-nsasurveillancevan.net.			      86400 IN SOA	ns1.linode.com. bsd.voltaire.sh. 2013121717 900 14400 864000 86400
-nsasurveillancevan.net.			      86400 IN NS	ns1.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns2.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns3.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns4.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns5.linode.com.
-nsasurveillancevan.net.			      300 IN A		204.232.175.78
-nsasurveillancevan.net.			      3600 IN MX	10 ASPMX.L.GOOGLE.COM.
-nsasurveillancevan.net.			      3600 IN MX	20 ALT1.ASPMX.L.GOOGLE.COM.
-nsasurveillancevan.net.			      3600 IN MX	30 ASPMX2.GOOGLEMAIL.COM.
-nsasurveillancevan.net.			      3600 IN MX	30 ASPMX3.GOOGLEMAIL.COM.
-nsasurveillancevan.net.			      3600 IN TXT	"v=spf1 mx include:_spf.google.com -all"
-irc.nsasurveillancevan.net.		      300 IN A		162.209.99.212
-irc.nsasurveillancevan.net.		      300 IN AAAA	2001:4802:7800:1:d2be:4582:ff20:1ceb
+$ORIGIN .
+$TTL 86400	; 1 day
+nsasurveillancevan.net	IN SOA	ns1.linode.com. bsd.voltaire.sh. (
+				2014042615 ; serial
+				900        ; refresh (15 minutes)
+				14400      ; retry (4 hours)
+				864000     ; expire (1 week 3 days)
+				86400      ; minimum (1 day)
+				)
+			NS	ns1.linode.com.
+			NS	ns2.linode.com.
+			NS	ns3.linode.com.
+			NS	ns4.linode.com.
+			NS	ns5.linode.com.
+$TTL 300	; 5 minutes
+			A	204.232.175.78
+$TTL 3600	; 1 hour
+			MX	10 ASPMX.L.GOOGLE.COM.
+			MX	20 ALT1.ASPMX.L.GOOGLE.COM.
+			MX	30 ASPMX2.GOOGLEMAIL.COM.
+			MX	30 ASPMX3.GOOGLEMAIL.COM.
+			TXT	"v=spf1 mx include:_spf.google.com -all"
+$ORIGIN nsasurveillancevan.net.
+$TTL 300	; 5 minutes
+gbtw			CNAME	fly.github.io.
+irc			A	162.209.99.212
+			AAAA	2001:4802:7800:1:d2be:4582:ff20:1ceb
