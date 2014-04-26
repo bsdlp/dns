@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 wtfork.org		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014042001 ; serial
+				2014042617 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -32,3 +32,4 @@ mail._domainkey		TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQ
 mail			A	106.186.112.27
 gitlab       CNAME  ewr0.lin.serv.pw.
 ci           CNAME  gitlab
+trac         AAAA   2600:3c00::f03c:91ff:fe96:469d
