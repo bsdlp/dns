@@ -1,39 +1,48 @@
-; File written on Fri Apr 18 22:15:44 2014
+; File written on Mon Apr 28 13:46:05 2014
 ; dnssec_signzone version 9.9.5
 keyporium.com.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
-					2014041822 ; serial
+					2014042813 ; serial
 					900        ; refresh (15 minutes)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
 			86400	RRSIG	SOA 5 2 86400 (
-					20140519011544 20140419011544 2256 keyporium.com.
-					ftoSFXo+4tRWKmRuekGa4pOqS+U4TiLPDnVp
-					cvnnavlzYqLw6090j7Kyj48xCtTODTUeECXR
-					MbSO68x4BJFNUsNGTIwmlbir7XeoaaDNdUWl
-					2v3ZcXQKA+N597UOw8i6NX4gMKaWDbGSf/4p
-					/m5YDy1lkdU+Hfd4JIWVj1MEb5s= )
+					20140528164605 20140428164605 2256 keyporium.com.
+					pGzz62fIGpgYxksWoYXXi4WcoeSx8ZpOpnoq
+					0WWQNFxjOMs5Bgj5eH4cjee1Kngtp/Ly1eOF
+					eZdYY/GB3lwHkraSs3zEDKgaZ40WKwTfFAlG
+					DpkQtw0CKCmt+eDErtQdIja/ZxmDzPLgxso1
+					m+HGEeKqRAwy6x8OCXt+WjJ0A0c= )
 			86400	NS	ns1.linode.com.
 			86400	NS	ns2.linode.com.
 			86400	NS	ns3.linode.com.
 			86400	NS	ns4.linode.com.
 			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 5 2 86400 (
-					20140519011544 20140419011544 2256 keyporium.com.
-					UNQmiaFuQunoT80v8nK57xxbOToN+NrQ5h2Q
-					OGWzd7Ls/tFVOy4n+RnKrJZ5WA/iUgWB6MCN
-					YRyr1tAqeOdA75LXsjMHThMLXU3//HbZt/Hk
-					fdxIy05AGfflBHCuJY4ZyTp4+TkTeiF0hzVF
-					01My1iaLRo9Qo7mQpPpgqkqSL28= )
-			86400	NSEC	keyporium.com. NS SOA RRSIG NSEC DNSKEY
+					20140528164605 20140428164605 2256 keyporium.com.
+					SicgpY2q9VTdFpm5gE9JAD0kYQrhes6f1EwP
+					QL32M0rgSmoxfQ7KLgISlnbg37RDCYN2pbcn
+					BgMGiSo8rS23d7r2Hlw2+23Bf5vDZ6bZmDc6
+					VSMrbpMtfnrECNcyjdR6NedBcMcgrH9qn3Or
+					G+QeE8lGvwKBw2EGzyxKaCsmULo= )
+			600	A	192.30.252.153
+			600	A	192.30.252.154
+			600	RRSIG	A 5 2 600 (
+					20140528164605 20140428164605 2256 keyporium.com.
+					ZYknCYlTMG5Z7h+KYzv0nxxtxg/BlYg5Lzev
+					+zR7PtwP5X8XMR32LTc9L5wptMBwVuU3C3V1
+					yZWz73sJeZ3M2OYpWeiw2IecHCAkj621UbW6
+					pXzCvZePjak6MS/T6QjkUKsuUgZmGcKOFtqM
+					HoC+0MTOiHbj0ZAr3M5xCWI+sIY= )
+			86400	NSEC	keyporium.com. A NS SOA RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 5 2 86400 (
-					20140519011544 20140419011544 2256 keyporium.com.
-					DQ3JbhfXk06/iD8JLdxbOm6FTpyRKha7dT/C
-					AnispsWA7mq5IErkOPaFwCIb373OHj1RQEkj
-					8IjLswkw0JWwNI2sTop3Y9vzUHA+j1qIqTqw
-					TgOWy8j9CZbygIXQsfKW+AdSeNjRZcchIvdR
-					eISGVl8lhT+sD812y02zjPSkSuo= )
+					20140528164605 20140428164605 2256 keyporium.com.
+					JJqWEa2AyY6Ff7H9fQ4Eumnsdhq/8PX1AzRu
+					1s8fhDIBaXSerNB23Or66rMrLtHDvn3K4++j
+					CDtwwXXjrIcwepONMLgB1KRKBCAuFErS9a6I
+					CpJ1lVBK4CiqiBB3tGARNzzbgi632DbCh0n+
+					uMBRkZpXMCR2N65V6cOfXdQIQw4= )
 			600	DNSKEY	256 3 5 (
 					AwEAAbaes1fgw4ZcLPKdEUX5YCnC1TZl5iMW
 					EqhZQmkukgvvXgssGYrWRrIhp5JfsQ/34D+6
@@ -51,17 +60,17 @@ keyporium.com.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
 					sy8=
 					) ; KSK; alg = RSASHA1; key id = 24127
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140519011544 20140419011544 2256 keyporium.com.
-					fge/0n/g7X7fEUrgSDzY40yLJMeKyukEXY/v
-					CdqcBiqSX6RpHtmL8vIU+YMKJGNLFmO8TBks
-					w5ExA5RkNandoYEBVMfq3uoa2fhOR7URhDa9
-					rPbJ77deGCdphf8mJ38+VPjVvYbBu6u2SR2m
-					RaOeIRcLxyVCEuh+DB0z1oGpcYM= )
+					20140528164605 20140428164605 2256 keyporium.com.
+					H/JrxfWKLOvtxrOGXyXEl83yloBGjKrRq1V4
+					e+qe3dCksjAU13YwuVlcmBnM+2kL8KNyXlo/
+					A1G1JbCcjDKEtH9jSn9iPdxNKXzORbw8H4es
+					yyl/x/yvAgGqtxRkck92YYh8nIR1sHHmw91Y
+					uFA/yJAKXATJ0Q0RHqZoLvsoEEY= )
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140519011544 20140419011544 24127 keyporium.com.
-					zcwCsoqQMTlW3AUrLCYW+id7dmXvWrhytObd
-					x5yIppa75hkCQ0VJc0sh8OjzJJwLTB0DxjLD
-					g6cxGbc9o4Xtf4hMBi8wYaCp8iPBxBKGaIU6
-					5UZ+6M0b15A4y73zJOGTejWWaQ08aruSHbdB
-					fljodHpCKwYFb9aBBvjHFOX594MA3U9XWrDm
-					8QodiifQIdx/+Lkl+OxcbGbz54uh/JlpSw== )
+					20140528164605 20140428164605 24127 keyporium.com.
+					WxF5q0FMJRt/7nMWyTJScb8icZgxJ1rxnrZh
+					LCbFOCFttwT24lU/ULrxuTOpRMMPxgHJXl3s
+					9QXOWBVvatGxXKpoW2xL4sHs6qI58MASfpCv
+					6WH8er97vS0Xr0sMI6ii0ZpgwyQAqvI56fjQ
+					2StwwOcZBVwK8t/8/nfYIO/y3MPoCL0HNJmd
+					/bDQFkcgsvqFxt36O6f+lKVSf1F1ofzUjQ== )

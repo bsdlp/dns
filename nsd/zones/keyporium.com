@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 keyporium.com		IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014041822 ; serial
+				2014042813 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -26,3 +26,5 @@ $TTL 600	; 10 minutes
 				3nEdorajn4qGQayuiM/hl/WmdBFx/OIhHlfGU6ag3qQ/
 				0A+3sPax0zbmOLIa8vXMlo0uU41ffkGFQa1Lj7QVsy8=
 				) ; KSK; alg = RSASHA1; key id = 24127
+            A   192.30.252.154
+            A   192.30.252.153
