@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 647100	; 1 week 11 hours 45 minutes
 sjchen.net		IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014042217 ; serial
+				2014051319 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)
@@ -58,5 +58,4 @@ ns4			A	207.192.70.10
 			AAAA	2600:3c03::a
 ns5			A	109.74.194.10
 			AAAA	2a01:7e00::a
-paine			A	198.245.62.165
 www			CNAME	sjchen.net.
