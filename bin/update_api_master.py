@@ -47,6 +47,6 @@ for domain in api.domain.list():
         try:
             api.domain.update(DomainID=targetID,
                               MASTER_IPS=master_ip)
-            print(targetID + ' -> ' + master_ip)
+            print("{0} -> {1}".format(targetID, master_ip))
         except:
             raise
