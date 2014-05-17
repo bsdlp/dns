@@ -1,0 +1,9 @@
+jimmiesstat.us.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014051716 900 14400 864000 86400
+jimmiesstat.us.				      86400 IN NS	ns1.linode.com.
+jimmiesstat.us.				      86400 IN NS	ns2.linode.com.
+jimmiesstat.us.				      86400 IN NS	ns3.linode.com.
+jimmiesstat.us.				      86400 IN NS	ns4.linode.com.
+jimmiesstat.us.				      86400 IN NS	ns5.linode.com.
+jimmiesstat.us.				      300 IN A		97.107.130.201
+jimmiesstat.us.				      300 IN AAAA	2600:3c03::f03c:91ff:fe6e:4e14
+www.jimmiesstat.us.			      300 IN CNAME	jimmiesstat.us.
