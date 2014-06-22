@@ -1,51 +1,51 @@
-; File written on Tue May 13 19:11:26 2014
-; dnssec_signzone version 9.10.0-P1
+; File written on Sat Jun 21 21:34:51 2014
+; dnssec_signzone version 9.10.0-P2
 docku.org.		647100	IN SOA	ns1.linode.com. noc.docku.org. (
-					2014051919 ; serial
+					2014062121 ; serial
 					10800      ; refresh (3 hours)
 					1800       ; retry (30 minutes)
 					604800     ; expire (1 week)
 					86400      ; minimum (1 day)
 					)
 			647100	RRSIG	SOA 5 2 647100 (
-					20140612221126 20140513221126 21816 docku.org.
-					jY0vtVmWqN0YnBVEjkLAPJysQeg3qaKnVFEw
-					LQKxp2+bMttwtiQPbDSTxoT24U4ixnR9yqOc
-					6AUWlH0UTEwVkh36paUBxCIJApLDuIh9zSgE
-					H59cyAW0zSgehh4ZXXCYeXy8YqHarnk9i96g
-					NVzbanQjEJmeZOgMOeqwNWN/h6Y= )
+					20140722003451 20140622003451 21816 docku.org.
+					b5ItlzIQmbjoKi4pBBd4QKnxFP0IvoTl6N7g
+					Pg6rQjJTkjSF5ZABTFmW5IIPDzwejrPd9CqB
+					vbk6CWWJ9+P9Tgf47Vla2h0UpWcoTNh3ouQp
+					64UmYhvW7OBz84OKcISr8MTrrzWSqBoHnsnC
+					m9XualgRzvJekkttWB0AwFoYF4I= )
 			86400	NS	ns1.linode.com.
 			86400	NS	ns2.linode.com.
 			86400	NS	ns3.linode.com.
 			86400	NS	ns4.linode.com.
 			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 5 2 86400 (
-					20140612221126 20140513221126 21816 docku.org.
-					cCP80FQuFqADNT0TCWlTFC+syWE0a7Zue3J8
-					2NYGU1xt8ikKKnomxNlTRsk7L4CYPm4r2zKR
-					wn+3hVKuagleB3MOpNFp4Qa14S7QUdg6TzOi
-					6LStKjND8Avs17TzCbY9ICmX9ANd0H9ZdbE3
-					luNm42kEx6Z0fFtJbUIeb6MiPmQ= )
+					20140722003451 20140622003451 21816 docku.org.
+					sgY+Xo6KgfFv9EPPFhvWQlkct5rfFgx3wuD1
+					pGM2ce6bqVtQ80dWCmzt0OSmK83zNAMMqkST
+					4ymyRpu3SpZrARWuzJZm7xKx1rvnm4Xro9Df
+					2XBnJGLuj6TXAxvb2eR1bm03bzkKU4XAUQAz
+					9dYFiRL32yXY8QO4cp9hKx+xJH0= )
 			3600	MX	1 ASPMX.L.GOOGLE.COM.
 			3600	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
 			3600	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
 			3600	MX	10 ASPMX2.GOOGLEMAIL.COM.
 			3600	MX	10 ASPMX3.GOOGLEMAIL.COM.
 			3600	RRSIG	MX 5 2 3600 (
-					20140612221126 20140513221126 21816 docku.org.
-					LqfTAZKKH5hm6whP82MTYyI8z54CzqMQts5x
-					lNGCyAu/EMDJecryj92Ut86s3Id9nMo/f/2p
-					qevH3yQOg/psRHbSx56qcOMAxnqXGuUO4xk/
-					Aqz46lmC8wPU0I+jN9lWyjhUHop0Obb2CNMT
-					1bibztaBIpmyXkRcEHw5/Ksds8U= )
+					20140722003451 20140622003451 21816 docku.org.
+					kN80PbyHTDOiSSd4SPO/IvtMYIKEhoPNUft4
+					6gYFUVaxUABYu+7cUJw4Hyge+uzcqvhzKBtG
+					eTCwCWGfHdZN6R6+hACOJIYo+r1v1JbxNXVD
+					pxrdE86o7g99+a00EccTu26LfT/fzT1F6He8
+					+eloX9U7GVwv2rH2bTvj0Q2VJXw= )
 			86400	NSEC	core0.docku.org. NS SOA MX RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 5 2 86400 (
-					20140612221126 20140513221126 21816 docku.org.
-					hzrrWgMYvhjye4VY9n+j3NpO+zq4oTsLkVi/
-					5nYoBlT0L2ljp4HL59iBI9w5QgKqItOFN1Mh
-					7fYONRVfboo2dzgMhaL4Zd0zA26pFvsA1Gg1
-					wU9ZGYkUOlRS/sLXvC78Q/BppKvCeMm2tIk3
-					iIlUW9wk9sPfWBHB2qWvDz5WsL4= )
+					20140722003451 20140622003451 21816 docku.org.
+					IBdm0d6c6GRkewi6a1knw1HoIM0tr4lQKLpn
+					bljqg3wwxefG60kLJ3LnBUs6ZNvMTo6Jei7U
+					czFE8poJDcDk2zsrSuelCCpC6Li2sR59KXHe
+					+EnMnvuiBtt9kEK67x+fqush26/RXaFdjbjy
+					vbVNOcY1cPHlqsNPWgsru0wd8/Q= )
 			800	DNSKEY	256 3 5 (
 					AwEAAbnZ9KwVQAFBY7EdqmzGSBBrm2acPRVh
 					E8bnk9iClYOs6PFOBgc76Jub+5mngHrZBs0J
@@ -63,33 +63,33 @@ docku.org.		647100	IN SOA	ns1.linode.com. noc.docku.org. (
 					GSc=
 					) ; KSK; alg = RSASHA1; key id = 60193
 			800	RRSIG	DNSKEY 5 2 800 (
-					20140612221126 20140513221126 21816 docku.org.
-					pKWa7fX8X4avpzGmndiEEf48yDWMcMvB9XF0
-					QCJCgcWhQCcAqRSOD5cdfVplHDxxhBRovnYr
-					bfdNApo7NIMVOYSmKhPdoGtCkDATypzpmbbK
-					KBUxRFaDTXG/RNsVn4C92TyJE4NblMdLi8kH
-					SipXmcNLk1ehRH40lgosWhfhaUA= )
+					20140722003451 20140622003451 21816 docku.org.
+					QnFDpkyJYOgZYLOniHcfEwSCeCAqvRSQgbR0
+					Nsckfz4IA/NJ7uf1em2WzJ+Ta+D76Chs7jcb
+					HXqRliEflfD2X8LW7ZLYWqWP/HFJHslwfoYC
+					rmfu2Sldnyq2x5qsOLz5ZD8wHsvfZoff4Axp
+					Ij4tzqDHQGWw3nvT/rj/Kq1rXZA= )
 			800	RRSIG	DNSKEY 5 2 800 (
-					20140612221126 20140513221126 60193 docku.org.
-					o4T5zskpaf4qpPMTGGHskQqsHE6Zioj5H1ix
-					lIC/7qwu2+h8BW7JpRao8Q6ro2F4yWR+XwP+
-					nHJ3x46l/KOmGTGptpLUxcd73JRz++8kBYKl
-					P+jij6u6qm55iatZXlzXAC3IYoUBPNKmHLea
-					nOiGcead3oGbuKQd7z4NcQOZSPJ34NPYeSM1
-					MsesRrKX6GaWo/xV75+kBa6DLybBXjk72w== )
+					20140722003451 20140622003451 60193 docku.org.
+					Opv8Gm7ENI2oFABUHbfo8lLqDjVSw4U5nPbL
+					AxCJ7C2jXNC62hBe8UvFIPDyvdZcoNfXBGNU
+					eAzpqTwBQAd3VEiIGUQiR92MMjRq9IxnMgUy
+					pibKDnkswS4FDJ1NO1PEekjsMlLQWxihc2A1
+					Di8WsZt4byWAyouo0CSF9ci887RRB7F/bqjJ
+					6/1EjEou9vzMzMbuL7YZO0FrHJiBpzVhng== )
 core0.docku.org.	800	IN A	198.245.62.165
 			800	RRSIG	A 5 3 800 (
-					20140612221126 20140513221126 21816 docku.org.
-					gbhC0d1QBVcg+WCeaWco7T0zJEuZOsZE4qCS
-					i2/7xnxB/fcruGEtrY8E8Le1Ap5ASKc2G2zC
-					muRQgZmzTe8zv9/ZP3AQN+wGmv3gecjWeaF0
-					4F8jZoE0FvHXPc84DO03gI9c1YWF4GWbEfdi
-					uiPN00ZRoi37X65EIjaDTsWtldo= )
+					20140722003451 20140622003451 21816 docku.org.
+					ROlz9rUPYcDBu+qt1LVdOUR+5fTGYPkMH/cI
+					MgPS/zWfgHQVVcbQ4+kQcH7SnVPE/OgonYQI
+					3vzRBOF6mG9csP2kZoai4TrpGxEYlZQzmKzE
+					rB74AbgcxfXf4Ub9YVSEdbjuBq7nxA7Q3png
+					AZ3fCvioTeGIBfvo+YN8rbOmpz8= )
 			86400	NSEC	docku.org. A RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140612221126 20140513221126 21816 docku.org.
-					rsVm6fRAMUvaiSC8CoWsKlDbYk3eY583w/wW
-					7GNM9Vh0hwZRx/on0o1PLsnloxd3sYrb/KNF
-					+46VjTxx94rKD4rmFgBHl8VX/ds2thILD8n4
-					i81g943g94Wb3zf5zDJyzYNTRp5WaaQMc7Mu
-					NJl6nxe6+yM4Pys0ZSx/xNW2bO0= )
+					20140722003451 20140622003451 21816 docku.org.
+					buBVSBKDcb4BtLJCda7zRTBVRbhqf24SqvKm
+					77MNR0ez+vKktfDcTpnj+1N27Xy01MLmPMlE
+					OeHtVmJFJWVcfGlVzNfxxYyyyk9onYq5CsND
+					c6UR++JUomlhP/ply0i4LTsmEVLrVokZHn01
+					iLP2Zlr8jWbWhUZBj76SaVNGVRw= )
