@@ -1,48 +1,48 @@
-; File written on Mon Apr 28 13:46:05 2014
-; dnssec_signzone version 9.9.5
+; File written on Sat Jun 21 21:36:02 2014
+; dnssec_signzone version 9.10.0-P2
 keyporium.com.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
-					2014042813 ; serial
+					2014062121 ; serial
 					900        ; refresh (15 minutes)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
 			86400	RRSIG	SOA 5 2 86400 (
-					20140528164605 20140428164605 2256 keyporium.com.
-					pGzz62fIGpgYxksWoYXXi4WcoeSx8ZpOpnoq
-					0WWQNFxjOMs5Bgj5eH4cjee1Kngtp/Ly1eOF
-					eZdYY/GB3lwHkraSs3zEDKgaZ40WKwTfFAlG
-					DpkQtw0CKCmt+eDErtQdIja/ZxmDzPLgxso1
-					m+HGEeKqRAwy6x8OCXt+WjJ0A0c= )
+					20140722003602 20140622003602 2256 keyporium.com.
+					TILhzbRDqcs0mCQ0lmcEcA6dJpX6ZjYZCqSm
+					rTSpnlunqFhXQ5TBYgyt8RRf7dWtFfRmyGdP
+					45a5MIMGTt94iYp3FPhfrIsBa6+IgmC5nGsd
+					vIka2lBubgtx3LbDFos2XpCJN3d8BWlxT197
+					Vqy28y+R9vjSk/0DqvIrYaVRvqI= )
 			86400	NS	ns1.linode.com.
 			86400	NS	ns2.linode.com.
 			86400	NS	ns3.linode.com.
 			86400	NS	ns4.linode.com.
 			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 5 2 86400 (
-					20140528164605 20140428164605 2256 keyporium.com.
-					SicgpY2q9VTdFpm5gE9JAD0kYQrhes6f1EwP
-					QL32M0rgSmoxfQ7KLgISlnbg37RDCYN2pbcn
-					BgMGiSo8rS23d7r2Hlw2+23Bf5vDZ6bZmDc6
-					VSMrbpMtfnrECNcyjdR6NedBcMcgrH9qn3Or
-					G+QeE8lGvwKBw2EGzyxKaCsmULo= )
+					20140722003602 20140622003602 2256 keyporium.com.
+					dbqKD+rbL/e9kyHwH1opedlfmvJ7meOg/S/t
+					z3DA5OPEUZ4ozRm7leHtscpC+KGq30wQUmwF
+					wd8h9eIDTH5g3daUSexQ5CyPJi5pTJfDcBHi
+					/5EdTcaaTa5IwQhDhqxe9ww4UyGjD60YaNOv
+					/uC8DNEb6Qk3GprXp2pDB0XLpds= )
 			600	A	192.30.252.153
 			600	A	192.30.252.154
 			600	RRSIG	A 5 2 600 (
-					20140528164605 20140428164605 2256 keyporium.com.
-					ZYknCYlTMG5Z7h+KYzv0nxxtxg/BlYg5Lzev
-					+zR7PtwP5X8XMR32LTc9L5wptMBwVuU3C3V1
-					yZWz73sJeZ3M2OYpWeiw2IecHCAkj621UbW6
-					pXzCvZePjak6MS/T6QjkUKsuUgZmGcKOFtqM
-					HoC+0MTOiHbj0ZAr3M5xCWI+sIY= )
+					20140722003602 20140622003602 2256 keyporium.com.
+					LMi434tkXl4kINtcFBH34b+ErGP52t7foTWf
+					3wMHlo9E0300wht/j2aPiO34bqg6BkNSB3RW
+					CD5ygur9cDVB/SQxrDxCcizSECeMgxlcd+IF
+					TrX57/bqRC7Jkug4ehHvy1CMDkJ6yFwIT8ii
+					OnuseMO6ktyIEVwqJAnfOIeyPss= )
 			86400	NSEC	keyporium.com. A NS SOA RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 5 2 86400 (
-					20140528164605 20140428164605 2256 keyporium.com.
-					JJqWEa2AyY6Ff7H9fQ4Eumnsdhq/8PX1AzRu
-					1s8fhDIBaXSerNB23Or66rMrLtHDvn3K4++j
-					CDtwwXXjrIcwepONMLgB1KRKBCAuFErS9a6I
-					CpJ1lVBK4CiqiBB3tGARNzzbgi632DbCh0n+
-					uMBRkZpXMCR2N65V6cOfXdQIQw4= )
+					20140722003602 20140622003602 2256 keyporium.com.
+					XDXDLMJfgKpzGC+8dBqAy9B+E1AOGcjE2Rz6
+					dAvxMKp33oowE2qgZ/YyXcyK4OlLhs4x4nOG
+					pbrQxc32KiAinSLl9WJ6RRafFiuM0pWMReLa
+					jgwNUPY8aOBlA8dpAC5t22GveW3OrEq92pJn
+					i1TNNGFYCta6J/4KFXmykjvTwDU= )
 			600	DNSKEY	256 3 5 (
 					AwEAAbaes1fgw4ZcLPKdEUX5YCnC1TZl5iMW
 					EqhZQmkukgvvXgssGYrWRrIhp5JfsQ/34D+6
@@ -60,17 +60,17 @@ keyporium.com.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
 					sy8=
 					) ; KSK; alg = RSASHA1; key id = 24127
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140528164605 20140428164605 2256 keyporium.com.
-					H/JrxfWKLOvtxrOGXyXEl83yloBGjKrRq1V4
-					e+qe3dCksjAU13YwuVlcmBnM+2kL8KNyXlo/
-					A1G1JbCcjDKEtH9jSn9iPdxNKXzORbw8H4es
-					yyl/x/yvAgGqtxRkck92YYh8nIR1sHHmw91Y
-					uFA/yJAKXATJ0Q0RHqZoLvsoEEY= )
+					20140722003602 20140622003602 2256 keyporium.com.
+					BfsNsJWpG7MG3+iyG7ynqWeuuYIKxTWlgXU1
+					h8N60828jGtmP99U0qu7gmXduz03pNMnoO1B
+					bR9xlhCWyZUgiJhKIbV8zMv4aEogEgZqXp+r
+					0Yx0s4d7Ic0EV4r0GUY/ZFzUkTSC2MWzU18x
+					mIIZdIEhYuo+hXoiv4+APYMyYaM= )
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140528164605 20140428164605 24127 keyporium.com.
-					WxF5q0FMJRt/7nMWyTJScb8icZgxJ1rxnrZh
-					LCbFOCFttwT24lU/ULrxuTOpRMMPxgHJXl3s
-					9QXOWBVvatGxXKpoW2xL4sHs6qI58MASfpCv
-					6WH8er97vS0Xr0sMI6ii0ZpgwyQAqvI56fjQ
-					2StwwOcZBVwK8t/8/nfYIO/y3MPoCL0HNJmd
-					/bDQFkcgsvqFxt36O6f+lKVSf1F1ofzUjQ== )
+					20140722003602 20140622003602 24127 keyporium.com.
+					0B9uw/HnMRnU8bpktWNQzWfv6cU8PGDaRSro
+					WEE2yPR+B+r7zqK2BEYPs0ZG4Bgle+Qo2XxX
+					YGaaaEN2tNzbs8w3QDd32jOhdQd2QkO2fepi
+					6afDMTHXlqd15wyV9A+7hUsYf80CC+7xrwR5
+					VsbO8eFzQ1QyD8Cax4C54B46zB9CAvoHhZ3z
+					HdhL6f/WKGZxYXLrcItf4hysLadVZwpjOA== )
