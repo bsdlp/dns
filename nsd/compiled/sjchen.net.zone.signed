@@ -1,76 +1,76 @@
-; File written on Sat Jun 21 19:36:55 2014
+; File written on Sat Jul 26 22:21:13 2014
 ; dnssec_signzone version 9.10.0-P2
 sjchen.net.		647100	IN SOA	ns1.linode.com. noc.sjchen.net. (
-					2014062119 ; serial
+					2014072622 ; serial
 					10800      ; refresh (3 hours)
 					1800       ; retry (30 minutes)
 					604800     ; expire (1 week)
 					86400      ; minimum (1 day)
 					)
 			647100	RRSIG	SOA 5 2 647100 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					tNa2zNYxohHG0JAtKnltQ5TJJqKjoAIS9UTz
-					cxEShqBByTm5r7t5A+DWMg89nv4hSMCvPqRY
-					FC5oSce7f3y39dtlNoyBgNfMLkSB6acAQM/Z
-					/91WchQnKUleiOu2e5zO8uXflVgSgpHyQceg
-					vXRmMasMdF08+hRn1SVcaYwfOkw= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					rXOjzYOKjbngb46J1ILZihgO1UzMzOmJm4SJ
+					CFrd+VY2AmXBlOSy4c75GG1yR8E3lAUxkaHS
+					pI/065NVV7dnBcAt13kpuLKZlDtCzw3SeIdV
+					16gR2nCH0kWD9SnPC0pvQ4uIwAynSFmp0ceu
+					UnlxwxAhc6RT81JdaflLC6B6ZrU= )
 			86400	NS	ns1.linode.com.
 			86400	NS	ns2.linode.com.
 			86400	NS	ns3.linode.com.
 			86400	NS	ns4.linode.com.
 			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 5 2 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					R7h0zTkDNcIiUeICL3PUVphiffYTzjUiHk9z
-					lrIQIQeqQbs7iDuOt1h8Nx/EyCuTtWuIH+5G
-					UmBQWrxi2Rs4/ZKiy+I7raiinTvEtlsPhqwo
-					wjjQmZZ2d60tyc3d9rCgnoR0Vbaf54wSZbT+
-					h8dfIHqp0VYH/Glfzrnw5lQACzY= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					hHUXTHeBHlivQDnz2xerxPWcAIncnGMf3YEm
+					l4/IkqVAf84fISdkE+HeJ/aGWCOWyJ8UH+5m
+					wz4uB40BWBbYG9U66XqNcTXeRcHeVOGKbC16
+					pSWKT0VUKsP4gz7de6GcYDjCTf15bYnUeOmR
+					j7VGqMzRfuLMHmSONWLaFZfidD0= )
 			600	A	192.30.252.153
 			600	A	192.30.252.154
 			600	RRSIG	A 5 2 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					Zk6ifSxQB3I3DaK9gfREPOVbONTHsXs2B/++
-					nsVGEgkR46HlT6F2e5tKHF2cqs9jV/bzf/Rf
-					H0EFYZl6gmWP/qO7b84Oe+am7PE21XGJtpxl
-					VwRWfto4u065VgJIdvAHpgO88AQvZ3nJ+iyX
-					Dp1yM0ElHQySIS/6I25bddxgC2k= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					Cj6n/RYZSbNoFG76wRmsDAms6XFY5Sh+G11J
+					nGhO3zZpAUjLbqLHz23TDBbUUPw85TCwWpW0
+					stus2bgGcNqjIZdba+tDu34n7sbyGmbostYC
+					Bn3zhihgebnUHaGRu0mBRxRS2mrDSiI0x7b6
+					4b5dQe5ESyqze0G1lVMXHMpplFU= )
 			3600	MX	1 ASPMX.L.GOOGLE.COM.
 			3600	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
 			3600	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
 			3600	MX	10 ASPMX2.GOOGLEMAIL.COM.
 			3600	MX	10 ASPMX3.GOOGLEMAIL.COM.
 			3600	RRSIG	MX 5 2 3600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					ap8IyFpdRZEqrjopLFwpETrs6rRd7EwPhEAk
-					RmZdk1V3y3g5YrWpKvyFNqZjVBOPZVDB9GR2
-					gvUqDhpWyOPBg1c1BXJDP/hLRVf9TwAQwnzh
-					VoYy4MnT8LOICn3OnBGGQvB7kuPVafSgM9VS
-					cajCYUq02YS1yphRtz4SEEPkG54= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					IPmzfrlSCzRIOdJWYHDqvVtgC7l6LAJQKjOY
+					SnYEaFQbZFGwL+eYmv/dyS7sSIHyuwbtHMRP
+					DoHYc8mcCxm0tpqBn3bWKLkya1JkG9PnL4q9
+					NrkZZd292OlCfMpBsJmeo0GYpXsdUgrqtVCU
+					c3eVUSIkh+h64snyaXR/sCE40x0= )
 			600	TXT	"google-site-verification=INxS71rt3ZToLk_23fpY6dlKBGK4dLTRMdPZ5sVB3Oo"
 			600	RRSIG	TXT 5 2 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					YzvHAm8vpROPLdtCJH6+wyHMZLjU+0MIagpH
-					/P+wrE4obkpPslUbePhwhRQ0OqBv2WibLpfr
-					FTuURMYGwQmuDecNTSvUAZZP7FbM0oxUUdsc
-					NMuMaVdo4JWmTTyRg7lI8OlSo8B7MGZvAurx
-					G9hocKT6UJRrKLP/sZz+37QowQM= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					bMInJHcE49FpkUpnkve8kiBmqqZeoiuH8fjt
+					nkokxA6/SmTgclPV2Ge6pbY/tI21PSLA61FD
+					yl0kQY+lzU1Ao4O999ogIvXpctBE7dKVIIZ0
+					G6KUCB60opahV7KXKmFZTzKY7jkUYZk9aRay
+					/PJkaQ82GwA+O0Lob9L6ybh9vgs= )
 			600	AAAA	2600:3c03::f03c:91ff:feae:e071
 			600	RRSIG	AAAA 5 2 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					VDhnmXa2l/+HqRDKozAbzu7M2Er/RKB84Qy0
-					f7tot4hlqhWd2fe9blJ42qDDUGaqGZP3P8I8
-					ZJpF06ojjMnKhfHM87mP0QseFy0ZIudp7C0S
-					j3yxunaLpaW6fR8bVre+n54or1i2oBuv/kjC
-					vWLhhe7jXAj5RqrTbVuWZvp1XsM= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					YGBbZlmjd6DXKYdpWRblTT/XoL46zYCbjogP
+					TJ5lfXsRON0doqQ0T9l4PhrIgOOFgjiZMvcD
+					4Dz0p72mSMl3Oz9oAyuyvnqGekSe4Du9zSnc
+					HO73V57DNMns5ivS/JprA4f9r1gjglOqiw0v
+					eBXVnshjNoQgjRczkQql/Gzh3NY= )
 			86400	NSEC	google._domainkey.sjchen.net. A NS SOA MX TXT AAAA RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 5 2 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					wLJjEVZUzLmUyD1RUHv0O6ZfZDNK5N8Xih3k
-					nuhXAXRlKHYzuiKqu9OPBJTvAYaM49NArobu
-					yVn+5/pyE9NpuRNVvIEdD47A66WsmqCotLL0
-					yrV3eu142tQu9kMaLu9ttp3kzWq4xs/ea2l5
-					A72wDfGSPybrsf3axtXwgLbce4I= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					KA3HYw0COHIztYRzk384PySUmlPEnM1lNi6i
+					0mBrT/nY7g5k3jr1bKS+ZsItau/LbxnwpvtM
+					9MqbKuHajKdMdqP+YiASIIk9vQdXnyMki1KY
+					UPwZhDIYknFL1fStLXAif+LUAhNspVnCHymx
+					RvnEwD0T++SpInh2T30dbfT4hIQ= )
 			600	DNSKEY	256 3 5 (
 					AwEAAdbdxdzm5fYamIFSIY31gWPF1F2B1u+7
 					/OdCVVra1zlzJiCq0MMI6CAXa8SdqCtCOXOi
@@ -88,217 +88,217 @@ sjchen.net.		647100	IN SOA	ns1.linode.com. noc.sjchen.net. (
 					aaM=
 					) ; KSK; alg = RSASHA1; key id = 43306
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					OpSQCpLXL6vhGKg/cEh0q+YNkQkFjvDnQdmQ
-					RzzsbvRF1VDjI5D49WKoH9XhB1aYER71qU/W
-					Y4RCOE3rirrw8Bannn6JZwxAg/vj0nacbF9f
-					8CXdfvgDRBwDoc1ZfF6nBPP3KobjTdTl2D7+
-					Cj13whYnITTGQ5xS/f0u22s7fwI= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					m3NXYbujx0GBC8QmuaIsMHwAwUrex9GUbxk0
+					EKvYpo5Uwlm+tkS0ypTBkNFq9ffQ3eM5sJI9
+					VYIYQZsFStArdd066uJEZpPieBB8FDadgc6e
+					A4q4s2aaKVk9T1vIOJDEc2F8p9qwUspOYFpa
+					VcMLE4tYaS3IaBKkxMvPhVqpCiw= )
 			600	RRSIG	DNSKEY 5 2 600 (
-					20140721223655 20140621223655 43306 sjchen.net.
-					Cn46drZCqe6uo5YCZIg1MzsnNIBbt/Flcaej
-					r/yrvLeEkVbvkVbF2PftIuv1uL8y0xOlwKY7
-					K5x5fQTNE8mz+girZb1mp/9CammIAuq93EPT
-					SzHAEJtieMcxsCg3/UGghmi1B4pSmhRVEzT4
-					vJQDA18WK97pH/WwU3jD9840O4DFZVkmOfnE
-					po4kPwDsIwcMehw91HcJTsUHI3BKSP20vw== )
+					20140826012113 20140727012113 43306 sjchen.net.
+					LkBKiB/7+Drf0HYaOyYsMO2O3nyn8WjwAZAr
+					xAjgWZi+MCoZo3bpglFAwJux8S0W/pDcs0G9
+					8xjuliMuw5Tv3g5A3TFs/pGNG4TS23GIwLTj
+					LKKAxAWoKbIJT/NC6XCh8jGWNjgLtBg6z5jP
+					FFUhpvdPRlyE066pTJ6Ivz79FzsE3U7REgUr
+					pr8UGxIrOHkTId7nywIqM8Qq5Ht4pZw3bA== )
 google._domainkey.sjchen.net. 3600 IN TXT "v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "
 			3600	RRSIG	TXT 5 4 3600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					YrtgXT7UBSH5ranf1B6HZLhOCTgZokjsDa8m
-					ACWA29M+AMgCg0GJF0e6BDsfgu8ahGjWq2zu
-					3b4wKEmWTlGrcVYCEYZQ+cY1hxnPg1+y5cJY
-					7sXAAxF5XSAudiyo+lpAMNEqOT61bguWBGG9
-					ZfO7XCCnP3Yb5v6QAJln64aW9Mc= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					aDAqjDaHK7cRsSrfMAF3p0/9AanPwFwGCnJI
+					kylkn+aAhm9UEIrsx9V9SZnaIXipvL92dUp8
+					r0oVVXK6VstaFv39vd6a91pWZGn2el+Hl97o
+					O9t2WobxNDOp0VvXKNRwPK86L5JtIlXfSUsq
+					ERoVnl6UePixXcP+ujcxpOM7vq4= )
 			86400	NSEC	calendar.sjchen.net. TXT RRSIG NSEC
 			86400	RRSIG	NSEC 5 4 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					hhP1OFc3wUQQJfk22VueRWJtEgGa69DPI865
-					7onq0LSv8H9k0P3kg1XYFofgw9w3mEhBS6+J
-					teFMZ1AIFSbMyVy017ojmL0x18lE0ppWsgJp
-					HmmkaTR4M/+Xq355OH4dXPLDZi7b3oD5c0of
-					52Y4lu6k0R4mXq9b81B/zh5fG3Q= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					k/hyEEzQorpooQxi8qN5bC79nMD5BouMOls1
+					BKEOHymlW2PKXf00OtKcbqgel2u5atkP6OK0
+					qvC3JqrgouSAhsi4TiJVmxFW7JD2aG2OgTyW
+					o9IeopGYMFfXcUnSxgrudOnFLzfEqgFM7pzV
+					ZGtcKK5p2kC+oR6YgEDf2IoHv+A= )
 calendar.sjchen.net.	3600	IN CNAME ghs.googlehosted.COM.
 			3600	RRSIG	CNAME 5 3 3600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					LPMyF7phBmCgmETGz6nLsJsA5Sux08znKa9H
-					vDnRc+hFmxzYnzzegcyHfZwHN+cT1u5onxlA
-					UctGHsoyGZjz3THgLU9cdup/M7KvO66iIMKg
-					fkZ1YNfQJL4JJ4FNlEaqAf7ZofBkspN41Il3
-					Iy3m3MGcAFD96meKrSXPRkLpR5w= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					Tz+K3ebYYnpyksCqaA5oRQk+ADxvhb/SjHV4
+					XEch0qSPay0lPzovyAWHE0CQv098a2Vl+u2u
+					BMt5CIe6iva6ap/TW4j/c8yzwkzR+u28rn1h
+					+v+wk6JX3OHtbGSHAPrYOGnP2aEkUDLpjzOh
+					9Csz97Cqd1UZ4uCVQM1r9W9hRx8= )
 			86400	NSEC	docs.sjchen.net. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					FQ8PlyFcFrwCOPu1601zVGEy66v1TJj7mvXY
-					sOKA7OgxkgYJurKOJQtK9PkdiABQ2C7WGLG0
-					IGBI5cVlMNfAswDMmX8B/qd0SQMDGcMoETuu
-					fMdfJYuDN4pruLDVl/L5LY6gyquT9SNGBW3n
-					7ToGNqthaM7oYfCooIGx97CJ3Ow= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					Zv9U/POxyFl9BIjgiDuo+Q04PbTYLuD7JyMC
+					hcuC/Et6rCb7HmuDP/ouqRg5uoLPSzvBBhy0
+					m9zQIwvXxdI6xaHA7lf7ZQtHfOFmAvNOFGGk
+					f4yVlriAAHGGI4H3ThLQKlgIWMCRe6NQyZkD
+					/9uONXxogIyK/M0dcot4sFM/gjc= )
 docs.sjchen.net.	3600	IN CNAME ghs.googlehosted.COM.
 			3600	RRSIG	CNAME 5 3 3600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					hMBgB6IkQnhKr9+FrirUXjHnumU0L+yRLQNI
-					YqwFs+Tiz31gsC0TJbbrthmboILZmxVdbGNS
-					tH4Pd6UgVHoPlGX/D2hdf2dAH8GIQOicwWVI
-					SFZ5+9XqTb2ozTSw4a4M0ika4FEAXo9gHlwy
-					l7KDqRd6S5fzaswhBsCVgxfrJJ4= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					nj729d283+xaevkqgbx92NoyMKm0shNkxSlu
+					C2u6U7N44hHU+joggcd5CqjHef4FdS71+irG
+					8b0cbd33EybGdhWW2ulbSqY/Ka30qvspq6xc
+					MU6TnpqpkJ7hV1XafCYoBVmb77PnUGhJzljA
+					f5f4qaT9hI8Z9ToHvF6P+eljNyk= )
 			86400	NSEC	gmail.sjchen.net. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					pyzOR6ieg1sp/2g6FuzPRi3obIRsm/C7F7KB
-					EW6yWee6oClUIXNkYxkHSo2V3VvlDzxDNncs
-					u8wHJydAfkAjgVaRb1M6Nq1lIYfhk4NRUbdX
-					LK2y9dwc5vXuhWewomZ4I1R7HDgNsFlA0lqe
-					myMCwh9wa9CvQxqp2rj0W1PE06Y= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					KTz9KJohX5kdxp6pMrNT58VN4fgRQMGm352e
+					DAajNyOmPPLB/x2sI408JKmFvAgAb9sENbmA
+					MMVcw9sqGa5NBJIjpUzOOwNWFVGGDUbj3E3X
+					VpZnXW0pKi9lUYCNAAAOJzgXZlQUiHhDpazh
+					TjnbMkoC3s7FuLAbD/0y5eYmqDM= )
 gmail.sjchen.net.	3600	IN CNAME ghs.googlehosted.COM.
 			3600	RRSIG	CNAME 5 3 3600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					wZyJr5KZSw1uXwGUiLiyd4q/zSEXJhAQFzqM
-					cOOEVGTmcoOisP9gbfeWdYAk/WsV9fli8CZm
-					fl59GYlov55u07vM5tkzL2i+dWOtdtlnZPgQ
-					yZEKgNEQv/5px+TLfUha3jq1qlpU23q6xT4P
-					T50a2rSAMOOGaqD3/Fm7AHBKhEo= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					f7jXY4mIYKJtZr2xor4ul0HlbyQRE82nekai
+					qGnZEHagS4nyfMlJempMZ3XVpi7WoJLSxXkN
+					rCrmVISaHEubV6dBL6hJROs3paeGKuGbKKPp
+					YfKULb7gIXk9CtbVkfJjC27oIXhhvyTI0sCM
+					g8QcbDY+yIDLOLnaQgnVvwznfbc= )
 			86400	NSEC	ns1.sjchen.net. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					aqPerzAR8FpcW3uFaDjMNIMUwokZVwY9dQn0
-					2KSK1BtT3c83g0eXignIMt2KLjjbdY2VBNYB
-					Jc7PP+4YNz/TqzanI+dv9GPTvSI9tI+sIKxE
-					knl2/r/m8SJryaNkdzHVYjKZRR8Vyws08CWI
-					fLYLvwU9KDgJ8XeruqZmYhNmohM= )
-ns2.sjchen.net.		600	IN A	65.19.178.10
-			600	RRSIG	A 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					mw1DaANRl2IsVAG85c9osv77HED8nNmz1SCq
-					nRu01HrpbKCoztZBGqJC9kWPIU23EQH6pMXC
-					74DGan9RZ2KNu2ya4IBsuTXXuA1ljdqeigDt
-					pl86E6dcWOik62u9iUV8YhNy2tqgRwvZyeo7
-					/jCnezFLDScY+fxSEz1SguLclVQ= )
-			600	AAAA	2600:3c01::a
-			600	RRSIG	AAAA 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					N1YD5OXVjOTerGGbfnDQ/awVK7vxe+i1Z2+t
-					I3SqAHHBGJX/75QqngMh4ncY9lrZ4bodEIzF
-					rNpM35MfAw0odITkR5IprLDTFvNRZU6MkhhE
-					LzhPifh543nf8SxP5WXaOUh/gvoRlzhDLs8x
-					awddE6jvK6m4LkgPBzEzhTkcAvI= )
-			86400	NSEC	ns3.sjchen.net. A AAAA RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					TWdbsDwWGi/S4Qm+nseZ+Yu10cjasyEdepFP
-					DP+r3tOQdEtwWq0Yv4d5zybXKihQUA9EyfU1
-					zBXpM/PYOaP4ODocBFtVlxCrPwboU/uqeCjq
-					jxA8PhJvRiwmMbE2lgNl6dMUor3bL+RMHFWQ
-					Pl3KFn45Dn9M6XGkgJuzc9C4GZI= )
-ns3.sjchen.net.		600	IN A	75.127.96.10
-			600	RRSIG	A 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					VsiZ6DVpIqsMCp5E1plbagcYOa4FdO2YZfSP
-					dXv5lULSlG/em/MSwxgsNtX91qI4xbhQzHWF
-					oz+VdSqN1qcIPgNxXONekX+gFXTs6YbnrkcW
-					G2lASW5qQtc+DLdo0Wqak7mCgxPXqxBF0sRr
-					Vz08qQcy6rbsPLlSt7Enc4QtVCw= )
-			600	AAAA	2600:3c02::a
-			600	RRSIG	AAAA 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					fCnGz4KMhUhoF9o9o2UFmnOxgEwB5EyqtH+N
-					0HSPstkWJC63b4bVRlvFuWfxugNAw9zmFQNT
-					2oTU5SKqrBMrtWjvM8wbZ568ZXe7WIgydz+u
-					sKzsmbr6Jt8bvWoXbvTk84Jt48nC13DZPYfz
-					koumw3AXNmJkkc3B1yWinVi/U9U= )
-			86400	NSEC	ns4.sjchen.net. A AAAA RRSIG NSEC
-			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					B9Jx9recn/f6u0P6r+28b9UihB3IncY4V9Xb
-					I+MSjF72PcDWpLu4pAXYLxaRTHvEQPEuRbCR
-					85QeGtSHVEPRqfLk+U/h07UHTs8PmH/HHHVL
-					7mYpzk15Er6ZmTxPZQetltbrD4YWvNYydtPP
-					fnbCQ3xjaSwd0g9QpVJ6Omx+kV4= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					qSAddzWHfeszo5GLmlG3mN7F6A9OvkAjZCmM
+					am0/HqbiyJHv49LCamVsIV5zo2KpMNEFjTWB
+					i5T9L3fpSXLJlUkoQVlJ4Li9Oq3m5jyFS0t1
+					BldXTfffTWS1b3T21qbZyWJym48dC3gBBRdX
+					+7rOMY0jUyqtczucwcyRzCnKVq0= )
 ns1.sjchen.net.		600	IN A	69.93.127.10
 			600	RRSIG	A 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					BGHkdf+20ZiH9w6e1xCzZA22n1UUfLq6/OJj
-					/BsX3OXZrdYosj2CMhoXEbKY2M04vPlps1Pw
-					537APWlXTxMGPgbxJLbolQLXigu7mly+5xla
-					1QFXCVps2MpKca6QMw8BhAN/7fyRJIK2W3g/
-					khniKE42fKljbtoH/OCJW4PETd0= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					hbOCaHKoSWF9el0DYbDAioNEj6H/9GwP17/y
+					kBxVY3S1lHG51LGi1TLJ5HE2OOSI3ajtgmvm
+					YoTViRo/kZHLA5tSdCuCKGGOGCevsCM+sqoj
+					G3036yYgTFxAygjgct1oqT08aQYKNZ24qxeY
+					hSl7VDE81HxKf1SshmRxWslGjiU= )
 			600	AAAA	2600:3c00::a
 			600	RRSIG	AAAA 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					gjZptKK/8CrnwR//H77rJzKPkZOUQf0LwwxS
-					xA3sTD7fVLn8yZfLv8G+7YL/uFyecFieVgaA
-					hf/Y3SL9hkLOv/a5pRanJW6zVCkcnKn/jZW5
-					oNZLSQ8XP8RJOcJ9FMsy9IxY60gXocsoKO7b
-					yAdnMcK/QPL3P5ssEMUXJAHA+Ic= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					lc9pQovYr9ujQ1xcIahM8v45QjG8H/zuvPqr
+					r+ukqKku65PYfXxpWeJjaZMezAq+CvGQGnP+
+					CbJpc23LcT579mLpPyS6Y9ztPoj+E3tz0bGa
+					CrXF6UKkoLRYHl9rggFJ00Oz22wsGORiAAlA
+					fyjGRsp7so3jQowGc4GL4xYn/Jk= )
 			86400	NSEC	ns2.sjchen.net. A AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					IHu7b5HrxA6Eb/jxihx2iM5aXZUvhj9dRhkK
-					qWii+e0IcvrsSSE48yKIYsz1QGemJNSUwHqv
-					w5LOwdauSf09UmiKv0IgDKTMtbwB+l7oO6m1
-					/i24+7hSep5hEpxMLcb/Tv7SeMlNhT2Z9vRW
-					GSHFmcKCe90OWBtsEe2MOzH13/Q= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					GF9/VgLniTnKmVthnmh53TvsMWp5o7REikgU
+					FAKvmSzsNGOOSKbr9dOjFtLXzgsOw/jIU+aL
+					FLe9/lX7aLmFWkWQr7ZVI0QwQBEofNb2YKpw
+					AzD4mRomPtaqrdCo8YRLNlp5FUUnds7EU/e7
+					dLLsQR9vRZ7TU6ONuW31/+zDCP0= )
+ns2.sjchen.net.		600	IN A	65.19.178.10
+			600	RRSIG	A 5 3 600 (
+					20140826012113 20140727012113 34722 sjchen.net.
+					n/wTRXsIiEq6Hyar7gb+Rorwf5EhCrlweOgB
+					ro0jdPxNu9U2HodEaUYHzcf3bSKe8S+1NjNn
+					jGQaV/ea0S1fNQmQ/PSYMWI+z5Rw8W6KR6n9
+					nAN25t+n9LBf8ykokQ5S9XMleESZZg79evzt
+					6mh9II1YaU0lNPu3X/yfD1z0lVI= )
+			600	AAAA	2600:3c01::a
+			600	RRSIG	AAAA 5 3 600 (
+					20140826012113 20140727012113 34722 sjchen.net.
+					DmiaqnD8cROscTJsvGgj9Ku7tfj113VWV2LO
+					8bSxHzlnTj7qcndE5/qrbo7u1r15I5ltLPvN
+					oL0davGSpc7/zzv4yZuYv9toajAZGSFWec/M
+					RVdrMqG61qhYdtOaPpdKuMMoI66jSO59tNhk
+					xue94bWGCeTyA1ScT+2ClAHZni0= )
+			86400	NSEC	ns3.sjchen.net. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20140826012113 20140727012113 34722 sjchen.net.
+					q+XqjyVNmsE96HOXWizCTRH1jAo1m1tepxVR
+					s9ny2b7xdKUb81tSgEOmenzg8kaSAP4Je9g5
+					EKuj9OuWjPj+iiMTcY46cj6mXw53lHDYz47m
+					9cXytFpHpo+p5OGx8Hhvp7Y4Z4GPGJ+1AZTc
+					dhpcexvxg6WBKrQekuWvDNJXlzU= )
+ns3.sjchen.net.		600	IN A	75.127.96.10
+			600	RRSIG	A 5 3 600 (
+					20140826012113 20140727012113 34722 sjchen.net.
+					GF3fs4WVWSzAW2S4vuXzAynabk4dyuY0R/hv
+					GDWSKVF+MO6YZPobs7OFlEgvsrprWuYR0bP0
+					z8m5hRwQLK2kVQiYVYi28w6k/vXbsYFtLcyt
+					eaaGWQXtixQ9dNOGwcRDMJ2/Qnrxi5JzUBwh
+					Ku9/JPTGIny4+eFmrTEZ3aTOVMA= )
+			600	AAAA	2600:3c02::a
+			600	RRSIG	AAAA 5 3 600 (
+					20140826012113 20140727012113 34722 sjchen.net.
+					eVYtVq3u02F4nR049AiH+laKKvXm8Gwgbhja
+					FKK0oWAn4EdJY3piEH+WxL0WItyCKyhppan0
+					ajJhoLETsAK8PbjK98kkF9DWTkiRvfXFfTN1
+					bRf/iSbDYOObrJFqIUpt/wNTnopBVBesMd+i
+					+r93NbTiCog1M3n6oM0l5UuUJNU= )
+			86400	NSEC	ns4.sjchen.net. A AAAA RRSIG NSEC
+			86400	RRSIG	NSEC 5 3 86400 (
+					20140826012113 20140727012113 34722 sjchen.net.
+					sfGWDxSoCaZP0NU98Cgb0Dn5C3oktR1m7p5M
+					DJRH9PfyYaBRpbBIs0x/QuDHtyFjnhRDloUW
+					nh1JYbuuAfJ7Ql5JcH6jxDyvhJAKqVYirHd0
+					CDErsdcrW4suiDqwqpO17H8e69P3FW4U6kuO
+					jjKAG4zo9rB8haBlU5tLfpfOpKQ= )
 ns4.sjchen.net.		600	IN A	207.192.70.10
 			600	RRSIG	A 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					Ykw5u0zNTmwjK1U7HtSzOa/MmKUwlOEljmtD
-					jSH3pH4sa+Prw9eyxqV8C4OSkK2zNfovvdbM
-					WkeiKfYCFHlsUkC1LHsU+Xh2WSmG8ZGqrh+a
-					jHGQBXtrykuPtAXje6CjpviKQ8WBoJ3Dl7bp
-					bxSUNJAYGTMT67352VY3d0RjyNU= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					G8NUY/5FnU+S1za8FJjwkE6OfeODWf4trYC6
+					jDS8wLNoujVWmFc0VUg23aE9Y8V2gQMcHSJG
+					ONK7cXrKq9zvWPZIYOxN9ZAJC6mjF1Xe4i1I
+					szjSCQJ0g3HXeEqinBDzNf5wpt5TLs6Nbvgx
+					nhQP71/RpLTd/xAmYrKfP8vwTS0= )
 			600	AAAA	2600:3c03::a
 			600	RRSIG	AAAA 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					IrNrf6sSMUfW7KZUR2PCbgSwFK2HVr9idoJm
-					gQjqn5NQjQVPCCdwnFR53Lz3a+VxYTBFu1VH
-					DBCUHG4LkNJ2pP2GDep3iBTSIi5Mn8KCryRY
-					sp4TQv8d9hNPtNT8wWP6uS3t3gfdieADbVHN
-					EbJCSX5QbSSsgHyLIHx7VlvqA6g= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					0k+ORcSfJi0G/52UW9ipCh+vr1rS/KAUc7QB
+					5vyKFFFA++0vAvowysuk/BNl/LfvNpApfMYb
+					1qhOihA2utX2hYHBbXtFNqhv/nrslOTE7zOo
+					/ZD/wopxh3IeatpxqnndrKPl/6ZMZCcDqJH8
+					4LS7adOwZS6apgg+EwFLxkQhpwQ= )
 			86400	NSEC	ns5.sjchen.net. A AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					vwhF0rocX4ebruYvdk6CpKmo7XgXfgzzXwmU
-					IGsY4VSF7GxhcSFT9FmLwD7IE/ni21n4kmso
-					SC/y3BfQyCKtV7pDiY8vHwX+X/fzfY/dK6ub
-					HipVWUFx0XpSwnTA7WEx3fe5ym9IOmg2faUm
-					nJLfLHEpH9fEXooHJj6esY7CEDY= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					UMv4Hv3fqk7BoD1vfcv2Q+jaKFcaDvW6Flq3
+					aFXkOh1B23LGKBzutni7g2/3ljBk4i9NceDZ
+					1iOVDff4TSvRBr/XQMEfEii5VFW4a/iGPnah
+					gFwZpBR1L+EzdNDl1NC3W51ws4gJvTXQomu0
+					ePmkbWQE4aC+nghBWRYfi8uT6QE= )
 www.sjchen.net.		600	IN CNAME sjchen.net.
 			600	RRSIG	CNAME 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					X6rs30qtDQwu42Vhodu/P5KttW1d2WqQ/kde
-					YbSFTNKg/U9tI4ZazC/vqYhbo8b7fmotOFhQ
-					peyDO7swaO47KclUCgv9yszRhLu8Me7os8nh
-					7rTBBcu5+yc7bIs68y6EVHKashbCtIVTMNfe
-					zx4TftgGfrpDCJVRC6SCT2oCpDg= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					UbVTAH4Lq3/Sk0b6yqTiDCs9ghr9ghU5i3Xc
+					c525zG7w0NKPanJqYZ486zksRrHEYqRa596g
+					xirk6yHiTaANPq24GFF5ymfJWJusRnsJ7rxI
+					sNrdcYFD5wChWbrHiSZAGoQtN1JWJE5urDKn
+					La/K6ZGNYtS/ytBvogf0uoc/yjA= )
 			86400	NSEC	sjchen.net. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					SP88s7dQFTouZhKF4fzla7IUceNvCOARz92I
-					lcYLU+CTlsgpWCQ+ELIzXckuaATGDt4R8v1J
-					SltYahZDKb7SqI/UAYlL2GhLZuQIILo04YgU
-					/TKGrbWt7OC8on2JUDP7lEdgkVULZesbWtzI
-					k8yckr3w1zSk7rU38kOTaF3kGQY= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					k2IXz0pORYHzwduSjMwFTmEZ3s4LCiqqw3s6
+					P0wERsqKa/QJMyYvJqQPkJFIH6I534k8aTR+
+					At0Yz+MKKCvkpwV/eSTmNygoBIucQjHrs9Pe
+					+jsAmTJqZvcSVx268TEvAiVAffBY6XOwUONt
+					dwh6+ILn3U4HH2cbPzB/L54R/sM= )
 ns5.sjchen.net.		600	IN A	109.74.194.10
 			600	RRSIG	A 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					LRNA7AY+9YWtydKS9CiATLJoiDHt9IK7JfyQ
-					MC6JD6UIzMloai0WC88/UnVSn5DZufJ6xgKT
-					lrf1IaEVHBqmoJcB/n7XSxZmgP11WFccEvlZ
-					ERW8I8piVTRe5RQEOsTUrV4L86kEeSY3zMHs
-					vX2bg8ksI79Y0KfAqSSxH8eV0cU= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					IMR1y3R/eQ5JbHUXby5STGdfokgWBCzNHcR9
+					L9SPvn8wJ4CeWTBVj6/mn+f1WIdf/ZydYSKM
+					KMijTt0DG9SwLroVPxGbduR6A6vQ22JJzyJg
+					lup/ZZhwc9yZE4u9jWf9Y0TawycHdam3ysDG
+					2vW24pm0Ngr0e7lB/oAGuD1W3Oo= )
 			600	AAAA	2a01:7e00::a
 			600	RRSIG	AAAA 5 3 600 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					w5plNcUVPNFiIxs2yjVjOWORmMFpIQSKhojq
-					uKQAp4IxHL6PlB6M+4amhvBYe2XWaGJV9kiT
-					c4DLlrDOjUrAlJHusOfefcloai7wGIpz6u8l
-					88ArsawxnHThqdj285qhw84PtM0QHREwwgm5
-					mna/5tj3Q99HlHG0GMfkDDyho6g= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					EGSz5dJ64vzjEfYU6rKtomx9Y5ts1q/TyaK7
+					GZVuQdObvjwEcCO7lgeK6LybiHLZzQG6ZZsP
+					msajl/cpG8mDB/M2d7LWjsAKkVe7tm1nfKTF
+					+S9nsW1/JDpskeYYB5esW82ky9VP62e/2DZl
+					EMzviSVn89XG5tHzX6o0od0hOfg= )
 			86400	NSEC	www.sjchen.net. A AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 5 3 86400 (
-					20140721223655 20140621223655 34722 sjchen.net.
-					QuTlLod2+NUYT9WnNTzmjizkj+rcY8sqNbEk
-					iHqzs9mgU8kCIVyYeIJ3mcUgkC7+tIA7Zicb
-					IpfLA0VLpJC+MSABQKptQWvzkhiO4rDNoVMC
-					2KWBkUu6N2hB3Ovtb/f/m10UCrrkuFu5GLxn
-					Zd0MWM+Bh+BcZZF7BZhYrkwM/mA= )
+					20140826012113 20140727012113 34722 sjchen.net.
+					hM4jtEp3aXC9oyMK5a8iLbOUsNOZqafANPKc
+					G8rd8/HZD5xvbzjlDvC4KbiXgXNesxMRuYKc
+					u2p0/HkbE5Zu4Yhe0+PU8dirisPQS62ey5LP
+					3HtY/Ds/uCLrUbYH+vXCln7FCSNRTzrq8doj
+					d7jsju3agDkUMcnirxPikzOA5ew= )
