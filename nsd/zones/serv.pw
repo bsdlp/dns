@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 serv.pw			IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014080218 ; serial
+				2014080219 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
