@@ -1,2 +1,0 @@
-linode==0.3
-requests==2.2.1
