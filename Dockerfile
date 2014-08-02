@@ -1,4 +1,4 @@
-FROM dockU/nsd
+FROM docku/nsd
 MAINTAINER Jon Chen <bsd@voltaire.sh>
 
 EXPOSE 53
