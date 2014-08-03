@@ -1,4 +1,4 @@
-appleinformer.org.			      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032015 14400 14400 864000 86400
+appleinformer.org.			      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014080220 14400 14400 864000 86400
 appleinformer.org.			      86400 IN NS	ns1.linode.com.
 appleinformer.org.			      86400 IN NS	ns2.linode.com.
 appleinformer.org.			      86400 IN NS	ns3.linode.com.
