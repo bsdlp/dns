@@ -6,4 +6,4 @@ If you would like a subdomain, please read SUBDOMAIN.md.
 
 Start the Docker container with the following command:
 
-`docker run -d -p 53:53/udp bsdlp/dns`
+`docker run -d -p 53:53/udp -p 53:53/tcp bsdlp/dns`
