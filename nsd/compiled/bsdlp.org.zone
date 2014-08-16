@@ -1,7 +1,0 @@
-bsdlp.org.				      86400 IN SOA	ns1.bsdlp.net. noc.bsdlp.net. 2013010725 900 14400 864000 86400
-bsdlp.org.				      86400 IN NS	ns1.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns2.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns3.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns4.bsdlp.net.
-bsdlp.org.				      86400 IN NS	ns5.bsdlp.net.
-bsdlp.org.				      300 IN A		66.228.43.47
