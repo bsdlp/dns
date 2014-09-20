@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 serv.pw			IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014081917 ; serial
+				2014091921 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -16,31 +16,6 @@ $TTL 300	; 5 minutes
 			A	66.228.43.47
 			MX	10 mail.serv.pw.
             TXT "v=spf1 +a +mx -all"
-			DNSKEY	256 3 5 (
-				AwEAAeq6HAGLIloyBldffhwcwuQSFPli0prZ4QskAS2b
-				W/QvhrobfW64oBKohF99VKcorUGoJJDqJSvaLeGWzyHU
-				CKrtaSoj5Hitu8VCb9Q+E/k0y7WFOnT7ta8W3te2O110
-				1bg3wK1GNxoC/pykTWW6Oeko0mcU/k90+TvD3iiwE0oj
-				LvkZf0dCUKrxLv6uGOWaWoIB/wyD/qexVLS2D0Q1xIHK
-				BYyY0JqNY0sGW8mX7XGGTRvnxCvClV9LZyGcV4hL9nb+
-				mWgK2kV8IfgAjP/0a6g5pncACQ6q/BCh0+PSqcubSZXA
-				sakNMxWzAuVGX8yUTHk+SJIzw5nWE7RsTUYJWv2Qnsbk
-				SMezktaJOcHfSO8V7iexd01yNGIac34UXqbqwXlaoSX7
-				Z2u5fd+q8M4xwklVKrPZVozAJqcWq56G7/6ySQ8Omv62
-				ICja2LbxL8oK5peki2RiJx9UveqUfDDjwgZnyBhahhlF
-				UY+WSmFeOH8TRR8rja6hbRnv5SWs2OD5D+N/khmi1WNT
-				aqBjzR+SQbmwkAb+RboF2Dcd9VAK58YckYzezoXBxNLv
-				FVmvaIClKI15G4NllAbzdp5nhjHAXCoycskaJ/T0iOC4
-				B7ylmJjjbDl6N6mXfBqj2IoOJoJp7rvdT7ucsrxMLR+2
-				owGwvbAUxbwXd/YOKbP0XvCWCOID
-				) ; ZSK; alg = RSASHA1; key id = 30810
-			DNSKEY	257 3 5 (
-				AwEAAcFUj7vvb39/2o7C9u2DXURfMdxswpuGt4xL8lHY
-				P9L99PpRtewvSg9duHUXMOWWxF4xx8PzQhKX4Zx2VAi4
-				07ndzMmZq3DpPBJ1JR+d+imgQjxHaCh1NaBNphoARPvM
-				N0fftFKPH7365FfbR2ToWpYvPDMuwejZWjMsm/2LzvkT
-				/pGGkcXtd7aDeulUg851/MuYNrDHhPENwVNtU5e7Zhk=
-				) ; KSK; alg = RSASHA1; key id = 40051
 $ORIGIN serv.pw.
 www			CNAME	serv.pw.
 irssi       CNAME   ewr0.lin

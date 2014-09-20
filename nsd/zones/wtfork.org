@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 wtfork.org		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014042617 ; serial
+				2014091921 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -14,19 +14,6 @@ wtfork.org		IN SOA	ns1.linode.com. noc.tonkat.su. (
 			NS	ns5.linode.com.
 $TTL 600	; 10 minutes
 			TXT	"v=spf1 mx -all"
-			DNSKEY	256 3 5 (
-				AwEAAbcq3ZjJuRfDHFTGKjwbEoKoAkq3w127rOlmsXWm
-				y4Tvu7J7ycVJf0BMiiWZvwHxSDdbNpjF+MZAebUj3iml
-				91ZC8QaIGE0vJsBpfq87SqJMYK4/yQpHh91mapqGvXn2
-				6N7mvts7dJvGy+kl5bvFwgowatoaeNCwODLZU4dNcEs/
-				) ; ZSK; alg = RSASHA1; key id = 2745
-			DNSKEY	257 3 5 (
-				AwEAAbnXciNVcp7T12kxr1bjC64ElTq6IC+r9YmaIbpr
-				KVGNZVaPA563ayQYCM1DBvxJMrlmuPO32LP0z09orZw9
-				QEthp97vB97Do/3i5wST2NVSCnOW0Tk7E1ji1Vfy9w31
-				ZGUd44xLQ4AWMwNK3OvaB9ivQmFftkWmjSwVN0TGTERU
-				h5hlwpsOaTkqk65XGrJBG64nKn7fMK/NabUWfw5Ow2k=
-				) ; KSK; alg = RSASHA1; key id = 56578
 $ORIGIN wtfork.org.
 mail._domainkey		TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dqBKzCx12LAkN7Q5Y8yNdGPxtO428fLAM4b1JuOS0lNrypUJUZi2qCAmV46lzqB2RDMZWoPESH7CQxcobLkhJdGTMoRjm/KI+PxwRbH8PTKtP1hDxCGvcJThmwZhyZ6M/z7rFhMj8SjDcl6EndeyN0LgKvNj9OwufPi3tK4powIDAQAB"
 mail			A	106.186.112.27

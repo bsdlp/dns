@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 tonkat.su		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014032021 ; serial
+				2014091921 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)
@@ -24,19 +24,6 @@ $TTL 300	; 5 minutes
 			TXT	"v=spf1 include:_spf.google.com ~all"
 			TXT	"google-site-verification=vlqMfiRdpt5tM9d__-NYts2qndrnDBKrMqmfiUs4Uww"
 			AAAA	2607:5300:60:2929::2
-			DNSKEY	256 3 5 (
-				AwEAAbqZSWikzjHxGGKN5bl8/hTLQvPlGRX0UyHvVOXy
-				g8rQNPkagCmwbHnr4XshJZOpfxffbzYp6j5Q1+fmv3Z/
-				9EZGkJKGia9RDyhHv9t74hlJZQ8pNouO9gzjGfK5Xq54
-				ALBN5JQSKMiyHJ8XiMS5TxRYmwxFqC10mjMSexyzBiaz
-				) ; ZSK; alg = RSASHA1; key id = 9120
-			DNSKEY	257 3 5 (
-				AwEAAasAoJOifKdjCbh5kXuGbA/2TrA5ZzpDn6SvOuHH
-				DwRNWQbUkebvDndRayRclIZWT49CaHwF2e8OYgtgPXnu
-				+kZYmaw+cYWZMdWkx49aMiMdJbYsQIKvuKDFNHbP5k/u
-				GP1rNbbULcFzDCHM1qsq9c/UF5OL3dEAqThkjwPWT3x+
-				ErUdjmAOHvx7lwdqEl11b0E3SLLVZ8H6LK9VOs2KJVM=
-				) ; KSK; alg = RSASHA1; key id = 25966
 $ORIGIN tonkat.su.
 $TTL 3600	; 1 hour
 google._domainkey	TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCCeg3e7OAfL7h/XOQUOg7fNloVA2WUKkHQeyf37iJkLYaXR/8KyjamoiRMT80Y+ZrAHKAN//RynooGA6+zxvcO4Jf/kUyQUd7OvAj1q2HLa2OqbVd+9u4tiEskI3rvMqX/LMBrslloqhp+V3f2bS7Z4hfzGDUUJseVZquoPJqX+QIDAQAB "

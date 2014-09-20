@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 647100	; 1 week 11 hours 45 minutes
 docku.org		IN SOA	ns1.linode.com. noc.docku.org. (
-				2014072622 ; serial
+				2014091921 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)
@@ -20,18 +20,5 @@ $TTL 3600	; 1 hour
 			MX	10 ASPMX2.GOOGLEMAIL.COM.
 			MX	10 ASPMX3.GOOGLEMAIL.COM.
 $TTL 800	; 13 minutes 20 seconds
-			DNSKEY	256 3 5 (
-				AwEAAbnZ9KwVQAFBY7EdqmzGSBBrm2acPRVhE8bnk9iC
-				lYOs6PFOBgc76Jub+5mngHrZBs0JBgLW5BcxR2mVSEQH
-				1M1LS6wnAPsQXz9GNmYEZQ40iTpMPF8+iXNFAkexcD5U
-				QFwVJxyNgtjwv3rXuwHYM7rJ8OOI1I+Rhhl1YaTfu0+3
-				) ; ZSK; alg = RSASHA1; key id = 21816
-			DNSKEY	257 3 5 (
-				AwEAAcBCD44ngynG6CsGlkRy6Vst68Mc5930lXQw7cpu
-				XkV1QaB1byl5V+iAzrw/dlwwQQO51JKXofmo3qeHcZsb
-				+dXC9AZ1eb3dyTXUtnvD8IXriiMh5WWWvynm+5+Nvcai
-				9DDgOZ566PSxHnU4IgmG5YBa1nbTQ3y/wcn3nTb2R1VJ
-				hV3ug2kSeW6+hKvUGq3VBlm+0y5luHlmauz5bVHfGSc=
-				) ; KSK; alg = RSASHA1; key id = 60193
 $ORIGIN docku.org.
 core0			A	198.245.62.165
