@@ -1,0 +1,142 @@
+; File written on Mon Sep 22 00:39:22 2014
+; dnssec_signzone version 9.10.0-P2
+docku.org.		647100	IN SOA	ns1.linode.com. noc.docku.org. (
+					2014092200 ; serial
+					10800      ; refresh (3 hours)
+					1800       ; retry (30 minutes)
+					604800     ; expire (1 week)
+					86400      ; minimum (1 day)
+					)
+			647100	RRSIG	SOA 10 2 647100 (
+					20141022033922 20140922033922 8495 docku.org.
+					sxQ8L2rmRxqHj+KmTsLGg+K9Em++959r78Br
+					Ig55YEwr8h4RkF+WWyGSzBE25W+mfmIlmdnx
+					tdVMJsgvAX/RltXScNI4kvXHVnjv5ex+irUx
+					2nZuLHCJODn7j3euQc5XPcI2RL5d603SMXS4
+					GmganaW3gPoeJA2Qh4auBcRGy5aNaYmXaidI
+					AKzFMtJagEIzvH5OUEyGB+DVzw0REw+DW+1b
+					gYazb95EPZClJe/zNILHm7NT/lWVievdMtP7
+					EdbYag5LB7zagluGnOb+wOAbYlqXCe3rLHnD
+					TigccoWyzBdnsd1F9lz9bNehQmUKZE3YYW+M
+					PbsewCO5Mfiv6z2d+Q== )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 10 2 86400 (
+					20141022033922 20140922033922 8495 docku.org.
+					uYr2ujMtsr6yYFSkznowEkFpgL1G3iyl/ZUo
+					sclopxXqSE1JooaUXxXSZyVCo3K5CtZM0Pbt
+					DXuYSpjuAhN0fGJ6mCrc1Y6ofRngi7w/ghhr
+					H70Qd1R/FNABE1hExyUWv3ru1JpSo3NwkxT3
+					edJUt9aTSQ1uV3j2rY6YJta/aduOTc/Xrvuy
+					iV3J5ect++be2/znbkweM5UvZIIi3SF8CTFc
+					DDi/4c+Jt/6paZbDaUsRf/McUaxkUzzZEzpF
+					NBVSLtDy9S9QECjs0N+ZW/WK4caVk6YTP6sq
+					QwIUa2vJFzHiIOyXwOGaLDYmMC7tCWPa0Z+q
+					5ULlavi4eCY8hIKwhQ== )
+			3600	MX	1 ASPMX.L.GOOGLE.COM.
+			3600	MX	5 ALT1.ASPMX.L.GOOGLE.COM.
+			3600	MX	5 ALT2.ASPMX.L.GOOGLE.COM.
+			3600	MX	10 ASPMX2.GOOGLEMAIL.COM.
+			3600	MX	10 ASPMX3.GOOGLEMAIL.COM.
+			3600	RRSIG	MX 10 2 3600 (
+					20141022033922 20140922033922 8495 docku.org.
+					whRawVr9vRB8idDoH1DPXXgCmcWGayBJ/s93
+					6aLi4kSLRfHhiLBtF9sayBwVRLUVtYngPxrO
+					1gQoN18D0O1b/ikBjz+hBHBsWAfpxu+8OsLu
+					Tq6k5vAeh9mafPiuaX4enombbFhIWPehTa1P
+					ELqLdnajXg7K1dBgJ/tOfgeLFUZZ/Sw12ENX
+					MGwgCxEmVl/zCaL2uEir/eWQpzcHN2n5Yk58
+					ccQgyfdki440YodIdMn1ieC1O9vojv8PWVdI
+					/9JdY2s4bccPKCpz6gxkGifsZq0pUkZqcNdd
+					0G9rb4MEcVnghOGUgJcu/I1zN3ItF7JBXk6x
+					Ph2DgSsTg1oYWqSftA== )
+			86400	NSEC	core0.docku.org. NS SOA MX RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 10 2 86400 (
+					20141022033922 20140922033922 8495 docku.org.
+					WnYqogUkOOQrxyUe9UslIDK+3R9SCNDvn/fE
+					HBfsLizPiocNqwf1sWjKro6HdxIEfT/Lx8vE
+					FmaPRJFHZgsK+bTls6GW4B8OgAXVltTM3mIQ
+					xLjIo4DAuPhw8KwmggpDBWaipy3uqyJU1cJf
+					1UngUvAkHaQ6oLuMJjwuk4TZ/St/RjJ37nd9
+					LbmFmSbhB1rU+AaP0UqR1kMWpL6cCpX68Xze
+					ytiC7V6NaTsTX7NonaVyyR0JjcJY7jBossaE
+					tTS166pzcwFm+93g11iYNhJKvCCae1dGgasm
+					oPDmLDZFQLYUGW5xQRBnfgbEDDwh/ljkLQIZ
+					lzrKLLgKGIRmyAhR3w== )
+			800	DNSKEY	256 3 10 (
+					AwEAAcLrn1CEwMxQBpaQ1s9+QfFRvBzNXoq8
+					ripTpnIDfQLSFE7EGm7esVR7veMApkt0uRWm
+					fm88OMASBfmFbPnqpDWxPQ4GXIHyMynMhSQs
+					fsDYfRL3dueGYmI1mj53UFRn06INGbpW2Ldf
+					TYGqHHavWsKj4DiBIJRAU+SBi4zj4mLTQkGV
+					DwDNYKBToypri/UyNSEuAFCqRGd6RHkFKtW9
+					v0PzIj7dGejZAd1BINvPFK/zVsIYLNfH7FJs
+					olIcnGd6BDH1RWH6o8EF8xbYrh5BTIGEKiT/
+					4FBLQ8nS3YXn99CokhPJbPr83D2vardcGB5l
+					MEWxkJ5HQvZJVl4eEQ0YmT8=
+					) ; ZSK; alg = RSASHA512; key id = 8495
+			800	DNSKEY	257 3 10 (
+					AwEAAbukcK+POiLrSpQq9cDRRFylJvIbgtO3
+					ejc89IrkaYqvHBYLEvRGDfuqz8h/hhXc31Eh
+					VNpKzK92gHFrNjZMjndt8hP1HTCG42g9X/ij
+					UfgziGgKK0GT0qAkt/qrWMbKoyKDzjeooqkp
+					CKlSPwyjM3mx1WjsGoQZbh4EF8cu6RZzGqFr
+					I7yYasGbzH/O5qytJpLRhj7wzBiyiXQ7Z7gm
+					03WRIBBFNzySpnUMaHWujRxaQpe+PG+So4s/
+					KrmaEiynpoMSdWqgxNsYwvxlL+wTv3wL21AV
+					CEp8BncOPN8ZzrKYYU6JnbdWJ/ZkwbPOCdGg
+					hS+qAT/gwgAzUD9SzoT2QmM=
+					) ; KSK; alg = RSASHA512; key id = 37791
+			800	RRSIG	DNSKEY 10 2 800 (
+					20141022033922 20140922033922 8495 docku.org.
+					KFwNpnFXjImc12VUs2whzNeMDZ3gMqfBx+OH
+					YqAZ2YUrmhvzitXlSOsJphZ5F+bmik0HAwj7
+					SVlm16YbCrxpDAioZmkfDAr8e8FtjZQLOw78
+					0SuEZstRzEEOB7vEPcWmqfIYwVuAFjm4K9n+
+					5qUaiSoIxV2d6MHMjc0m4BLpTbd+v8w6loGK
+					yUXJ0LA0smap4Lapqs2zdYPvej0ciUVblONl
+					H54D6QHX0F983hTxzf8Ou1rnyMcO+/OHFD44
+					xzHdRHt9w2NgWWjpcF7R4cbozk6foaTh6+1Q
+					dKUpm55rkAeqac8sOsr2dfVfwzpuXmbMHd5Q
+					5RAUQQjWNEvMJ+QrGA== )
+			800	RRSIG	DNSKEY 10 2 800 (
+					20141022033922 20140922033922 37791 docku.org.
+					RNdAuD22Z8lYwzlbQH3oqJC+JxaB+4WEVAHt
+					fq8Wpe0FuQnYschc1GrY53UUBIOEkLQD1GKi
+					khTZ2C1hiy7F71VGCNNCZGRYPO5IVO/xgoWP
+					bAoYYyJ/2Yhr29Udfr8P6EuJqhVXlWEDlxc5
+					ml3efZeA8rBJDfCPnyRKCTq0zFcX1rslMBb7
+					X+7dQj5A3nFhU+4wliEn72DGS07WIXduH2+a
+					0D/mI/u8U/Vev7ddNTdmSxYd7vJIFi2dCGr9
+					MAQK5rI59xYcU8+gr2NWATdlQk5NnkKJKidK
+					zD13wR2wa9Gpi9KgEtaFX4wW9NW3FJERfdtH
+					CTii2UEYH9Ma8sfWvQ== )
+core0.docku.org.	800	IN A	198.245.62.165
+			800	RRSIG	A 10 3 800 (
+					20141022033922 20140922033922 8495 docku.org.
+					ELFX0oYgr7UV5PEQSg2Hfmd2ybwuEqhdbPEF
+					IlyHs64zekQMgsky2UKxZe9CdhGE1E+F2xCL
+					oi6GlZS+aR4zIQ/MJ4sW0cxYDpii5HZSpmqo
+					NIph3zMlGauA+5Pu3quEahJl3Lw6Txpxnyyd
+					JFBlJ4VqPUQp+EP2mCI/nt9ZTlDfUW916BkY
+					NoLMy+HwhjMGftkYFmGJWStb1LCeSZSQKr4B
+					6hIwhDG2jsv37QKSIO6DhtUGb7Meia7AZjmh
+					TBSiHcyWv6c57xobcuzJhQtadGHnlTCpq4fq
+					zSpvFzDxoTMLRmlVY5Hoj/5dq/P4JA5iUM8g
+					U+nRxdn/P6NsTWdRIQ== )
+			86400	NSEC	docku.org. A RRSIG NSEC
+			86400	RRSIG	NSEC 10 3 86400 (
+					20141022033922 20140922033922 8495 docku.org.
+					HenegnsCP/aqHwXrs37kRowEoPnCxE0ejtGN
+					7fN0HijtOntsUbL41SRFKGWnUactchilY93K
+					GvmXii4qGe3SPJ2fZXfQah90xquoWXlT2zc9
+					dkwKlwG+JWADUxRm6ZJflkdNI6YrM0+aHoox
+					FS/LR62711qh+MEx1q5/q0ckC8SK51HFqtzw
+					gnmpVgTiu7Av4keFWKfjK6FBuB+/mWvyH/JC
+					3/d8W9YFajb1w8d92j2oEQcHGJH+gha0e9bR
+					nqbuH581AN0+/zu/mHFNbL6gZriDFtEQfR4W
+					dD6b/cBuJJtRJIkRtBOMIFMTLAM7+JI0NXP1
+					e5bNnwxwtlzVLGoBKA== )

@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 647100	; 1 week 11 hours 45 minutes
 docku.org		IN SOA	ns1.linode.com. noc.docku.org. (
-				2014091921 ; serial
+				2014092200 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)
@@ -22,3 +22,6 @@ $TTL 3600	; 1 hour
 $TTL 800	; 13 minutes 20 seconds
 $ORIGIN docku.org.
 core0			A	198.245.62.165
+
+$include /Volumes/dolla/dns_keys/docku.org/Kdocku.org.+010+08495.key ; ZSK
+$include /Volumes/dolla/dns_keys/docku.org/Kdocku.org.+010+37791.key ; KSK
