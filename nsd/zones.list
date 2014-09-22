@@ -8,7 +8,7 @@ add appleinformer.org all
 add bitcoinic.us all
 add derpify.me all
 add dns.check localonly
-add docku.org all
+add docku.org signed
 add gitfax.io all
 add handgrep.com all
 add herpusderp.us all
@@ -22,7 +22,7 @@ add mutagen.me all
 add nsasurveillancevan.net all
 add nsasurveillancevan.us all
 add rapedidiot.com all
-add serv.pw all
+add serv.pw signed
 add sjchen.com all
 add sjchen.net all
 add sjchen.tw all
