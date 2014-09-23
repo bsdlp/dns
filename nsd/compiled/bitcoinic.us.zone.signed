@@ -1,0 +1,169 @@
+; File written on Tue Sep 23 00:47:35 2014
+; dnssec_signzone version 9.10.0-P2
+bitcoinic.us.		86400	IN SOA	ns1.linode.com. bsd.voltaire.sh. (
+					2014092300 ; serial
+					900        ; refresh (15 minutes)
+					14400      ; retry (4 hours)
+					864000     ; expire (1 week 3 days)
+					86400      ; minimum (1 day)
+					)
+			86400	RRSIG	SOA 10 2 86400 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					DVXpcW851q6kJk/B+iugQ1ZJjgyHNu9nZF8C
+					AqvtC/GnZfJSMzkDFkG6kERoY2fmezkJRSJK
+					MvYZmwBhtnpqWEGk9aHgueqKJvQPwe88fu/6
+					TtwPHGeXoj7oFeDfJ/vFQzDSjDdYN/JKGLJ3
+					rmt05dh2bDlo8pOMDpDSMqFSoIyqZlQNUhM1
+					k8fGY182C+mk3r85WLWWtrUX7t1koFakaVyI
+					Ppr8CzWryoV8RgRmFGqWThusE6SAjOCKs45R
+					TvP7YIWFePN+nSboKIv4cwFQgSUWUtaCS0Ff
+					FvbU+0hBcjVi9r+gow2GKPy1p99v6sQlHAvX
+					n3etR+2reJymVA+Rnw== )
+			86400	NS	ns1.linode.com.
+			86400	NS	ns2.linode.com.
+			86400	NS	ns3.linode.com.
+			86400	NS	ns4.linode.com.
+			86400	NS	ns5.linode.com.
+			86400	RRSIG	NS 10 2 86400 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					24s0WyQx2UHtSzSKwXQ8cEwzV384YsdI2DGZ
+					PlZwZPi4ItNxiZauWXAbHEpYOn7ZZn5Xn9ON
+					1TC2uwnMrwnYMDUYlHJKliej9sqeLHF1smAr
+					hGe685wRhPcqg162YiYPdVpF+gNvDhYa2BuO
+					mU+jbFFTML89eqS0zktjtwxDJzNOv17ei/hM
+					DPuzUz3XJUUhT8pdS9me4JYesiVJ+/5ufOQX
+					i+f+xXlZF5tAq0AbqzushGi0HhytASsJWyR+
+					AyIk6DXbqC7KKE/kcnk3wjwOj0fiLKd0pZtI
+					XlxqojQ1gzVFWTKXyIjcnCXzAJCIrbw0VRWH
+					NXghDfy2U9SRYDl+tw== )
+			300	A	204.232.175.78
+			300	RRSIG	A 10 2 300 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					Ahkaa8iPeu7tKQlzot6O72fapg2a0bTi/vEp
+					H519oXDTz81lSMAUGCStPv/GpVKc7UOSu6Op
+					vzCv7fy4N3xWZa+oLh+c5xUXUz+8VLYIPEx3
+					e7nYZIoPnHfmjBcLgtTY1tCHIzqtSLwzC6oq
+					FGARhkJBlRcHy7vIGzz6rwO+vzxFRtlUouU6
+					GU2EHZSFGjWCyz3+S+WonKirSpTbNKYiQu8k
+					6A1QPkRkGuaqxnrkTg4SbMpkZdoJLcaGNkF6
+					SSgAn+JuaES4/aRQSHDfUd7oQi8OxtZ2nKEc
+					WctU1yzhmDIAybZM0p51WQvmuQRYKFYKR6Yj
+					ITr6qzzZzm9aj00IYQ== )
+			3600	MX	10 ASPMX.L.GOOGLE.COM.
+			3600	MX	20 ALT1.ASPMX.L.GOOGLE.COM.
+			3600	MX	30 ASPMX2.GOOGLEMAIL.COM.
+			3600	MX	30 ASPMX3.GOOGLEMAIL.COM.
+			3600	RRSIG	MX 10 2 3600 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					J6bBVuhmJE1eMAaL42mBKZd4oC4B2P8DEiP5
+					Rnq91INvytNf0cU22z0Omm+9uzucGw8+TP9r
+					UYGMtefLm28AKuB/Ae/9/XqfYeyFPLaJNVTN
+					7gbrsaXzeASy7BjoWgJD9I+PN4Bj1z6q0EYE
+					dqnyP9h4FRA9bie2RSwuFoZqXObQ69eCZWiI
+					K1HSWElCRlvhy5aF9g4z/7TO3x++11sXKQA3
+					WuKvo7DYaG972xx8MGUgelaTYM5f6KHuQBqf
+					d9QvII55eLxD2moEh44tGsKmth1bqoeSZxo5
+					A3Oy1gP73jqjAPQuNNRCMrWKeeQ3iD8cBKOB
+					KB3XtPt2hecH+tfqMQ== )
+			3600	TXT	"v=spf1 mx -all"
+			3600	TXT	"v=msv1 t=e83ac3905729794989fc2cf9148907"
+			3600	TXT	"google-site-verification=7QFoH8xfsPU96Gr9YFuXIB9vUmQIXUMGg-2DJQX8rzo"
+			3600	RRSIG	TXT 10 2 3600 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					szg6CcrnTeCQGiKrFva7D7/JBn9rD3wDLKno
+					hegr18EVKG0ylrULUROmGtPDsf9SCdMpvYDC
+					7xB93vvjDaYlLk37IQEa7h6NyCeuIsfZQUze
+					+VF6dWLN5tnUV+1NqSe1WV+pb7hjSALJeM6P
+					UlyiFbTNkmr9Yfl/FN+d6ZnIuLWibqC52Uq8
+					7SuUsxgi2fYAHhHx1KukXZQ1JsCe+fiG+F2d
+					OROEcyMVsJeNyVB6gFGp/6oxQygj27+Vqxlw
+					R7zUux8IlvX/FZ2fOqlT+/qznHjEm41anwlQ
+					KFMriCX3g5nQn/WUFiiN14OpXZkSRV+1rp0m
+					s+/n4l2iOrdrv99WjA== )
+			86400	NSEC	www.bitcoinic.us. A NS SOA MX TXT RRSIG NSEC DNSKEY
+			86400	RRSIG	NSEC 10 2 86400 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					0umKMUpT9nVDcCE3z0OyN2gyZ1mtedHxOqez
+					XOhiy4T+H9oj21tLtao0AK15QT0PCBXV98tJ
+					KTNGDLNZpFPzPbdoSM6tSdy/hp8CouxabHMc
+					BNuuxXhu7Y/tUEGhJTXb3lOVYN+ik4CwkzTf
+					upFw7VU6taGE7XlYoeYCn+EnG5xgMSiBkSpG
+					em0sGDNS1aZvfAG4Y78saFP0n7Wgv02nxxQY
+					oeDdal2xHrbzhZbmx+T/+u7CSRvjS6rCyWLJ
+					/aDiX0G9Uaaw/WDSosWjuhNofP5AaN8p6s4W
+					ZpO2jgMblcRWHdVCf3NehYVHeq9PhwXklhiD
+					ftEOSY44C7pbDl5uHQ== )
+			300	DNSKEY	256 3 10 (
+					AwEAAeAIAGbj9bl6fNaBE9b6Ok7+KBY4EDga
+					NIGDSyzQE4QJJSdHNUTB/apaXZZ3UoXsEpnA
+					XXL+UARDBFH7YpdQkZUul9IDuxzge0s1ZdLU
+					oJyTMlwy5kcu5J+L8p3+QLc8rSH5/wvQ5xns
+					yKKf8vdyXBDYexWIeubjiSC13wKcIZFOjw2Q
+					GsiycFnmgXPVHLz5OJZMAMYbUs/rUIZZ/UVN
+					SuiMqs3/lYMLGSoDmJ1OLmHc7WXP1VPucip6
+					0eqc3E1oybEn78bJRYnFMvCsGPzpe5/Vsh+M
+					l0NwNH+h57Gty/KfM5WC2g6UjmT1MWzgyHOn
+					mWK/l8JusSjuc9yoRYCG5Wk=
+					) ; ZSK; alg = RSASHA512; key id = 55241
+			300	DNSKEY	257 3 10 (
+					AwEAAa+dBmrcRlDwyehp2W4NT2BBiTy/oRJI
+					tnjMdX6KuwvWwfUssFikKqnRPd9R2FX5kAhQ
+					brEbASAn8m+rOHov900+a7KP4nZ189VBqITz
+					oi/5p2wLGMJeUnsS49atwQg1mpORyY4Bh6Wi
+					t0dsG9/PLUFEOoMWO22K/jNuGaNY8itsqQ4+
+					g/L5hXeKwZAuqZC5UQ/0dUugjt4+4XkrkuT8
+					ycltdlwN2lFMkwdm69u7dUZ2GzCpW1ETPWri
+					fkAoVtb3iIqu0e6h4cGg++2s/K2nhMnCJ6X0
+					4pTF6Ow+1YV7YxxJqsN0X8exgyzyaom8TQ1E
+					hhaxUDkttDcY2zRn7CZPcwE=
+					) ; KSK; alg = RSASHA512; key id = 4401
+			300	RRSIG	DNSKEY 10 2 300 (
+					20141023034735 20140923034735 4401 bitcoinic.us.
+					m2AhGZJ+lixKplF/QZ8Kkizi1iSDW+jdlmGz
+					PilbKQH15KPzQaNlkaYep/4OLdZR+dEA8kSY
+					SLJV37WkKc0lvTcz08UTfHvlRvrA3rl43o4K
+					ZbO/OmdGtKGzrFgeCK7rnT2Ou51luYP6rKfy
+					M97ZuCExlJAc2WmN0HOcjhj9RiPMD/2huuc6
+					Xan03aGkV6ssuE5TfxbSoZaspj4qOTeNLFUZ
+					lGxm1dDixRvfotFn8lvr/UcEl1oxfXKMNGcl
+					9URHbJqCf0aVUyNzQuaf3WnxraRIXGgJzPZd
+					Vjoje6iWwuMDdN5gZerfAqXauaqjbOJzZjCY
+					Ab3UQLeOepOt5bGn4Q== )
+			300	RRSIG	DNSKEY 10 2 300 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					w6yf6lQK0drAQR4DUunzLIpj3A9PR1vD+g4w
+					Vo9Kky8VEI0k0KreSVEBuSs8U4a8GVe4tD+B
+					TjK0hsoO84sDwpgvtkAGJpTkN337LQiHMAeW
+					E9vbYk4Iqju+AXY9gx1X5jBZvfpuVIPu/P3x
+					A4M1tuGGU+n6+E4OQrSY1FggfQyLbRaTv7Zo
+					Qj37hF7ZqB/CM4wrMhtQ3pcmv2Zb5hquaw2V
+					OKdQp9/wrrloPa7oukw+PslIu44c/2bjKQXm
+					R0tS7Cvb/HsuhFxvwY8xzi2SXW+cdxxTw9N9
+					zdmTzL8z/vRhP1f0EWPzAvixijajWbvkl+IA
+					vuFF40MKzKR6kKij6w== )
+www.bitcoinic.us.	300	IN CNAME bitcoinicus.github.io.
+			300	RRSIG	CNAME 10 3 300 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					snL9E518Tp+i1iopLVs9HWmC/cSJ32JX98+L
+					FwfADRDmc8IC9CNrDd4Tt83bQP0C1KAWiIuV
+					hwXS19VjPiMV9BTLMvghVh5uf/3B2EIEECje
+					Sr31n0Bx/96ENu2DHOjPe/ywpCqL8SHJ/ORN
+					dZcovqHTd7KpYm0Mjuovx/tPzg1lE/z8n3BA
+					SKxDyBMx8JgJeh3o8PUNqwKV9XtXyq/HbR3j
+					fsH94W3dqN4gTzERdUqReQftuwr7ihCYA1nq
+					1JdAD3XfGCGVYlGsvV3E3KvzVuLvKcXB7wnN
+					Nne52abox99ujJrQoA+JO7Ip7B9IM5DNF+wY
+					He9vI6o8ccbr0Jh5lw== )
+			86400	NSEC	bitcoinic.us. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 10 3 86400 (
+					20141023034735 20140923034735 55241 bitcoinic.us.
+					aNNToip+1tA7BkQgmK5I5Yx5X8dOESmHBNlZ
+					n2GaBk01xzgWbvfT7NojvYid5AUZswwygUTE
+					P+mEV3soRdkKKdmakNcJRL07fS07ZG7RJMTk
+					T55vIbdfTmpGx5iuWJqT8bMHlI8bGei7RhVl
+					AfgAPfGoSwtyS200yhzrKNAts2YornxlbF7I
+					1p7Ya+n4MTMtGr9yDscNKeYHqr5hzxGrHzMQ
+					KcWyL2+O3ilV9UZaqK5VS94MwnDevr5k8vBz
+					yUAUQeZNI2zUCy+YsE7+YQjkArbq/3uRy09F
+					fO2pX/TL2ttj/QSGZ0yjcnWX8tHJJazEFV6f
+					pnbrh2uj3B0265xlbQ== )
