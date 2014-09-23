@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 nsasurveillancevan.net	IN SOA	ns1.linode.com. bsd.voltaire.sh. (
-				2014042615 ; serial
+				2014092300 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -25,3 +25,6 @@ $TTL 300	; 5 minutes
 irc			A	162.209.99.212
 			AAAA	2001:4802:7800:1:d2be:4582:ff20:1ceb
 gbtw        CNAME   fly.github.io.
+
+$include /Volumes/dolla/dns_keys/nsasurveillancevan.net/Knsasurveillancevan.net.+010+08663.key ; ZSK
+$include /Volumes/dolla/dns_keys/nsasurveillancevan.net/Knsasurveillancevan.net.+010+39264.key ; KSK
