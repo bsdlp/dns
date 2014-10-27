@@ -1,67 +1,67 @@
-; File written on Mon Sep 22 01:03:09 2014
-; dnssec_signzone version 9.10.0-P2
+; File written on Sun Oct 26 21:49:12 2014
+; dnssec_signzone version 9.10.1
 wtfork.org.		86400	IN SOA	ns1.linode.com. noc.tonkat.su. (
-					2014092201 ; serial
+					2014102621 ; serial
 					900        ; refresh (15 minutes)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
 			86400	RRSIG	SOA 10 2 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					SFYF4I+4eMzO9NK3A7N60uAjvnQ5gLyG2Dp4
-					MFp87jcqd2ZM+LI5KifrNJg3ZKwTXKQJTzsI
-					vmp3MmwDaw2Yb5yLTt4xfsnOMDHWIeEUaqMm
-					YmAT70pDs6QxyhVjwfEVFbJuFGkpxi6yCziq
-					/Ib48Ip0zsULOvEq1NdRiSGE75A06hY9hCrO
-					CN8ZIosxDM3579aTxtBEucHSwxxwXEQsbQAb
-					m7heJM10RkDFRIBVlYz5SvZKVym2LCYrr4/H
-					e2c07YEkD4bnKYOfXmlaOMOU4/bgWOySP4Uw
-					yO+so6LFP3n458CSZrNnMFAp0aiaJNZIsvbw
-					Iw7ZaMLSp8yo4yn+mA== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					GjPHokRaVGNTrAvofeOk90EjiueVkkmdj+HN
+					uLoWjnppGc9assTmWx0dedIwfzutXjzHDN6x
+					ixIG2Zqu6NglCLmsQbGA5sGSMizoCSi3qNSr
+					hYSyGhhY5D+EqHUcJHTKd93pqZMAMjGB214n
+					aMl5oODX7gPNOIJ9HsFmjy2eO8eTB97VlGiX
+					PmtfTohxWIlDfzfzm/NEK9M0c0T/S08izlC6
+					zpT/v2hKAtZsTUB47MNUjWYS9Sc/QQfPBgYI
+					SONnzlu4nzDhN9rCijb0NaFw+EArBUR4RJQo
+					e/1tdw6plF3t81h/lGWeC31aUkWYniOJTwPy
+					+jnJeyvgzir4Limlhw== )
 			86400	NS	ns1.linode.com.
 			86400	NS	ns2.linode.com.
 			86400	NS	ns3.linode.com.
 			86400	NS	ns4.linode.com.
 			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 10 2 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					nGbLQFmzra5HGK/VZh8ktTNqXv4NOSKWw+XE
-					ZZg0Lw9FKmfSI1st1lRA/XSx/Zx4EyVBasNA
-					GVdy7ov5mlv3E/moECySS2tIOdx/d4gVr+Us
-					GJrK3EOfD0DreUS0nPjQ4hll1EJoNnHb7Iok
-					kMO6oAoFxHsGLKyM2fOQ2P08OYvvjxE3BUGw
-					D3l5EvG5TEMZ+W5pCUV8qLoCWlo860TVR6sV
-					NGK5KQjYpngyNEFuuuXTDXZNNJPpioxjTxmu
-					Q0le5ohHwNTkPV+tUhbv+SxEGeEAe3vTRbT/
-					i9lsYcuThsuLMY5g8HF1cORh1EW8fcU2XSJr
-					MxyCg40mGOVK50w6iw== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					k4V9EMyvDcq8LjAokB4rW03lDgCEheZqVN7U
+					Tzgo9H/xE5mtrnO9mZhbLV3zD6sw8TymR1DA
+					mrvWmqVhwQ45y5uubQ3iGTB6h9IKMq0fqLON
+					1rqhs9n1Ne0xMsYxFjnO0m+qQ5wr9umZUMJi
+					Rriym8aEqsUTbK+0XrWSUXgMzL7vuw14HonP
+					11Xgi2kDqQyfQiwabhAKrjpFsr7CnE4UzQSF
+					dKbE4jZC19IUsXY5Gc5+vIxVfNGdejw0hUtD
+					6IrPkrBhuUi5sR3hAyN2zpSpmVMG5lzD1ZaG
+					wwF/QlJxD6RJKW5aFnvJEfuVVFUaRsQgRe7D
+					IthmIvQ7F++RnDjEYw== )
 			600	TXT	"v=spf1 mx -all"
 			600	RRSIG	TXT 10 2 600 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					v2jzKiTnc2MQiJ/TvZq6YIsq5coNr1/fNiRn
-					z4bUA+zNv1uMZbObcsI0QriXelFjcRl8EwkU
-					l6gp788OgcHt96g6wfoLbcQyHGOvx9Ew0ycD
-					eOSNRCBI90Ae80c3Vqxmxw2kDrJeKcBskFZd
-					m7FzxwQrbRnga910v0MLSFYOk8AYyRS1ozYo
-					X5omHb/r9eGtnnkuVHrEnDwxTPoDlrLyUaK+
-					saQFTVOtLgjg/zumRDWqAdp2OEhgUVLUktSV
-					jd1iOUmlPpA1Q2DT9CZ4Ghm0JXE5uT776CIF
-					S3piNluvTBufIxBKoo7VAPCYvbiqpDOSMDKF
-					oKbk6Y8KbTd52wLJ0Q== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					Uqq1fKAn3pYZYJERz28AetefYH+mpQ1Htdxz
+					H46mnVpuQ5Ftj+8QBX2ZFY/D8rot6l/RE3ec
+					vWRh7L/JXoBVZzevYazovD2fPxSO84yZqEjS
+					F0AYBgRPdQQbQlT8vVLXAHOyMq5DOZ0gl+c0
+					xicxqMX6a0QkAAHIhmtQeYR+rvxzhtUY39HW
+					Fh2uXbrTgIQOz2j8nScp1yC+R4Hovu3SwbLu
+					0WqVFylgzXAR9OO7nB/WvOejyPCtYugdND11
+					AuA9eqV5kpJ2ULEnVoubTdJAj/beYgujhWVe
+					vqYGsLjLQnJRLrbpUcDBzu6+lBdQR12VhE6B
+					N5RHgkHg3wBeJxx35Q== )
 			86400	NSEC	mail._domainkey.wtfork.org. NS SOA TXT RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 10 2 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					BF2Zi+D8HhH0fskjDit43MkIQJWni/OiyyKp
-					TOl/jjaQWOPEpV2cdaLnav1eyyt4OrDnLOY9
-					nXcwdZAhyo+o4W4Trms/sA5RYO0kskT/xuf4
-					o74tHSPlB8xKjHpEWl609qN0+zWlq8Z4sCfl
-					jPL/USqR4z5xbACXb4JoLpzGtmr/jsSkM6VL
-					wyBi/ZXwjFbKqFFiOiJ5sPnRKC6wHbzyKFv/
-					JYZSGneqHO6fQ9vHQJFbMiRHUpETe5g/ewI+
-					RnqEf/3FR4mk9HuKSjS1aOHmst3CHcgoUFp5
-					8qLRimGUDY79FasUciGBcl4+x7w2wCjWuC3c
-					uW33PrrkMG9fRjUMyA== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					VJdJgn6R1nhfDKV5wZEVQ2foagyNxYWhZ4W2
+					ZElz8MbmssmI4WGzU/eMkuWBaQWPVQu9tqKU
+					QQwrpNTwOImcdZX08MG03iptDNLo0OnzGL/a
+					+NwFNgxoe5erH18yiaHgx/TndYuYHQrbkne6
+					6i+4upvbvrdtsBnOlu19kinSLyr4fGKQhQB2
+					KNJntgUYpL6La/zF7xyx0/3UpjmpyJO8Lav5
+					bMKQDHVVyMSuVzmAUAShzMASviLSlgNDQoDH
+					0utjAK6afkQbDnXYKkxEEwhIW5TtvWjJbzD0
+					KSraTpWoGYWM6bNyulToqqg3tawl//InB1Nw
+					gvIzj7lk4VavyJGbIQ== )
 			600	DNSKEY	256 3 10 (
 					AwEAAdVS/svXIz8z7NEr3sshgtkDH205289w
 					4kbnwEdW2GIGwGlshPhG+54f/z7m/uB10FGT
@@ -87,156 +87,156 @@ wtfork.org.		86400	IN SOA	ns1.linode.com. noc.tonkat.su. (
 					jzcUTFQxrFtOhUl64UhuRG0=
 					) ; KSK; alg = RSASHA512; key id = 11214
 			600	RRSIG	DNSKEY 10 2 600 (
-					20141022040309 20140922040309 11214 wtfork.org.
-					ewhH8GzS/lZC+0IbB4o4ccJBFleCVK0XqPy3
-					2GqLTTDVn25FFFmAsHMD+vv61DTbcpMId1pT
-					URcVNEH4Is6CYIQd9857PpSgRJ3ICQHt090R
-					ZR+UKEJVxFD0YCojsuptiQQgPFYWdt+/9ffJ
-					5L8nPt/yIxjTVfUla7MCt+fn47YOWoL7THo6
-					V0bFtJiZ4pQ/lcBdSpPwfoF6ERexITfG7bRY
-					0CZSgofKQSZxsspWrBVvFP1+KFI9BFnmb6BJ
-					+m0M+EFBnOnHf6tRuzA1LlzdhQhw6WtF5a3p
-					sw4dZRZEYx3vJEQRaGGYAyIqRpJQy8KiZ+rF
-					7/q6gmRWQ3XfFZjbfg== )
+					20141126004912 20141027004912 11214 wtfork.org.
+					clbFePWyMjm0zg4heU4/HYZPXBgMWoeHGLFL
+					IWZpfNYLCLmRFiFF4HnQ6sPTaOFvy6HBdAgs
+					iiMApliOe9t8geEwU+XtI2DeqijQEVSIfK7b
+					E+DdoALHG0gG5BTFMia5r3pKlkBjSFWOd8i0
+					/8msIPnSOH+PKT+DmGmFW2rp0O2xlouAKhpd
+					taSaAec3o4QACOXTRnJvBHvlvvt/RJ4rYuh4
+					w3Edv7sE4pLkOUdzmRDMZnYcwt0nvZHuXWAE
+					QvEy4wv6pLVjziGwTZXbEzeGAmmbb2QZYogy
+					HVgNMwW/Q4ql2Ma950UFI+svm6Xn8Duh3DrZ
+					+linEkcEAN87Kk2Uqg== )
 			600	RRSIG	DNSKEY 10 2 600 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					bzzZtMoN4pAER/wiNt/1X6RuFGYjjxAGwJoq
-					Q6tkWLmxqublubFJHgmhmFaI0QEbVCG+G5iv
-					7w8WHQRt7wOPqu+91mh7llzx6HKdjPRP3qpf
-					QC5IVY5eoZcYkjXo4IVMTJWlSTTSDZQ03nU/
-					1K/cfGBjYPIxQxXDGLyVbBuCJeniPw/Y6Zy0
-					pv0vuJIEyFUDAasT6nT+11pqK5/XcZrviXlv
-					nf53bMUscX7Sy0CT25YVCkNttPXHoOqTxWqw
-					Rd2KQZR5SDGMKi3kSgPXNSGBTDs524rUzTrc
-					B0gaf51gudgcyc8uikFeFCMD9QRK01Velgzd
-					+OpSyKvgVIYpxX+wWA== )
-ci.wtfork.org.		600	IN CNAME gitlab.wtfork.org.
-			600	RRSIG	CNAME 10 3 600 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					z/5tvI38gBOQrcCpMX4yvLVNWJrUPGFTlwKu
-					Ape47ZFp5FDPJpfDygQaPniozRqa1QeZiZnR
-					dFicu5kdEkZuY86R7Xjfs+NXl+QolTrxDVxI
-					AbGt+TK1WbL/srUjSkGN1caTjhpTu2gAzn/p
-					4kiW9P4r6y4H7ANIrwDy6B3sZ2Ir99iSoOV0
-					2uymB3YNPS7i46PkOY2MHN0RDNfqKA4BpyKs
-					EbLfSSePrBOtY69IStEriKSKhwFriCDe3wLd
-					SWzDaesNQLlvOnQHv4KhSTn0Ekb1blQpTpGu
-					faGz+oy5Qs8RwbdtpQWXaLWlBy2XXtNTnw40
-					uaceqzRxI9Xg5DKB0A== )
-			86400	NSEC	gitlab.wtfork.org. CNAME RRSIG NSEC
-			86400	RRSIG	NSEC 10 3 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					aVpQgz3VPwzo2L7Gx6ejcHDFq7Pfldeo52RD
-					8QnA/250+CFTuAWJ6svvvOeYyNLPMP32NmYx
-					0tuX7GdjExtAaLgnPilmHu8gi4uw2p3pVh3o
-					H3yKEJUZIKWfk5FRf0xeSJJk7Vy4nfzxELfW
-					Cyhi4MYUGccYBQmteWaVOrxzaHnvw5dwlTVB
-					MBIkZBNIPdPU9Jj9cgrdJMJ45T9M+mTBlSac
-					TtR3ip2Vkm+8EteqRnC7SXN2DkBH4HtqePqt
-					fLcnuYG8ZbZsN/5TDrWiHwhY88tZGMahsziL
-					kxkr7Fqx2S/4ud0jINFdc9b5t2FWCv5mQxzJ
-					2tQ1eWH2/flzR9cwgQ== )
-mail._domainkey.wtfork.org. 600	IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dqBKzCx12LAkN7Q5Y8yNdGPxtO428fLAM4b1JuOS0lNrypUJUZi2qCAmV46lzqB2RDMZWoPESH7CQxcobLkhJdGTMoRjm/KI+PxwRbH8PTKtP1hDxCGvcJThmwZhyZ6M/z7rFhMj8SjDcl6EndeyN0LgKvNj9OwufPi3tK4powIDAQAB"
-			600	RRSIG	TXT 10 4 600 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					mpr6igiuzlXDLH3D7VXW8tKn1nUgR+WDemSA
-					CW8NQl+HcAlfekrTXg46XLJAqz8V1j9Livcp
-					OsREbj9klHHw4ZC7x5pEG1cNIJi9e6SreqEr
-					JvbNloiPNNEmblXpqcMatqHym0H4JoN7gedp
-					ZouQcS6g3bCFaM///Gk885VpSlvNSBrzhBkP
-					dleIKZY1q77qyk2KAVQO8mZJKGAhKMCoQW63
-					sWAbH73Bepw6ZZ+yat+RbKWgfLpTpMhgGu4N
-					FZoknobpFR9RB9GD0QxJ1zMGeuq6XGXbq3Tk
-					pF0dwd7tfLwm3RhSWhap9vsAElBL8VlDgG+m
-					DDjj5R5Urw/SD4D+1w== )
-			86400	NSEC	ci.wtfork.org. TXT RRSIG NSEC
-			86400	RRSIG	NSEC 10 4 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					xr4zwpiaIlWYX6WOwLwG2m+f54EZVUAZ6eAJ
-					dgF+NQgGRKxMXFDc2lPwVxphxC+nIJ1415Oj
-					fhQtfH4FSQBDZHnT21B0pPY1u/sPAK6zifsR
-					AUZ2jMTWFJ3exUEIsml8ywl5++xCFKIDlW81
-					45WwV3XUNglBGqIYiEKfK8r3VQSWiV8/gSFe
-					FQcYe1Gf/7Ow3KNGOKcW+8fOBFMPz4AgWQbo
-					xKAOsrxLRms+DEzOWNtCPPfRNF/4pT2/q4i0
-					B6MN7/pqw6gxAmbcz1efVzN1d1UCu8pD+Mnl
-					8rjxjDTMDUSlQ9cx8g6H5wPIyNpMXe+iY1Wu
-					28ltSbqiuR623pIz/g== )
-mail.wtfork.org.	600	IN A	106.186.112.27
-			600	RRSIG	A 10 3 600 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					DLZMh0jo31yr4PN6Wn5UUZyDyhgAswK2LpFB
-					lxidPS1iEqKR3HeYUnqj+HD/iwaQtKOk2g4X
-					LBTqjdKoaKSBs4CC10ui99YwxBgv/juAT1p5
-					6TIqRnuru7zHc3MRTPNX9mP59bm9YGWtr4EG
-					gFOb+KH+qb5l0bT3+U4IFFMwF+fXF5r8rp7Q
-					XrqYPtQ/L3UuzlrsgEKvWSuArEvkAdmdDTHY
-					U9cGCqHnBOsaUNP7reefJayA6wGg9Ux4U+CT
-					Wf6bCNlbcLyXHBJ5Sad05GDvc5CjCaGlELAi
-					Xcc7RwrWKEgGEGuYUW/x2TyG8FYv9jmUC4Jm
-					XWHXL+eN3kDt4dUhDA== )
-			86400	NSEC	trac.wtfork.org. A RRSIG NSEC
-			86400	RRSIG	NSEC 10 3 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					CYexZStHzyhXoiNCa7w/l3AZSHTul3ZZlhVx
-					GmUSVuLla7rVD7hLAZdCF2esRvjeilNuPiqh
-					20mSmuxlwrHlJmlGiJJeMPSh8oJd7+yugpBf
-					Zg/tX1ry0eJ6YQ2wdKP4fhqk95yzZL8icF5O
-					sWdB9Dxe8zo7VtZ7JYW4bg9tdrTbXhwf7ivu
-					8j0uGDI3jC6w6c9XDEUHljXszGK06CagEEm5
-					PGinr8mVwUIcDW6D4w80ULkOMoKV0q7aZ2Ar
-					XK5l2rkiZK2I653sTDwlOQhokIeA8XBduv/A
-					31prdtnuPwEj8B01PHOqgywJVPa34w/Mnnin
-					JhrNnTNvywQMraYC3g== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					ycTRXPDzkONxIyeIT1wDNKmWPNbNLnW9lfNu
+					i0KLNHHN8HygcBByoNMa+8ZnBmmqKVFgpXJU
+					JZFI//TjOt53H2RqA2DUpkGvUIh/7sQrsZj2
+					Xcx3YnO7USqEKkZj3nPosd2fL/84IC8Pd6IN
+					OyA2ONP0YnKKJR/R5vZnkcWzcdawO+97n6rg
+					n5d4r4JLlzeJcA1WOQTyzdemGMe5zgtvTXWA
+					QEILtTEOWgnTsrerjEk8aQyT+f9QtI9LMiWs
+					nhY52mxks+iKtEpKiN5iZxSG4zN8A80rMheC
+					RAOyPfG0gegSBEIYkV4cUcMsfyLU14xXu64e
+					f5lHR+E1pGkWkTz8DA== )
 gitlab.wtfork.org.	600	IN CNAME ewr0.lin.serv.pw.
 			600	RRSIG	CNAME 10 3 600 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					saWFj4ogb3YPIMa6oCLDmTjim4Xg2WriE3Wm
-					EznnbetzSl7MJajyaV1h9EpneoynCeDvIh8p
-					jM5kxz2g8YykxKJ2llKU8CUtdJb0q/USJiyd
-					RkUTLGx4c2apZwh+ef5y5iu9Jb63SvCbsmrd
-					tHEN89L4/U1gmKG4yXv/A6YWKqhTJepDOIOZ
-					bBn0ZataMD+uMIpGLckbBABEooEAOLk0Sz5r
-					A+58QK7xNhOtZaupBjkWG0AsQPgZKvzmw6Bz
-					6OqJb4n3CeLSkzfejUujl/F8PTASwycuFq/Z
-					agTC3zwaJvM8bjBb+0rlVTuqnJV3849CYqmh
-					EWjLYw/PofnJ29T9/A== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					ME26eQ3DNp3IR5cFnvs7+1nBXsk8laKnTPVq
+					6ijdDz+OShNSgQWWalKy4T/SPo0C5CymNlnm
+					ZWFK02z2Yxx+U79ugASxQljWyePFNDToosj8
+					2hE0rNwDqWtJ6yetBqz90eh6lhWkF8i++YzF
+					HoTYH0ZPBlr3r0oWXym0JkLWxSEuf9eFVTOV
+					iqaMiXnZOZxizKd8tgmzDR+psVwMEwAww21F
+					Ws2Nl8asgkjVIeTr6Mo2ukmbWkxN/QgtPI3M
+					2Hpt0NpK8anfOWKucsfLrEuSB8IjLnZHC9bF
+					IkznipMqkrb0joXIzKiY5HNFTekn0O9IGkEj
+					S5KTJbRES4mDFrt5YA== )
 			86400	NSEC	mail.wtfork.org. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					hC59w6RO/OnIOVJGpp5EvUrhkdzXoZSjrNII
-					bDQ0lVRn1jpogYH2/D62uMODI4IICd38tQst
-					8y9eJdry9dgtOGHM1arqkCCodaSR8jmOdU/0
-					Ut4YfSv9XnuZ9ZAn6NYFlQB2p4KZgC0w99Ha
-					fpX2ubjDVJbqocXl9X1Xa1mOZ2X5bzPMCVdH
-					jaP92Lq1W5oIZ+rIDyJ99B4koFHexfdbGcwN
-					WallFVlEmAo82irbtIlKrJoLK5/TTVJl5+qi
-					18Kodp6+Xk/Uq05c3H9vh2LNSK9jT6TPnOB8
-					kihNijZodYuracY3pHOpylCmz1xLtAtGUAoA
-					Z9hUZDyKUi/8njrYJw== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					M7COp5YOVawF5x6EPxTvSwI4UaKFacKLoHN1
+					l7QxFR5W8trTQam+wET0YEIVGep/11WP0Nrz
+					inxwXqOvnopJ7XZEaocRa/R5smoBkcGYkTf0
+					HA+pxC+W4Mku+GlL/genE5vHVRqBLOLT5xPA
+					6pcX+G6NlOYvCw5HO7UnFuqiwR4xcdmmDm15
+					aL6/Jixl1xo9AGXSU8cY2xZcxy9/4xDC7k8G
+					lmWunwkbWJrh9in0YDTvUjPz2wcfF6yIIK2x
+					yWKGkaqp+Rrz+VlT4q/x5QHtYHexvfAN7E72
+					P8tC0G6FG9wEDLzb7V291wDSSst0ZQvv2up/
+					i0NNECdvUmsDkjgHAw== )
+mail._domainkey.wtfork.org. 600	IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dqBKzCx12LAkN7Q5Y8yNdGPxtO428fLAM4b1JuOS0lNrypUJUZi2qCAmV46lzqB2RDMZWoPESH7CQxcobLkhJdGTMoRjm/KI+PxwRbH8PTKtP1hDxCGvcJThmwZhyZ6M/z7rFhMj8SjDcl6EndeyN0LgKvNj9OwufPi3tK4powIDAQAB"
+			600	RRSIG	TXT 10 4 600 (
+					20141126004912 20141027004912 12908 wtfork.org.
+					uFLeUYE9MZ/SbmAfPgYmIcslOcyZQ1TrxFnD
+					EMMEf1h1V3iRZMBdSUbRRQG9scYXDshFT4ka
+					FjgH7kFmLXKfEDd/N2k15vdfR/xtez3sEANE
+					mwwJbqhZvtOSoBbujtq7j5lyoC1v2aPf4c0g
+					tUOe0BoXomajFgI7GDNcLbGYlM4CZWa8ZPzY
+					SCnO1NpmYt1Dahho21dUni4P+lNHOVKVBOVO
+					PX9QxAne+mgaUSjGzzAlrGmr/9xxuTwvR8wB
+					PY2LIkImBlA+QKzcpHyTBoWCL1AFuTTsMDbh
+					+YrvvP/u7ZhTjJqSU0LWIpYsVD2GWWqoKdvF
+					6Z5M9CNwZJCRkpxl+A== )
+			86400	NSEC	ci.wtfork.org. TXT RRSIG NSEC
+			86400	RRSIG	NSEC 10 4 86400 (
+					20141126004912 20141027004912 12908 wtfork.org.
+					xvWsQmirDCuVUPNM39edsFSw5Pfudkuq57Yx
+					0RqjmtTUfBlG7bnF1Ph4V8AylVZfWcfPXnZL
+					eenn8vPC2uGPX8mg64uxC4f3XI5oNhDWU6cv
+					AepKXH7yNYz3zNSW4k6gxg4DNE4j4uR9nuy8
+					tscsp63a0pErQY476ThTuwL5WjdvYb19oFmB
+					u7JQlqSTDKY81IefFANHzcxeV0E/jlvEPkng
+					wvFI7DM0NNXawM39qg+J6Gqh/y61rKX1EijC
+					D56kq1moZlaggzjcBxNF5dpo/7CEyqSgU2X6
+					Jr7SNHZsRs+mrcCVh4ikRslP9+b1YCfoR/MG
+					imm1OwsOZd5TgFvvVA== )
+ci.wtfork.org.		600	IN CNAME gitlab.wtfork.org.
+			600	RRSIG	CNAME 10 3 600 (
+					20141126004912 20141027004912 12908 wtfork.org.
+					oRyNREF8WeHZtcufaS+1YfNKvyMuHrZmfJNj
+					HNBJOdsz7gY6miN6j8DcF8eudNvqY9LXOSta
+					cSTU0mRL/mpaoe9nH5PIR/9GT9SUtMvsysAJ
+					1nreCc8qQCso93CZKuadrU6gK2IYbm4OOX7X
+					VniFRLxZfW8J7lIvEt2UYA2CM+bcbUinqO+i
+					05z/b7f8qv7wouetBJNm3FM8rBEiLZ86wBzP
+					l0zPogmRO3l3B4XO03CGvA6h3ZyrN7LenfxH
+					mUnArVpqd/nB64499B0FeO2VTNi6tfKsWX9X
+					yV9qPrXTdpTT6dQd043ozjrNBip67snXOdBt
+					X2RCSPGgciYLrVnSlA== )
+			86400	NSEC	gitlab.wtfork.org. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 10 3 86400 (
+					20141126004912 20141027004912 12908 wtfork.org.
+					rP4JUbS8oWqdxheHFE8rfIhN+z8uzfnxvZdI
+					OKqdIIjWMtDzm8a0GvDm3X3/epZsWhbDxzTa
+					qSXTGpzTZEqJZsLmhw/+ZXyHW5axhpa0p3Vk
+					5QqBweqy1xc5PMDQ1v/zPwLhY6PcmYbeJLTD
+					wGjND0NkXsBcAhaXJhV+vFHhhKcY5n1rX6/R
+					j7oOuAE3SAlcpzbTfgEuNvam+JsT1QKXJZBH
+					m2Rw2Fyslk31bgybGMA1rj+ZSB/8n77Hk5Dp
+					hiJODZtObydcZj1iH0nswhW6dR3AwtZOabjD
+					YY48AhQ3DzITg7oPfE1rz7YUMYti6ARB1qFf
+					U0BlZPJNLIXHH7IKnA== )
+mail.wtfork.org.	600	IN A	106.186.112.27
+			600	RRSIG	A 10 3 600 (
+					20141126004912 20141027004912 12908 wtfork.org.
+					W2QWxHHBkw7f0gSJsiup3S/7EkFf3fZsbetm
+					r72nIK2HFR5tWy24qXPsFdjLa7IkO+e4v9cA
+					HVQnH2cUXW1Ev4ELwqr9jGpciAfijhObegMd
+					jM0WYSocMUOjtf8tkVyPZuN+DxsJSzdgDTAG
+					AQ6n1v7hnyQIcNW+/j/IqD6MGHVAH+vxyNZp
+					IARJ3DDmAEt4of6cSaw7uwQKjrB8hv317HbF
+					AT8x56/y5Pu6X/+AFfqptU5imivzon5cB5yJ
+					I6HeCL7nhWpKEPfvVN2Opk64EYf6wB5Quup3
+					WETE9Rvy6n6ZlAty9HlkJ7LPuThMRbZ3nt6X
+					/mp0gEvxRMSqdKTTnA== )
+			86400	NSEC	trac.wtfork.org. A RRSIG NSEC
+			86400	RRSIG	NSEC 10 3 86400 (
+					20141126004912 20141027004912 12908 wtfork.org.
+					tQCR/weahrGNXzGWwrxy9GBwfh3kBa2ZoMOp
+					9R+3nyvSaZlyYJJ8w4S+Zi+enOAh5nlNLcUD
+					w3mwQ6LOUa4++NUrChCBduELS3hJTDAviOcC
+					00eF7anhj+VqXkpoWTxajHHiUJt5+EuEhQtf
+					aZy2D+UUFzJcmYq96ZKNc4xYa8tXvKG0ETXq
+					PmEibPhzSnVwr8VGSyeYkmV74Ck6YAvy9EEH
+					CckktnEyyGjO8HZQGqo9M+0QFGCNmknqpCHr
+					Eeu9cgxwVt8e5vwCtQXEIADND+U0Jcqncebu
+					a5SvvoqBr8IDl9GoFLlJ61j/mmO5A1YIakE+
+					NUy8A2syw9xCjmV8Hg== )
 trac.wtfork.org.	600	IN AAAA	2600:3c00::f03c:91ff:fe96:469d
 			600	RRSIG	AAAA 10 3 600 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					OeT8+UKqdRzmHGgyFQcjCT3VDQW9r/QkoFi2
-					b7RPBGvebuujnr/AQt8YHoDcFmXVuXB6yv+K
-					s/vVkSZnlqJJvDOn2XbX6xxF3o3AO5rtdhQn
-					SgaYyoogozg5yVFADuvw2gYLKbxjni8mlQOA
-					zons1J0/OpTCcPV+ZDRpCDnJi5UbrTqQo5tF
-					ZX0efTaU5KI3RN6vRrq8AH4WqDcInbltr46V
-					L5lcSjpTZpah337ay7jUgnou7ysEtaqFVitQ
-					qewWCVRREzFVsAwNoi1UQ3bG8NFKMbj0ooai
-					u12UTZEgK2OP1q7Jl91VwvpUkrcXAcehipRA
-					doDB0OwxXPBKoqp07w== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					Fe7DQc3bbct8Kb/tXlKky4xAlMVs4oKJB6Fn
+					Nl+3Aywj1nCcH3MF0ah05MFfbUXt5Od6q4/o
+					wKjgulDgdfhcEpqI6Z2KFu8LnEgHTIgB7p6k
+					nblrWmnm9dJIZuR12aTMHmn4RQJYvSzFR2Be
+					ege99uLj4CixE7KsnCyDeysrjaY5o4NNuQhH
+					QnYDFD1lwzLaW6cAIuAp8dEPoEbea5/ztt8u
+					uKrxVHi1WOlvdcT9O4H4tn0qj/zQIwMVHr1o
+					zPgZCQZf6lL9beZoJ1/PXsJJueC9simdmVBG
+					abL1Tx+H+P7pslbicEsgwaN6UZMSTKDJ1Rjo
+					bWGFYzDPoJvJeeiH2w== )
 			86400	NSEC	wtfork.org. AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022040309 20140922040309 12908 wtfork.org.
-					vSGvgstnSaCLBf4J1pRCSONa4iYM+VeH5Gw/
-					Vi5csMXNlvB1KBZy4+2rJqg2i40BfRz2pJiP
-					qXjC5KyzQRhG7aAKvwxSnDM/VphwBCw9Da8o
-					1RBIl3N+a4Ter2ntpYHgvCEfvdnj8EFgAR0G
-					4XOt/2pA0b1aTGpBVzGEDaB3vMBqRxz2cgKZ
-					sI4jE+DEv0q6UH5hhNh/sRgm3Ul+9WMqWNBF
-					IGOTYQdMSzvf4Q952KZHx3Yc74qPNL09lYno
-					l+pMixu8WrfjnBkazQOGdBqMu9MnZinAIYVi
-					dxnp6O901JRXpnrJkfnRydHrx8PEybhlwvVX
-					t6PNpXOkAWYNnHvjew== )
+					20141126004912 20141027004912 12908 wtfork.org.
+					ZqHZFfUOWqKunstmMZH8fl7qUd5bLxfJE1Aa
+					cUvRTarUJrsJu1qLy2uphmxtdm7e6pLNNKNM
+					qgFooJqQa+85EqpVN+VSPXqmIxY9RCPZzO6W
+					MH8mbQog8odN1IbIzCNQ1TXzvG6BWRe1YUt/
+					jXlUYljvthHckk8oqDevp14yW0aBaOT1fNN2
+					pZdI6ktjDVIC0LwEKZaoxZHDDW6EwJ5PCpYG
+					JejjlAoiPk7Z3haEqs3CSGjQ3+iYn0o58oqR
+					MfGAXJ7Y4QE2Oi6nXSb8MtdaeKjnKrQssx3r
+					R3PVW5MPpotIkpsa9LgROdEov5x7F9Ar8+c0
+					9u+uUeLzlJG6MDa04g== )

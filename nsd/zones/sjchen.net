@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 647100	; 1 week 11 hours 45 minutes
 sjchen.net		IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014092201 ; serial
+				2104102621 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)

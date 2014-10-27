@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 647100	; 1 week 11 hours 45 minutes
 docku.org		IN SOA	ns1.linode.com. noc.docku.org. (
-				2014092200 ; serial
+				2014102621 ; serial
 				10800      ; refresh (3 hours)
 				1800       ; retry (30 minutes)
 				604800     ; expire (1 week)

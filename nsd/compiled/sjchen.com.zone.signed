@@ -1,97 +1,97 @@
-; File written on Mon Sep 22 01:46:17 2014
-; dnssec_signzone version 9.10.0-P2
+; File written on Sun Oct 26 21:47:56 2014
+; dnssec_signzone version 9.10.1
 sjchen.com.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
-					2014092201 ; serial
+					2014102621 ; serial
 					14400      ; refresh (4 hours)
 					14400      ; retry (4 hours)
 					864000     ; expire (1 week 3 days)
 					86400      ; minimum (1 day)
 					)
 			86400	RRSIG	SOA 10 2 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					ZsaeZOnK83aLSw7TLOhhJ/JVgShANk3v/UHq
-					oY34ir0EgOoh5EPqD+wAsZCjkicc466tGUL0
-					RiOZcot6vOMPHYVLGTrcx2d1OZ4YbfSwiqoH
-					ZuIJDjWSxSC60xSf1ePh4nPf8ejBPj9t4MjU
-					N56sHwfFEUZXJDn6FM8Y+I4DWJIzYOcf5rY6
-					qg/XexzB4LLeOrES/dmmn9yBXtChpv5LFszN
-					sEbBCW5x8nH6iETa6ORXAvsBrIzh8EeerrBj
-					BDNXVB1nP0aP6jwuAKJxqQd5OKfayu6D6NZv
-					U0EZcaLiQ3KUTOSZKr2rQ3JscKc9rjVOXFju
-					uZNFNuErZZlYBwhewg== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					Nk0V69TpkfFZOncPa60rbuyhh7U+/CQYw6Tc
+					8JHjY1V7NyZd7wtKUBkwj9OGoVXHMy0YPy82
+					miWUVQbjCFwmudcLj/qGh84B1toIp8ah+Nfm
+					6h7w/dXiN7J9AaFZ85j79fbvcreo+amKJ0ma
+					Y7oty4bOO0CyCm+8gMSjF6xTyndorw1yL+h9
+					bToEPGqJuHqIRa5rgSn/EgZe/0D5xO0UWLOv
+					f3qC65zsXBsJ3B9gW+/+W+JdXdYMrSgrJQZM
+					veJAib4fXlw98OivZJ+RUe5D2FfnM0fNhYnt
+					Zku9bRrkpcSdT7XYTsO3s0aoCuyMYTU6eYlK
+					fUOJNkrnZ+BdegP2DA== )
 			86400	NS	ns1.linode.com.
 			86400	NS	ns2.linode.com.
 			86400	NS	ns3.linode.com.
 			86400	NS	ns4.linode.com.
 			86400	NS	ns5.linode.com.
 			86400	RRSIG	NS 10 2 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					n/Fhik1KNjDGhzWr0yzUpU3w8MOgLByffx5m
-					ZR6N/Vdv9OzeRzfIJvUDxi4mifBJUyqKGFDu
-					M5ymJ8He6UzwftLueGf74hgp8OXiqrjjH77g
-					SrO1SeB6UpFkOryOJNyb2b9qBkA71OSV6Bqr
-					SYyvC7vy9DWcWAYJJcq5+kUSgcWOfz55y2DY
-					s7rCPqQokKDq1/J1qTO7Aj6KtWtG1dA4RgBO
-					9nxC728lmpkYlqXHu8hGpSm8SPlgQAMoh9Q6
-					KEPE+CO3d72YEEm5G0g3lT+pMa2HF4lSwgf2
-					EorSCngfv1Ms5xY/zxUN4SQ+czVAEwjmcbGV
-					p3HpiigfXOjnH75n1A== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					XYYu8XLTmTDADOB3+zSTD9sv/SNOyNb/gCKP
+					dRGfpnmgO0BS3bZHL9FlmXymV+rp3GFJ7/M8
+					zowKa8jVrboGyjO9nRM9A6+dfB7cKWv0Lnlc
+					RatXRKruVE1cEkYnCMarBXV+vKjhekRQcThc
+					qg0U85TUET4Dt/VINMFS5zrLwpEZuFKi9I/m
+					p3qp7FcznXdCecWYVfglvB3KZPECKziDedm7
+					QSNtpiYPBjTRbZFCFEeIM1E7pHb9x6ChfUjI
+					WFH74FOFGu//ozAGC5aPLW62i3CV2a4PTrxl
+					eOnT4SYZ4z1UYp9emmjDyxl/adJOh+VFjHHu
+					RVWDb+3jm06J4fyv0Q== )
 			900	A	66.228.43.47
 			900	RRSIG	A 10 2 900 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					bFiNKaN/lmVhRyibcjis7JRN02ppIO2nmW0I
-					ezR3cdBbf1w0tidv78eQdEfydRSnAzSZtpQ0
-					L67q3ESm3fX85N18ZcCTUGi1vhzwuls9z9BW
-					PvnfYjf4pqZqAoCms8SIEqKG6vTpJvNwvHmv
-					z7GeP5pUw9T1G2POyth7ZeMkWrj0ZwklsR/0
-					t5qMI2jPS/LQ+AS3en7oc2ycJDGHnsHzOuNi
-					CQWtEof3rFbvwumMziiG4M4OefOn/JUpuHOo
-					3KoLddShStUjGprCfcc5wHkTBxf+Zo1cVF5I
-					InXzODQJj3rmmo9qlMwAPAdgr/CqLOscbP1T
-					m3kUA4LiQtFIwLm1Mw== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					Hnh1BvNP4tDoFI8IubyFksIvLJ7tj/mlLx6k
+					U4XUX5zgrN+2S4t7pF0KOw5IWICjhM3/zHGe
+					Xdu1d35GxufANSZPnQ0Hj2ux2c5mdp3yPBP1
+					kZAcgZRQlJG6xSkYI+0UXdV4ZvMWrO6HUcN7
+					1d9nfANNX296uaJVyhrbPfLhtYl3KHR3/YNC
+					+o2UJiKxm0VVE6atqyC51el5b/RvemAvXQQZ
+					O+WdH9CbgLiifmgxxcZ+NxuAL2NqX0i4fEKv
+					sedyGKlyfgJe3e51xblin5BvvCTFd2H7mFRW
+					S5FPJVZStdYxeQdJkj44t9RSli4jCl64dbxU
+					1kjS8Fy8tkxAaFQ1Xg== )
 			1800	MX	1 aspmx.l.google.com.
 			1800	MX	5 alt1.aspmx.l.google.com.
 			1800	MX	5 alt2.aspmx.l.google.com.
 			1800	MX	10 aspmx2.googlemail.com.
 			1800	MX	10 aspmx3.googlemail.com.
 			1800	RRSIG	MX 10 2 1800 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					k7V+toihF2Qkd+8AXszb0PjDfAlBOuqhvTCm
-					320bkWp3x7FPzc8m/wnaHMrbmv9RN0SndBSE
-					1NfvFXLv/MR/w/9HGySF89/+Xcj7zPaCBk+E
-					FE2e2+sjHzShtx8F1frS1I689x/1oyxdDmUB
-					pyU8VN3ijicsLXccTkBfMcr1rTrL+FmGEijM
-					t/lZF9grEoszp+7h6wu3FLceZapyS/dmhx+K
-					5BzlJnAhxDgPTDdJe95CQYHUNcvSk47YpK0k
-					ozeUAnM8XL+hzArdoEfSOfOMEFyuPlDRKoFn
-					/nYr/m/pcgICJbSjHJYywjblqMxkQ8TxhugI
-					vHuJoPtye89+HJiw9Q== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					eM7UHOWtGps7odtb7X8ottrNSWNvQKJVpRkx
+					hcJVYEjgRA1QCnGLg9NBeQxCRPEUAudyzMod
+					v0skE27P4U6NUmk8GZNpVncYnED5K5zxLS79
+					8ApJHvqlFFcpaR4UaueRLYA15cvl0q0/7HsC
+					2Gp9Xqld/k+EG341uaWot1WgF56mLJFB22u2
+					b0Bdn/olm0ap1d5rTycOQTKI7hkGoinXL68r
+					32HUmp3BGLxXoJDYiRNffWLjYqzDyBkMcMfF
+					AFRfPK5A+jRihVljla66YXNXqI/PRUHaiQhT
+					pNh1Qkm1J9H4cnKZftoOFCoIpVvO5YoOAU8T
+					PH/7ihFwbYaEzcIfDQ== )
 			900	AAAA	2600:3c03::f03c:91ff:feae:e071
 			900	RRSIG	AAAA 10 2 900 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					pI99jP53PS3x28kTm2KLAfHq17vap2ZKle7F
-					ZP4w60xoRY8fQGHDiilcd1eFKo5E5aMTbijd
-					W4bauoedWcminbZjs57DSmzyPty4cVF8clHB
-					x9eX2KQkwO5smgEsL828LPa8flhIXoVy9XtP
-					xpRKtS65/HqFzVMPpYWatlewTP8koZYanis2
-					7I1MzrvpR45+Te3GUY4iM84lrSjEW7pkCIap
-					tf/WHbsNafBGEeL8+Ivmq09ScT6xFGPy5pX1
-					RndyvJRwV2/Eof1gXqu+JWsJZkCTO9ytQmfd
-					6NJhFoytqh9fnS/16ZuyPmc/4V6hmkBEhEww
-					BwpuJg+NMVnw5oEq5w== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					BureJQcsoqpaVLSyS7SsSY3jSauSXY3PdLsv
+					IkDBA8tCT3xKMP6gt3jtuoZ3ocZDMHTRDXhq
+					qv2dmeY3K2J6GWC23nXIHzs/ae4XtzOJnmxu
+					2Mpi5MYBqVUi142HJUJWCBfZmW1wsoPL2R11
+					se/UlJ5VQnJIne0n28LnTmhqQGufdpZbLgyH
+					y13cLLMIYh7zZrgnydqGetk+bgZJ+Vwze3d2
+					n/rr0AnpYrhqljSFkJTSKLxUhpauw4KV6rb8
+					LwLOBJsNc2Yoqk67FoNZWjmyOVkvLfkfjW+A
+					z18krO4jxWP1+ODgbNM0Lrod3ua5eAL4idZP
+					nWN4pEdcdCDUywCU5w== )
 			86400	NSEC	google._domainkey.sjchen.com. A NS SOA MX AAAA RRSIG NSEC DNSKEY
 			86400	RRSIG	NSEC 10 2 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					HyvB5d+MeCJo+X3r4w9+yUZxbwEw9jOhoZx4
-					hRVZ0422ePCmU7hxM4l7MZohy108kKAkjd+1
-					c+XR5k1C83n/0nIGYSsqLSBEKhuCz8P6+Fld
-					2CEu3mI4h4Mo/65ZDB4dOXMNcEddoulEBd4Y
-					YTnfcyo9AhzQFfP30/MNwEtE3PfKev2pmRWP
-					iQmbVyUK7X5uv+0zfKz4wC2+V6pMhSaVVXbr
-					ZSeWk9KWbp59Ml8FuRDPzsw0AsdPlO53kpi8
-					uE9d8FU3GUQmK2c97IDDfoniN/DH5PVI+61J
-					lJzKroSwur2+v0Dt9KZrY9ZGtE66MYfo1Ek7
-					SbSu9eX7MxY+a4RTMQ== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					dgH/QVabO3VrmSiD2w7BbdHR8tUlILGg6thx
+					/vOlZyuDGcK+2wLtsf/iMjfV9JWS3CvatpHa
+					0irGAX9fEmBj8jbk2m6vpl+6eyLsmOP9290d
+					lxE9Egd4qP/Hoxyyjfcv2vp9yFiapTDa6BHt
+					uw2BIntPycto8pnX13JJURNFW4OyCeoyNmZK
+					8k7CgnKOAQf4oI6ogVh8NMQ91MzfavdSfsh2
+					DHN+c9vpAL/8HRje0sGiFg181FzyWemxs7Tp
+					cdbJKYAs+zEMw6ZEJePB2aCdc2X4RFGtfT/A
+					+mfodTwiq1YAz+bNPYoQtW5S2NX0QKBcYW0b
+					1T2HsufAADqkBAwECw== )
 			900	DNSKEY	256 3 10 (
 					AwEAAbtaMtPc3hnsby6P4m8cV91IWRYEHBs3
 					4Rj2PrQRl1KrwRqw9ZmkC31+H8U2phkhGCjF
@@ -117,351 +117,351 @@ sjchen.com.		86400	IN SOA	ns1.linode.com. noc.sjchen.net. (
 					kDiNmz9Sp9clnLv5ZLPf3Qc=
 					) ; KSK; alg = RSASHA512; key id = 14721
 			900	RRSIG	DNSKEY 10 2 900 (
-					20141022044617 20140922044617 14721 sjchen.com.
-					AdnJMzCsocx/t6BI616XG++i3/JHhuA8sj6n
-					SZvw6Z/ow20BevW9NIC/d5QVbVRzmYaxp6ZR
-					MbKCYQdixy6pCpgInrRhV+3Wd8wdtmkE38/v
-					bFeJkhuGKAWMLhFqau7nnQmpnFQiU7iw7mAV
-					VRG0nAXvhhluK0DZbW88186NgjWFFzDduN+W
-					ijZXlnn1MgU/fDo4y4L2V5zLQ9wgY/sF+18u
-					NKpOLePmiycCKq0l6wr+qR3FoWnct7FYNQz1
-					AUi2bPMmN390IUMd5mM9HheFD+O6uewHaosP
-					mmYzznp53ArFDnmldEE6nISw+TexcxtrSL1H
-					GcJHpCMtgDFqJStp2Q== )
+					20141126004756 20141027004756 14721 sjchen.com.
+					Yhk1vS9BE7ViQLYykKNhXP7ii8huGpIVHQ+D
+					TgECIJs013RIY+9G9AZDXKh0qip5okfENsmm
+					XqUYxu/DCda7T4BycCix2h6vvTMkmCA+NNfh
+					tRDKpAsNE1AYIhsnuamFy2ovNBU4c6/f27VQ
+					Tu13NJlSRQkN6XJCDSMCP8CPFntrQfm0OqBm
+					OOzT/Aa4j2zC70mfUhowfVno8De9oQlkZcdO
+					Ff35RNSNLOEZU4hH2R8liFPEGXeWxIb6PiYD
+					Y00VABmTP3G02AmIVe3UAvMNKnbeyO2T1EBm
+					7FymsRI4dlixEFhiN4n93m1AdoBZYNVAz58S
+					4voQu56sL5yPT4Y63g== )
 			900	RRSIG	DNSKEY 10 2 900 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					Zyl6BTUvhlLZVV6ZTk0UaJMcX4zxEwxhP6SQ
-					vhDNICk8lckj7xc6RzKTHX2PJPg8GdLaamE0
-					ueDpe2/VUUnEEVig9rsGSzivFC+70hfXFIeV
-					5RaFkTteMV8q9vyzozngOo9zu0UuZrdGlCzy
-					fzSn/T2I70WOl2xATBqRYSh53iLXfhbKW/Lk
-					DbkQZ0sMFOD0QkXRNUuBIf1C4cXw6wuzfgDO
-					x8DOtX+mXZDz/X1GpZSbKpYbZ13u+YusJwy2
-					yT/WAVQKQt1+WlTzfQrCq5SMg6yPvn/0P4g8
-					8K/S/0DZ4PaeGA8RwOALv5LB0EGR0ITlyA2X
-					+PKvuTMkhVp80hEGjA== )
-calendar.sjchen.com.	300	IN CNAME ghs.google.com.
-			300	RRSIG	CNAME 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					NpQaZmj4XW0tiA8qdz5bOb44J0+7JF6yGtds
-					LMc1q1JSC//MaPaT7huH/RLikPAGC/V/19Gr
-					bugXX5oizqxttctp/LHcu4V32yHJiEoY8VtJ
-					hd3+1iOev9UBIhGheLUJV3umsVAea9Z6kpW1
-					oInuRkXt34V6b6kMPLBZEkp7sBepJlEaINbc
-					cAa8U/R8yJ0wVfR+Qx9Nnp8/T56NkNgI7orB
-					xo2dK3Wf2N7vAv1vUQ/78YFj4G92GEwzgog6
-					2et9wSwoyqkKeTcrqWBESzVMKcgbCe2IHFHO
-					Vm/bf93Jz0dOrL0wyu04Pio8JTDFHxC0pF/7
-					QB42DJXRWfxPJVZsvA== )
-			86400	NSEC	docs.sjchen.com. CNAME RRSIG NSEC
-			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					VBsSVW0dGGKecF0NGy1r1lip93e5OgMjTgRA
-					IHjyWP0FoeTEZazAKFH/rE4w0pZmQG5fh0Bx
-					VXAkapdLo5izZEY759M88oWPCDVlmxDJbbBd
-					q2qFgBm72s16ZMuN+9228AsnIyR+VQRzW7IA
-					g9D+Ga8hYiCvLklbe4s8Kq5V8gPbLI9qqlAg
-					On0gnx3WJcdWBO6D+jzUgv2GotYCnBmmzBaS
-					5Lvuw3yMwX6z7HaC35FlsT4ytybH1Al5MODC
-					sN6IWHeW8HdCyYKRt19nE/YA9pJ9Npg1Ych3
-					2BFcaj/qWm80O9JiwG5iPBlaTQAUPgphcUsV
-					jjQ6sblLAsUCV4kEhw== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					MxliXWjSL4Qw4WBLlDXgZxLbyy6Lxor/HxOX
+					e9smRXva0DnvFw5pN58kCzClJ3cvTApUDQYb
+					QJnLLgbgS4Y3felR+U2MEvmXHaXQ/eANZP9u
+					xtMfpNM/ulNZQWvz401yXDnR/oRPZllHHef4
+					XfqL7EWWdo0vuxbX6r4Pqz/TG/wO4PNFdDRg
+					twNFbCfvrCkP0OUtOhF4rCEyr/T7IBNjMvjV
+					crrHYztY3zGqI1K1AVCI6RbcaukmRn59nNAU
+					x+fw1dxDfWEt7Arojosgx4/7Kv5xIBC+MhrY
+					ofy/tLvM6RNKNYmeO3r50NPdnShBA5US9YwX
+					ENIbwL9SRgMOFuQvcQ== )
 google._domainkey.sjchen.com. 86400 IN TXT "v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCDm3bvjDN++Y+cU4BiDirPFpS0myb4y9yZWGgZTgp/qYhGwu4kThN13XM5KnmKHu4EMHE0QatLfV0qZ9Z1IEzcYOUEbPm1sEx7/WpLz98ThL3FQIClpMw7LvW0pm7RWkjZx5wCnL2r9ZZ75wCSnpKn+EFIc1NNjLx3A+OdI1iwRwIDAQAB "
 			86400	RRSIG	TXT 10 4 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					WolG0PAo3b3TRAYZQ+tIL+iwiQgxNdwT8yHD
-					F30V6hotYwMopLUz/3IGhvZWv8Ce6ADzJ7fB
-					VfBo9MxtCxmfA/dTa+ql9ULFr+p4uJGNef4s
-					YwgdMlWwR0BXMYVKBx1Ej3cTNR4AAAtyUU3P
-					tMzgmNcTa1qUzNA6/uMS0q7crcBpJOf3EzhF
-					eH9lb4QQQvyGDhUvwZuMdJOxiRTkxr/ynSdr
-					mbQP3BjRDYOIdENECatLx84WFAOgZ2qONnfu
-					FIthRR6fvXNzxWbJ9cg1P2cfFaWtm+3SQXM6
-					KPviXxURgeaiJjRCLEyINtAtt1Yx31Y4VVBI
-					401dMhWrc9W9+VpjLA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					TkTY2cqoAwqUMAaNwWK2Y9L2V1kziy+5/r+J
+					1bsThbSuT2mWL6MXM3WeytitwZfKzMZrFBJU
+					Khw+Uf5aMxscXpo9uNMAmUfH8LF3SCFCIfLk
+					QikCuRhpl4PtWPu7l+xQuruYPMm4rQLcq5MB
+					8KMbqwstiWpwnCdI+6OxwGjf4J+czXec17vy
+					/PiwzlUujxGiudV6YUED/MCvb9yB32p+L9H3
+					jBrI8GMXYKJBKJrz61UAeRT9ScKBB7RgePzC
+					IOiQSHvID31QkGVQMXuxCyIaYESacyvbthln
+					AIb5Qp96wSCgycdWxF1Faav9bvwPhbe3KGeL
+					/ZXd2iDTCQ6lc7IrzQ== )
 			86400	NSEC	blog.sjchen.com. TXT RRSIG NSEC
 			86400	RRSIG	NSEC 10 4 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					OXW8N/ng3/p+LfrR2JpE2MIAZ192Gs3eLBPO
-					vkx1BfTgAtxmEzNRiTpM0N1dcPbcmJasIOZL
-					jrz9eimcnjsJvRp0/l3LIewFgLCukJt4fGcf
-					cpRK//dwr7QKQwuFICU82vie3diDPFBdS9I4
-					a/qQ93Hq0/uNvTUKia4hp5CJGtPrNnYVNv+6
-					Fu4PJArX3YtzYVQ6Uoh+fAcRe1yEcv4ptzUF
-					IuiS00o+mrGN2jh31Hg1pH57q36N72SNqfJE
-					RUOLX7I/dJzNDS9uerNFAnxqrV3scbWPHzK8
-					8JovgnXtWsrgS2iXIWDV1VYOyBMUo+bzhmhb
-					2szgJZA8ARPKs/G4Wg== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					O0eAVsjrUDTpTRKRvAv3LalcxkG9NqjokqXJ
+					TPxtjYqOp5JadrQUA3fAlmzp3k7vJhh1guo7
+					sns+PpyHf6zjO1S3mehLE8Tb+QmErxDiaePe
+					MGb070t4tpOLDCJQyiDsgHMx6yMv3kzhKdRJ
+					Km5/cLc+jYY3Nb05BWUPLmKobugF4YH+Clti
+					ifgJZDBg1vhC32eyJoW4tUkPb5g5UTHft9rO
+					V3vEDEwO99C0I9fpbqPztPmDGb11NdyuItDV
+					0QD8in2npA8FePSetzaaqWnnhqjZwD05BO6Y
+					cpGzVFzSmvMOF3UgAVejGFmSrvfIPke1j5Qp
+					7YRN72zoOnR/Pft0Mw== )
+calendar.sjchen.com.	300	IN CNAME ghs.google.com.
+			300	RRSIG	CNAME 10 3 300 (
+					20141126004756 20141027004756 27656 sjchen.com.
+					AKXs7IMKD7ovKQB6tiWBDNp99m9/eeoUcKId
+					AEPGzpO3nnLjhf+P+7gvmEU4N0Lfpvv5OWcl
+					MZdmqgaNRj5vUyoUnzt7NYHBMvWZKuAYDCzB
+					guBFgxK4ptXBPH6QtsBeiTGVbEYVpNatvrHG
+					AYi+hl0mGAxfU9HOSQs3tXBgmC+9o2rjCo8r
+					U4y7tqh//1P75gd8840Y6wqB4wm3KEtic0sX
+					vYXhvdfv/OUMEGMl0XsIaopNYibky0rDS3Nu
+					OSlrEXTZ02p6owV1mnDZmw9grRpnU4LoHCfE
+					NvIe8ImugXy/ThhbKpp9/l/5G+B9hsk1JYgi
+					8PVtOZLrBJIEZ8uY8g== )
+			86400	NSEC	docs.sjchen.com. CNAME RRSIG NSEC
+			86400	RRSIG	NSEC 10 3 86400 (
+					20141126004756 20141027004756 27656 sjchen.com.
+					lnbOOapV1LPE3yckQ6EwGChTgMIV8YgMu3nL
+					YJrJLtIZ8ZhPthKAicFAHh4x7vdyAuumRcA1
+					Z0jig9suE2iuzdaVOAzPxRd/tqN+i/fjGt2i
+					BRXkJgnoEvLl75pPcvUdCmPyYlWK9sjkrgD/
+					Y1p0diQ3i92t1TgarBOspinetO4NHTel+UwG
+					QtRgqy54cqKEVPZRSHrF0fGFDQx/vBCuKe9u
+					4QL3gEh9T2idYW+D5ZWZdSTdgt7zumO6s6AU
+					9BLpp8kGE+WrxFQ4eXUzAibfw1SW+7HNpphg
+					rUUd49skPoz0Fds1kmLpVI6FjvhKRAy6nFYF
+					FBfdw/E5v2IbXBEFjA== )
 docs.sjchen.com.	300	IN CNAME ghs.google.com.
 			300	RRSIG	CNAME 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					cPDA7KYjYi33LnWxwc985TZCyJGid2brjr+U
-					9bC9emEAmmZYstLvrXwceVfUlU/tLtpX66LF
-					fYDbNdWVvd6R4n0VlrShsYQyquhROQX/jA6C
-					RYkI1liUL1PUm3TZjH5ZF375YYzQTQS4DEwq
-					Tj6VNphFFxRC0sXZ7DdzdrDHDUVD2djZ6GkA
-					QxK2pUEHBjqioaS9HM4zS1Y9f0DXoBf9NUl9
-					dateLeZ4QKvAhUjr00XWqm1AR3hitTTaD+Tw
-					NVQf7E/Er7b9liySarBuqej2XKHNIncVW9qS
-					bw+GTJYqApHmkJ31Puh7WDZFXMOjmCf5KglZ
-					PhFxlIxJLo7a/8H+LQ== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					N+e98ccQYpb4yis1ubVJHH9TCqsbaTg9fQcH
+					nTjb9psNb/w10UnA/sdBvmEDYXiZINHYJLlZ
+					xtP0IG+zQFgsQFLFXGnX05EsPqso0e3/XFCm
+					7/5CcJxnJDo+yeEoCi7JZYW8maD3wGqmkjQS
+					eRVlYMgO1PQ6eXOi+OFppItQhkEV2yaEfGoW
+					b9GVlWNNwtBnSEODDfdsQjT+QO2dfBdULKKG
+					QVGhe9OwyjT+qoSYSs0hsHpKz5q1kYHYY9xZ
+					jhwOpqqUYmYSUCQwC2KoLgSOjtQJgVRogQNy
+					rIDTsRyQmKmujssME6v2bfk8dQXGEix2Hmks
+					f1EYG6eO1YxUTKiOHA== )
 			86400	NSEC	chatting.from.sjchen.com. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					Ch2eYsxiAQ+l6bg2jjFluIR59vWNDW3tgt+S
-					BPRzQ+Qtf1Am7QvJsQ3VAWFV1oj99d/UfRRI
-					oVA6kxDOeYRLbek2a0XSchsYlIYCWpzaH4LV
-					ubTHAPohaJqm6ULcODHWpqScI/SOT+YXNDMo
-					/u6YWu379eX62Gvd7XRWPe4TzohIv72zRltJ
-					mSy6BI45KutKRtleQwYkJ4M7CtMDywFSuFvg
-					DWgqGuLKY7NZB6SHcav4vkF/RPNSpGsqk8dd
-					Nm7ehDRv7fAoSmSxi3q3KgqNt/SqtY1VfuGL
-					YOHMaMfdRrZ0obnpXGzKR/tdmdYcX/wyKD1Y
-					Ax0tdSze+bNhanIEOw== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					iaJnVgem7ztLHu/ssWR9toXsHAiIWGANa8qO
+					jhkzXcOSxb05Uz/04V9w9SS8Z7G+O3D7cgto
+					Hn5l4DyK/D2krif2aWNNtM9cBG5ZqHsSRWt2
+					SXjINFSdCXceVmOGivhqaqWhMilPbWaTmJJD
+					9jN3ked6MMRXO2ShimhmwhSGukaiiU46+UQU
+					7C8OUD2gOvyxV35JXEg6hV0Uh4aww+ToAIw+
+					7suwlzsaOZgJs+e3xlI18SO1BLfq1ytSqVbw
+					l6r9kUAKb1QckPIXX/llp68cn0Iprod7DOWd
+					PxrA41bhEL3kZirwpRoV0vgcEyGaJmlVhY2W
+					5iBMth6rRZspTNd9Ng== )
 chatting.from.sjchen.com. 1800	IN AAAA	2605:6f00:877::2563:9fe2
 			1800	RRSIG	AAAA 10 4 1800 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					YMgjTr/RNRlVk/0wAG5mqkOlx2yVQ4I8TbCS
-					Fk4gyM06bjsKZZkb2ouD4RaCLQuK6qR/79ic
-					nqCLO3QoqIpp8Hg5FgV4DwqLVOfJ8diMTVRA
-					Ao1mnF127ZyWp5LRgW+/NEjgXWbomMsfqsyI
-					MGPLWmTqVfHovNZ15r3k5AYd/L2IFxZpLfKc
-					hgiB6HQ6peHtoWE1hwfzaNhr8fgvksu6MgAD
-					08MFr60ONXm5QdaUKet4kQnrS6hzvO0pD6BL
-					k/GnauRbDWlIrYD9plQc9S4mkPkJjDXIV3zk
-					KmFAayF5JAYuNuu866sbUPl5FHnRrWCqRA3a
-					z5oQl5QBXVjn9ru/pQ== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					KkTkX4Ys1Cif+S01a5sSnCYfPBZsHPjdMdep
+					swHLreFtkz6qUvjlW3rDr9kHOfTzD7CjQMVA
+					By02+dEvOVp6fu1erruH7dHICL3Cli/11lFg
+					sOk5y6crUuUR+vPRcZEgWU2KWCo6Bu68FO1M
+					0EZBuD9Uz7JblPEmDrCbECBU/loU+qmyHQ04
+					C1u9UyYgWgeYgw6WSfUpMnXjNctuEq2+QEbb
+					MyQJ/rhXa9slCZINj4Yf9ds19yoRWGV7zE4M
+					qcL48MP3f//qPIaPZcBlFE9JtVP1layvTve4
+					h6q49EmI3HBc3hJlWclXfbrf1XN/l7yRQKl8
+					VjjeTZ3EJY2HvqIYxw== )
 			86400	NSEC	git.sjchen.com. AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 10 4 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					Zfa+Dkueh8uEf/RYu4MSGQNglLY6XfKaAtPH
-					2y3QfYzh2hRla2Qgp1/K8z/aBtNczFVIqqWg
-					cOyxXD/Rpqe+AuvsL/+XkVxyP6j2hRTGLOKS
-					qxwrIdxKInIzjWjF/aFjiiHO2JCQW3bQE1HH
-					EtoBxUvXaLCgqXIb8z+zTeRBHkle4I+mBST3
-					h2XJiqjKCdKtKRkw22sr1e53QB+0cieKCZqa
-					1k4BrjyN5YsJtCfJhvAOoHOdWeDDeVLqZvmL
-					Kcs2QBHWzbvPJ5Qy8avjHoYK65itrvAYuJR3
-					/SV/QJetvGCaaNklJ4MIK0M7LMmTOitnWYcb
-					0eoFhXZDMpRSfbTJHQ== )
-html5.sjchen.com.	300	IN A	64.250.116.80
-			300	RRSIG	A 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					E5ohrwX93gqfUqytiP9h7aP6Cwxhs9p8vVwv
-					pGdGO9xsG49AKVmNn2L1UsrzkS6Cg6ILcqIX
-					wB15vO8NmRUfDy49BCV4iBsF/lTAT+/4WECI
-					4wmKLbescu2F9IFfsd9VbA1ugjEfhSioX8hj
-					l0gXMvU2sDHOr+rqtWlicr2ZTPr2I0r+Uz8M
-					E4FMDISv3L/URCAx9enRO0NO9r11jLuWyIdi
-					z6zDotyxUk65tEAatzEPjozMKen2Rn3nsarc
-					BMWpnCORU80khSSiARWj7OX6DFsED91vvJY9
-					94j5D5bZeNDHgeXdKcIErzz0ndqBxrMq0WaA
-					gR8rtQdqvJHmwVJwNQ== )
-			86400	NSEC	keyserver.sjchen.com. A RRSIG NSEC
-			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					Q2MfBNY1WUHi1CRzJBSYSdVh9AgJzl1ypnyf
-					dg/pBrOjgVyKHuRpGz77e/b1/tPPZ5RLA3QW
-					N8qeKqfCYaoJDaXZwmbKm1EqSTyo5D/oSghP
-					KiR1CaKi6NS03qLhBJRU5YUEmNhij8E/auZR
-					fZ7HqBl5vGKm+S5nUlZo0ZG7vEq9EzzPhC9k
-					nzEOCMkrYFk4TxwORJEqryNT69r5+1KjVl2J
-					AWE4+GrF2+gr3ZSXyPdztPaXXnT6L52/YN2Y
-					tkhuyAMkLVxNm/72Ts6ow9N4ydDdH5U5Rjwm
-					AZEdnk4OFNZJN+XugS/lcP7wOGeOPL7faYCj
-					JMR+trMaugWQU4owbA== )
-git.sjchen.com.		300	IN A	208.53.158.253
-			300	RRSIG	A 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					YIHJnuiWukTKKVUeVW374wf8+c9oYXEMzIdW
-					KsLwHVa3QKjBFtiAiUnLy3eF0R5Wu832IGwu
-					OUQuVTEtwHo5kbe+qi+Qhf/kt6o14uqUfew9
-					7MrxKghgBQJEMJtSmepKxtb6xPTjO9Rvp79N
-					vVm7lL784kQholf/nk70nyl/kX4SHIHpYjy+
-					M3zJHIdsGuR/45EMloRLMHX3CS6/P3MJNcCZ
-					pSdpuqLcPiT2ZGIKOUrgY+CEYAj468vqCrCR
-					W2Qtqh4KYgB+u2nwQ44w/XFtHP/dP6r9A6HO
-					csqsnmGTB+/liafN22DoyuhW03y4oFrU4Ea8
-					NAvFRqnhKKh66ciuXw== )
-			86400	NSEC	html5.sjchen.com. A RRSIG NSEC
-			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					Udnil4ZitRPPgPlI1yKEZoFwii/5n2+svl56
-					7kNBHbuX/JRpOgBssz9mrZl0agiYOGIPCPHa
-					zahTRb/NiYiKo/zrWNwXfezYAA8fgBJn787c
-					DgzR78wzwGsA31qxY937PTdvHZD9QoKjDns4
-					ICM9ciwfM7fa7/mK0xVnu0nezxRI7cDQ4V48
-					ImQHQijEObqIVG5rwqb4SjlyeSmirtUqlHTP
-					Kx/3hIWrYqQSX4VWkEiksZWbP5DVFIQINTh5
-					HBMtFa4tqUT0jnjlK/BF5Ob1b0GaOvAVQ6qk
-					/afv9tW1RLbBqGXm6/Aieh1RijjXodlYjJCN
-					xcg31tJ1cajHuzJwtA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					pTcUV8ZYSWX2ayufdL9LZxz5b5IoZFN7TzTL
+					274OOZhYK4i5BRJQHswy9Zm0IvSj/2Rrxlab
+					Jow73Z4vbsCOaW5nh8XiG3CIOQamm7LDXUoi
+					GsK9oru+1L3GFnezLW8guSNBOwcYFkrD+sFw
+					DivDiBtyWzCvGeG1s8ViLIzUHW+D3PJWLk1r
+					PddAlUi0WuHOL/kyhW0RphduT6aSm8pj+Fdq
+					l/J/JNrzUNi8A762RJyBYfP50HPPEzNiObcd
+					z/4/FicwKteTq/sJlgYHZ7dSo4zd+KOdO7KP
+					AO0tAHc5d253QsYqZzu7Kvgwwjtf2pzezp60
+					QHSKBvrAO4RMrQrivA== )
 keyserver.sjchen.com.	300	IN AAAA	2607:f358:1:fed5:22::d179:301e
 			300	RRSIG	AAAA 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					rZXCr2jBo7lhjaNNlgdzX55oEbL0wNikw9ZL
-					3PUpVknJkwwDNiQpNvK+LsN44/0N97w9MxtH
-					UmeZwh9NUfPHhvHk2K7OnfhAiR76PSLdnnc6
-					AiCLlPDtSsLOCHA152BJs1wnkHzkY5cKnxnH
-					ynDHBXwieZpDAiBhOzTRxZgrj03gsGZ8oEAQ
-					kl72gjtQxr73bOSctMuSb10X3k2w/pbO3GtE
-					tZaAlxP2gzueCdJDrnf2AElDOSg5UQOAtIeG
-					5FhdgbZoGJe5cYQ6iklFYLywngL0gWhh4/sC
-					OFuzbbrJ1wIge0orbvKHEPE+SUB35MFio7PK
-					xV0To7qT+PwldIgZtA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					Mnl386AGV7khqN9MVSeSqFaO6vvS0B5Arx/w
+					TPMcrZq3Vgf+OrzRK5pUOnjoeQlgOvt0jl6A
+					OeoMmvw2tUITD4329NUUFp++blHaj3K7Mgyn
+					fvwvsGiRtSKYdSR2qrLTQRj9AxCflQwO2d7I
+					YWVLtSZ2DAPAoS701DrIIkMuOlaChaUkZpDJ
+					+l+PUYFryXmwagn6KtELDBehyoZC1C50F05Q
+					yFpiN8QIdLar0EQm6jMx0nDWOz0RjReKULOL
+					h/LYFZmK7S6tkO0vqSkiEnRpOxM6BdF48QcH
+					PXYNxpBhT1hBUDKCddzVa7gXdqdfTAhS9r8/
+					/02cto5CvODZ98emWQ== )
 			86400	NSEC	mail.sjchen.com. AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					Az0TgdFzIu2qz7VTzvFTFaFsyetXOCVvp1KT
-					Z52CsHjdO8jbcYYjtH3FczIjmIDZfnpJddL+
-					yPt8nymS4y9TS/JDH3CsAbpkMq0O9m4g6TR3
-					Qk633kfZG/9bbbfV1ajMiQVTgI5Dw115ADCA
-					tSWbRCoUSD9XBbd0hCKjh97db0luBzTTQj3Y
-					DJyFwf3xrsWyRvfeilnKE3IMih+v9nYaOy47
-					D5Soj/BDDzohUtpzMCO4QC5DBaAUsSkaJk4L
-					7+ZXzpw+/ebjKdBdFT692LtGOiuQRVDHpXGZ
-					X8+1S/EP3Di6kWQIrQFzfJi2SssC8P6UHr3Z
-					qafdugeRXjRd54f28Q== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					r3AOWVyt2qSesq/iiPpWqrjJbCZ13Gf1g81l
+					ER9eKAtMApMSE/0pQDJNcT4SnuntvITpjHzl
+					K/106u+21Rh2W+D1g3NyyeXEfMrFBbM8/Cb5
+					16FU9+D472uUM1j9ec28ETvwPhecGrX2bv9/
+					dgIhdN/P5eBH+BC9ay+I04+rIiyRbHlE7QiZ
+					y7387SG5EuFkGgEjrgUBWZLiuNpbuJ4NV57G
+					D9bIef8jHba6aU6nbLocwDeb9e6507bifv9+
+					ZB6ykEcLz2Ym8oka1eIOoYnFtguCldk/hGOV
+					U8dWlRR9wdadafe2SSM8QPN6T1Iq5/CcsI05
+					itnx7GcNJ3TqfMKB1Q== )
+git.sjchen.com.		300	IN A	208.53.158.253
+			300	RRSIG	A 10 3 300 (
+					20141126004756 20141027004756 27656 sjchen.com.
+					FUKes5qe9EBY4h8xa520/b94hxBhWtNnxbgq
+					I/qLGpXrjORhT6phIMVxIPhmRHdVrrgW6nWz
+					X5Kp4qxwm29kZYmOofn7tElNFluNNCHlY19A
+					8iKwXyZTM6tpbi4e+SiKHlXClwrL04SSyGzW
+					KUI4bpU9wIJglxIWTrTgbLVKkIMs4ojrI7M5
+					B+i8hCScQz8Eftr90YQnOtL6DABy4UWJNMyl
+					5ywY6A0hyZbcYqNrBrkbIQMqgKFNtrF54ztW
+					Pm+UZTiPg2rjyO6x65B+qIMuNdEzXFde0t52
+					SeNB+/rwjAuqZuPeY/gzdAOUOHveLPMNTRvH
+					oltqSDXHyiDuO22aFw== )
+			86400	NSEC	html5.sjchen.com. A RRSIG NSEC
+			86400	RRSIG	NSEC 10 3 86400 (
+					20141126004756 20141027004756 27656 sjchen.com.
+					sjkXDPCel+WbaYqcApI/x2xEWYxyecanYXut
+					FZ2r8gDvNofeMumIh3xwsJp0s4HgUPhRAJSM
+					P+hV9TutQ0zhxIrWWRuY4m2w7o38H5V6jT69
+					urirAmaw+2dsTV9yJYDbSfh8seG2HR7t/tN3
+					ZwpYjXiIyxIcgZOK/YdHY4glxxLe8Gm8X/E2
+					6fHVjIE/q6DtLof+83nRWRV/dH5VDagrCNOt
+					chvF+ypSX7Z2KDCgaG+aq5+Ji41iKKRTrdML
+					i4RBKFUZrpgxlb9D0xJizHma0trJ0jRzXUrL
+					GYbapfgav2xSF73qs/zmnPETAbytbMseyPZ1
+					rfqisSNQS22+NglFjA== )
 blog.sjchen.com.	300	IN A	66.228.43.47
 			300	RRSIG	A 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					V38egTUocnplLkF8VwA4Byrp6EVIDzYlslt/
-					Wsi6DIVKNOGNxmnl/R7J9Xw+rXCDudxn4orS
-					HbUelikoSLSvBFUYj5dJDnQyFbyZCmmoEb43
-					edIajtJavMEMmRY+Rxz5M6XV15hM8xxJeYkz
-					8Ka9LUH1LYMvPdDjmJfQrJVbJJiRqESXTyX8
-					poRgC+NcjowwjcU3FBg9cQqa7PfMy7e9/LSx
-					9Xjg9u4sPNZG7oJT2qIPgb8yzXCOl68gVBkR
-					xFj8GA+S9ACopM2SkjumfSllxk1Oza17EJhP
-					d5UzeRSOq2HPgA3R06vcmZvYs7PUTqu+zMBA
-					//0WqE9jS5Vv4xDSVA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					l6WaEpJGPMIITxJHk+voPDxxAX4yXNnVvCy/
+					Pv/fakITseBT3dWU70mhMQNcqd5H4GkQC733
+					KKbrMfeYIBzOnzxF0QBuzsgb51PLPKHG68NY
+					oyD5QY3zpDte+hhjZEp9oktAowRMUqfJz7qd
+					SjFU+Ou7+2lcEWnEqg9vjGiLM9HvN6ATHg6J
+					57mqzsv9+cENVv5hOb6eQ9+RWPR29Tz2d1NE
+					Uq79Kp1y6gToKf/Hv0ONg/5zlD7PLRG+vTPE
+					DYCmy2cgFL1daKoAxek0nGtrtskTrkICriW+
+					rwpBMdQsiWHecBaR2//seyf//PbOfsqKYbXd
+					XHov4mPfQG50h+TsWw== )
 			300	AAAA	2600:3c03::f03c:91ff:feae:e071
 			300	RRSIG	AAAA 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					WsQXFg/eALklaMd73m3MWHDVc0UZ5rmdaRjB
-					tL5Fn4ex7W/lxZ8mUfEFgAAlf+7d5IPph+cg
-					0w79+XqWCR7vzz3SRYmPkIiM5csNYcwrJIms
-					iLlnqOJCiYMOYJP1M3N+/8RiJXutIyRnZtqN
-					SodAg8FI20tRNUVSScBhbaKbB6Gsm+yP9E5y
-					DclnXZCZX3vLzChxumtLe/QoR7d07p6QJ3gP
-					6m5XX5Da1YU2wAHOJhzqm6n3tOeOjxXyNbDL
-					LIUx3f1b94/JxJAW7PtlzrJU8XCs1s3z1BWp
-					qPVyXEpldsMg31Kt7WAJsWqOheJIGtWN7JC5
-					SaNJo5k/pZRLuV4oeg== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					sgaYDx9sXaH5RJ4v/qY6ajphqaWOXy3EbGbt
+					1A5xCXaRMLXwxC52+x7sDGzVc4lPdtELNM05
+					VqcXhjTXbD7R1+QfcRb+3lWvGvoQXs6YRbaC
+					iALpgumyUcywNm5YvQkYcP8SCuD+hGfkBq7A
+					marCvDgw6FL4JZA9rM2V1pZJV610Ye+vmeFj
+					E0VKvaRs0FCwObncMoJBfmdGyHE6X6AoAUUO
+					1lDAEV1/7saFRsZyKqaUx7i5z825fZAFg+5v
+					+2yz6PKUqpZjCvlbNxFmyz35eTNlmbfg5C+Y
+					iqERk4VI2/FdANA2ULADe5ukdEapeEVySO2/
+					9R5x15xf0BHKWS8cfQ== )
 			86400	NSEC	calendar.sjchen.com. A AAAA RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					PmtojJe3soPJTO1V6ieWjoRZcDDsSWcyTnoO
-					24w1Pp6zPlAhlgC3Sjjpx2an5aEdN7BXj6GL
-					MHo22x/0AsUFvDLIEQNaswxo9mQlF7Bb25EB
-					Uqw+oPBPdfFx62mNgy0El3Nw/DdcjbhN0a5S
-					wLDdlzDe/u8bI7ZoiOpCEjI06vRrE5aMTLtr
-					Ktja9UHCCC9nNlv4HtsKWeyFyngLrm7w/XvD
-					AjqpdPrHHCAZY1cn8ztVcg0BEHMZyYZAQ4so
-					BzAL9fZ3xPc5skiXHYSO39ilZXhuB3+yDxI2
-					+2ui8sLLcqAW3RvoAHnoSkIrWJ1oINCGukst
-					DgjX3oQo163AGWVfEA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					YNjWqRu+t4g6vlmvK8L6ZzpQ3jSf/hhHopce
+					qmiQq1kBcaogoCqV1laEChTnM8yuT7j4m8AB
+					WzjUHCBJgrPtyXQMQYhq6tgyvT+Jl8sSns1A
+					mMapp6BxYh7T+boHVKxEhohz92s+VfYvWnNb
+					5FSkCCzJgP7y89Dzb83b9RqDFJ7A5rrTT+py
+					avR1kK4O6/07Xov8isHn4B0WJ2gH8ThV2N3s
+					fUeH7hBrt3XgtsocMSd5LX1oTPakMeVQrLtJ
+					2lZEeUvmoPmGkg14yN1eYxSdyOMkoOQiv/zO
+					GQp09yz78WeeiXSQClt6XUivK3Vzlfe2Kfet
+					ZyT/K5IvhrCRyBcEcQ== )
+html5.sjchen.com.	300	IN A	64.250.116.80
+			300	RRSIG	A 10 3 300 (
+					20141126004756 20141027004756 27656 sjchen.com.
+					PSuMlq/fFbn1NWKBwOjNgYLnlkPTFIKNUZOF
+					VpZl8+qrbJoBhgDLdfX6bAMtkznqXdGSQRNI
+					f9L1OXVwyVPTHZeaki7fSTn6Q8naDH5jFo+b
+					LRXie9gIfWfyGbbCmRLYezMaedfJilPB0bnu
+					qaP9kvW/AGZwY4LP6tETLSNuOSGJ7rFuhG4D
+					GzCUPUBPi0es1/ZX+kZoJmmvb8/1ooUWo+Nj
+					TZ/XA29ZzhpcYkxqopLiIhu6s8W4+TCsVrdm
+					azeTBGqRZhgnqDX/BtVMWuoKbY4b8GUuMApT
+					i0FzXbuH1gAyLgZhaMJmQO4fKe2MDZykwXwJ
+					a7nQFISa/GJg8ZjSCQ== )
+			86400	NSEC	keyserver.sjchen.com. A RRSIG NSEC
+			86400	RRSIG	NSEC 10 3 86400 (
+					20141126004756 20141027004756 27656 sjchen.com.
+					FKcekJGfw+Au+HsmyN33/ZR5JkEQWbFjDJXI
+					yDPt4eZFKmjfqNvtCMSa9Y0TzPiskLWrSkTF
+					wvQqueGd3vgywRJNAHqHW6e5ouJEQmq8eL8B
+					IhZuFVHbtuw+K7ak4/+dhFXeXXFf9JUfiqqg
+					o3P74x8ZKiqF4uMpg6gLUVQdftwKWi9q0UB8
+					p7rIwEuCFLqDvbxQUVFmqWw4Y5HvzLRbGp10
+					MZscW37uhd9ljvbSsyRogsQ/xUJacwQKYB8i
+					+YNxTF2l1h/KdjBQUEcYAMsKMQQmsYXGFee+
+					rZDqzDTYRkn05hyz3PSmCE8FzkvcujfA1Mjh
+					enDqrJuPqK5IIHzo2Q== )
 mail.sjchen.com.	900	IN CNAME ghs.google.com.
 			900	RRSIG	CNAME 10 3 900 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					tlY3AvlscK2oO7cZRVyxnff+Qvv0zn2vCe4o
-					q95okQVByu3cEZ5vGgMgbcO0j0zEfGEmOpPA
-					GiviFuVF03/0tPMyBdb/Mt6QEHK+FiPrwXL6
-					XHckZzmYrYz7g9QhRZdAsXH0sINby0mS+eCq
-					PLqTzwxfdf8F0Jsd5mtdCB/iBneNfEUSbNJE
-					K21U9vqr6GPPSUJIvOTlCiX8gkhufyySdPVe
-					iG0NdDLw84zCg1HIWNQT2XIZc/lJ14nsEp+B
-					2BztnQ90dLN+J1bE2dyqavuajHV9q7+uGu+D
-					nhBsI3DCTVFdL9edk3lwsRyCG+ak4bnnfpdk
-					8ng8K31aChDgJD03Aw== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					Tm+Y8Lf9nJJjy2xEPQIywzA+Wc3eKMEw8fxi
+					GCDTGVbhpkg2Z79hYwLyDLIxo2iVYvGQPf6o
+					km4mT8YV9jIPOIxRonoFhSlsDFJsKXG6PjHo
+					khckWadWTW9V5pAvOsOJkLeZDkl2r5E7GeFE
+					pGvbXrhtQaKW1Ow7J/4zjdhfdcONzKCXVe1/
+					JRWQkOGzx7c4332v15xOVnjNol4yi4Fq05oV
+					e2fSdfuHkCy1FE3LnULYkpasoqZfP/3yJ0OF
+					nmateIVz2917Ww7mNISGGsndZ4v2jaSQarV9
+					pM3qWM3J+cK/bgla8Wh3iNQN+it4iZl/B8MR
+					HDh4cJjoJuSmHOluEA== )
 			86400	NSEC	spawn.sjchen.com. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					RZfv3AwZcyBaHe8MJjXMvRpjOkF04mQmAeWw
-					Qsa1tEjbZ1B/LhkecxhMxKGrhgohqpkVjq2V
-					mtsVhygNKRti61mo8Uz5m7Iuu0q/IPuLe0k+
-					4uCSmFoZF86EJAZKPDlGfyw1eITgmIIA6bhT
-					ZysBLasv7gMvspMZKKxEvZZbGoB6LHYF6GhF
-					qFSIyXpSWiE8/dbaOotgoZm9DrbdFukkUiNW
-					odPuZcalOoKyV+8yRVAT7xXzcjx1dy9tA9XM
-					DkrlhT5KLSeAYV9/r8+hvqNBvwRIGeLimT+m
-					BfX5URnlxAvVw/6gDXknPc0m0viTLFTc4VGG
-					oyF538V0vr8j4nb8Sw== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					Va5jvd4wr5XjnVmr0WaChnw9tagyXL/gr4Q9
+					H+SQoHh53Sts8lLWCAxUl3kEzrRcYmekUDXY
+					L1Uys7J8pe9udpounnRL1/VSasiJzHT6QiMp
+					zuUaMJRtLGZDYbo4G0Xr6nmqgzft/BXVyaC4
+					dYtD+QhC0V4myaZwCJwoZjZqzmUHrJxZCUEP
+					fTLShbtoEulp9l5iZEF4vG3izZ2+qEVXiaEL
+					eBX8rdNR94fQrgeQppFzJWbpN6O3cDtNwqy/
+					knEtJol03gPWexNca9AhT9ZDKHm/GBYW096D
+					SHgJScKhu3n0v544S0gcfUfPFoJIP7IOHeMa
+					NZI+/t3luWF6VlHj6w== )
 spawn.sjchen.com.	300	IN A	50.116.11.86
 			300	RRSIG	A 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					QEySySBaJZlUNrO2/PCwHIrVy+uJ/pN0DNL8
-					4ba3xJDAfxr+fjjWbJSu0VmO566hgX5X+e1V
-					9ovCqT0/7dSWyEcFFVJBw6yKYXqKFLXI65OF
-					3DckoOBsybxXHjhCJ81d3Xdo7jJ7hcUMppou
-					OmW/Sds+PvjcECc1lYahy0/T+zk8jt8ivaqq
-					1zQ9vqT0e1MOdqLUtYslIYOoCo+C3rzrPWAl
-					+wCYtjsPOD38mu6M7GTDxPQakV+iD8HoSgsI
-					FV9WyaXphm/cHflRp3QcOaEZKYhERHux2TnK
-					temBhIvK1Z3maOpzTnR3rBV1nt3YzlL2X+kC
-					bKXHHh3tA+EsfxR7nA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					MUPa7ySn7Fd9yCmhzzv0pVRWTVdb10DYhgOm
+					wxGixeg9TjSjamLB7yg5b5BFQLsWEBQCgNT1
+					gS5CzhJTYK28DzjXdi2Phhwpl+jgJpkSITCx
+					vk20hcgDBxytHNLqjvpORacJAYZtmk5BcUw0
+					al+5h9c9pDxNVrPKaUWT+H6oOFQibsuGlv2L
+					b+mX2Ht2sdvj8kcdeJCn602yFgu3oNoAIJc0
+					U3Cgf8JqV6HYm3ISfOlfi6qrG35xud/wHgzY
+					yZQgMX1EKMp1Rxc5fJ3qvN7QTkD3dkpq2cc4
+					EgzqIAo3SzQSuwVHcMDgRhqLrZhJpAuC6vfo
+					RMcjxhZM8pDOVaCKIA== )
 			86400	NSEC	up.sjchen.com. A RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					ClbUnB54QILDHBGAhjrYiFaDKVGpnZ8ntBdN
-					SroRG4MWT44y29gHsrcg8UTMHB5MqmMLC7n0
-					aIQpcQsm49+Qu/Wd8bH20ZSogHS4pTwg5+Hc
-					F5bFwnQTRlce7fiMOwGebvD/Zb8u60VD9HWb
-					RrcWHwKd1xSI/OM3tvfEr7Qm5ffjC9Dm5WL/
-					FITqSV0ousHpZZctsdYrOSkbyrj9DQnx/uX+
-					xOeq6U8XNTbdA0wxPatjQ/hip03wSoUtX2x7
-					l2CHbg9A2wk2IPfaLsSJ1nqBgktk/1AwnEEH
-					S//ybGjl0xeEDFjYRnC8XThve/zOgcoTrssL
-					H3iNPGmnjSIdlgLx7w== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					Tse34xJPNI0lBldeiPUxSPfmjMlGAZOelwBf
+					uQfCVr575+P/Vcl0Lh3Ic+rqq9Ob7fq1CL7r
+					FfrV7yEofUADr0/UqHNxJj6/WZ9NXUSX36GN
+					lVErSVJH3N5YarB8qAG9aLuCSxYCeRlsBaKY
+					TBwAfAE8SvtfRzN+Pd6iccgEhdWc2lEHxdCw
+					Z4sx0X0RaMQpxGSOCNLQX+mnqJPKwesJVxdH
+					2Yll9znDR6eeDdw3R8TKJK4iUlfydlTCaix4
+					n5mHtvf53uJDfDG+2gwM/UGV//2RJDOQLZOY
+					bu9lX+spb1KsLeWE+gumZnDjAXmCcHyHjavj
+					B5C7npEfEXWl1om3HA== )
 www.sjchen.com.		900	IN CNAME sjchen.com.
 			900	RRSIG	CNAME 10 3 900 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					lCW6Nujo53C6VR40Dn5e72KLIZZ0/XkD1F/F
-					blYWYBPg8oVq8siIy03SU3FiyjA8zX4osH6Q
-					U8JNgIlTe/dkSOL/kbQk9i/plHbX0FkFT4zI
-					BJlnHQKRGOl4YWl5sNCW+kUVgyhk6sIVKnye
-					xChn/xA3UA/LZB6+AhAolA4j5U1FvACjZP+B
-					wfEu7mpbXlZU5DoKqF/XIW2++DvJodN3PdXM
-					SLZPAo4t1MQc9htrNXdMfHvZCAi1Ihe4QlFs
-					euY9EkVbs2PnokyO/waUBrSjKbgEpIyVhKAZ
-					LnEOH6EKA8QDUl6d+J0P703pT6Xu9s/GVELK
-					zsC8y/UAzGw5RjKnLw== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					WYaX6dMHllbpBeP+XLwGCkLChaGra/mn1vq/
+					ViXOllb4M7+Lr39FUvnYoolRkTCzp+SeDJj7
+					JWfvedeeGalV6GG2mTyLUK4nu2mWUK7xmhtP
+					1jKbShcfNh+OGjCCRC3Sd12tGMMRXHoNjqDT
+					7lvfjES44OK2IBD+PFGmrdJlor6FVbOdFHlq
+					Kw1rP3jnWOBp00lsSvwGkFCC+T7hLvnRuA5o
+					dufDec44sQ9aRjeemSqR73ZCOqwMbqG57TTs
+					ViXY9iI6ndXIoHIqiBlk9nTtR94Sjqdovvwb
+					uh159qead8YFbNC2x6MGLE7EvbFSLUsYexDK
+					jPVesWPI7Ogsx3a00Q== )
 			86400	NSEC	sjchen.com. CNAME RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					ZIlOO2mFHiiVwXYhVlnthMn/X9Pg+PsgjpPI
-					vVNv1GVUqwikPE37rxcBwuT2cP1c2U0r8eGI
-					96AAAUCOqi7GCA+CI5/dICWPzVgwitDav6O/
-					oSj2kArnfrTIH+0oEKxzkW+NS84TDFGnWLI5
-					AgKwYrL3OdcO3IAnp3HwCJYb0zCtUCGjRl8S
-					fg7WFt/8ggYbYf/LefEA7itKHkp7QKqfzssM
-					laInrblMss9E+P/YW9ON55LtWN7slLuFIXwW
-					sCAwILS0UZX4/HDNuyuL3IVvcPY8M88L3jFl
-					XWVcjbRQQZ+lpzNZfIQJNkGQE5SYk65HDLYB
-					kzqFz8OLnpbtQ5sYQA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					EfdzovKZpGu+uE9iLLCeO5SPug71QCtxVjsB
+					Vk8/ohxz9LAd9KWwOG2wtaV1fST4iI3F9rsq
+					YoGw4Qw/dZUh7nEtBtqdisWH4URJrpwLoStT
+					JohTD75H/Wa0iVvmCjjDrg0sZPOAmt6JBUY6
+					rAudC9bQNGjGznl549aJJu4cABmuyhC1ZX97
+					dhCDp4yxsxlnxG+mOPlcHtFeaDe59GKJrzps
+					UamyIx8PxW6O0CPxEg+84CmW8DvMQlEqLkXB
+					RvdKDMhqZKTlkLIZkgqNqnSB/RY1VAHvf706
+					0RP5UUlc3UA423XknLaRV5ejsFiyo5RQVt4x
+					lvgKT5Gd1NYU+4OCmw== )
 up.sjchen.com.		300	IN A	50.116.11.86
 			300	RRSIG	A 10 3 300 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					HF20T+ueLc2iZJ6xKN7cbFp7xyGvnJmsfZnK
-					vhVdQJ7wCAYjsK2n1LSr9zJCdv4EraJ39bZ5
-					L1rNcmUiiHZc7M50kgtvCWFsrUyRcN0bWSdj
-					A1LNiZMg8ZFFIfogYMzSXalhkub83QH8heLa
-					wk+KkewEsBAIN/NbNPxQxcm1dWKaMVryCabv
-					QUukE2CmNM0ibPhNFB+c2mwToD46OG+9pc99
-					fjC5Xr3449S2Gvr3MtjGnmXy2dg6CZxHrQl+
-					hk/zJFRhhbqRLChrXBz79adnHYbeB9i2H7cB
-					QGMHaKPCnAhSjrwjSji4ajlAuC7TFLJ1rHWB
-					Ikw+75d6s11E5/mxfg== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					XgN44CqWuwy8gHYUOR0SBxPo2J7SSEUCD6m6
+					jDGiVtjHoc4y/hBCpBHxyGmzx0XBiZ+IHvLr
+					9WMBPp9RFrg8l4aigxbuTUT/BVlCz6DK9ntC
+					ZNS7QVELrKQ//o26Krx2zJMzkYOacZdgHmic
+					1OqPOV60DkzZOAk4btCajK8zSkTtxwCHq5Sh
+					QKWZgAQUvdTKMxqn324SwgND5d/NJn0g8gE3
+					4UBOc1FaP78/EsDASe8sykQof4FNoeyNq9k7
+					a6A+8iYtw8e+zxq0O6iD6ME2CDA3DW3X+P4K
+					L4lRFQteAx3YTFlJ4Z0xJ4F3V6yCdlcTTwHB
+					R555zO7zCaTnCIwfnA== )
 			86400	NSEC	www.sjchen.com. A RRSIG NSEC
 			86400	RRSIG	NSEC 10 3 86400 (
-					20141022044617 20140922044617 27656 sjchen.com.
-					AiXGsooFt6GgXSQEGMaqFOhIypds75osrT00
-					TfytiNBvq75p7UKe7TSPUks4lh5RXpoCWb98
-					v/UXIk6p46QL1qc2ivtePqEtxf27yN0WmNan
-					4Hij2SLH7PKMKrLnlWzw93Q0J8rtUviEtmy/
-					PhOcC+HPAeExJIaBFW7FL7lHq/KLvJq3G1fE
-					hHGj6SiOZ/vHcw6ZM/sYIDQqr9RKiHE/Uiv1
-					z77WWxpC+qoFVxYxCvS5hMXtzTx6UM2e/uD1
-					so+ORLbUsM7oAhJqpgvTFM/VjacC/YGx6Ldj
-					ek4lOa5sp4oArEArgEmBRXauVpIF5Ag9CPzm
-					oqxseTY4gCucBgrisA== )
+					20141126004756 20141027004756 27656 sjchen.com.
+					c5ZAd0yUlEN1bzrmbOEpOC2JFfMHNM5ivfbg
+					Yi1cITqjE2NwGMQqc0fIKJjyHM4ISzAVasEd
+					3BHTu+sY6gLdPLNy/4Fymemeqey3FbhRJcmT
+					LxMIfRLdvSeU+sbR6Ey68vBzSbCPeg56nah3
+					iZXI8QK9UE6wMvJZ8Jg+QYF7IOFrwQGtCrTW
+					I1QhaZJfwucSvAgMyQ6x54W4DIFempwg5yuQ
+					o3cWwD5t0oYkHj2RNLb7le3LDsIrPPVnIuJb
+					a68BA5t+voapanUBQu2DHrxY2qS3D6+rHX+y
+					X0FWWIibqGBckeE8b22sWFEwh60kt26mTn2/
+					jvc0oH8Wec6ZcaJ1Bg== )

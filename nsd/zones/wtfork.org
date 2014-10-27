@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 wtfork.org		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014092201 ; serial
+				2014102621 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
