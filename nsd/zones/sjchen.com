@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 sjchen.com		IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014102621 ; serial
+				2014112418 ; serial
 				14400      ; refresh (4 hours)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -44,6 +44,3 @@ spawn			A	50.116.11.86
 up			A	50.116.11.86
 $TTL 900	; 15 minutes
 www			CNAME	sjchen.com.
-
-$include /Volumes/dolla/dns_keys/sjchen.com/Ksjchen.com.+010+27656.key ; ZSK
-$include /Volumes/dolla/dns_keys/sjchen.com/Ksjchen.com.+010+14721.key ; KSK

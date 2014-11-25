@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 serv.pw			IN SOA	ns1.linode.com. noc.sjchen.net. (
-				2014102621 ; serial
+				2014112418 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -47,6 +47,3 @@ docker0     CNAME   ewr0.lin.serv.pw.
 
 $ORIGIN salt.serv.pw.
 master      CNAME   ewr0.lin.serv.pw.
-
-$include /Volumes/dolla/dns_keys/serv.pw/Kserv.pw.+010+12521.key ; ZSK
-$include /Volumes/dolla/dns_keys/serv.pw/Kserv.pw.+010+46737.key ; KSK
