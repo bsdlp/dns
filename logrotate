@@ -1,6 +1,0 @@
-/var/log/nsd.log {
-    rotate 12
-    weekly
-    compress
-    missingok
-}
