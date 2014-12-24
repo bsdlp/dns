@@ -5,11 +5,11 @@ add 1.5.c.0.8.0.0.0.0.7.4.0.1.0.0.2.ip6.arpa all
 add 2.7.4.0.6.6.0.0.0.7.4.0.1.0.0.2.ip6.arpa all
 add 5.1.0.1.1.0.0.0.0.0.7.2.5.0.6.2.ip6.arpa all
 add appleinformer.org all
-add bitcoinic.us signed
-add cryptogen.io signed
+add bitcoinic.us all
+add cryptogen.io all
 add derpify.me all
 add dns.check localonly
-add docku.org signed
+add docku.org all
 add gitfax.io all
 add handgrep.com all
 add herpusderp.us all
@@ -20,7 +20,7 @@ add keyporium.com all
 add mallsushi.menu all
 add mtr.io all
 add mutagen.me all
-add nsasurveillancevan.net signed
+add nsasurveillancevan.net all
 add nsasurveillancevan.us all
 add rapedidiot.com all
 add serv.pw all
@@ -30,4 +30,4 @@ add sjchen.tw all
 add sjchen.us all
 add tonkat.su all
 add voltaire.sh all
-add wtfork.org signed
+add wtfork.org all

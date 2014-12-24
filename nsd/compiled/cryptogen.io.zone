@@ -1,0 +1,8 @@
+cryptogen.io.				      86400 IN SOA	ns1.linode.com. bsd.voltaire.sh. 2014122418 900 14400 864000 300
+cryptogen.io.				      86400 IN NS	ns1.linode.com.
+cryptogen.io.				      86400 IN NS	ns2.linode.com.
+cryptogen.io.				      86400 IN NS	ns3.linode.com.
+cryptogen.io.				      86400 IN NS	ns4.linode.com.
+cryptogen.io.				      86400 IN NS	ns5.linode.com.
+cryptogen.io.				      300 IN A		23.92.19.129
+cryptogen.io.				      300 IN AAAA	2600:3c03::f03c:91ff:fe50:4140
