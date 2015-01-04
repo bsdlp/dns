@@ -1,20 +1,22 @@
-serv.pw.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014122312 900 14400 864000 86400
+serv.pw.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2015010413 900 14400 864000 86400
 serv.pw.				      86400 IN NS	ns1.linode.com.
 serv.pw.				      86400 IN NS	ns2.linode.com.
 serv.pw.				      86400 IN NS	ns3.linode.com.
 serv.pw.				      86400 IN NS	ns4.linode.com.
 serv.pw.				      86400 IN NS	ns5.linode.com.
 serv.pw.				      300 IN A		66.228.43.47
-serv.pw.				      300 IN MX		10 mail.serv.pw.
 serv.pw.				      300 IN TXT	"v=spf1 +a +mx -all"
 control.serv.pw.			      300 IN A		69.142.229.211
 control.serv.pw.			      300 IN AAAA	2001:470:8:c51:4a5b:39ff:fe0f:1f63
 docker0.serv.pw.			      300 IN CNAME	docker0.lin.serv.pw.
 ewr0.serv.pw.				      300 IN CNAME	ewr0.lin.serv.pw.
+fmt1.serv.pw.				      300 IN CNAME	fmt1.lin.serv.pw.
 irssi.serv.pw.				      300 IN CNAME	ewr0.lin.serv.pw.
 docker0.lin.serv.pw.			      300 IN CNAME	ewr0.lin.serv.pw.
 ewr0.lin.serv.pw.			      300 IN A		23.92.19.129
 ewr0.lin.serv.pw.			      300 IN AAAA	2600:3c03::f03c:91ff:fe50:4140
+fmt1.lin.serv.pw.			      300 IN A		104.237.156.244
+fmt1.lin.serv.pw.			      300 IN AAAA	2600:3c01::f03c:91ff:fe84:d370
 ns1.serv.pw.				      300 IN CNAME	ewr0.lin.serv.pw.
 master.salt.serv.pw.			      300 IN CNAME	ewr0.lin.serv.pw.
 www.serv.pw.				      300 IN CNAME	serv.pw.
