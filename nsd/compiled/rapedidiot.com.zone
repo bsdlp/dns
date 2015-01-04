@@ -1,9 +1,8 @@
-rapedidiot.com.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032021 14400 14400 864000 86400
-rapedidiot.com.				      86400 IN NS	ns1.linode.com.
-rapedidiot.com.				      86400 IN NS	ns2.linode.com.
-rapedidiot.com.				      86400 IN NS	ns3.linode.com.
-rapedidiot.com.				      86400 IN NS	ns4.linode.com.
-rapedidiot.com.				      86400 IN NS	ns5.linode.com.
+rapedidiot.com.				      86400 IN SOA	ns2.he.net. noc.sjchen.net. 2015010414 14400 14400 864000 86400
+rapedidiot.com.				      86400 IN NS	ns2.he.net.
+rapedidiot.com.				      86400 IN NS	ns3.he.net.
+rapedidiot.com.				      86400 IN NS	ns4.he.net.
+rapedidiot.com.				      86400 IN NS	ns5.he.net.
 rapedidiot.com.				      300 IN A		66.228.43.47
 rapedidiot.com.				      1800 IN MX	1 aspmx.l.google.com.
 rapedidiot.com.				      1800 IN MX	5 alt1.aspmx.l.google.com.

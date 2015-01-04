@@ -1,17 +1,16 @@
 $ORIGIN .
 $TTL 86400	; 1 day
-wtfork.org		IN SOA	ns1.linode.com. noc.tonkat.su. (
-				2014122418 ; serial
+wtfork.org		IN SOA	ns2.he.net. noc.tonkat.su. (
+				2015010414 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
 				86400      ; minimum (1 day)
 				)
-			NS	ns1.linode.com.
-			NS	ns2.linode.com.
-			NS	ns3.linode.com.
-			NS	ns4.linode.com.
-			NS	ns5.linode.com.
+			NS	ns2.he.net.
+			NS	ns3.he.net.
+			NS	ns4.he.net.
+			NS	ns5.he.net.
 $TTL 600	; 10 minutes
 			TXT	"v=spf1 mx -all"
 $ORIGIN wtfork.org.

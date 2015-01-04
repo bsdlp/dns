@@ -1,9 +1,8 @@
-mallsushi.menu.				      647100 IN	SOA	ns1.linode.com. noc.sjchen.net. 2014033118 10800 1800 604800 86400
-mallsushi.menu.				      86400 IN NS	ns1.linode.com.
-mallsushi.menu.				      86400 IN NS	ns2.linode.com.
-mallsushi.menu.				      86400 IN NS	ns3.linode.com.
-mallsushi.menu.				      86400 IN NS	ns4.linode.com.
-mallsushi.menu.				      86400 IN NS	ns5.linode.com.
+mallsushi.menu.				      647100 IN	SOA	ns2.he.net. noc.sjchen.net. 2015010414 10800 1800 604800 86400
+mallsushi.menu.				      86400 IN NS	ns2.he.net.
+mallsushi.menu.				      86400 IN NS	ns3.he.net.
+mallsushi.menu.				      86400 IN NS	ns4.he.net.
+mallsushi.menu.				      86400 IN NS	ns5.he.net.
 mallsushi.menu.				      800 IN A		192.30.252.153
 mallsushi.menu.				      800 IN A		192.30.252.154
 www.mallsushi.menu.			      800 IN CNAME	mallsushi.menu.

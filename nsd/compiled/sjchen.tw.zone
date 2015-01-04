@@ -1,9 +1,8 @@
-sjchen.tw.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014091921 900 14400 864000 86400
-sjchen.tw.				      86400 IN NS	ns1.linode.com.
-sjchen.tw.				      86400 IN NS	ns2.linode.com.
-sjchen.tw.				      86400 IN NS	ns3.linode.com.
-sjchen.tw.				      86400 IN NS	ns4.linode.com.
-sjchen.tw.				      86400 IN NS	ns5.linode.com.
+sjchen.tw.				      86400 IN SOA	ns2.he.net. noc.sjchen.net. 2015010414 900 14400 864000 86400
+sjchen.tw.				      86400 IN NS	ns2.he.net.
+sjchen.tw.				      86400 IN NS	ns3.he.net.
+sjchen.tw.				      86400 IN NS	ns4.he.net.
+sjchen.tw.				      86400 IN NS	ns5.he.net.
 sjchen.tw.				      300 IN A		192.95.25.41
 mail.sjchen.tw.				      300 IN A		192.249.57.155
 www.sjchen.tw.				      300 IN A		192.95.25.41

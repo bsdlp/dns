@@ -1,6 +1,5 @@
-gitfax.io.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014091921 900 14400 864000 86400
-gitfax.io.				      86400 IN NS	ns1.linode.com.
-gitfax.io.				      86400 IN NS	ns2.linode.com.
-gitfax.io.				      86400 IN NS	ns3.linode.com.
-gitfax.io.				      86400 IN NS	ns4.linode.com.
-gitfax.io.				      86400 IN NS	ns5.linode.com.
+gitfax.io.				      86400 IN SOA	ns2.he.net. noc.sjchen.net. 2015010414 900 14400 864000 86400
+gitfax.io.				      86400 IN NS	ns2.he.net.
+gitfax.io.				      86400 IN NS	ns3.he.net.
+gitfax.io.				      86400 IN NS	ns4.he.net.
+gitfax.io.				      86400 IN NS	ns5.he.net.

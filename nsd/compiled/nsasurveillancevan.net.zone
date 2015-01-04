@@ -1,9 +1,8 @@
-nsasurveillancevan.net.			      86400 IN SOA	ns1.linode.com. bsd.voltaire.sh. 2014122418 900 14400 864000 86400
-nsasurveillancevan.net.			      86400 IN NS	ns1.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns2.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns3.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns4.linode.com.
-nsasurveillancevan.net.			      86400 IN NS	ns5.linode.com.
+nsasurveillancevan.net.			      86400 IN SOA	ns2.he.net. bsd.voltaire.sh. 2015010414 900 14400 864000 86400
+nsasurveillancevan.net.			      86400 IN NS	ns2.he.net.
+nsasurveillancevan.net.			      86400 IN NS	ns3.he.net.
+nsasurveillancevan.net.			      86400 IN NS	ns4.he.net.
+nsasurveillancevan.net.			      86400 IN NS	ns5.he.net.
 nsasurveillancevan.net.			      300 IN A		204.232.175.78
 nsasurveillancevan.net.			      3600 IN MX	10 ASPMX.L.GOOGLE.COM.
 nsasurveillancevan.net.			      3600 IN MX	20 ALT1.ASPMX.L.GOOGLE.COM.

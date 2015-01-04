@@ -1,8 +1,7 @@
-keyporium.com.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014091921 900 14400 864000 86400
-keyporium.com.				      86400 IN NS	ns1.linode.com.
-keyporium.com.				      86400 IN NS	ns2.linode.com.
-keyporium.com.				      86400 IN NS	ns3.linode.com.
-keyporium.com.				      86400 IN NS	ns4.linode.com.
-keyporium.com.				      86400 IN NS	ns5.linode.com.
+keyporium.com.				      86400 IN SOA	ns2.he.net. noc.sjchen.net. 2015010414 900 14400 864000 86400
+keyporium.com.				      86400 IN NS	ns2.he.net.
+keyporium.com.				      86400 IN NS	ns3.he.net.
+keyporium.com.				      86400 IN NS	ns4.he.net.
+keyporium.com.				      86400 IN NS	ns5.he.net.
 keyporium.com.				      600 IN A		192.30.252.153
 keyporium.com.				      600 IN A		192.30.252.154

@@ -1,7 +1,6 @@
-herpusderp.us.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2014032016 14400 14400 864000 86400
-herpusderp.us.				      86400 IN NS	ns1.linode.com.
-herpusderp.us.				      86400 IN NS	ns2.linode.com.
-herpusderp.us.				      86400 IN NS	ns3.linode.com.
-herpusderp.us.				      86400 IN NS	ns4.linode.com.
-herpusderp.us.				      86400 IN NS	ns5.linode.com.
+herpusderp.us.				      86400 IN SOA	ns2.he.net. noc.sjchen.net. 2015010414 14400 14400 864000 86400
+herpusderp.us.				      86400 IN NS	ns2.he.net.
+herpusderp.us.				      86400 IN NS	ns3.he.net.
+herpusderp.us.				      86400 IN NS	ns4.he.net.
+herpusderp.us.				      86400 IN NS	ns5.he.net.
 herpusderp.us.				      300 IN A		50.116.60.56

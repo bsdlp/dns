@@ -1,9 +1,8 @@
-wtfork.org.				      86400 IN SOA	ns1.linode.com. noc.tonkat.su. 2014122418 900 14400 864000 86400
-wtfork.org.				      86400 IN NS	ns1.linode.com.
-wtfork.org.				      86400 IN NS	ns2.linode.com.
-wtfork.org.				      86400 IN NS	ns3.linode.com.
-wtfork.org.				      86400 IN NS	ns4.linode.com.
-wtfork.org.				      86400 IN NS	ns5.linode.com.
+wtfork.org.				      86400 IN SOA	ns2.he.net. noc.tonkat.su. 2015010414 900 14400 864000 86400
+wtfork.org.				      86400 IN NS	ns2.he.net.
+wtfork.org.				      86400 IN NS	ns3.he.net.
+wtfork.org.				      86400 IN NS	ns4.he.net.
+wtfork.org.				      86400 IN NS	ns5.he.net.
 wtfork.org.				      600 IN TXT	"v=spf1 mx -all"
 mail._domainkey.wtfork.org.		      600 IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6dqBKzCx12LAkN7Q5Y8yNdGPxtO428fLAM4b1JuOS0lNrypUJUZi2qCAmV46lzqB2RDMZWoPESH7CQxcobLkhJdGTMoRjm/KI+PxwRbH8PTKtP1hDxCGvcJThmwZhyZ6M/z7rFhMj8SjDcl6EndeyN0LgKvNj9OwufPi3tK4powIDAQAB"
 ci.wtfork.org.				      600 IN CNAME	gitlab.wtfork.org.

@@ -1,9 +1,8 @@
-voltaire.sh.				      86400 IN SOA	ns1.linode.com. noc.tonkat.su. 2014091921 14400 14400 864000 86400
-voltaire.sh.				      86400 IN NS	ns1.linode.com.
-voltaire.sh.				      86400 IN NS	ns2.linode.com.
-voltaire.sh.				      86400 IN NS	ns3.linode.com.
-voltaire.sh.				      86400 IN NS	ns4.linode.com.
-voltaire.sh.				      86400 IN NS	ns5.linode.com.
+voltaire.sh.				      86400 IN SOA	ns2.he.net. noc.tonkat.su. 2015010414 14400 14400 864000 86400
+voltaire.sh.				      86400 IN NS	ns2.he.net.
+voltaire.sh.				      86400 IN NS	ns3.he.net.
+voltaire.sh.				      86400 IN NS	ns4.he.net.
+voltaire.sh.				      86400 IN NS	ns5.he.net.
 voltaire.sh.				      300 IN A		66.228.43.47
 voltaire.sh.				      3600 IN MX	10 ASPMX.L.GOOGLE.COM.
 voltaire.sh.				      3600 IN MX	20 ALT1.ASPMX.L.GOOGLE.COM.

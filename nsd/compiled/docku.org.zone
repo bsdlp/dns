@@ -1,9 +1,8 @@
-docku.org.				      647100 IN	SOA	ns1.linode.com. noc.docku.org. 2014122418 10800 1800 604800 86400
-docku.org.				      86400 IN NS	ns1.linode.com.
-docku.org.				      86400 IN NS	ns2.linode.com.
-docku.org.				      86400 IN NS	ns3.linode.com.
-docku.org.				      86400 IN NS	ns4.linode.com.
-docku.org.				      86400 IN NS	ns5.linode.com.
+docku.org.				      647100 IN	SOA	ns2.he.net. noc.docku.org. 2015010414 10800 1800 604800 86400
+docku.org.				      86400 IN NS	ns2.he.net.
+docku.org.				      86400 IN NS	ns3.he.net.
+docku.org.				      86400 IN NS	ns4.he.net.
+docku.org.				      86400 IN NS	ns5.he.net.
 docku.org.				      3600 IN MX	1 ASPMX.L.GOOGLE.COM.
 docku.org.				      3600 IN MX	5 ALT1.ASPMX.L.GOOGLE.COM.
 docku.org.				      3600 IN MX	5 ALT2.ASPMX.L.GOOGLE.COM.

@@ -1,9 +1,8 @@
-serv.pw.				      86400 IN SOA	ns1.linode.com. noc.sjchen.net. 2015010413 900 14400 864000 86400
-serv.pw.				      86400 IN NS	ns1.linode.com.
-serv.pw.				      86400 IN NS	ns2.linode.com.
-serv.pw.				      86400 IN NS	ns3.linode.com.
-serv.pw.				      86400 IN NS	ns4.linode.com.
-serv.pw.				      86400 IN NS	ns5.linode.com.
+serv.pw.				      86400 IN SOA	ns2.he.net. noc.sjchen.net. 2015010414 900 14400 864000 86400
+serv.pw.				      86400 IN NS	ns2.he.net.
+serv.pw.				      86400 IN NS	ns3.he.net.
+serv.pw.				      86400 IN NS	ns4.he.net.
+serv.pw.				      86400 IN NS	ns5.he.net.
 serv.pw.				      300 IN A		66.228.43.47
 serv.pw.				      300 IN TXT	"v=spf1 +a +mx -all"
 control.serv.pw.			      300 IN A		69.142.229.211
