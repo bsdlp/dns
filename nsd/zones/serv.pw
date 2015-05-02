@@ -23,7 +23,6 @@ control      AAAA   2001:470:8:c51:4a5b:39ff:fe0f:1f63
 
 ewr0        CNAME   ewr0.lin
 fmt1        CNAME   fmt1.lin
-docker0     CNAME   docker0.lin
 ns1         CNAME   ewr0.lin
 
 $ORIGIN lin.serv.pw.
@@ -32,7 +31,6 @@ ewr0            A   23.92.19.129
 
 fmt1            A   104.237.156.244
              AAAA   2600:3c01::f03c:91ff:fe84:d370
-docker0     CNAME   ewr0.lin.serv.pw.
 
 $ORIGIN salt.serv.pw.
 master      CNAME   ewr0.lin.serv.pw.
