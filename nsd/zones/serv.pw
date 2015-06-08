@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 serv.pw			IN SOA	ns2.he.net. noc.sjchen.net. (
-				2015060802 ; serial
+				2015060803 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -16,14 +16,15 @@ $TTL 300	; 5 minutes
             TXT "v=spf1 +a +mx -all"
 $ORIGIN serv.pw.
 www			CNAME	serv.pw.
-irssi       CNAME   ewr0.lin
+irssi       CNAME   fmt1.lin
 
 control      AAAA   2001:470:8:c51:4a5b:39ff:fe0f:1f63
                 A   69.142.229.211
 
 fmt1        CNAME   fmt1.lin
 fmt2        CNAME   fmt2.lin
-ns1         CNAME   ewr0.lin
+fmt3        CNAME   fmt3.lin
+ns1         CNAME   fmt1.lin
 
 $ORIGIN lin.serv.pw.
 fmt1            A   104.237.156.244
@@ -31,6 +32,9 @@ fmt1            A   104.237.156.244
 
 fmt2            A   45.79.87.146
              AAAA   2600:3c01::f03c:91ff:fe98:3a71
+
+fmt3            A   45.79.66.150
+             AAAA   2600:3c01::f03c:91ff:fe98:3ab4
 
 $ORIGIN salt.serv.pw.
 master      CNAME   ewr0.lin.serv.pw.
