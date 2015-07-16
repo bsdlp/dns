@@ -1,4 +1,4 @@
-voltaire.sh.				      86400 IN SOA	ns2.he.net. noc.tonkat.su. 2015010414 14400 14400 864000 86400
+voltaire.sh.				      86400 IN SOA	ns2.he.net. noc.tonkat.su. 2015071519 14400 14400 864000 86400
 voltaire.sh.				      86400 IN NS	ns2.he.net.
 voltaire.sh.				      86400 IN NS	ns3.he.net.
 voltaire.sh.				      86400 IN NS	ns4.he.net.
@@ -10,9 +10,9 @@ voltaire.sh.				      3600 IN MX	20 ALT2.ASPMX.L.GOOGLE.COM.
 voltaire.sh.				      3600 IN MX	30 ASPMX2.GOOGLEMAIL.COM.
 voltaire.sh.				      3600 IN MX	30 ASPMX3.GOOGLEMAIL.COM.
 voltaire.sh.				      3600 IN TXT	"v=spf1 include:spf.mailjet.com include:_spf.google.com mx -all"
-google._domainkey.voltaire.sh.		      3600 IN TXT	"v=DKIM1\; k=rsa\; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVaFfqh00P/E80EsiNMqyY8A4vEMbJqI2tLCpO0/qJT3O5AvBQ0rI98KJKbUVngXvA3T86YkmNYLuiVA6CDTL8gIX9jqBkycSfVdIe+jAqODlhT27rZh1NweoDjfDKE3aih56aNql7D2nuNFiMGOPETFivpjd395mwqXASMmKFKwIDAQAB"
+google._domainkey.voltaire.sh.		      3600 IN TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCVaFfqh00P/E80EsiNMqyY8A4vEMbJqI2tLCpO0/qJT3O5AvBQ0rI98KJKbUVngXvA3T86YkmNYLuiVA6CDTL8gIX9jqBkycSfVdIe+jAqODlhT27rZh1NweoDjfDKE3aih56aNql7D2nuNFiMGOPETFivpjd395mwqXASMmKFKwIDAQAB"
 blog.voltaire.sh.			      300 IN A		66.228.43.47
 blog.voltaire.sh.			      300 IN AAAA	2600:3c03::f03c:91ff:feae:e071
-mc.voltaire.sh.				      300 IN CNAME	docker0.serv.pw.
-_minecraft._tcp.vanilla.voltaire.sh.	      300 IN SRV	0 5 25565 mc.voltaire.sh.
+mc.voltaire.sh.				      300 IN A		162.244.166.101
+_minecraft._tcp.mc.voltaire.sh.		      300 IN SRV	0 5 25583 mc.voltaire.sh.
 www.voltaire.sh.			      300 IN CNAME	voltaire.sh.
