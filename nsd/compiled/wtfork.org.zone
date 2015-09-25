@@ -1,4 +1,4 @@
-wtfork.org.				      86400 IN SOA	ns2.he.net. noc.tonkat.su. 2015091002 900 14400 864000 86400
+wtfork.org.				      86400 IN SOA	ns2.he.net. noc.tonkat.su. 2015092503 900 14400 864000 86400
 wtfork.org.				      86400 IN NS	ns2.he.net.
 wtfork.org.				      86400 IN NS	ns3.he.net.
 wtfork.org.				      86400 IN NS	ns4.he.net.
@@ -7,6 +7,7 @@ wtfork.org.				      86400 IN MX	10 mxa.mailgun.org.
 wtfork.org.				      86400 IN MX	10 mxb.mailgun.org.
 wtfork.org.				      86400 IN TXT	"v=spf1 include:mailgun.org ~all"
 pic._domainkey.wtfork.org.		      600 IN TXT	"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCg/onvUNApiMzcNmiUK1gQYidx4wVlTmlBUVV0DKvr0ANzpL6ZphoepdzLNPIp46cbfl+AEZ5SZ+YY3Zs2sb9af7WR90Ikaaf+jg9P81n4i3v9wDSNGyCebgbtgqFYkk6b6deG22kRIzLVeRpr1h80NzAp7Po3+JznKjAXWff2UQIDAQAB"
+ci.wtfork.org.				      600 IN A		45.79.66.100
 email.wtfork.org.			      600 IN CNAME	mailgun.org.
 git.wtfork.org.				      600 IN A		45.79.74.181
 git.wtfork.org.				      600 IN MX		10 mxa.mailgun.org.

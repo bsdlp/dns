@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 wtfork.org		IN SOA	ns2.he.net. noc.tonkat.su. (
-				2015091002 ; serial
+				2015092503 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -24,3 +24,5 @@ git             MX 10 mxa.mailgun.org.
 git             MX 10 mxb.mailgun.org.
 krs._domainkey.git  TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDhIWbjBKH8D73bNC63GVNPBnPSnah8HMc0hgMfTQnvyaBGk5ah5OHE4S2fUIRa1774hZvT8RiJRup2mlsmRcgs7R8tztePSIsbUn/wHWPLZ6ztuG50sn+9wkWrR1wJZBjlp5vAHwh5eLfpJ/kIhh49V055QK/llouxxrAXbEAmQwIDAQAB"
 email.git           CNAME mailgun.org.
+
+ci              A 45.79.66.100
