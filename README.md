@@ -3,9 +3,7 @@
 [![Docker
 badge](http://docker0.serv.pw:8080/bsdlp/dns)](https://registry.hub.docker.com/u/bsdlp/dns/)
 
-My DNS zones. I use nsd4, and some of my zones are signed.
-
-If you would like a subdomain, please read SUBDOMAIN.md.
+My DNS zones.
 
 Start the Docker container with the following command:
 
