@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 86400	; 1 day
 wtfork.org		IN SOA	ns2.he.net. noc.tonkat.su. (
-				2015092512 ; serial
+				2015111701 ; serial
 				900        ; refresh (15 minutes)
 				14400      ; retry (4 hours)
 				864000     ; expire (1 week 3 days)
@@ -25,3 +25,4 @@ email.git           CNAME mailgun.org.
 
 ci              CNAME git.wtfork.org.
 runner          A     45.79.66.100
+phab            A     45.79.66.150
